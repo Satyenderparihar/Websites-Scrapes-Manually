@@ -305,7 +305,7 @@ def get_domain_key(url):
     path = parsed.path.rstrip('/')
     query = parsed.query
     fragment = parsed.fragment
-    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google', 'data-flair.training', 'docs.google.com', 'pythongeeks.org']):
+    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google', 'data-flair.training', 'docs.google.com', 'pythongeeks.org', 'codewithcurious.com', 'foolishdeveloper.com']):
         key_suffix = path
         if query:
             key_suffix = f"{path}?{query}" if path else f"?{query}"
@@ -367,7 +367,7 @@ YOUTUBE_CREATORS = {
 
 def load_existing_database():
     best_data = {}
-    for commit in ['6cc85f9', 'HEAD', '7a9f688']:
+    for commit in ['9b189cc', '6cc85f9', 'HEAD', '7a9f688']:
         try:
             res = subprocess.run(['git', '-C', BASE_DIR, 'show', f'{commit}:💾 websites_database.json'], capture_output=True)
             if res.returncode == 0:
@@ -969,6 +969,63 @@ def build_database():
     ]
     for url, name, wtype, cat, prc, dsc, src in html_cheat_sheets:
         add_entry(url, name, wtype, cat, prc, dsc, src, priority=10)
+
+    print(">>> 10. Processing 🚀 350+ HTML CSS & JavaScript Projects PDF...")
+    pdf_350_path = os.path.join(DOWNLOADS_DIR, "350 Html Css & Javascript Project.pdf")
+    if not os.path.exists(pdf_350_path):
+        pdf_350_path = os.path.join(BASE_DIR, "📁 💻 Coding & Developer Platforms", "📄 HTML Cheat Sheets", "📄 350+ HTML CSS and JavaScript Projects Master Guide.pdf")
+        
+    # Master PDF entry
+    master_pdf_url = "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20350%2B%20HTML%20CSS%20and%20JavaScript%20Projects%20Master%20Guide.pdf"
+    add_entry(
+        master_pdf_url,
+        "350+ HTML CSS and JavaScript Projects Master Guide (Complete Collection)",
+        "HTML Cheat Sheet PDF Document",
+        "💻 Coding & Developer Platforms",
+        "Free",
+        "Comprehensive 11-page master index containing 350+ categorized frontend projects across games, clones, dashboards, landing pages, and web apps.",
+        "PDF: 350 Html Css & Javascript Project.pdf",
+        priority=10
+    )
+
+    if os.path.exists(pdf_350_path):
+        try:
+            import pypdf
+            reader = pypdf.PdfReader(pdf_350_path)
+            seen_pdf_urls = set()
+            for pno, page in enumerate(reader.pages):
+                annots = page.get('/Annots', [])
+                if not annots:
+                    continue
+                for a in annots:
+                    obj = a.get_object()
+                    if '/A' in obj and '/URI' in obj['/A']:
+                        uri = obj['/A']['/URI'].strip()
+                        clean_u = clean_url(uri)
+                        if clean_u and clean_u not in seen_pdf_urls and "chatgpt.com" not in clean_u:
+                            seen_pdf_urls.add(clean_u)
+                            parsed = urllib.parse.urlparse(clean_u)
+                            slug = [p for p in parsed.path.split('/') if p]
+                            slug_name = slug[-1].replace('-', ' ').replace('_', ' ').title() if slug else "Web Project"
+                            slug_name = re.sub(r'\bHtml\b', 'HTML', slug_name)
+                            slug_name = re.sub(r'\bCss\b', 'CSS', slug_name)
+                            slug_name = re.sub(r'\bJs\b', 'JavaScript', slug_name)
+                            slug_name = re.sub(r'\bJavascript\b', 'JavaScript', slug_name)
+                            
+                            desc = f"Complete source code & step-by-step tutorial: {slug_name} (HTML/CSS/JS Project)"
+                            add_entry(
+                                clean_u,
+                                slug_name,
+                                "Web Dev Project Implementation",
+                                "💻 Coding & Developer Platforms",
+                                "Free",
+                                desc,
+                                f"PDF: 350 Html Css & Javascript Project.pdf (Page {pno+1})",
+                                priority=9
+                            )
+            print(f"    -> Extracted and added {len(seen_pdf_urls)} projects from 350+ Projects PDF.")
+        except Exception as e:
+            print(f"    -> Error parsing 350 Projects PDF: {e}")
 
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
