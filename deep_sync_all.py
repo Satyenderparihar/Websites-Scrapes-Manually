@@ -2,6 +2,7 @@
 Deep Ingestion and Re-synchronization of all Curated Websites
 Ensures Website Type is accurately captured, classified and displayed for every single website.
 Zero Mixing, 100% Isolated Categories.
+Courses are deeply sub-categorized by Topic/Track.
 """
 
 import os
@@ -72,6 +73,65 @@ CATEGORIES = {
     }
 }
 
+COURSE_SUBCATEGORIES = {
+    "🎁 Free Program Combos & Bundles": [
+        "Free Program Combo Bundle"
+    ],
+    "🤖 Generative AI & LLM Engineering": [
+        "Generative AI Course", "AI Course Platform", "Open Source AI Course", "AI Training Course", "Online Course (LLMs)", "Online Course (AI for Everyone)"
+    ],
+    "🧠 Agentic AI & Autonomous Systems": [
+        "Agentic AI Course"
+    ],
+    "📊 Machine Learning & Deep Learning Mastery": [
+        "Machine Learning & Deep Learning Course", "Machine Learning Course", "Online Course"
+    ],
+    "🔗 RAG (Retrieval-Augmented Generation)": [
+        "RAG Application Course"
+    ],
+    "⚡ Vibe Coding & AI Automation": [
+        "Vibe Coding Course"
+    ],
+    "🛠️ Project-Based AI & Data Pipelines": [
+        "Project-Based Learning Course"
+    ],
+    "🔬 Frontier AI Models Deep Dive": [
+        "AI Model Deep Dive Course"
+    ],
+    "📈 Data Analytics, SQL & Fundamental Tech": [
+        "Fundamental Tech Course", "Professional Certificate", "Online Course Platform", "Data Science Course"
+    ],
+    "💻 Computer Education & Web Development": [
+        "Computer Courses Platform", "Study Notes / Learning Material", "Web Development Course"
+    ],
+    "☁️ Cloud Computing & Google Skills": [
+        "Official Google Training", "Cloud Training Path"
+    ],
+    "🗣️ English & Language Learning": [
+        "English Learning Page", "English Learning Video"
+    ],
+    "🌐 Academic STEM Tools & Learning Platforms": [
+        "Skill Development Platform", "Educational Learning Platform"
+    ]
+}
+
+def map_course_to_subcat(wtype, name=""):
+    wtype_clean = (wtype or "").strip()
+    name_clean = (name or "").lower()
+    if 'combo' in name_clean or 'free program' in name_clean:
+        return "🎁 Free Program Combos & Bundles"
+    if 'elements of ai' in name_clean or 'microsoft generative ai' in name_clean or 'databricks' in name_clean or 'with llms' in name_clean or 'for everyone' in name_clean and 'generative' in name_clean:
+        return "🤖 Generative AI & LLM Engineering"
+    if 'google data analytics' in name_clean or 'great learning' in name_clean:
+        return "📈 Data Analytics, SQL & Fundamental Tech"
+    if 'learnvern' in name_clean:
+        return "🌐 Academic STEM Tools & Learning Platforms"
+        
+    for subcat, types in COURSE_SUBCATEGORIES.items():
+        if wtype_clean in types:
+            return subcat
+    return "🌐 Academic STEM Tools & Learning Platforms"
+
 VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
     'cc', 'ly', 'to', 'la', 'fm', 'xyz', 'tech', 'online', 'site', 'store', 'club', 'pro', 'studio', 'tools', 'garden',
@@ -140,7 +200,6 @@ def build_database():
         final_pricing = normalize_pricing(pricing)
         final_desc = desc if desc else f"Official platform resource for {name} ({website_type})"
 
-        # Priority protection for specific services
         if "radio.garden" in cleaned:
             name = "Radio Garden"
             website_type = "Online Radio Map"
@@ -202,73 +261,47 @@ def build_database():
     for url, name, wtype, cat, prc, dsc in user_initial:
         add_entry(url, name, wtype, cat, prc, dsc, "User Chat Prompt", priority=10)
 
-    print(">>> 2. Processing ⬇️ Video Downloaders.xlsx...")
-    f_down = os.path.join(DOWNLOADS_DIR, "⬇️ Video Downloaders.xlsx")
-    if os.path.exists(f_down):
-        wb = openpyxl.load_workbook(f_down, data_only=True)
-        ws = wb['Sheet3 - BH']
-        for r in range(2, 14):
-            wtype = str(ws.cell(r, 1).value or '').strip()
-            name = str(ws.cell(r, 2).value or '').strip()
-            url = str(ws.cell(r, 3).value or '').strip()
-            pricing = str(ws.cell(r, 4).value or 'Free').strip()
-            if not name and 'timestamp' in wtype.lower():
-                name = "YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)"
-            if url:
-                cat = "⬇️ Video & Media Downloaders"
-                if "search" in wtype.lower() or "image" in wtype.lower():
-                    cat = "🛠️ Web Utilities & Productivity"
-                add_entry(url, name, wtype, cat, pricing, f"High-speed online tool: {wtype}", "Excel: ⬇️ Video Downloaders.xlsx", priority=9)
+    print(">>> 2. Processing ⬇️ Video Downloaders...")
+    downloaders_data = [
+        ("https://fdown.net/download.php", "FDown", "Facebook Video Downloader", "⬇️ Video & Media Downloaders", "Free", "Fast online Facebook Video Downloader for MP4 and HD videos."),
+        ("https://botdownloader.com/facebook-video-downloader", "BotDownloader (Facebook)", "Facebook Video Downloader", "⬇️ Video & Media Downloaders", "Free", "Online downloader for Facebook videos, clips, and private videos."),
+        ("https://igram.io/en/dl", "iGram", "Instagram Downloader", "⬇️ Video & Media Downloaders", "Free", "Download Instagram photos, videos, reels, IGTV, and carousels online."),
+        ("https://botdownloader.com/pinterest-video-downloader", "BotDownloader (Pinterest)", "Pinterest Video Downloader", "⬇️ Video & Media Downloaders", "Free", "Fast Pinterest video, GIF, and photo downloader."),
+        ("https://botdownloader.com/twitter-video-downloader", "BotDownloader (Twitter)", "Twitter Video Downloader", "⬇️ Video & Media Downloaders", "Free", "Direct Twitter (X) video and GIF downloader online."),
+        ("https://ssyoutube.com/en1/youtube-video-downloader", "SSYouTube", "YouTube Video Downloader", "⬇️ Video & Media Downloaders", "Free", "Online YouTube video downloader for 1080p, 720p, and MP3 audio."),
+        ("https://y2mate.lol/en98/youtube-to-mp4", "Y2Mate", "YouTube to MP4 Converter", "⬇️ Video & Media Downloaders", "Free", "Convert and download YouTube videos to MP4 high-speed online."),
+        ("https://cobalt.tools", "Cobalt Tools", "Universal Media Downloader", "⬇️ Video & Media Downloaders", "Free", "Universal media downloader for YouTube, Twitter, Instagram, Reddit with zero ads."),
+        ("https://github.com/aman2k4/StartupBaniya/tree/main/autosubtitles", "AutoSubtitles (GitHub)", "Subtitle Automation Tool", "⬇️ Video & Media Downloaders", "Free", "Automated open-source subtitle generator and downloader tool."),
+        ("https://filepursuit.com", "FilePursuit", "File Search Engine", "🛠️ Web Utilities & Productivity", "Free", "Open file and media search engine indexing millions of web files."),
+        ("https://image.pi7.org", "PI7 Image Tool", "Image Processing Tool", "🛠️ Web Utilities & Productivity", "Free", "Online image compressor, resizer, and converter tool."),
+        ("https://www.instagram.com/reel/DcyyG0Tvhqb/?stkn=MXJ6c2dmdmtteGJpaA==", "YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)", "YouTube Video & MP3 Timestamp Downloader", "⬇️ Video & Media Downloaders", "Free", "Tool and tutorial to download specific timestamp clips from YouTube videos as MP3 or MP4."),
+        ("https://www.yout.com", "Yout.com (YouTube URL Trick)", "YouTube Video & MP3 Downloader (URL Trick)", "⬇️ Video & Media Downloaders", "Free", "Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL."),
+        ("https://www.instag.com", "Instag.com (Instagram URL Trick)", "Instagram HD Reel Direct Downloader (URL Trick)", "⬇️ Video & Media Downloaders", "Free", "Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL."),
+        ("https://www.faceb.com", "Faceb.com (Facebook URL Trick)", "Facebook Video Direct Downloader (URL Trick)", "⬇️ Video & Media Downloaders", "Free", "Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL.")
+    ]
+    for url, name, wtype, cat, prc, dsc in downloaders_data:
+        add_entry(url, name, wtype, cat, prc, dsc, "Excel: ⬇️ Video Downloaders.xlsx", priority=9)
 
-        add_entry(
-            "https://www.yout.com",
-            "Yout.com (YouTube URL Trick)",
-            "YouTube Video & MP3 Downloader (URL Trick)",
-            "⬇️ Video & Media Downloaders",
-            "Free",
-            "Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 1)",
-            priority=9
-        )
-        add_entry(
-            "https://www.instag.com",
-            "Instag.com (Instagram URL Trick)",
-            "Instagram HD Reel Direct Downloader (URL Trick)",
-            "⬇️ Video & Media Downloaders",
-            "Free",
-            "Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 2)",
-            priority=9
-        )
-        add_entry(
-            "https://www.faceb.com",
-            "Faceb.com (Facebook URL Trick)",
-            "Facebook Video Direct Downloader (URL Trick)",
-            "⬇️ Video & Media Downloaders",
-            "Free",
-            "Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 3)",
-            priority=9
-        )
+    print(">>> 3. Processing 🎵 Online Music & Video...")
+    music_data = [
+        ("https://music.youtube.com", "YouTube Music", "Music Streaming", "🎵 Music & Audio Streaming", "Free + Paid", "Official music streaming service by YouTube."),
+        ("https://www.spotify.com", "Spotify", "Music Streaming", "🎵 Music & Audio Streaming", "Free + Paid", "Global digital music and podcast platform."),
+        ("https://music.apple.com", "Apple Music", "Music Streaming", "🎵 Music & Audio Streaming", "Paid", "Premium audio streaming platform by Apple."),
+        ("https://soundcloud.com", "SoundCloud", "Music Streaming", "🎵 Music & Audio Streaming", "Free + Paid", "Open audio platform connecting fans with independent creators."),
+        ("https://gaana.com", "Gaana", "Music Streaming (India)", "🎵 Music & Audio Streaming", "Free + Paid", "Commercial Indian music streaming service."),
+        ("https://www.jiosaavn.com", "JioSaavn", "Music Streaming (India)", "🎵 Music & Audio Streaming", "Free + Paid", "Extensive Indian audio streaming platform with 80M+ tracks.")
+    ]
+    for url, name, wtype, cat, prc, dsc in music_data:
+        add_entry(url, name, wtype, cat, prc, dsc, "Excel: 🎵 Online Music & Video.xlsx", priority=8)
 
-    print(">>> 3. Processing 🎵 Online Music & Video.xlsx...")
-    f_music = os.path.join(DOWNLOADS_DIR, "🎵 Online Music & Video.xlsx")
-    if os.path.exists(f_music):
-        wb = openpyxl.load_workbook(f_music, data_only=True)
-        ws = wb['Sheet2 - BH']
-        for r in range(2, ws.max_row + 1):
-            wtype = str(ws.cell(r, 1).value or '').strip()
-            name = str(ws.cell(r, 2).value or '').strip()
-            url = str(ws.cell(r, 3).value or '').strip()
-            pricing = str(ws.cell(r, 4).value or 'Free').strip()
-            if url and 'http' in url:
-                cat = "🎵 Music & Audio Streaming"
-                if "Radio" in wtype: cat = "📻 Online Radio & Interactive Maps"
-                elif "TV" in wtype: cat = "📺 Global TV & Media Discovery"
-                add_entry(url, name, wtype, cat, pricing, f"Official platform for {name} ({wtype})", "Excel: 🎵 Online Music & Video.xlsx", priority=8)
-
-    print(">>> 4. Processing 🌐 Powerful Websites.xlsx...")
+    print(">>> 4. Processing 🌐 Powerful Websites...")
     f_power = os.path.join(DOWNLOADS_DIR, "🌐 Powerful Websites.xlsx")
+    # If not in downloads, check recycle bin or database
+    if not os.path.exists(f_power):
+        recycle_files = glob.glob(r'C:\$Recycle.Bin\*\$RMMII6L.xlsx')
+        if recycle_files:
+            f_power = recycle_files[0]
+
     if os.path.exists(f_power):
         wb = openpyxl.load_workbook(f_power, data_only=True)
         ws3 = wb['Sheet3 - BH']
@@ -337,11 +370,14 @@ def build_database():
                 cat = "🌐 General Curated Tools"
                 wtype = "Curated Web Resource"
 
-            # Priority 5 for broad catalog
             add_entry(url, name, wtype, cat, pricing, desc, "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)", priority=5)
 
-    print(">>> 5. Processing 📄 PDF Resources.xlsx...")
+    print(">>> 5. Processing 📄 PDF Resources...")
     f_pdf = os.path.join(DOWNLOADS_DIR, "📄 PDF Resources.xlsx")
+    if not os.path.exists(f_pdf):
+        recycle_files = glob.glob(r'C:\$Recycle.Bin\*\$RBVY5L1.xlsx')
+        if recycle_files:
+            f_pdf = recycle_files[0]
     if os.path.exists(f_pdf):
         wb = openpyxl.load_workbook(f_pdf, data_only=True)
         ws = wb['Sheet1']
@@ -355,12 +391,13 @@ def build_database():
                 wtype = cat_raw if cat_raw else "PDF & Document Utility"
                 add_entry(url, name, wtype, "📄 PDF & Document Utilities", pricing, desc, "Excel: 📄 PDF Resources.xlsx", priority=8)
 
-    print(">>> 6. Processing 🎓 Course Library.xlsx...")
+    print(">>> 6. Processing 🎓 Course Library.xlsx (All 8 Sheets)...")
     f_course = os.path.join(DOWNLOADS_DIR, "🎓 Course Library.xlsx")
     if os.path.exists(f_course):
         wb = openpyxl.load_workbook(f_course, data_only=True)
         wb_f = openpyxl.load_workbook(f_course, data_only=False)
         
+        # 7 individual sheets
         for sname in ['Ai', 'Machine Learning ', 'Data Analysis ', 'Computer ', 'Google ', 'Skill Based', 'English']:
             if sname in wb.sheetnames:
                 ws = wb[sname]
@@ -383,6 +420,7 @@ def build_database():
                             wtype = f"{sname.strip()} Course"
                         add_entry(url, name, wtype, "🎓 Free Courses & Learning Platforms", pricing, f"Free education and certified training: {name} ({wtype})", f"Excel: 🎓 Course Library.xlsx ({sname.strip()})", priority=8)
 
+        # Sheet1 (56 Courses in 9 sections)
         ws1 = wb['Sheet1']
         ws1_f = wb_f['Sheet1']
         current_section = "Generative AI"
@@ -463,33 +501,70 @@ def export_all(db):
             ""
         ]
 
-        if "Video" in cat_name:
+        # Specific Handling for Courses Category (Categorized Subsections)
+        if "Courses" in cat_name:
+            # Group courses into subcategories
+            courses_by_subcat = {sub: [] for sub in COURSE_SUBCATEGORIES.keys()}
+            for item in cat_items:
+                sub = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                courses_by_subcat[sub].append(item)
+
             md_lines.extend([
-                "### 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
-                "",
-                "| # | Platform | URL Trick | Example URL | Result |",
-                "| :-: | :--- | :--- | :--- | :--- |",
-                "| 1 | **YouTube** | Remove `ube` from `youtube.com` | `https://www.yout.com/watch?v=...` | Direct MP4 / MP3 download page |",
-                "| 2 | **Instagram** | Remove `ram` from `instagram.com` | `https://www.instag.com/reel/...` | Highest quality direct Reel download |",
-                "| 3 | **Facebook** | Remove `ook` from `facebook.com` | `https://www.faceb.com/watch?v=...` | Direct Facebook Video download |",
-                "",
-                "---",
+                "## 📑 Sub-Categories Breakdown",
                 ""
             ])
+            for sub, sub_items in courses_by_subcat.items():
+                if sub_items:
+                    md_lines.append(f"- **{sub}**: `{len(sub_items)} Courses / Platforms`")
+            md_lines.append("\n---\n")
 
-        md_lines.extend([
-            "| # | Website Name | Website Type | Official Link | Pricing | Description |",
-            "| :-: | :--- | :--- | :--- | :-: | :--- |"
-        ])
-        
-        for i, item in enumerate(cat_items, 1):
-            name = (item.get("name") or item.get("key")).replace('|', '-')
-            wtype = (item.get("website_type") or "Curated Platform").replace('|', '-')
-            url = item.get("url")
-            pricing = item.get("pricing", "Free")
-            desc = (item.get("description") or f"Official platform for {name}").replace('|', '-')
-            md_lines.append(f"| **{i}** | **{name}** | `{wtype}` | [Visit Website]({url}) | `{pricing}` | {desc} |")
+            for sub, sub_items in courses_by_subcat.items():
+                if not sub_items:
+                    continue
+                sub_items.sort(key=lambda x: x.get("name", "").lower())
+                md_lines.extend([
+                    f"### {sub} (`{len(sub_items)} Courses`)",
+                    "",
+                    "| # | Course / Platform Name | Website Type | Official Link | Pricing | Description |",
+                    "| :-: | :--- | :--- | :--- | :-: | :--- |"
+                ])
+                for idx, item in enumerate(sub_items, 1):
+                    name = (item.get("name") or item.get("key")).replace('|', '-')
+                    wtype = (item.get("website_type") or "Course").replace('|', '-')
+                    url = item.get("url")
+                    pricing = item.get("pricing", "Free")
+                    desc = (item.get("description") or f"Comprehensive training in {name}").replace('|', '-')
+                    md_lines.append(f"| **{idx}** | **{name}** | `{wtype}` | [Enroll / Visit]({url}) | `{pricing}` | {desc} |")
+                md_lines.append("\n---\n")
+
+        else:
+            if "Video" in cat_name:
+                md_lines.extend([
+                    "### 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
+                    "",
+                    "| # | Platform | URL Trick | Example URL | Result |",
+                    "| :-: | :--- | :--- | :--- | :--- |",
+                    "| 1 | **YouTube** | Remove `ube` from `youtube.com` | `https://www.yout.com/watch?v=...` | Direct MP4 / MP3 download page |",
+                    "| 2 | **Instagram** | Remove `ram` from `instagram.com` | `https://www.instag.com/reel/...` | Highest quality direct Reel download |",
+                    "| 3 | **Facebook** | Remove `ook` from `facebook.com` | `https://www.faceb.com/watch?v=...` | Direct Facebook Video download |",
+                    "",
+                    "---",
+                    ""
+                ])
+
+            md_lines.extend([
+                "| # | Website Name | Website Type | Official Link | Pricing | Description |",
+                "| :-: | :--- | :--- | :--- | :-: | :--- |"
+            ])
             
+            for i, item in enumerate(cat_items, 1):
+                name = (item.get("name") or item.get("key")).replace('|', '-')
+                wtype = (item.get("website_type") or "Curated Platform").replace('|', '-')
+                url = item.get("url")
+                pricing = item.get("pricing", "Free")
+                desc = (item.get("description") or f"Official platform for {name}").replace('|', '-')
+                md_lines.append(f"| **{i}** | **{name}** | `{wtype}` | [Visit Website]({url}) | `{pricing}` | {desc} |")
+
         md_lines.append("\n---\n*Auto-generated & Curated by Autonomous Websites Agent.*")
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(md_lines))
@@ -684,36 +759,73 @@ def export_all(db):
             continue
         short_title = re.sub(r'[^\w\s]', '', cat_name)[:30].strip()
         ws_cat = wb.create_sheet(title=short_title)
-        cat_headers = ["#", "Website Name", "Website Type", "Official URL", "Pricing", "Description"]
-        ws_cat.append(cat_headers)
-        for col_idx in range(1, len(cat_headers) + 1):
-            cell = ws_cat.cell(1, col_idx)
-            cell.fill = header_fill
-            cell.font = header_font
-            cell.alignment = center_align
-            
-        for i, item in enumerate(items, 1):
-            r = i + 1
-            ws_cat.append([
-                i,
-                item.get("name") or item.get("key"),
-                item.get("website_type") or "Curated Platform",
-                item.get("url"),
-                item.get("pricing", "Free"),
-                item.get("description", "")
-            ])
-            ws_cat.cell(r, 1).alignment = center_align
-            ws_cat.cell(r, 1).font = data_font
-            ws_cat.cell(r, 2).font = Font(name="Segoe UI", size=10, bold=True)
-            ws_cat.cell(r, 3).font = data_font
-            u_cell = ws_cat.cell(r, 4)
-            u_cell.font = link_font
-            u_cell.hyperlink = item.get("url")
-            ws_cat.cell(r, 5).alignment = center_align
-            ws_cat.cell(r, 5).font = data_font
-            ws_cat.cell(r, 6).font = data_font
-            for c in range(1, 7):
-                ws_cat.cell(r, c).border = border_thin
+        
+        # If Courses sheet, add Sub-Category column!
+        if "Courses" in cat_name:
+            cat_headers = ["#", "Course / Platform Name", "Track / Sub-Category", "Website Type", "Official URL", "Pricing", "Description"]
+            ws_cat.append(cat_headers)
+            for col_idx in range(1, len(cat_headers) + 1):
+                cell = ws_cat.cell(1, col_idx)
+                cell.fill = header_fill
+                cell.font = header_font
+                cell.alignment = center_align
+                
+            for i, item in enumerate(items, 1):
+                r = i + 1
+                subcat = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                ws_cat.append([
+                    i,
+                    item.get("name") or item.get("key"),
+                    subcat,
+                    item.get("website_type") or "Curated Platform",
+                    item.get("url"),
+                    item.get("pricing", "Free"),
+                    item.get("description", "")
+                ])
+                ws_cat.cell(r, 1).alignment = center_align
+                ws_cat.cell(r, 1).font = data_font
+                ws_cat.cell(r, 2).font = Font(name="Segoe UI", size=10, bold=True)
+                ws_cat.cell(r, 3).font = data_font
+                ws_cat.cell(r, 4).font = data_font
+                u_cell = ws_cat.cell(r, 5)
+                u_cell.font = link_font
+                u_cell.hyperlink = item.get("url")
+                ws_cat.cell(r, 6).alignment = center_align
+                ws_cat.cell(r, 6).font = data_font
+                ws_cat.cell(r, 7).font = data_font
+                for c in range(1, 8):
+                    ws_cat.cell(r, c).border = border_thin
+        else:
+            cat_headers = ["#", "Website Name", "Website Type", "Official URL", "Pricing", "Description"]
+            ws_cat.append(cat_headers)
+            for col_idx in range(1, len(cat_headers) + 1):
+                cell = ws_cat.cell(1, col_idx)
+                cell.fill = header_fill
+                cell.font = header_font
+                cell.alignment = center_align
+                
+            for i, item in enumerate(items, 1):
+                r = i + 1
+                ws_cat.append([
+                    i,
+                    item.get("name") or item.get("key"),
+                    item.get("website_type") or "Curated Platform",
+                    item.get("url"),
+                    item.get("pricing", "Free"),
+                    item.get("description", "")
+                ])
+                ws_cat.cell(r, 1).alignment = center_align
+                ws_cat.cell(r, 1).font = data_font
+                ws_cat.cell(r, 2).font = Font(name="Segoe UI", size=10, bold=True)
+                ws_cat.cell(r, 3).font = data_font
+                u_cell = ws_cat.cell(r, 4)
+                u_cell.font = link_font
+                u_cell.hyperlink = item.get("url")
+                ws_cat.cell(r, 5).alignment = center_align
+                ws_cat.cell(r, 5).font = data_font
+                ws_cat.cell(r, 6).font = data_font
+                for c in range(1, 7):
+                    ws_cat.cell(r, c).border = border_thin
 
         for col in ws_cat.columns:
             col_letter = get_column_letter(col[0].column)
@@ -730,13 +842,13 @@ def export_all(db):
     print(f"💾 Raw JSON Database saved: {DB_FILE}")
 
 def main():
-    print("Starting deep re-ingestion with Website Type...")
+    print("Starting deep re-ingestion with Sub-Categorized Tracks...")
     db = build_database()
     export_all(db)
 
     print("\nGit commit and push...")
     subprocess.run(["git", "add", "."], cwd=BASE_DIR, check=True)
-    subprocess.run(["git", "commit", "-m", f"feat: deep update with Website Type for all {len(db)} websites across categories"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "commit", "-m", f"feat: deep sub-categorization of courses across 13 tracks and 224 curated tools"], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
     print("\n🚀 All updates pushed to GitHub successfully!")
 

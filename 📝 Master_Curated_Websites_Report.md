@@ -82,18 +82,18 @@
 | # | Website Name | Website Type | Official URL | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
 | **1** | **Faceb.com (Facebook URL Trick)** | `Facebook Video Direct Downloader (URL Trick)` | [https://www.faceb.com](https://www.faceb.com) | `Free` | Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL. |
-| **2** | **BotDownloader (Facebook)** | `Facebook Video Downloader` | [https://botdownloader.com/facebook-video-downloader](https://botdownloader.com/facebook-video-downloader) | `Free` | High-speed online tool: Facebook Video Downloader |
-| **3** | **FDown** | `Facebook Video Downloader` | [https://fdown.net/download.php](https://fdown.net/download.php) | `Free` | High-speed online tool: Facebook Video Downloader |
-| **4** | **iGram** | `Instagram Downloader` | [https://igram.io/en/dl](https://igram.io/en/dl) | `Free` | High-speed online tool: Instagram Downloader |
+| **2** | **BotDownloader (Facebook)** | `Facebook Video Downloader` | [https://botdownloader.com/facebook-video-downloader](https://botdownloader.com/facebook-video-downloader) | `Free` | Online downloader for Facebook videos, clips, and private videos. |
+| **3** | **FDown** | `Facebook Video Downloader` | [https://fdown.net/download.php](https://fdown.net/download.php) | `Free` | Fast online Facebook Video Downloader for MP4 and HD videos. |
+| **4** | **iGram** | `Instagram Downloader` | [https://igram.io/en/dl](https://igram.io/en/dl) | `Free` | Download Instagram photos, videos, reels, IGTV, and carousels online. |
 | **5** | **Instag.com (Instagram URL Trick)** | `Instagram HD Reel Direct Downloader (URL Trick)` | [https://www.instag.com](https://www.instag.com) | `Free` | Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL. |
-| **6** | **BotDownloader (Pinterest)** | `Pinterest Video Downloader` | [https://botdownloader.com/pinterest-video-downloader](https://botdownloader.com/pinterest-video-downloader) | `Free` | High-speed online tool: Pinterest Video Downloader |
-| **7** | **AutoSubtitles (GitHub)** | `Subtitle Automation Tool` | [https://github.com/aman2k4/StartupBaniya/tree/main/autosubtitles](https://github.com/aman2k4/StartupBaniya/tree/main/autosubtitles) | `Free` | High-speed online tool: Subtitle Automation Tool |
-| **8** | **BotDownloader (Twitter)** | `Twitter Video Downloader` | [https://botdownloader.com/twitter-video-downloader](https://botdownloader.com/twitter-video-downloader) | `Free` | High-speed online tool: Twitter Video Downloader |
-| **9** | **Cobalt Tools** | `Universal Media Downloader` | [https://cobalt.tools](https://cobalt.tools) | `Free` | High-speed online tool: Universal Media Downloader |
-| **10** | **Y2Mate** | `YouTube to MP4 Converter` | [https://y2mate.lol/en98/youtube-to-mp4](https://y2mate.lol/en98/youtube-to-mp4) | `Free` | High-speed online tool: YouTube to MP4 Converter |
+| **6** | **BotDownloader (Pinterest)** | `Pinterest Video Downloader` | [https://botdownloader.com/pinterest-video-downloader](https://botdownloader.com/pinterest-video-downloader) | `Free` | Fast Pinterest video, GIF, and photo downloader. |
+| **7** | **AutoSubtitles (GitHub)** | `Subtitle Automation Tool` | [https://github.com/aman2k4/StartupBaniya/tree/main/autosubtitles](https://github.com/aman2k4/StartupBaniya/tree/main/autosubtitles) | `Free` | Automated open-source subtitle generator and downloader tool. |
+| **8** | **BotDownloader (Twitter)** | `Twitter Video Downloader` | [https://botdownloader.com/twitter-video-downloader](https://botdownloader.com/twitter-video-downloader) | `Free` | Direct Twitter (X) video and GIF downloader online. |
+| **9** | **Cobalt Tools** | `Universal Media Downloader` | [https://cobalt.tools](https://cobalt.tools) | `Free` | Universal media downloader for YouTube, Twitter, Instagram, Reddit with zero ads. |
+| **10** | **Y2Mate** | `YouTube to MP4 Converter` | [https://y2mate.lol/en98/youtube-to-mp4](https://y2mate.lol/en98/youtube-to-mp4) | `Free` | Convert and download YouTube videos to MP4 high-speed online. |
 | **11** | **Yout.com (YouTube URL Trick)** | `YouTube Video & MP3 Downloader (URL Trick)` | [https://www.yout.com](https://www.yout.com) | `Free` | Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL. |
-| **12** | **YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)** | `YouTube Video , Mp3 download with timestamp` | [https://www.instagram.com/reel/DcyyG0Tvhqb/?stkn=MXJ6c2dmdmtteGJpaA==](https://www.instagram.com/reel/DcyyG0Tvhqb/?stkn=MXJ6c2dmdmtteGJpaA==) | `Free` | High-speed online tool: YouTube Video , Mp3 download with timestamp |
-| **13** | **SSYouTube** | `YouTube Video Downloader` | [https://ssyoutube.com/en1/youtube-video-downloader](https://ssyoutube.com/en1/youtube-video-downloader) | `Free` | High-speed online tool: YouTube Video Downloader |
+| **12** | **YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)** | `YouTube Video & MP3 Timestamp Downloader` | [https://www.instagram.com/reel/DcyyG0Tvhqb/?stkn=MXJ6c2dmdmtteGJpaA==](https://www.instagram.com/reel/DcyyG0Tvhqb/?stkn=MXJ6c2dmdmtteGJpaA==) | `Free` | Tool and tutorial to download specific timestamp clips from YouTube videos as MP3 or MP4. |
+| **13** | **SSYouTube** | `YouTube Video Downloader` | [https://ssyoutube.com/en1/youtube-video-downloader](https://ssyoutube.com/en1/youtube-video-downloader) | `Free` | Online YouTube video downloader for 1080p, 720p, and MP3 audio. |
 
 ---
 
@@ -255,11 +255,11 @@
 | **6** | **topoexport.com** | `Developer & Code Utility` | [https://topoexport.com](https://topoexport.com) | `Freemium` | Export 3D terrain models from anywhere on Earth for 3D printing or game development |
 | **7** | **10015 Tools** | `Developer Tools` | [https://10015.io](https://10015.io) | `Free` | High-utility web tool: Developer Tools |
 | **8** | **1aauto.com** | `DIY Vehicle Repair Guides` | [https://1aauto.com](https://1aauto.com) | `Free` | Free DIY car repair video guides showing step-by-step fixes for common vehicle problems |
-| **9** | **FilePursuit** | `File Search Engine` | [https://filepursuit.com](https://filepursuit.com) | `Free` | High-speed online tool: File Search Engine |
+| **9** | **FilePursuit** | `File Search Engine` | [https://filepursuit.com](https://filepursuit.com) | `Free` | Open file and media search engine indexing millions of web files. |
 | **10** | **Flightradar24** | `Flight Tracking` | [https://www.flightradar24.com](https://www.flightradar24.com) | `Free + Paid` | High-utility web tool: Flight Tracking |
 | **11** | **MrFreeTools** | `Free Online Tools` | [https://mrfreetools.com](https://mrfreetools.com) | `Free` | High-utility web tool: Free Online Tools |
 | **12** | **ifixit.com** | `Hardware & Device Repair Guides` | [https://ifixit.com](https://ifixit.com) | `Free` | Free repair guides for phones laptops and appliances - fix it yourself and save money |
-| **13** | **PI7 Image Tool** | `Image Processing Tool` | [https://image.pi7.org](https://image.pi7.org) | `Free` | High-speed online tool: Image Processing Tool |
+| **13** | **PI7 Image Tool** | `Image Processing Tool` | [https://image.pi7.org](https://image.pi7.org) | `Free` | Online image compressor, resizer, and converter tool. |
 | **14** | **123Apps** | `Online Utility Tools` | [https://123apps.com](https://123apps.com) | `Free` | High-utility web tool: Online Utility Tools |
 | **15** | **archive.ph** | `Permanent Web Archiving Utility` | [https://archive.ph](https://archive.ph) | `Free` | Save permanent copies of web pages before they change or disappear forever |
 | **16** | **autocatalogarchive.com** | `Permanent Web Archiving Utility` | [https://autocatalogarchive.com](https://autocatalogarchive.com) | `Free` | Archive of vintage car brochures and catalogs for classic vehicle research and nostalgia |

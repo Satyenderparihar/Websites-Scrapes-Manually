@@ -15,11 +15,11 @@
 | **6** | **topoexport.com** | `Developer & Code Utility` | [Visit Website](https://topoexport.com) | `Freemium` | Export 3D terrain models from anywhere on Earth for 3D printing or game development |
 | **7** | **10015 Tools** | `Developer Tools` | [Visit Website](https://10015.io) | `Free` | High-utility web tool: Developer Tools |
 | **8** | **1aauto.com** | `DIY Vehicle Repair Guides` | [Visit Website](https://1aauto.com) | `Free` | Free DIY car repair video guides showing step-by-step fixes for common vehicle problems |
-| **9** | **FilePursuit** | `File Search Engine` | [Visit Website](https://filepursuit.com) | `Free` | High-speed online tool: File Search Engine |
+| **9** | **FilePursuit** | `File Search Engine` | [Visit Website](https://filepursuit.com) | `Free` | Open file and media search engine indexing millions of web files. |
 | **10** | **Flightradar24** | `Flight Tracking` | [Visit Website](https://www.flightradar24.com) | `Free + Paid` | High-utility web tool: Flight Tracking |
 | **11** | **MrFreeTools** | `Free Online Tools` | [Visit Website](https://mrfreetools.com) | `Free` | High-utility web tool: Free Online Tools |
 | **12** | **ifixit.com** | `Hardware & Device Repair Guides` | [Visit Website](https://ifixit.com) | `Free` | Free repair guides for phones laptops and appliances - fix it yourself and save money |
-| **13** | **PI7 Image Tool** | `Image Processing Tool` | [Visit Website](https://image.pi7.org) | `Free` | High-speed online tool: Image Processing Tool |
+| **13** | **PI7 Image Tool** | `Image Processing Tool` | [Visit Website](https://image.pi7.org) | `Free` | Online image compressor, resizer, and converter tool. |
 | **14** | **123Apps** | `Online Utility Tools` | [Visit Website](https://123apps.com) | `Free` | High-utility web tool: Online Utility Tools |
 | **15** | **archive.ph** | `Permanent Web Archiving Utility` | [Visit Website](https://archive.ph) | `Free` | Save permanent copies of web pages before they change or disappear forever |
 | **16** | **autocatalogarchive.com** | `Permanent Web Archiving Utility` | [Visit Website](https://autocatalogarchive.com) | `Free` | Archive of vintage car brochures and catalogs for classic vehicle research and nostalgia |
