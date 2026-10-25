@@ -1,0 +1,106 @@
+# 🎓 Free Courses & Learning Platforms
+
+> High-impact free certification courses, computer science tutorials, AI academies & skill bootcamps.  
+> **Total Curated Tools**: `94` | **Zero Repeats & Deduplicated**
+
+---
+
+| # | Tool / Website Name | Official Link | Pricing | Description |
+| :-: | :--- | :--- | :-: | :--- |
+| **1** | **A B C of Coding to Build AI Agents** | [Visit Website](https://www.analyticsvidhya.com/courses/a-b-c-of-coding-to-build-ai-agents) | `Free` | Official platform resource for A B C of Coding to Build AI Agents |
+| **2** | **A Complete MLops Journey** | [Visit Website](https://www.analyticsvidhya.com/courses/a-complete-mlops-journey) | `Free` | Official platform resource for A Complete MLops Journey |
+| **3** | **A Comprehensive Learning Path to Become a Data Scientist in 2025** | [Visit Website](https://www.analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-twenty-twenty-four) | `Free` | Official platform resource for A Comprehensive Learning Path to Become a Data Scientist in 2025 |
+| **4** | **Agentic : AI Design Pattern** | [Visit Website](https://www.analyticsvidhya.com/courses/agentic-ai-design-pattern) | `Free` | Official platform resource for Agentic : AI Design Pattern |
+| **5** | **Bagging and Boosting ML Algorithms** | [Visit Website](https://www.analyticsvidhya.com/courses/bagging-boosting-ML-Algorithms) | `Free` | Official platform resource for Bagging and Boosting ML Algorithms |
+| **6** | **Big Mart Sales Prediction Using R** | [Visit Website](https://www.analyticsvidhya.com/courses/big-mart-sales-prediction-using-r) | `Free` | Official platform resource for Big Mart Sales Prediction Using R |
+| **7** | **Build a Document Retriever Search Engine with LangChain** | [Visit Website](https://www.analyticsvidhya.com/courses/build-a-document-retriever-search-engine-with-langchain) | `Free` | Official platform resource for Build a Document Retriever Search Engine with LangChain |
+| **8** | **Build a Resume Review Agentic System with CrewAI** | [Visit Website](https://www.analyticsvidhya.com/courses/build-a-resume-review-agentic-system-with-crewai) | `Free` | Official platform resource for Build a Resume Review Agentic System with CrewAI |
+| **9** | **Build Data Pipelines with Apache Airflow** | [Visit Website](https://www.analyticsvidhya.com/courses/build-data-pipelines-with-apache-airflow) | `Free` | Official platform resource for Build Data Pipelines with Apache Airflow |
+| **10** | **Build Products 10x Faster with GenAI** | [Visit Website](https://www.analyticsvidhya.com/courses/build-product-10x-faster-with-genai) | `Free` | Official platform resource for Build Products 10x Faster with GenAI |
+| **11** | **Build your first RAG system using Llamaindex** | [Visit Website](https://www.analyticsvidhya.com/courses/building-first-rag-systems-using-llamaindex) | `Free` | Official platform resource for Build your first RAG system using Llamaindex |
+| **12** | **Building a Customized Newsletter AI Agent** | [Visit Website](https://www.analyticsvidhya.com/courses/building-a-customized-newsletter-ai-agent) | `Free` | Official platform resource for Building a Customized Newsletter AI Agent |
+| **13** | **Building a Deep Research AI Agent** | [Visit Website](https://www.analyticsvidhya.com/courses/building-a-deep-research-ai-agent) | `Free` | Official platform resource for Building a Deep Research AI Agent |
+| **14** | **Building Agentic AI System with Bedrock** | [Visit Website](https://www.analyticsvidhya.com/courses/building-agentic-ai-system-with-with-bedrock) | `Free` | Official platform resource for Building Agentic AI System with Bedrock |
+| **15** | **Building Text Classification Models in NLP** | [Visit Website](https://www.analyticsvidhya.com/courses/free-building-textclassification-natural-language-processing) | `Free` | Official platform resource for Building Text Classification Models in NLP |
+| **16** | **carcarekiosk.com** | [Visit Website](https://www.youtube.com/shorts/V4kONgLuY-s) | `Free` | Vehicle-specific maintenance video tutorials for your exact car make and model |
+| **17** | **chemequations.com** | [Visit Website](https://www.youtube.com/shorts/0ePMU1vV5zM) | `Free` | Auto-balance chemical equations instantly - essential tool for chemistry homework and learning |
+| **18** | **classcentral.com** | [Visit Website](https://www.youtube.com/shorts/l39ycJXLsoU) | `Free` | Search engine aggregating online courses from all major platforms with reviews and ratings |
+| **19** | **Coding a ChatGPT-style Language Model From Scratch in Pytorch** | [Visit Website](https://www.analyticsvidhya.com/courses/coding-a-chatgpt-style-language-model-from-scratch-in-pytorch) | `Free` | Official platform resource for Coding a ChatGPT-style Language Model From Scratch in Pytorch |
+| **20** | **Coursera – Generative AI for Everyone** | [Visit Website](https://www.coursera.org/learn/generative-ai-for-everyone) | `Free + Paid` | Official platform resource for Coursera – Generative AI for Everyone |
+| **21** | **Coursera – Generative AI with LLMs** | [Visit Website](https://www.coursera.org/learn/generative-ai-with-llms) | `Free + Paid` | Official platform resource for Coursera – Generative AI with LLMs |
+| **22** | **Coursera – Google Data Analytics** | [Visit Website](https://www.coursera.org/professional-certificates/google-data-analytics) | `Paid` | Official platform resource for Coursera – Google Data Analytics |
+| **23** | **Coursera – Machine Learning** | [Visit Website](https://www.coursera.org/learn/machine-learning) | `Free + Paid` | Official platform resource for Coursera – Machine Learning |
+| **24** | **cymath.com** | [Visit Website](https://www.youtube.com/shorts/BRX9ZSU-ceo) | `Freemium` | Step-by-step math problem solver that shows you how to get the answer |
+| **25** | **Data Science Free Program - 9 Courses Combo** | [Visit Website](https://www.analyticsvidhya.com/courses/learning-path/data-science-program) | `Free` | Official platform resource for Data Science Free Program - 9 Courses Combo |
+| **26** | **Databricks – Generative AI Fundamentals** | [Visit Website](https://www.databricks.com/learn/training/generative-ai-fundamentals) | `Free` | Official platform resource for Databricks – Generative AI Fundamentals |
+| **27** | **Deep Dive Into QwQ-32B** | [Visit Website](https://www.analyticsvidhya.com/courses/deep-dive-into-qwq-32b) | `Free` | Official platform resource for Deep Dive Into QwQ-32B |
+| **28** | **DeepSeek from Scratch** | [Visit Website](https://www.analyticsvidhya.com/courses/deepseek-from-scratch) | `Free` | Official platform resource for DeepSeek from Scratch |
+| **29** | **Dimensionality Reduction for Machine Learning** | [Visit Website](https://www.analyticsvidhya.com/courses/dimensionality-reduction-for-machine-learning) | `Free` | Official platform resource for Dimensionality Reduction for Machine Learning |
+| **30** | **dora.run** | [Visit Website](https://www.youtube.com/shorts/yxwnbw1ZNrI) | `Freemium` | No-code builder for impressive 3D animated websites without learning WebGL or Three.js |
+| **31** | **dungeonscrawl.com** | [Visit Website](https://www.youtube.com/shorts/CQmi0zo8zhs) | `Freemium` | Create custom dungeon maps online for tabletop RPGs and virtual tabletop sessions |
+| **32** | **Elements of AI** | [Visit Website](https://www.elementsofai.com) | `Free` | Official platform resource for Elements of AI |
+| **33** | **End to end RAG Application Development with LangChain and Streamlit** | [Visit Website](https://www.analyticsvidhya.com/courses/end-to-end-app-rag-application-development-with-langchain-and-streamlit) | `Free` | Official platform resource for End to end RAG Application Development with LangChain and Streamlit |
+| **34** | **Ensemble Learning and Ensemble Learning Techniques** | [Visit Website](https://www.analyticsvidhya.com/courses/ensemble-learning-and-ensemble-learning-techniques) | `Free` | Official platform resource for Ensemble Learning and Ensemble Learning Techniques |
+| **35** | **Essential : SQL Skills for Data Beginners** | [Visit Website](https://www.analyticsvidhya.com/courses/essential-sql-skills-for-data-beginners) | `Free` | Official platform resource for Essential : SQL Skills for Data Beginners |
+| **36** | **Excel : From Beginner to Expert** | [Visit Website](https://www.analyticsvidhya.com/courses/excel-from-beginner-to-expert) | `Free` | Official platform resource for Excel : From Beginner to Expert |
+| **37** | **Exploring OpenAI o3 and o4-mini** | [Visit Website](https://www.analyticsvidhya.com/courses/exploring-openai-o3-and-o4-mini) | `Free` | Official platform resource for Exploring OpenAI o3 and o4-mini |
+| **38** | **Fundamentals of Regression Analysis** | [Visit Website](https://www.analyticsvidhya.com/courses/Fundamentals-of-Regression-Analysis) | `Free` | Official platform resource for Fundamentals of Regression Analysis |
+| **39** | **GenAI for Everyone** | [Visit Website](https://www.analyticsvidhya.com/courses/genai-landscape) | `Free` | Official platform resource for GenAI for Everyone |
+| **40** | **GenAI for Quantitative Finance & Control Implementation** | [Visit Website](https://www.analyticsvidhya.com/courses/genai-applied-to-quantitative-finance-for-control-implementation) | `Free` | Official platform resource for GenAI for Quantitative Finance & Control Implementation |
+| **41** | **GenAI Free Program - 7 Courses Combo** | [Visit Website](https://www.analyticsvidhya.com/courses/learning-path/generative-ai-program-free) | `Free` | Official platform resource for GenAI Free Program - 7 Courses Combo |
+| **42** | **Generative AI - A Way of Life** | [Visit Website](https://www.analyticsvidhya.com/courses/genai-a-way-of-life) | `Free` | Official platform resource for Generative AI - A Way of Life |
+| **43** | **Getting Started with Deep Learning** | [Visit Website](https://www.analyticsvidhya.com/courses/getting-started-with-deep-learning) | `Free` | Official platform resource for Getting Started with Deep Learning |
+| **44** | **Getting Started with DeepSeek-AI** | [Visit Website](https://www.analyticsvidhya.com/courses/getting-started-with-deepseek) | `Free` | Official platform resource for Getting Started with DeepSeek-AI |
+| **45** | **Getting Started With Large Language Models** | [Visit Website](https://www.analyticsvidhya.com/courses/getting-started-with-llms) | `Free` | Official platform resource for Getting Started With Large Language Models |
+| **46** | **Getting Started with OpenAI o3-mini** | [Visit Website](https://www.analyticsvidhya.com/courses/getting-started-with-openai-o3-mini) | `Free` | Official platform resource for Getting Started with OpenAI o3-mini |
+| **47** | **Getting Started with Tableau** | [Visit Website](https://www.analyticsvidhya.com/courses/getting-started-with-tableau) | `Free` | Official platform resource for Getting Started with Tableau |
+| **48** | **GitHub – Microsoft Generative AI for Beginners** | [Visit Website](https://github.com/microsoft/generative-ai-for-beginners) | `Free` | Official platform resource for GitHub – Microsoft Generative AI for Beginners |
+| **49** | **Google Cloud Skills Boost** | [Visit Website](https://www.cloudskillsboost.google/paths/118) | `Free + Paid` | Official platform resource for Google Cloud Skills Boost |
+| **50** | **Google Skillshop** | [Visit Website](https://skillshop.withgoogle.com) | `Free` | Official platform resource for Google Skillshop |
+| **51** | **Great Learning Academy** | [Visit Website](https://www.mygreatlearning.com/academy) | `Free` | Official platform resource for Great Learning Academy |
+| **52** | **Guide to Vibe Coding in Windsurf** | [Visit Website](https://www.analyticsvidhya.com/courses/guide-to-vibe-coding-in-windsurf) | `Free` | Official platform resource for Guide to Vibe Coding in Windsurf |
+| **53** | **How to Build an Image Generator Web App with Zero Coding** | [Visit Website](https://www.analyticsvidhya.com/courses/how-to-build-an-image-generator-web-app-with-zero-coding) | `Free` | Official platform resource for How to Build an Image Generator Web App with Zero Coding |
+| **54** | **human.biodigital.com** | [Visit Website](https://www.youtube.com/shorts/6x1C2022brs) | `Free` | Interactive 3D human anatomy model for medical students and curious minds to explore |
+| **55** | **Improving Real World RAG Systems :Key Challenges** | [Visit Website](https://www.analyticsvidhya.com/courses/improving-real-world-rag-systems-key-challenges) | `Free` | Official platform resource for Improving Real World RAG Systems :Key Challenges |
+| **56** | **Instagram – Learn English With Shaba** | [Visit Website](https://www.instagram.com/learn_english_with_shaba) | `Free` | Official platform resource for Instagram – Learn English With Shaba |
+| **57** | **internet-janitor.itch.io** | [Visit Website](https://www.youtube.com/shorts/tQFVJLE6ABc) | `Free` | Tool for making interactive fiction and clicky experiences without learning a game engine |
+| **58** | **Introduction to AI & ML** | [Visit Website](https://www.analyticsvidhya.com/courses/introduction-to-ai-ml) | `Free` | Official platform resource for Introduction to AI & ML |
+| **59** | **Introduction to Python** | [Visit Website](https://www.analyticsvidhya.com/courses/introduction-to-data-science) | `Free` | Official platform resource for Introduction to Python |
+| **60** | **Introduction to Transformers and Attention Mechanisms** | [Visit Website](https://www.analyticsvidhya.com/courses/introduction-to-transformers-and-attention-mechanisms) | `Free` | Official platform resource for Introduction to Transformers and Attention Mechanisms |
+| **61** | **jitter.video** | [Visit Website](https://www.youtube.com/shorts/Wpy5CMLTwu0) | `Freemium` | Browser-based motion graphics editor for designers who don't want to learn After Effects |
+| **62** | **K-Nearest Neighbors (KNN) Algorithm in Python and R** | [Visit Website](https://www.analyticsvidhya.com/courses/K-Nearest-Neighbors-KNN-Algorithm) | `Free` | Official platform resource for K-Nearest Neighbors (KNN) Algorithm in Python and R |
+| **63** | **kiddoworksheets.com** | [Visit Website](https://www.youtube.com/shorts/y9QcktqR_LU) | `Free` | Free printable worksheets for kids covering math reading and educational activities |
+| **64** | **Knowledge Bases & Memory for Agentic AI** | [Visit Website](https://www.analyticsvidhya.com/courses/knowledge-bases-and-memory-for-agentic-ai) | `Free` | Official platform resource for Knowledge Bases & Memory for Agentic AI |
+| **65** | **learn-anything.xyz** | [Visit Website](https://www.youtube.com/shorts/xJtUwRiVhXw) | `Free` | Curated learning paths for any topic - community-organized roadmaps instead of random tutorials |
+| **66** | **LearnVern** | [Visit Website](https://www.learnvern.com) | `Free + Paid` | Official platform resource for LearnVern |
+| **67** | **litsolutions.org** | [Visit Website](https://www.youtube.com/shorts/qJBz50tPTf0) | `Free` | Free textbook solutions and homework help with step-by-step workings for STEM courses |
+| **68** | **Loan Prediction Practice Problem (Using Python)** | [Visit Website](https://www.analyticsvidhya.com/courses/loan-prediction-practice-problem-using-python) | `Free` | Official platform resource for Loan Prediction Practice Problem (Using Python) |
+| **69** | **Machine Learning Certification course for Beginners** | [Visit Website](https://www.analyticsvidhya.com/courses/machine-learning-certification-program-beginners) | `Free` | Official platform resource for Machine Learning Certification course for Beginners |
+| **70** | **Mastering Multimodal RAG & Embeddings with Amazon Nova & Bedrock** | [Visit Website](https://www.analyticsvidhya.com/courses/mastering-multimodal-rag-and-embeddings-with-amazon-nova-and-bedrock) | `Free` | Official platform resource for Mastering Multimodal RAG & Embeddings with Amazon Nova & Bedrock |
+| **71** | **mindluster.com** | [Visit Website](https://www.youtube.com/shorts/nUMv7iqghJc) | `Free` | Free online courses with certificates you can add to your resume upon completion |
+| **72** | **Model Deployment using FastAPI** | [Visit Website](https://www.analyticsvidhya.com/courses/model-deployment-using-fastapi) | `Free` | Official platform resource for Model Deployment using FastAPI |
+| **73** | **musicca.com** | [Visit Website](https://www.youtube.com/shorts/L5LYe9jV3vs) | `Free` | Interactive music theory lessons with virtual instruments and exercises to practice concepts |
+| **74** | **n8n - A Complete Guide to Automation Tool** | [Visit Website](https://www.analyticsvidhya.com/courses/n8n-a-complete-guide-to-the-automation-tool) | `Free` | Official platform resource for n8n - A Complete Guide to Automation Tool |
+| **75** | **Naive Bayes from Scratch** | [Visit Website](https://www.analyticsvidhya.com/courses/naive-bayes) | `Free` | Official platform resource for Naive Bayes from Scratch |
+| **76** | **OpenEngage: Build a complete AI Driven Marketing Engine** | [Visit Website](https://www.analyticsvidhya.com/courses/openengage-a-complete-ai-driven-marketing-engine) | `Free` | Official platform resource for OpenEngage: Build a complete AI Driven Marketing Engine |
+| **77** | **phet.colorado.edu** | [Visit Website](https://www.youtube.com/shorts/kDOKwxMpzLM) | `Free` | Free interactive science simulations from University of Colorado for physics chemistry and biology |
+| **78** | **Reimagining GenAI: Common Mistakes and Best Practices for Success** | [Visit Website](https://www.analyticsvidhya.com/courses/reimagining-genai-common-mistakes-and-best-practices-for-success) | `Free` | Official platform resource for Reimagining GenAI: Common Mistakes and Best Practices for Success |
+| **79** | **roadmap.sh** | [Visit Website](https://www.youtube.com/shorts/b3GA2Y6E5fQ) | `Free` | Developer career learning paths with step-by-step roadmaps for any tech specialization |
+| **80** | **smart.servier.com** | [Visit Website](https://www.youtube.com/shorts/hpy1WWPVWAw) | `Free` | Free high-resolution medical and scientific images for anatomy biology and healthcare projects |
+| **81** | **spacetypegenerator.com** | [Visit Website](https://www.youtube.com/shorts/fBNR3acvink) | `Free` | Animated typography effects generator for creating dynamic text for videos and social media |
+| **82** | **STP Computer Education – Courses** | [Visit Website](https://www.stpcomputereducation.com/courses) | `Free + Paid` | Official platform resource for STP Computer Education – Courses |
+| **83** | **STP Computer Education – Notes** | [Visit Website](https://www.stpcomputereducation.com/notes) | `Free` | Official platform resource for STP Computer Education – Notes |
+| **84** | **STP Computer Education – Web Development** | [Visit Website](https://www.stpcomputereducation.com/courses/web-development.html) | `Free + Paid` | Official platform resource for STP Computer Education – Web Development |
+| **85** | **The A to Z of Unsupervised ML** | [Visit Website](https://www.analyticsvidhya.com/courses/free-unsupervised-ml-guide) | `Free` | Official platform resource for The A to Z of Unsupervised ML |
+| **86** | **typelit.io** | [Visit Website](https://www.youtube.com/shorts/KkeEzcsEyos) | `Freemium` | Practice typing by retyping classic literature - combine skill development with reading great books |
+| **87** | **typingclub.com** | [Visit Website](https://www.youtube.com/shorts/zspcS7q-k4o) | `Freemium` | Structured typing lessons for schools and individuals with gamified progress tracking |
+| **88** | **Understanding Linear Regression** | [Visit Website](https://www.analyticsvidhya.com/courses/free-understanding-linear-regression) | `Free` | Official platform resource for Understanding Linear Regression |
+| **89** | **Understanding the working of Neural Networks** | [Visit Website](https://www.analyticsvidhya.com/courses/understanding-the-working-of-neural-networks) | `Free` | Official platform resource for Understanding the working of Neural Networks |
+| **90** | **Vibe Coding with Replit** | [Visit Website](https://www.analyticsvidhya.com/courses/vibe-coding-with-replit) | `Free` | Official platform resource for Vibe Coding with Replit |
+| **91** | **wolframalpha.com** | [Visit Website](https://www.youtube.com/shorts/eTSmgoSgTlo) | `Freemium` | Computational knowledge engine that answers questions with computed data rather than web links |
+| **92** | **xAI Grok 3: Smartest AI on Earth** | [Visit Website](https://www.analyticsvidhya.com/courses/xai-grok-3-smartest-ai-on-earth) | `Free` | Official platform resource for xAI Grok 3: Smartest AI on Earth |
+| **93** | **YouTube – ES4TpVsTkgc** | [Visit Website](https://youtu.be/dLKPBSov2F4) | `Free` | Official platform resource for YouTube – ES4TpVsTkgc |
+| **94** | **zty.pe** | [Visit Website](https://www.youtube.com/shorts/W75xA5XdqFI) | `Free` | Typing game where you shoot down enemy ships by typing words - fun skill practice |
+
+---
+*Auto-generated & Curated by Autonomous Websites Agent.*
