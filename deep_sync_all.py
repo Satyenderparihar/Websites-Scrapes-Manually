@@ -3,6 +3,7 @@ Deep Ingestion and Re-synchronization of all Curated Websites
 Ensures Website Type is accurately captured, classified and displayed for every single website.
 Zero Mixing, 100% Isolated Categories.
 Courses are deeply sub-categorized by Topic/Track.
+Coding & Developer Platforms are deeply sub-categorized by Development Track.
 """
 
 import os
@@ -42,6 +43,10 @@ CATEGORIES = {
     "⬇️ Video & Media Downloaders": {
         "folder": "📁 ⬇️ Video & Media Downloaders",
         "desc": "Fast online downloaders & converters for YouTube, Instagram, Facebook, Pinterest, Twitter & video media."
+    },
+    "💻 Coding & Developer Platforms": {
+        "folder": "📁 💻 Coding & Developer Platforms",
+        "desc": "Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations."
     },
     "🤖 AI & Machine Learning Tools": {
         "folder": "📁 🤖 AI & Machine Learning Tools",
@@ -120,7 +125,7 @@ def map_course_to_subcat(wtype, name=""):
     name_clean = (name or "").lower()
     if 'combo' in name_clean or 'free program' in name_clean:
         return "🎁 Free Program Combos & Bundles"
-    if 'elements of ai' in name_clean or 'microsoft generative ai' in name_clean or 'databricks' in name_clean or 'with llms' in name_clean or 'for everyone' in name_clean and 'generative' in name_clean:
+    if 'elements of ai' in name_clean or 'microsoft generative ai' in name_clean or 'databricks' in name_clean or 'with llms' in name_clean or ('for everyone' in name_clean and 'generative' in name_clean):
         return "🤖 Generative AI & LLM Engineering"
     if 'google data analytics' in name_clean or 'great learning' in name_clean:
         return "📈 Data Analytics, SQL & Fundamental Tech"
@@ -131,6 +136,64 @@ def map_course_to_subcat(wtype, name=""):
         if wtype_clean in types:
             return subcat
     return "🌐 Academic STEM Tools & Learning Platforms"
+
+CODING_SUBCATEGORIES = {
+    "💻 Online Code Editors & Cloud IDEs": [
+        "Online Code Editor & IDE", "Online Code Editor", "Web IDE"
+    ],
+    "⚔️ Coding Challenges & Practice Platforms": [
+        "Coding Practice & Challenges", "Coding Practice Platform", "Coding Practice Community"
+    ],
+    "🎓 Programming & Tech Learning Platforms": [
+        "Coding Learning Platform", "Tech Learning Platform", "Interactive Coding App", "Learning Platform"
+    ],
+    "📚 Developer Reference, Roadmaps & Cheat Sheets": [
+        "Developer Roadmap & Career Guide", "Developer Cheat Sheets & Reference", "Developer Reference & Cheat Sheets",
+        "Web Development Resource", "Programming Resources & Reference", "CSS Learning", "JavaScript Learning",
+        "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "SQL Learning", "Blockchain Learning",
+        "Next.js Learning", "API Learning", "Go Language Learning", "Web Development"
+    ],
+    "🐍 Python Dedicated Resources": [
+        "Python Programming Resource", "Python Resource", "Python Learning"
+    ],
+    "🐙 Version Control & Repository Platforms": [
+        "Version Control & Repository Platform", "Version Control", "Version Control (Git)"
+    ],
+    "💼 Technical Interview Prep & Coding Utilities": [
+        "Technical Interview Preparation", "Interview Prep", "Code Converter Tool", "Code Converter", "Developer Utility"
+    ],
+    "📺 Programming Creators & Channels (YouTube & Social)": [
+        "YouTube Coding Channel", "Social Coding Creator", "Telegram Tech Community"
+    ],
+    "🚀 Hands-on Project Guides & Implementations": [
+        "C Project Implementation", "C++ Project Implementation", "Python Project Implementation",
+        "Java Project Implementation", "Web Dev Project Implementation", "Coding Project Implementation"
+    ]
+}
+
+def map_coding_to_subcat(wtype, name=""):
+    wtype_clean = (wtype or "").strip()
+    name_lower = (name or "").lower()
+    
+    if 'project' in wtype_clean.lower() or 'implementation' in wtype_clean.lower():
+        return "🚀 Hands-on Project Guides & Implementations"
+    if any(k in name_lower for k in ['replit', 'glitch', 'codepen', 'jsfiddle', 'codesandbox', 'stackblitz']):
+        return "💻 Online Code Editors & Cloud IDEs"
+    if any(k in name_lower for k in ['leetcode', 'hackerrank', 'codewars', 'topcoder', 'coderbyte', 'codechef', 'exercism', 'project euler', 'dailyprogrammer', 'rosalind']):
+        return "⚔️ Coding Challenges & Practice Platforms"
+    if any(k in name_lower for k in ['github', 'gitlab', 'bitbucket', 'git book']):
+        return "🐙 Version Control & Repository Platforms"
+    if 'python' in name_lower and not any(k in name_lower for k in ['youtube', 'channel', 'course', 'project', 'full course']):
+        return "🐍 Python Dedicated Resources"
+    if any(k in name_lower for k in ['converter', 'interview questions', 'interviewbit']):
+        return "💼 Technical Interview Prep & Coding Utilities"
+    if any(k in name_lower for k in ['mosh', 'harry', 'telusko', 'traversy', 'gate smashers', 'anuj bhaiya', 'apni kaksha', 'jenny', 'mysirg', 'derek banas', 'academind', 'thenewboston', 'sortedcoding', 'clever programmer', 'programmingknowledge', 'freecodecamp (social)', 'codz learner', 'imran', 'rengatechnologies', 'startup baniya', 'iron coding']):
+        return "📺 Programming Creators & Channels (YouTube & Social)"
+
+    for subcat, types in CODING_SUBCATEGORIES.items():
+        if wtype_clean in types:
+            return subcat
+    return "📚 Developer Reference, Roadmaps & Cheat Sheets"
 
 VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
@@ -171,8 +234,13 @@ def get_domain_key(url):
     if domain.startswith("www."):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
-    if len(path) > 1 and any(sub in domain for sub in ['botdownloader.com', 'youtube.com', 'instagram.com', 'github.com', 'coursera.org', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google']):
-        return f"{domain}{path}"
+    query = parsed.query
+    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google']):
+        key_suffix = path
+        if query:
+            key_suffix = f"{path}?{query}" if path else f"?{query}"
+        if key_suffix:
+            return f"{domain}{key_suffix}"
     return domain
 
 def normalize_pricing(p):
@@ -188,6 +256,42 @@ def normalize_pricing(p):
     if "free" in p_lower or "open source" in p_lower or "audit" in p_lower:
         return "Free"
     return str(p).strip()
+
+YOUTUBE_CREATORS = {
+    "Python Full Course – Programming with Mosh": ("Programming with Mosh", "https://www.youtube.com/@programmingwithmosh", "YouTube Coding Channel", "Complete Python and software engineering video courses."),
+    "Python Full Course – Freecodecamp.org": ("freeCodeCamp.org", "https://www.youtube.com/@freecodecamp", "YouTube Coding Channel", "Comprehensive free coding curriculum and full-length video courses."),
+    "Code with Harry": ("CodeWithHarry", "https://www.youtube.com/@CodeWithHarry", "YouTube Coding Channel", "Top Indian programming channel teaching Python, Web Dev, C, C++, and Java in Hindi."),
+    "Anuj bhaiya": ("Anuj Bhaiya", "https://www.youtube.com/@AnujBhaiya", "YouTube Coding Channel", "Data structures, algorithms, system design, and software engineering placement prep."),
+    "Apni Kaksha": ("Apni Kaksha", "https://www.youtube.com/@ApniKaksha", "YouTube Coding Channel", "Free quality coding education, college roadmap, and placement interview guidance."),
+    "Telusko": ("Telusko", "https://www.youtube.com/@Telusko", "YouTube Coding Channel", "Java, Python, Blockchain, Docker, and full-stack web development tutorials."),
+    "Jenny's lectures CS/IT NET & JRE": ("Jenny's Lectures CS IT", "https://www.youtube.com/@JennyslecturesCSIT", "YouTube Coding Channel", "Engineering CS/IT subjects, algorithms, data structures, and theory of computation."),
+    "SEGate Smashers": ("Gate Smashers", "https://www.youtube.com/@GateSmashers", "YouTube Coding Channel", "Operating systems, DBMS, computer networks, and GATE computer science lectures."),
+    "Bhagwan Singh Vishwakarma": ("Bhagwan Singh Vishwakarma", "https://www.youtube.com/@bhagwansinghvishwakarma", "YouTube Coding Channel", "Computer science, programming, and technical academic tutorials."),
+    "MySirG": ("MySirG.com", "https://www.youtube.com/@MySirG", "YouTube Coding Channel", "Premier Hindi channel for C, C++, Python, Data Structures, and programming fundamentals."),
+    "Programming with Mosh": ("Programming with Mosh", "https://www.youtube.com/@programmingwithmosh", "YouTube Coding Channel", "Clear, concise tutorials on Python, JavaScript, React, C#, and SQL."),
+    "FreeCodeCamp.org": ("freeCodeCamp.org", "https://www.youtube.com/@freecodecamp", "YouTube Coding Channel", "Thousands of hours of free coding courses from industry professionals."),
+    "Traversy Media": ("Traversy Media", "https://www.youtube.com/@TraversyMedia", "YouTube Coding Channel", "Practical web development tutorials, crash courses, and project builds."),
+    "Programming Knowledge": ("ProgrammingKnowledge", "https://www.youtube.com/@ProgrammingKnowledge", "YouTube Coding Channel", "Step-by-step programming tutorials on Android, Java, Python, and Linux."),
+    "Derek Banas": ("Derek Banas", "https://www.youtube.com/@derekbanas", "YouTube Coding Channel", "Learn complex programming languages and frameworks in single comprehensive videos."),
+    "Clever Programmer": ("Clever Programmer", "https://www.youtube.com/@CleverProgrammer", "YouTube Coding Channel", "Full-stack web development clone builds with JavaScript, React, and Python."),
+    "thenewboston": ("thenewboston", "https://www.youtube.com/@thenewboston", "YouTube Coding Channel", "Pioneering computer science, web dev, and blockchain video tutorials."),
+    "LearnCode.academy": ("LearnCode.academy", "https://www.youtube.com/@learncodeacademy", "YouTube Coding Channel", "Web development tutorials, responsive design, JavaScript, React, and DevOps."),
+    "mycodeschool": ("mycodeschool", "https://www.youtube.com/@mycodeschool", "YouTube Coding Channel", "Classic, world-renowned lessons on data structures, pointers, and memory management."),
+    "SoloLearn": ("SoloLearn", "https://www.youtube.com/@SoloLearn", "YouTube Coding Channel", "Bite-sized mobile-first coding lessons and language deep-dives."),
+    "Programming Hub": ("Programming Hub", "https://www.youtube.com/@ProgrammingHub", "YouTube Coding Channel", "Accessible tech tutorials covering AI, app development, and programming languages."),
+    "Grasshopper": ("Grasshopper (Google)", "https://learn.grasshopper.app", "Interactive Coding App", "Google's visual, puzzle-based app to learn fundamental JavaScript syntax."),
+    "Academind": ("Academind", "https://www.youtube.com/@academind", "YouTube Coding Channel", "Deep-dive technical tutorials on React, Angular, Vue, Node.js, and cloud tech."),
+    "SortedCoding": ("SortedCoding", "https://www.youtube.com/@SortedCoding", "YouTube Coding Channel", "Frontend tricks, CSS animations, JavaScript projects, and coding shorts."),
+    "Code With Imraan": ("Code With Imran", "https://www.instagram.com/codewithimraan/", "Social Coding Creator", "Instagram programming tips, frontend animations, and web development tricks."),
+    "Codz Learner": ("Code Learner", "https://www.instagram.com/codzlearner/", "Social Coding Creator", "Daily coding snippets, interview questions, and tech infographics."),
+    "freeCodeCamp": ("freeCodeCamp (Social)", "https://www.instagram.com/freecodecamp/", "Social Coding Creator", "Global community posts, coding memes, and learning roadmaps."),
+    "Python Hub": ("Python Hub", "https://www.instagram.com/python.hub/", "Social Coding Creator", "Python tricks, automation scripts, and daily coding exercises."),
+    "Codewithimran": ("Code With Imran", "https://www.instagram.com/codewithimraan/", "Social Coding Creator", "Frontend coding snippets, UI animations, and web design tips."),
+    "Code learner": ("Code Learner", "https://www.instagram.com/codzlearner/", "Social Coding Creator", "Daily developer resources, cheat sheets, and coding questions."),
+    "Rangatechoologies": ("Ranga Technologies", "https://www.instagram.com/rengatechnologies/", "Social Coding Creator", "Tech career guidance, full-stack tips, and programming tutorials."),
+    "Startup Baniya": ("Startup Baniya", "https://www.instagram.com/startupbaniya/", "Social Coding Creator", "Tech tools, AI startups, coding resources, and developer productivity hacks."),
+    "Iron Coding": ("Iron Coding", "https://www.instagram.com/iron.coding/", "Social Coding Creator", "Programming tips, coding interview prep, and tech fundamentals.")
+}
 
 def build_database():
     db = {}
@@ -296,7 +400,6 @@ def build_database():
 
     print(">>> 4. Processing 🌐 Powerful Websites...")
     f_power = os.path.join(DOWNLOADS_DIR, "🌐 Powerful Websites.xlsx")
-    # If not in downloads, check recycle bin or database
     if not os.path.exists(f_power):
         recycle_files = glob.glob(r'C:\$Recycle.Bin\*\$RMMII6L.xlsx')
         if recycle_files:
@@ -401,7 +504,6 @@ def build_database():
         for sname in ['Ai', 'Machine Learning ', 'Data Analysis ', 'Computer ', 'Google ', 'Skill Based', 'English']:
             if sname in wb.sheetnames:
                 ws = wb[sname]
-                header_row = 1
                 headers = [str(ws.cell(1, c).value or '').strip().lower() for c in range(1, ws.max_column + 1)]
                 for r in range(2, ws.max_row + 1):
                     row_vals = [str(ws.cell(r, c).value or '').strip() for c in range(1, ws.max_column + 1)]
@@ -469,6 +571,175 @@ def build_database():
                     wtype = section_type_map.get(current_section, f"{current_section} Course")
                     add_entry(url, course_name, wtype, "🎓 Free Courses & Learning Platforms", "Free", f"Comprehensive free training course: {course_name} ({wtype})", "Excel: 🎓 Course Library.xlsx (Sheet1)", priority=8)
 
+    print(">>> 7. Processing 💻 Coding Websites.xlsx (All 12 Sheets)...")
+    f_coding = os.path.join(DOWNLOADS_DIR, "💻 Coding Websites.xlsx")
+    if os.path.exists(f_coding):
+        wb_c = openpyxl.load_workbook(f_coding, data_only=True)
+        wb_cf = openpyxl.load_workbook(f_coding, data_only=False)
+
+        # 7.1 YouTube & Social Channels (Y-I-T - BH)
+        if "Y-I-T - BH" in wb_c.sheetnames:
+            ws_yit = wb_c["Y-I-T - BH"]
+            for r in range(2, ws_yit.max_row + 1):
+                c1 = str(ws_yit.cell(r, 1).value or '').strip()
+                c2 = str(ws_yit.cell(r, 2).value or '').strip()
+                if c2 in YOUTUBE_CREATORS:
+                    cname, curl, ctype, cdesc = YOUTUBE_CREATORS[c2]
+                    add_entry(curl, cname, ctype, "💻 Coding & Developer Platforms", "Free", cdesc, "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)", priority=9)
+                elif c1 == "Telegram" and "Python" in c2:
+                    add_entry("https://t.me/pythonhub", "Python Hub (Telegram)", "Telegram Tech Community", "💻 Coding & Developer Platforms", "Free", "Daily Python resources, code snippets, and cheat sheets on Telegram.", "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)", priority=9)
+
+        # 7.2 Standard Coding & Dev Sheets
+        std_sheets = [
+            "Online Learning Platforms - BH",
+            "Programming Resources & Referen",
+            "Web Development Resources - BH",
+            "Course Platforms - BH",
+            "Online Coding Platforms & Versi",
+            "Interview, Utilities & Extras -",
+            "Programming & Tech Learning Res"
+        ]
+        for sname in std_sheets:
+            if sname in wb_c.sheetnames:
+                ws = wb_c[sname]
+                ws_f = wb_cf[sname]
+                for r in range(2, ws.max_row + 1):
+                    wtype = str(ws.cell(r, 1).value or '').strip()
+                    name = str(ws.cell(r, 2).value or '').strip()
+                    cell_3 = ws.cell(r, 3)
+                    cell_3_f = ws_f.cell(r, 3)
+                    pricing = str(ws.cell(r, 4).value or 'Free').strip()
+                    
+                    url = ""
+                    if cell_3.hyperlink and cell_3.hyperlink.target:
+                        url = cell_3.hyperlink.target
+                    elif cell_3.value and str(cell_3.value).startswith("http"):
+                        url = str(cell_3.value).strip()
+                    elif cell_3_f.value and str(cell_3_f.value).startswith("=HYPERLINK"):
+                        m = re.search(r'=HYPERLINK\("?([^",\)]+)"?', str(cell_3_f.value))
+                        if m: url = m.group(1).strip()
+                        
+                    if url and "chatgpt.com" not in url:
+                        if "editor" in wtype.lower(): wtype = "Online Code Editor & IDE"
+                        elif "version" in wtype.lower(): wtype = "Version Control & Repository Platform"
+                        elif "interview" in wtype.lower(): wtype = "Technical Interview Preparation"
+                        elif "converter" in wtype.lower(): wtype = "Code Converter Tool"
+                        elif "css" in wtype.lower(): wtype = "Developer Reference & Cheat Sheets"
+                        elif "python" in wtype.lower(): wtype = "Python Programming Resource"
+                        elif "web" in wtype.lower(): wtype = "Web Development Resource"
+                        elif "learning" in wtype.lower() or "course" in wtype.lower(): wtype = "Coding Learning Platform"
+                        elif "resource" in wtype.lower(): wtype = "Developer Reference & Cheat Sheets"
+                        
+                        add_entry(url, name, wtype, "💻 Coding & Developer Platforms", pricing, f"High-utility developer platform: {name} ({wtype})", f"Excel: 💻 Coding Websites.xlsx ({sname})", priority=8)
+
+        # 7.3 Pythons - BH
+        if "Pythons - BH" in wb_c.sheetnames:
+            ws_py = wb_c["Pythons - BH"]
+            ws_pyf = wb_cf["Pythons - BH"]
+            for r in range(2, ws_py.max_row + 1):
+                c2 = ws_py.cell(r, 2)
+                c2_f = ws_pyf.cell(r, 2)
+                c3 = ws_py.cell(r, 3)
+                name = str(c2.value or '').strip()
+                if not name or name in ["Website", "None"]:
+                    continue
+                url = ""
+                if c2.hyperlink and c2.hyperlink.target:
+                    url = c2.hyperlink.target
+                elif c2_f.value and str(c2_f.value).startswith("=HYPERLINK"):
+                    m = re.search(r'=HYPERLINK\("?([^",\)]+)"?', str(c2_f.value))
+                    if m: url = m.group(1).strip()
+                if url and "chatgpt.com" not in url:
+                    raw_cat = str(c3.value or '').strip()
+                    wtype = "Coding Practice & Challenges" if "Practice" in raw_cat else "Python Programming Resource"
+                    add_entry(url, name, wtype, "💻 Coding & Developer Platforms", "Free", f"{raw_cat} - Official platform for {name}", "Excel: 💻 Coding Websites.xlsx (Pythons - BH)", priority=8)
+
+        # 7.4 Sheet32 - BH
+        if "Sheet32 - BH" in wb_c.sheetnames:
+            ws_s32 = wb_c["Sheet32 - BH"]
+            ws_s32f = wb_cf["Sheet32 - BH"]
+            col_type_map = {
+                1: "Version Control & Repository Platform",
+                2: "Coding Practice & Challenges",
+                3: "Coding Learning Platform",
+                4: "Developer Reference & Cheat Sheets",
+                5: "Python Programming Resource",
+                6: "YouTube Coding Channel",
+                7: "Social Coding Creator",
+                8: "Telegram Tech Community"
+            }
+            for r in range(2, ws_s32.max_row + 1):
+                for c in range(1, 9):
+                    cell = ws_s32.cell(r, c)
+                    cell_f = ws_s32f.cell(r, c)
+                    val = str(cell.value or '').strip()
+                    url = ""
+                    if cell.hyperlink and cell.hyperlink.target:
+                        url = cell.hyperlink.target
+                    elif cell_f.value and str(cell_f.value).startswith("=HYPERLINK"):
+                        m = re.search(r'=HYPERLINK\("?([^",\)]+)"?', str(cell_f.value))
+                        if m: url = m.group(1).strip()
+                    elif val.startswith("http"):
+                        url = val
+                        
+                    if url and "chatgpt.com" not in url:
+                        name = val if (val and not val.startswith("http")) else ""
+                        if not name:
+                            parsed = urllib.parse.urlparse(url)
+                            name = parsed.netloc.replace('www.', '').split('.')[0].capitalize()
+                        wtype = col_type_map.get(c, "Coding & Developer Platform")
+                        if "replit" in name.lower() or "glitch" in name.lower() or "codepen" in name.lower() or "codesandbox" in name.lower() or "stackblitz" in name.lower():
+                            wtype = "Online Code Editor & IDE"
+                        add_entry(url, name, wtype, "💻 Coding & Developer Platforms", "Free", f"Developer platform: {name} ({wtype})", "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)", priority=8)
+
+        # 7.5 Project Guides from All Project Ideas & C Project Ideas
+        for sname in ["All Project Ideas", "C Project Ideas"]:
+            if sname in wb_c.sheetnames:
+                ws_p = wb_c[sname]
+                for r in range(1, ws_p.max_row + 1):
+                    c1 = str(ws_p.cell(r, 1).value or '').strip()
+                    c2 = str(ws_p.cell(r, 2).value or '').strip()
+                    
+                    proj_name = ""
+                    if sname == "All Project Ideas":
+                        if c2 and c2 not in ["Project Title", "Link", "Click Here"] and len(c2) > 3:
+                            proj_name = c2
+                        elif c1 and not any(k in c1 for k in ["Category", "Projects", "Project Ideas"]) and len(c1) > 3:
+                            proj_name = c1
+                    else:
+                        if c1 and not any(k in c1 for k in ["Project Name", "Project Ideas", "C Project", "C++ Project", "Java Project", "Python Project"]) and len(c1) > 3:
+                            proj_name = c1
+
+                    if not proj_name or len(proj_name) < 4:
+                        continue
+                        
+                    real_url = ""
+                    for col_idx in range(1, ws_p.max_column + 1):
+                        cl = ws_p.cell(r, col_idx)
+                        if cl.hyperlink and cl.hyperlink.target and "chatgpt.com" not in cl.hyperlink.target:
+                            real_url = cl.hyperlink.target
+                            break
+                            
+                    if not real_url:
+                        query = urllib.parse.quote_plus(proj_name)
+                        real_url = f"https://www.geeksforgeeks.org/?s={query}"
+                        
+                    p_lower = proj_name.lower()
+                    if "c++" in p_lower:
+                        ptype = "C++ Project Implementation"
+                    elif "c language" in p_lower or "in c" in p_lower:
+                        ptype = "C Project Implementation"
+                    elif "python" in p_lower or "tkinter" in p_lower:
+                        ptype = "Python Project Implementation"
+                    elif "java" in p_lower:
+                        ptype = "Java Project Implementation"
+                    elif "html" in p_lower or "css" in p_lower or "food delivery" in p_lower:
+                        ptype = "Web Dev Project Implementation"
+                    else:
+                        ptype = "Coding Project Implementation"
+                        
+                    add_entry(real_url, proj_name, ptype, "💻 Coding & Developer Platforms", "Free", f"Step-by-step source code guide & project implementation: {proj_name}", f"Excel: 💻 Coding Websites.xlsx ({sname})", priority=8)
+
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
 
@@ -503,7 +774,6 @@ def export_all(db):
 
         # Specific Handling for Courses Category (Categorized Subsections)
         if "Courses" in cat_name:
-            # Group courses into subcategories
             courses_by_subcat = {sub: [] for sub in COURSE_SUBCATEGORIES.keys()}
             for item in cat_items:
                 sub = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
@@ -535,6 +805,41 @@ def export_all(db):
                     pricing = item.get("pricing", "Free")
                     desc = (item.get("description") or f"Comprehensive training in {name}").replace('|', '-')
                     md_lines.append(f"| **{idx}** | **{name}** | `{wtype}` | [Enroll / Visit]({url}) | `{pricing}` | {desc} |")
+                md_lines.append("\n---\n")
+
+        # Specific Handling for Coding Category (Categorized Subsections)
+        elif "Coding" in cat_name:
+            coding_by_subcat = {sub: [] for sub in CODING_SUBCATEGORIES.keys()}
+            for item in cat_items:
+                sub = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                coding_by_subcat[sub].append(item)
+
+            md_lines.extend([
+                "## 📑 Sub-Categories Breakdown",
+                ""
+            ])
+            for sub, sub_items in coding_by_subcat.items():
+                if sub_items:
+                    md_lines.append(f"- **{sub}**: `{len(sub_items)} Platforms / Projects`")
+            md_lines.append("\n---\n")
+
+            for sub, sub_items in coding_by_subcat.items():
+                if not sub_items:
+                    continue
+                sub_items.sort(key=lambda x: x.get("name", "").lower())
+                md_lines.extend([
+                    f"### {sub} (`{len(sub_items)} Resources`)",
+                    "",
+                    "| # | Name / Project Title | Website Type | Official Link | Pricing | Description |",
+                    "| :-: | :--- | :--- | :--- | :-: | :--- |"
+                ])
+                for idx, item in enumerate(sub_items, 1):
+                    name = (item.get("name") or item.get("key")).replace('|', '-')
+                    wtype = (item.get("website_type") or "Developer Platform").replace('|', '-')
+                    url = item.get("url")
+                    pricing = item.get("pricing", "Free")
+                    desc = (item.get("description") or f"Platform resource for {name}").replace('|', '-')
+                    md_lines.append(f"| **{idx}** | **{name}** | `{wtype}` | [Visit / View Guide]({url}) | `{pricing}` | {desc} |")
                 md_lines.append("\n---\n")
 
         else:
@@ -679,7 +984,7 @@ def export_all(db):
         "1. Double click **`⚡ Run Manual Websites Agent.bat`** (or use Desktop Shortcut **`Manual Websites Agent.lnk`**).",
         "2. Paste your links or text (or put them in `💾 paste_links_here.txt`).",
         "3. The agent automatically:",
-        "   - Preserves and categorizes the exact **`Website Type`** (e.g. Facebook Video Downloader, Music Streaming, AI Course),",
+        "   - Preserves and categorizes the exact **`Website Type`** (e.g. Facebook Video Downloader, Music Streaming, AI Course, Coding Platform),",
         "   - Categorizes cleanly into isolated directories,",
         "   - Prevents duplicate links (`Zero Repeats`),",
         "   - Updates the Markdown reports and multi-sheet Excel file,",
@@ -760,9 +1065,9 @@ def export_all(db):
         short_title = re.sub(r'[^\w\s]', '', cat_name)[:30].strip()
         ws_cat = wb.create_sheet(title=short_title)
         
-        # If Courses sheet, add Sub-Category column!
-        if "Courses" in cat_name:
-            cat_headers = ["#", "Course / Platform Name", "Track / Sub-Category", "Website Type", "Official URL", "Pricing", "Description"]
+        # If Courses or Coding sheet, add Sub-Category column!
+        if "Courses" in cat_name or "Coding" in cat_name:
+            cat_headers = ["#", "Name / Project Title", "Track / Sub-Category", "Website Type", "Official URL", "Pricing", "Description"]
             ws_cat.append(cat_headers)
             for col_idx in range(1, len(cat_headers) + 1):
                 cell = ws_cat.cell(1, col_idx)
@@ -772,7 +1077,10 @@ def export_all(db):
                 
             for i, item in enumerate(items, 1):
                 r = i + 1
-                subcat = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                if "Courses" in cat_name:
+                    subcat = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                else:
+                    subcat = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""))
                 ws_cat.append([
                     i,
                     item.get("name") or item.get("key"),
@@ -842,13 +1150,13 @@ def export_all(db):
     print(f"💾 Raw JSON Database saved: {DB_FILE}")
 
 def main():
-    print("Starting deep re-ingestion with Sub-Categorized Tracks...")
+    print("Starting deep re-ingestion with Coding Platforms & Sub-Categorized Tracks...")
     db = build_database()
     export_all(db)
 
     print("\nGit commit and push...")
     subprocess.run(["git", "add", "."], cwd=BASE_DIR, check=True)
-    subprocess.run(["git", "commit", "-m", f"feat: deep sub-categorization of courses across 13 tracks and 224 curated tools"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "commit", "-m", f"feat: add 💻 Coding & Developer Platforms category with 282 resources across 9 tracks"], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
     print("\n🚀 All updates pushed to GitHub successfully!")
 

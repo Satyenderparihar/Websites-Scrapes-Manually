@@ -1,7 +1,7 @@
 # 🤖 AI & Machine Learning Tools
 
 > Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.  
-> **Total Curated Tools**: `26` | **Zero Repeats & Deduplicated**
+> **Total Curated Tools**: `25` | **Zero Repeats & Deduplicated**
 
 ---
 
@@ -26,13 +26,12 @@
 | **17** | **same.new** | `AI Productivity & Generation Tool` | [Visit Website](https://same.new) | `Freemium` | AI clones any website's design in seconds and generates the code for you |
 | **18** | **sketch.metademolab.com** | `AI Productivity & Generation Tool` | [Visit Website](https://sketch.metademolab.com) | `Free` | Meta's AI that automatically animates hand-drawn character sketches - free research demo |
 | **19** | **intangible.ai** | `AI Video Generation & Pre-Production` | [Visit Website](https://intangible.ai) | `Freemium` | AI video generation for pre-production visualization - save thousands on production costs |
-| **20** | **replit.com** | `AI Website Builder & IDE` | [Visit Website](https://replit.com) | `Freemium` | Fastest and most accurate AI website builder I've tried so far. |
-| **21** | **app.emergent.sh** | `AI Writing & Copywriting Assistant` | [Visit Website](https://app.emergent.sh) | `Freemium` | AI builds functional web app MVPs from text prompts - great for rapid prototyping |
-| **22** | **enzostvs-deepsite.hf.space** | `AI Writing & Copywriting Assistant` | [Visit Website](https://enzostvs-deepsite.hf.space) | `Free` | AI generates complete websites from text prompts using open-source models - free hosting included |
-| **23** | **gamma.app** | `AI Writing & Copywriting Assistant` | [Visit Website](https://gamma.app) | `Freemium` | AI generates complete presentations from text - turn ideas into slides in minutes |
-| **24** | **napkin.ai** | `AI Writing & Copywriting Assistant` | [Visit Website](https://napkin.ai) | `Freemium` | AI transforms text into visual diagrams and illustrations automatically - just paste and go |
-| **25** | **ponder.chat** | `AI Writing & Copywriting Assistant` | [Visit Website](https://ponder.chat) | `Freemium` | AI writing assistant for creating blog posts social media content and marketing copy |
-| **26** | **text-to-cad.zoo.dev** | `AI Writing & Copywriting Assistant` | [Visit Website](https://text-to-cad.zoo.dev) | `Free` | AI generates 3D CAD models from text descriptions for engineering and design projects |
+| **20** | **app.emergent.sh** | `AI Writing & Copywriting Assistant` | [Visit Website](https://app.emergent.sh) | `Freemium` | AI builds functional web app MVPs from text prompts - great for rapid prototyping |
+| **21** | **enzostvs-deepsite.hf.space** | `AI Writing & Copywriting Assistant` | [Visit Website](https://enzostvs-deepsite.hf.space) | `Free` | AI generates complete websites from text prompts using open-source models - free hosting included |
+| **22** | **gamma.app** | `AI Writing & Copywriting Assistant` | [Visit Website](https://gamma.app) | `Freemium` | AI generates complete presentations from text - turn ideas into slides in minutes |
+| **23** | **napkin.ai** | `AI Writing & Copywriting Assistant` | [Visit Website](https://napkin.ai) | `Freemium` | AI transforms text into visual diagrams and illustrations automatically - just paste and go |
+| **24** | **ponder.chat** | `AI Writing & Copywriting Assistant` | [Visit Website](https://ponder.chat) | `Freemium` | AI writing assistant for creating blog posts social media content and marketing copy |
+| **25** | **text-to-cad.zoo.dev** | `AI Writing & Copywriting Assistant` | [Visit Website](https://text-to-cad.zoo.dev) | `Free` | AI generates 3D CAD models from text descriptions for engineering and design projects |
 
 ---
 *Auto-generated & Curated by Autonomous Websites Agent.*
