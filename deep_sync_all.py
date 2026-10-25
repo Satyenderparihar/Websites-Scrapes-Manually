@@ -198,7 +198,8 @@ def map_coding_to_subcat(wtype, name=""):
 VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
     'cc', 'ly', 'to', 'la', 'fm', 'xyz', 'tech', 'online', 'site', 'store', 'club', 'pro', 'studio', 'tools', 'garden',
-    'lol', 'live', 'page', 'space', 'fun', 'design', 'world', 'media', 'stream', 'cloud'
+    'lol', 'live', 'page', 'space', 'fun', 'design', 'world', 'media', 'stream', 'cloud', 'engineer', 'academy',
+    'software', 'download', 'community', 'systems', 'education', 'solutions', 'technology'
 ])
 
 def clean_url(u):

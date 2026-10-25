@@ -9,7 +9,7 @@
     "description": "Official music streaming service by YouTube with personalized recommendations and music videos.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "spotify.com": {
     "key": "spotify.com",
@@ -21,7 +21,7 @@
     "description": "Global digital music and podcast platform with millions of tracks and curated playlists.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "music.apple.com": {
     "key": "music.apple.com",
@@ -33,7 +33,7 @@
     "description": "Premium audio streaming platform with lossless audio, Dolby Atmos spatial sound, and exclusive releases.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "soundcloud.com": {
     "key": "soundcloud.com",
@@ -45,7 +45,7 @@
     "description": "Open audio platform connecting fans directly with independent artists, DJs, and podcasters.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "gaana.com": {
     "key": "gaana.com",
@@ -57,7 +57,7 @@
     "description": "Commercial music streaming service offering Bollywood, Punjabi, Tamil, Telugu, and English songs.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "jiosaavn.com": {
     "key": "jiosaavn.com",
@@ -69,7 +69,7 @@
     "description": "Extensive Indian music library with 80M+ tracks, original podcasts, and regional radio stations.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "radio.garden": {
     "key": "radio.garden",
@@ -81,7 +81,7 @@
     "description": "Interactive 3D globe allowing users to rotate the earth and tune into live radio stations worldwide.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "tv.garden": {
     "key": "tv.garden",
@@ -93,7 +93,7 @@
     "description": "Global television discovery platform to watch live broadcasts and international channels.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "famelack.com": {
     "key": "famelack.com",
@@ -105,7 +105,7 @@
     "description": "Watch free live TV streams, international webcams, and explore worldwide broadcasting channels.",
     "source": "User Chat Prompt",
     "priority": 10,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "fdown.net": {
     "key": "fdown.net",
@@ -117,7 +117,7 @@
     "description": "Fast online Facebook Video Downloader for MP4 and HD videos.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "botdownloader.com/facebook-video-downloader": {
     "key": "botdownloader.com/facebook-video-downloader",
@@ -129,7 +129,7 @@
     "description": "Online downloader for Facebook videos, clips, and private videos.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "igram.io": {
     "key": "igram.io",
@@ -141,7 +141,7 @@
     "description": "Download Instagram photos, videos, reels, IGTV, and carousels online.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "botdownloader.com/pinterest-video-downloader": {
     "key": "botdownloader.com/pinterest-video-downloader",
@@ -153,7 +153,7 @@
     "description": "Fast Pinterest video, GIF, and photo downloader.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "botdownloader.com/twitter-video-downloader": {
     "key": "botdownloader.com/twitter-video-downloader",
@@ -165,7 +165,7 @@
     "description": "Direct Twitter (X) video and GIF downloader online.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "ssyoutube.com/en1/youtube-video-downloader": {
     "key": "ssyoutube.com/en1/youtube-video-downloader",
@@ -177,7 +177,7 @@
     "description": "Online YouTube video downloader for 1080p, 720p, and MP3 audio.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "y2mate.lol": {
     "key": "y2mate.lol",
@@ -189,7 +189,7 @@
     "description": "Convert and download YouTube videos to MP4 high-speed online.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "cobalt.tools": {
     "key": "cobalt.tools",
@@ -201,7 +201,7 @@
     "description": "Universal media downloader for YouTube, Twitter, Instagram, Reddit with zero ads.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "github.com/aman2k4/StartupBaniya/tree/main/autosubtitles": {
     "key": "github.com/aman2k4/StartupBaniya/tree/main/autosubtitles",
@@ -213,7 +213,7 @@
     "description": "Automated open-source subtitle generator and downloader tool.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "filepursuit.com": {
     "key": "filepursuit.com",
@@ -225,7 +225,7 @@
     "description": "Open file and media search engine indexing millions of web files.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "image.pi7.org": {
     "key": "image.pi7.org",
@@ -237,7 +237,7 @@
     "description": "Online image compressor, resizer, and converter tool.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "instagram.com/reel/DcyyG0Tvhqb?stkn=MXJ6c2dmdmtteGJpaA==": {
     "key": "instagram.com/reel/DcyyG0Tvhqb?stkn=MXJ6c2dmdmtteGJpaA==",
@@ -249,7 +249,7 @@
     "description": "Tool and tutorial to download specific timestamp clips from YouTube videos as MP3 or MP4.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "yout.com": {
     "key": "yout.com",
@@ -261,7 +261,7 @@
     "description": "Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "instag.com": {
     "key": "instag.com",
@@ -273,7 +273,7 @@
     "description": "Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "faceb.com": {
     "key": "faceb.com",
@@ -285,7 +285,7 @@
     "description": "Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:27"
   },
   "123apps.com": {
     "key": "123apps.com",
@@ -297,7 +297,7 @@
     "description": "High-utility web tool: Online Utility Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "xtiles.app": {
     "key": "xtiles.app",
@@ -309,7 +309,7 @@
     "description": "High-utility web tool: Workspace / Productivity",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "earthcam.com": {
     "key": "earthcam.com",
@@ -321,7 +321,7 @@
     "description": "High-utility web tool: Live Camera Streaming",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "virtualvacation.us": {
     "key": "virtualvacation.us",
@@ -333,7 +333,7 @@
     "description": "High-utility web tool: Virtual Travel",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "zoomquilt.org": {
     "key": "zoomquilt.org",
@@ -345,7 +345,7 @@
     "description": "High-utility web tool: Interactive Visual Experience",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "flightradar24.com": {
     "key": "flightradar24.com",
@@ -357,7 +357,7 @@
     "description": "High-utility web tool: Flight Tracking",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "mrfreetools.com": {
     "key": "mrfreetools.com",
@@ -369,7 +369,7 @@
     "description": "High-utility web tool: Free Online Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "10015.io": {
     "key": "10015.io",
@@ -381,7 +381,7 @@
     "description": "High-utility web tool: Developer Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "websiteplanet.com": {
     "key": "websiteplanet.com",
@@ -393,7 +393,7 @@
     "description": "High-utility web tool: Web Utilities",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "github.com/J0rgeSerran0/Useful-Free-Online-Tools-and-Sites": {
     "key": "github.com/J0rgeSerran0/Useful-Free-Online-Tools-and-Sites",
@@ -405,7 +405,7 @@
     "description": "High-utility web tool: Tool Collection (GitHub)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
     "priority": 7,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "replit.com": {
     "key": "replit.com",
@@ -417,7 +417,7 @@
     "description": "Developer platform: Replit (Online Code Editor & IDE)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "hyperpost.studio": {
     "key": "hyperpost.studio",
@@ -429,7 +429,7 @@
     "description": "Social media template booster packs",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "1aauto.com": {
     "key": "1aauto.com",
@@ -441,7 +441,7 @@
     "description": "Free DIY car repair video guides showing step-by-step fixes for common vehicle problems",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "3dtuning.com": {
     "key": "3dtuning.com",
@@ -453,7 +453,7 @@
     "description": "Virtual car customization tool to visualize modifications and dream builds before spending money",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "90s.myretrotvs.com": {
     "key": "90s.myretrotvs.com",
@@ -465,7 +465,7 @@
     "description": "Nostalgic 90s TV channel experience that recreates the feeling of old-school channel surfing",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "acapella-extractor.com": {
     "key": "acapella-extractor.com",
@@ -477,7 +477,7 @@
     "description": "Extract clean vocals from any song for remixes and music production projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "airconsole.com": {
     "key": "airconsole.com",
@@ -489,7 +489,7 @@
     "description": "Multiplayer party games using phones as controllers - no console or downloads needed",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "animejs.com": {
     "key": "animejs.com",
@@ -501,7 +501,7 @@
     "description": "Lightweight JavaScript animation library for smooth web animations without heavy dependencies",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "app.emergent.sh": {
     "key": "app.emergent.sh",
@@ -513,7 +513,7 @@
     "description": "AI builds functional web app MVPs from text prompts - great for rapid prototyping",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "archive.ph": {
     "key": "archive.ph",
@@ -525,7 +525,7 @@
     "description": "Save permanent copies of web pages before they change or disappear forever",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "autocatalogarchive.com": {
     "key": "autocatalogarchive.com",
@@ -537,7 +537,7 @@
     "description": "Archive of vintage car brochures and catalogs for classic vehicle research and nostalgia",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "autodraw.com": {
     "key": "autodraw.com",
@@ -549,7 +549,7 @@
     "description": "Google's AI that turns rough sketches into clean professional drawings instantly",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "azgaar.github.io": {
     "key": "azgaar.github.io",
@@ -561,7 +561,7 @@
     "description": "Procedural fantasy map generator for D&D campaigns and worldbuilding projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "beforeiplay.com": {
     "key": "beforeiplay.com",
@@ -573,7 +573,7 @@
     "description": "Spoiler-free tips and advice to read before starting any new video game",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "builditapp.com": {
     "key": "builditapp.com",
@@ -585,7 +585,7 @@
     "description": "Step-by-step Minecraft building guides with layer-by-layer instructions for impressive structures",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "carcarekiosk.com": {
     "key": "carcarekiosk.com",
@@ -597,7 +597,7 @@
     "description": "Vehicle-specific maintenance video tutorials for your exact car make and model",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "chef.convex.dev": {
     "key": "chef.convex.dev",
@@ -609,7 +609,7 @@
     "description": "AI generates real-time app backends from prompts - deploy working prototypes in minutes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "chefgpt.xyz": {
     "key": "chefgpt.xyz",
@@ -621,7 +621,7 @@
     "description": "AI suggests recipes based on ingredients already in your fridge to reduce food waste",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "chemequations.com": {
     "key": "chemequations.com",
@@ -633,7 +633,7 @@
     "description": "Auto-balance chemical equations instantly - essential tool for chemistry homework and learning",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "chunkbase.com": {
     "key": "chunkbase.com",
@@ -645,7 +645,7 @@
     "description": "Find Minecraft structures and biomes by entering your world seed before exploring",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "classcentral.com": {
     "key": "classcentral.com",
@@ -657,7 +657,7 @@
     "description": "High-utility developer platform: Class Central (Coding Learning Platform)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "clicktheredbutton.com": {
     "key": "clicktheredbutton.com",
@@ -669,7 +669,7 @@
     "description": "Random weird website discovery tool - click and find something unexpected on the internet",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "coddy.tech": {
     "key": "coddy.tech",
@@ -681,7 +681,7 @@
     "description": "Bite-sized coding lessons you complete in your browser with instant feedback",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "collov.ai": {
     "key": "collov.ai",
@@ -693,7 +693,7 @@
     "description": "AI virtual home staging that transforms empty rooms into furnished spaces for listings",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "coze.com": {
     "key": "coze.com",
@@ -705,7 +705,7 @@
     "description": "Build custom AI chatbots and agents without code - deploy to messaging platforms",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "cymath.com": {
     "key": "cymath.com",
@@ -717,7 +717,7 @@
     "description": "Step-by-step math problem solver that shows you how to get the answer",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "dora.run": {
     "key": "dora.run",
@@ -729,7 +729,7 @@
     "description": "No-code builder for impressive 3D animated websites without learning WebGL or Three.js",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "dreamforth.com": {
     "key": "dreamforth.com",
@@ -741,7 +741,7 @@
     "description": "Dream interpretation dictionary to explore what your vivid or recurring dreams might mean",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "drivenlisten.com": {
     "key": "drivenlisten.com",
@@ -753,7 +753,7 @@
     "description": "Virtual drives through cities worldwide with real dashcam footage and local radio",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "dungeonscrawl.com": {
     "key": "dungeonscrawl.com",
@@ -765,7 +765,7 @@
     "description": "Create custom dungeon maps online for tabletop RPGs and virtual tabletop sessions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "entertrained.app": {
     "key": "entertrained.app",
@@ -777,7 +777,7 @@
     "description": "Practice typing by retyping classic books - skill building while reading great literature",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "enzostvs-deepsite.hf.space": {
     "key": "enzostvs-deepsite.hf.space",
@@ -789,7 +789,7 @@
     "description": "AI generates complete websites from text prompts using open-source models - free hosting included",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "fakeupdate.net": {
     "key": "fakeupdate.net",
@@ -801,7 +801,7 @@
     "description": "Fake system update screens perfect for office pranks or looking busy during meetings",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "flourish.studio": {
     "key": "flourish.studio",
@@ -813,7 +813,7 @@
     "description": "Create beautiful interactive data visualizations and charts without knowing how to code",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "flowith.io": {
     "key": "flowith.io",
@@ -825,7 +825,7 @@
     "description": "AI workspace with infinite canvas for non-linear conversations and complex reasoning tasks",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "fragrantica.com": {
     "key": "fragrantica.com",
@@ -837,7 +837,7 @@
     "description": "Comprehensive perfume database with detailed notes and community reviews before you buy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "framer.com": {
     "key": "framer.com",
@@ -849,7 +849,7 @@
     "description": "No-code website builder with pixel-perfect control for designers who want professional results",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "freepik.com": {
     "key": "freepik.com",
@@ -861,7 +861,7 @@
     "description": "Stock graphics library with AI image generation tools - one-stop shop for visual assets",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "freesewing.eu": {
     "key": "freesewing.eu",
@@ -873,7 +873,7 @@
     "description": "Generate custom sewing patterns from your exact body measurements - open source and free",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "gamma.app": {
     "key": "gamma.app",
@@ -885,7 +885,7 @@
     "description": "AI generates complete presentations from text - turn ideas into slides in minutes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "gptexcel.uk": {
     "key": "gptexcel.uk",
@@ -897,7 +897,7 @@
     "description": "AI generates spreadsheet formulas from plain English - stop memorizing VLOOKUP syntax",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "haveibeenpwned.com": {
     "key": "haveibeenpwned.com",
@@ -909,7 +909,7 @@
     "description": "Check if your email or password appeared in data breaches - everyone should use this",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "heyzxz.me": {
     "key": "heyzxz.me",
@@ -921,7 +921,7 @@
     "description": "AI voice synthesis and cloning for content creators needing voiceovers without recording",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "home.by.me": {
     "key": "home.by.me",
@@ -933,7 +933,7 @@
     "description": "3D home design and room planner to visualize renovations before committing to changes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "human.biodigital.com": {
     "key": "human.biodigital.com",
@@ -945,7 +945,7 @@
     "description": "Interactive 3D human anatomy model for medical students and curious minds to explore",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "ifixit.com": {
     "key": "ifixit.com",
@@ -957,7 +957,7 @@
     "description": "Free repair guides for phones laptops and appliances - fix it yourself and save money",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "intangible.ai": {
     "key": "intangible.ai",
@@ -969,7 +969,7 @@
     "description": "AI video generation for pre-production visualization - save thousands on production costs",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "internet-janitor.itch.io": {
     "key": "internet-janitor.itch.io",
@@ -981,7 +981,7 @@
     "description": "Tool for making interactive fiction and clicky experiences without learning a game engine",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "jitter.video": {
     "key": "jitter.video",
@@ -993,7 +993,7 @@
     "description": "Browser-based motion graphics editor for designers who don't want to learn After Effects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "kiddoworksheets.com": {
     "key": "kiddoworksheets.com",
@@ -1005,7 +1005,7 @@
     "description": "Free printable worksheets for kids covering math reading and educational activities",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "kittl.com": {
     "key": "kittl.com",
@@ -1017,7 +1017,7 @@
     "description": "AI-powered design tool perfect for print-on-demand sellers creating professional graphics quickly",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "layla.ai": {
     "key": "layla.ai",
@@ -1029,7 +1029,7 @@
     "description": "AI travel itinerary planner that creates balanced trip plans from your preferences",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "learn-anything.xyz": {
     "key": "learn-anything.xyz",
@@ -1041,7 +1041,7 @@
     "description": "Curated learning paths for any topic - community-organized roadmaps instead of random tutorials",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "litsolutions.org": {
     "key": "litsolutions.org",
@@ -1053,7 +1053,7 @@
     "description": "Free textbook solutions and homework help with step-by-step workings for STEM courses",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "lostgamer.io": {
     "key": "lostgamer.io",
@@ -1065,7 +1065,7 @@
     "description": "GeoGuessr but for video games - guess your location from in-game screenshots",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "makemydrivefun.com": {
     "key": "makemydrivefun.com",
@@ -1077,7 +1077,7 @@
     "description": "Find quirky roadside attractions and interesting detours along your planned driving route",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "mapgenie.io": {
     "key": "mapgenie.io",
@@ -1089,7 +1089,7 @@
     "description": "Interactive game maps with collectible tracking for completionists who want 100% in games",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "mcbroken.com": {
     "key": "mcbroken.com",
@@ -1101,7 +1101,7 @@
     "description": "Check if the McDonald's ice cream machine near you is working before you drive there",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "meshy.ai": {
     "key": "meshy.ai",
@@ -1113,7 +1113,7 @@
     "description": "AI generates 3D models from text prompts or images for games and visualization",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "mindluster.com": {
     "key": "mindluster.com",
@@ -1125,7 +1125,7 @@
     "description": "Free online courses with certificates you can add to your resume upon completion",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "moewalls.com": {
     "key": "moewalls.com",
@@ -1137,7 +1137,7 @@
     "description": "Animated wallpapers and live desktop backgrounds for Windows with huge variety",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "musclewiki.com": {
     "key": "musclewiki.com",
@@ -1149,7 +1149,7 @@
     "description": "Interactive muscle map showing exercises for every body part with video demonstrations",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "music-map.com": {
     "key": "music-map.com",
@@ -1161,7 +1161,7 @@
     "description": "Discover similar artists visualized as a spatial map - type any band and explore",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "musicca.com": {
     "key": "musicca.com",
@@ -1173,7 +1173,7 @@
     "description": "Interactive music theory lessons with virtual instruments and exercises to practice concepts",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "myfridgefood.com": {
     "key": "myfridgefood.com",
@@ -1185,7 +1185,7 @@
     "description": "Recipe finder that suggests meals based on ingredients you already have at home",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "n8n.io": {
     "key": "n8n.io",
@@ -1197,7 +1197,7 @@
     "description": "Open-source workflow automation that connects apps and automates tasks with visual builder",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "napkin.ai": {
     "key": "napkin.ai",
@@ -1209,7 +1209,7 @@
     "description": "AI transforms text into visual diagrams and illustrations automatically - just paste and go",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "natively.dev": {
     "key": "natively.dev",
@@ -1221,7 +1221,7 @@
     "description": "AI no-code platform for building native mobile apps without any programming knowledge",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "newarc.ai": {
     "key": "newarc.ai",
@@ -1233,7 +1233,7 @@
     "description": "AI architecture design tool that generates photorealistic building visualizations from concepts",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "nullfake.com": {
     "key": "nullfake.com",
@@ -1245,7 +1245,7 @@
     "description": "Detect fake Amazon reviews and see adjusted ratings based only on authentic reviews",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "onelook.com": {
     "key": "onelook.com",
@@ -1257,7 +1257,7 @@
     "description": "Reverse dictionary that finds words when you only know the definition or concept",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "pacdora.com": {
     "key": "pacdora.com",
@@ -1269,7 +1269,7 @@
     "description": "3D packaging mockup generator for product branding with realistic visualization",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "paperanimator.com": {
     "key": "paperanimator.com",
@@ -1281,7 +1281,7 @@
     "description": "Turn hand-drawn character sketches into animations with simple drag-and-drop rigging",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "phet.colorado.edu": {
     "key": "phet.colorado.edu",
@@ -1293,7 +1293,7 @@
     "description": "Free interactive science simulations from University of Colorado for physics chemistry and biology",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "planyourroom.com": {
     "key": "planyourroom.com",
@@ -1305,7 +1305,7 @@
     "description": "Drag-and-drop room layout planner to test furniture arrangements before buying or moving",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "pngimg.com": {
     "key": "pngimg.com",
@@ -1317,7 +1317,7 @@
     "description": "Free database of PNG images with transparent backgrounds ready for design projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "pointerpointer.com": {
     "key": "pointerpointer.com",
@@ -1329,7 +1329,7 @@
     "description": "Whimsical website that finds photos of people pointing exactly where your cursor is",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "ponder.chat": {
     "key": "ponder.chat",
@@ -1341,7 +1341,7 @@
     "description": "AI writing assistant for creating blog posts social media content and marketing copy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "reactbits.dev": {
     "key": "reactbits.dev",
@@ -1353,7 +1353,7 @@
     "description": "Collection of animated React components ready to copy and paste into your projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "reimaginehome.ai": {
     "key": "reimaginehome.ai",
@@ -1365,7 +1365,7 @@
     "description": "Upload a room photo and get AI-generated interior design ideas in different styles",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "remove.photos": {
     "key": "remove.photos",
@@ -1377,7 +1377,7 @@
     "description": "AI background remover for quick photo editing in your browser - no software needed",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "roadmap.sh": {
     "key": "roadmap.sh",
@@ -1389,7 +1389,7 @@
     "description": "Developer platform: Developer Roadmaps (Version Control & Repository Platform)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "roadtrippers.com": {
     "key": "roadtrippers.com",
@@ -1401,7 +1401,7 @@
     "description": "Road trip planning tool with stops attractions and route optimization all in one",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "same.new": {
     "key": "same.new",
@@ -1413,7 +1413,7 @@
     "description": "AI clones any website's design in seconds and generates the code for you",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "sketch.metademolab.com": {
     "key": "sketch.metademolab.com",
@@ -1425,7 +1425,7 @@
     "description": "Meta's AI that automatically animates hand-drawn character sketches - free research demo",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "slowroads.io": {
     "key": "slowroads.io",
@@ -1437,7 +1437,7 @@
     "description": "Relaxing endless driving game with procedurally generated roads through beautiful landscapes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "smart.servier.com": {
     "key": "smart.servier.com",
@@ -1449,7 +1449,7 @@
     "description": "Free high-resolution medical and scientific images for anatomy biology and healthcare projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "spacetypegenerator.com": {
     "key": "spacetypegenerator.com",
@@ -1461,7 +1461,7 @@
     "description": "Animated typography effects generator for creating dynamic text for videos and social media",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "squoosh.app": {
     "key": "squoosh.app",
@@ -1473,7 +1473,7 @@
     "description": "Google's image compression tool with side-by-side comparison to optimize file sizes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "ssemble.com": {
     "key": "ssemble.com",
@@ -1485,7 +1485,7 @@
     "description": "Browser-based video editor with AI features for creating and editing without downloads",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "startmycar.com": {
     "key": "startmycar.com",
@@ -1497,7 +1497,7 @@
     "description": "Car troubleshooting guide that helps diagnose why your car won't start with solutions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "stirlingpdf.io": {
     "key": "stirlingpdf.io",
@@ -1509,7 +1509,7 @@
     "description": "Open-source all-in-one PDF manipulation tool you can self-host for privacy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "supercook.com": {
     "key": "supercook.com",
@@ -1521,7 +1521,7 @@
     "description": "Recipe search engine that finds dishes you can make with ingredients you already have",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "sweezy-cursors.com": {
     "key": "sweezy-cursors.com",
@@ -1533,7 +1533,7 @@
     "description": "Custom animated browser cursors with hundreds of themed and animated styles to choose",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "systemrequirementslab.com": {
     "key": "systemrequirementslab.com",
@@ -1545,7 +1545,7 @@
     "description": "Check if your PC can run a game by scanning your specs against requirements",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "tailornova.com": {
     "key": "tailornova.com",
@@ -1557,7 +1557,7 @@
     "description": "Generate custom sewing patterns made-to-measure from your exact body measurements",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "text-to-cad.zoo.dev": {
     "key": "text-to-cad.zoo.dev",
@@ -1569,7 +1569,7 @@
     "description": "AI generates 3D CAD models from text descriptions for engineering and design projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "thetoymaker.com": {
     "key": "thetoymaker.com",
@@ -1581,7 +1581,7 @@
     "description": "Printable paper toy templates you can cut fold and glue into whimsical 3D figures",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "thetruesize.com": {
     "key": "thetruesize.com",
@@ -1593,7 +1593,7 @@
     "description": "Interactive map showing true size of countries by correcting Mercator projection distortions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "tinywow.com": {
     "key": "tinywow.com",
@@ -1605,7 +1605,7 @@
     "description": "Free online tools for PDF, video, image, and document conversion",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "topoexport.com": {
     "key": "topoexport.com",
@@ -1617,7 +1617,7 @@
     "description": "Export 3D terrain models from anywhere on Earth for 3D printing or game development",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "trace.moe": {
     "key": "trace.moe",
@@ -1629,7 +1629,7 @@
     "description": "Reverse image search for anime that identifies the exact scene from any screenshot",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "typefaceanimator.com": {
     "key": "typefaceanimator.com",
@@ -1641,7 +1641,7 @@
     "description": "Browser tool for creating animated typeface transitions and kinetic typography effects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "typelit.io": {
     "key": "typelit.io",
@@ -1653,7 +1653,7 @@
     "description": "Practice typing by retyping classic literature - combine skill development with reading great books",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "typingclub.com": {
     "key": "typingclub.com",
@@ -1665,7 +1665,7 @@
     "description": "Structured typing lessons for schools and individuals with gamified progress tracking",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "uiball.com": {
     "key": "uiball.com",
@@ -1677,7 +1677,7 @@
     "description": "Free collection of beautiful loading spinners and UI loaders for modern web projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "uiverse.io": {
     "key": "uiverse.io",
@@ -1689,7 +1689,7 @@
     "description": "Developer platform: uiverse.io (Developer Reference & Cheat Sheets)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "unpigeon.me": {
     "key": "unpigeon.me",
@@ -1701,7 +1701,7 @@
     "description": "Convert email newsletter subscriptions to RSS feeds to escape inbox clutter",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "versus.com": {
     "key": "versus.com",
@@ -1713,7 +1713,7 @@
     "description": "Side-by-side product comparisons with detailed spec breakdowns across phones laptops and more",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "vocalremover.org": {
     "key": "vocalremover.org",
@@ -1725,7 +1725,7 @@
     "description": "AI separates vocals from instrumentals in any song for karaoke remixing or production",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "watabou.github.io": {
     "key": "watabou.github.io",
@@ -1737,7 +1737,7 @@
     "description": "Collection of procedural generators for dungeon maps medieval cities and fantasy worlds",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "whitescreen.online": {
     "key": "whitescreen.online",
@@ -1749,7 +1749,7 @@
     "description": "Full-screen color display for testing monitors lighting video calls or cleaning screens",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "wifimap.io": {
     "key": "wifimap.io",
@@ -1761,7 +1761,7 @@
     "description": "Crowdsourced database of WiFi passwords from cafes airports and public places worldwide",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "wolframalpha.com": {
     "key": "wolframalpha.com",
@@ -1773,7 +1773,7 @@
     "description": "Computational knowledge engine that answers questions with computed data rather than web links",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "x-minus.pro": {
     "key": "x-minus.pro",
@@ -1785,7 +1785,7 @@
     "description": "Split any song into vocals and instrumentals for karaoke remixing or music production",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "zty.pe": {
     "key": "zty.pe",
@@ -1797,7 +1797,7 @@
     "description": "Typing game where you shoot down enemy ships by typing words - fun skill practice",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
     "priority": 5,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "sejda.com": {
     "key": "sejda.com",
@@ -1809,7 +1809,7 @@
     "description": "Online PDF editor, merge, split, and conversion tools",
     "source": "Excel: 📄 PDF Resources.xlsx",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "play.google.com": {
     "key": "play.google.com",
@@ -1821,7 +1821,7 @@
     "description": "Offline PDF management and conversion app",
     "source": "Excel: 📄 PDF Resources.xlsx",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:07"
+    "added_at": "2026-10-25 13:44:28"
   },
   "youtube.com/@programmingwithmosh": {
     "key": "youtube.com/@programmingwithmosh",
@@ -1833,7 +1833,7 @@
     "description": "Clear, concise tutorials on Python, JavaScript, React, C#, and SQL.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@freecodecamp": {
     "key": "youtube.com/@freecodecamp",
@@ -1845,7 +1845,7 @@
     "description": "Thousands of hours of free coding courses from industry professionals.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@CodeWithHarry": {
     "key": "youtube.com/@CodeWithHarry",
@@ -1857,7 +1857,7 @@
     "description": "Top Indian programming channel teaching Python, Web Dev, C, C++, and Java in Hindi.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@AnujBhaiya": {
     "key": "youtube.com/@AnujBhaiya",
@@ -1869,7 +1869,7 @@
     "description": "Data structures, algorithms, system design, and software engineering placement prep.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@ApniKaksha": {
     "key": "youtube.com/@ApniKaksha",
@@ -1881,7 +1881,7 @@
     "description": "Free quality coding education, college roadmap, and placement interview guidance.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@Telusko": {
     "key": "youtube.com/@Telusko",
@@ -1893,7 +1893,7 @@
     "description": "Java, Python, Blockchain, Docker, and full-stack web development tutorials.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@JennyslecturesCSIT": {
     "key": "youtube.com/@JennyslecturesCSIT",
@@ -1905,7 +1905,7 @@
     "description": "Engineering CS/IT subjects, algorithms, data structures, and theory of computation.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@GateSmashers": {
     "key": "youtube.com/@GateSmashers",
@@ -1917,7 +1917,7 @@
     "description": "Operating systems, DBMS, computer networks, and GATE computer science lectures.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@bhagwansinghvishwakarma": {
     "key": "youtube.com/@bhagwansinghvishwakarma",
@@ -1929,7 +1929,7 @@
     "description": "Computer science, programming, and technical academic tutorials.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@MySirG": {
     "key": "youtube.com/@MySirG",
@@ -1941,7 +1941,7 @@
     "description": "Premier Hindi channel for C, C++, Python, Data Structures, and programming fundamentals.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@TraversyMedia": {
     "key": "youtube.com/@TraversyMedia",
@@ -1953,7 +1953,7 @@
     "description": "Practical web development tutorials, crash courses, and project builds.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@ProgrammingKnowledge": {
     "key": "youtube.com/@ProgrammingKnowledge",
@@ -1965,7 +1965,7 @@
     "description": "Step-by-step programming tutorials on Android, Java, Python, and Linux.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@derekbanas": {
     "key": "youtube.com/@derekbanas",
@@ -1977,7 +1977,7 @@
     "description": "Learn complex programming languages and frameworks in single comprehensive videos.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@CleverProgrammer": {
     "key": "youtube.com/@CleverProgrammer",
@@ -1989,7 +1989,7 @@
     "description": "Full-stack web development clone builds with JavaScript, React, and Python.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@thenewboston": {
     "key": "youtube.com/@thenewboston",
@@ -2001,7 +2001,7 @@
     "description": "Pioneering computer science, web dev, and blockchain video tutorials.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@learncodeacademy": {
     "key": "youtube.com/@learncodeacademy",
@@ -2013,7 +2013,7 @@
     "description": "Web development tutorials, responsive design, JavaScript, React, and DevOps.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@mycodeschool": {
     "key": "youtube.com/@mycodeschool",
@@ -2025,7 +2025,7 @@
     "description": "Classic, world-renowned lessons on data structures, pointers, and memory management.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@SoloLearn": {
     "key": "youtube.com/@SoloLearn",
@@ -2037,7 +2037,7 @@
     "description": "Bite-sized mobile-first coding lessons and language deep-dives.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@ProgrammingHub": {
     "key": "youtube.com/@ProgrammingHub",
@@ -2049,7 +2049,7 @@
     "description": "Accessible tech tutorials covering AI, app development, and programming languages.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learn.grasshopper.app": {
     "key": "learn.grasshopper.app",
@@ -2061,7 +2061,7 @@
     "description": "Google's visual, puzzle-based app to learn fundamental JavaScript syntax.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@academind": {
     "key": "youtube.com/@academind",
@@ -2073,7 +2073,7 @@
     "description": "Deep-dive technical tutorials on React, Angular, Vue, Node.js, and cloud tech.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@SortedCoding": {
     "key": "youtube.com/@SortedCoding",
@@ -2085,7 +2085,7 @@
     "description": "Frontend tricks, CSS animations, JavaScript projects, and coding shorts.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/codewithimraan": {
     "key": "instagram.com/codewithimraan",
@@ -2097,7 +2097,7 @@
     "description": "Frontend coding snippets, UI animations, and web design tips.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/codzlearner": {
     "key": "instagram.com/codzlearner",
@@ -2109,7 +2109,7 @@
     "description": "Daily developer resources, cheat sheets, and coding questions.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/freecodecamp": {
     "key": "instagram.com/freecodecamp",
@@ -2121,7 +2121,7 @@
     "description": "Global community posts, coding memes, and learning roadmaps.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/python.hub": {
     "key": "instagram.com/python.hub",
@@ -2133,7 +2133,7 @@
     "description": "Python tricks, automation scripts, and daily coding exercises.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/rengatechnologies": {
     "key": "instagram.com/rengatechnologies",
@@ -2145,7 +2145,7 @@
     "description": "Tech career guidance, full-stack tips, and programming tutorials.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/startupbaniya": {
     "key": "instagram.com/startupbaniya",
@@ -2157,7 +2157,7 @@
     "description": "Tech tools, AI startups, coding resources, and developer productivity hacks.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/iron.coding": {
     "key": "instagram.com/iron.coding",
@@ -2169,7 +2169,7 @@
     "description": "Programming tips, coding interview prep, and tech fundamentals.",
     "source": "Excel: 💻 Coding Websites.xlsx (Y-I-T - BH)",
     "priority": 9,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "tutorialspoint.com": {
     "key": "tutorialspoint.com",
@@ -2181,7 +2181,7 @@
     "description": "High-utility developer platform: TutorialsPoint (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codewithharry.com": {
     "key": "codewithharry.com",
@@ -2193,7 +2193,7 @@
     "description": "Developer platform: Codewithharry (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "interviewbit.com": {
     "key": "interviewbit.com",
@@ -2205,7 +2205,7 @@
     "description": "Developer platform: InterviewBit (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "studyopedia.com": {
     "key": "studyopedia.com",
@@ -2217,7 +2217,7 @@
     "description": "High-utility developer platform: Studyopedia (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "khanacademy.org": {
     "key": "khanacademy.org",
@@ -2229,7 +2229,7 @@
     "description": "High-utility developer platform: Khan Academy (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learnxinyminutes.com": {
     "key": "learnxinyminutes.com",
@@ -2241,7 +2241,7 @@
     "description": "High-utility developer platform: Learn X in Y Minutes (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "notebooklm.com": {
     "key": "notebooklm.com",
@@ -2253,7 +2253,7 @@
     "description": "High-utility developer platform: NotebookLM (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org": {
     "key": "geeksforgeeks.org",
@@ -2265,7 +2265,7 @@
     "description": "High-utility developer platform: GeeksforGeeks (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "sololearn.com": {
     "key": "sololearn.com",
@@ -2277,7 +2277,7 @@
     "description": "High-utility developer platform: SoloLearn (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "programiz.com": {
     "key": "programiz.com",
@@ -2289,7 +2289,7 @@
     "description": "High-utility developer platform: Programiz (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "inprogrammer.com": {
     "key": "inprogrammer.com",
@@ -2301,7 +2301,7 @@
     "description": "High-utility developer platform: InProgrammer (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "freecodecamp.org": {
     "key": "freecodecamp.org",
@@ -2313,7 +2313,7 @@
     "description": "Developer platform: freeCodeCamp (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "studytonight.com": {
     "key": "studytonight.com",
@@ -2325,7 +2325,7 @@
     "description": "High-utility developer platform: StudyTonight (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "javatpoint.com": {
     "key": "javatpoint.com",
@@ -2337,7 +2337,7 @@
     "description": "High-utility developer platform: Javatpoint (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "zerotomastery.io": {
     "key": "zerotomastery.io",
@@ -2349,7 +2349,7 @@
     "description": "High-utility developer platform: Zero To Mastery (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "datacamp.com": {
     "key": "datacamp.com",
@@ -2361,7 +2361,7 @@
     "description": "High-utility developer platform: DataCamp (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "clcoding.com": {
     "key": "clcoding.com",
@@ -2373,7 +2373,7 @@
     "description": "High-utility developer platform: CLCoding (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Learning Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "overapi.com": {
     "key": "overapi.com",
@@ -2385,7 +2385,7 @@
     "description": "Developer platform: Collecting all the cheat sheets (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "quickref.me": {
     "key": "quickref.me",
@@ -2397,7 +2397,7 @@
     "description": "High-utility developer platform: QuickRef (Developer Reference & Cheat Sheets)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "goalkicker.com": {
     "key": "goalkicker.com",
@@ -2409,7 +2409,7 @@
     "description": "Developer platform: Programming Notes for Professionals books (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codechef.com": {
     "key": "codechef.com",
@@ -2421,7 +2421,7 @@
     "description": "High-utility developer platform: CodeChef (Developer Reference & Cheat Sheets)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "exercism.io": {
     "key": "exercism.io",
@@ -2433,7 +2433,7 @@
     "description": "Coding Practice Platform - Official platform for Exercism.io",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learnpython.org": {
     "key": "learnpython.org",
@@ -2445,7 +2445,7 @@
     "description": "Developer platform: Learn Python (Python Programming Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming Resources & Referen)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "developerroadmaps.com": {
     "key": "developerroadmaps.com",
@@ -2457,7 +2457,7 @@
     "description": "High-utility developer platform: Developer Roadmaps (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/html5-cheat-sheet": {
     "key": "geeksforgeeks.org/html5-cheat-sheet",
@@ -2469,7 +2469,7 @@
     "description": "High-utility developer platform: HTML5 Cheat Sheet (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "coddy.tech/onboard": {
     "key": "coddy.tech/onboard",
@@ -2481,7 +2481,7 @@
     "description": "High-utility developer platform: Animated Loaders (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "w3schools.com": {
     "key": "w3schools.com",
@@ -2493,7 +2493,7 @@
     "description": "High-utility developer platform: W3Schools (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "htmlvisuals.com": {
     "key": "htmlvisuals.com",
@@ -2505,7 +2505,19 @@
     "description": "High-utility developer platform: HTML Visuals (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
+  },
+  "explorer.globe.engineer": {
+    "key": "explorer.globe.engineer",
+    "name": "Explorer.globe.engineer",
+    "website_type": "Web Development Resource",
+    "url": "https://explorer.globe.engineer",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "High-utility developer platform: Explorer.globe.engineer (Web Development Resource)",
+    "source": "Excel: 💻 Coding Websites.xlsx (Web Development Resources - BH)",
+    "priority": 8,
+    "added_at": "2026-10-25 13:44:29"
   },
   "coursera.org": {
     "key": "coursera.org",
@@ -2517,7 +2529,7 @@
     "description": "Developer platform: Coursera (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Course Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "udemy.com": {
     "key": "udemy.com",
@@ -2529,7 +2541,7 @@
     "description": "Developer platform: Udemy (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Course Platforms - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "glitch.com": {
     "key": "glitch.com",
@@ -2541,7 +2553,7 @@
     "description": "Developer platform: Glitch (Online Code Editor & IDE)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codepen.io": {
     "key": "codepen.io",
@@ -2553,7 +2565,7 @@
     "description": "Developer platform: CodePen (Online Code Editor & IDE)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "jsfiddle.net": {
     "key": "jsfiddle.net",
@@ -2565,7 +2577,7 @@
     "description": "Developer platform: JSFiddle (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codesandbox.io": {
     "key": "codesandbox.io",
@@ -2577,7 +2589,7 @@
     "description": "Developer platform: CodeSandbox (Online Code Editor & IDE)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "stackblitz.com": {
     "key": "stackblitz.com",
@@ -2589,7 +2601,7 @@
     "description": "Developer platform: StackBlitz (Online Code Editor & IDE)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "github.com": {
     "key": "github.com",
@@ -2601,7 +2613,7 @@
     "description": "Developer platform: GitHub (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "gitlab.com": {
     "key": "gitlab.com",
@@ -2613,7 +2625,7 @@
     "description": "Developer platform: GitLab (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "bitbucket.org": {
     "key": "bitbucket.org",
@@ -2625,7 +2637,7 @@
     "description": "Developer platform: Bitbucket (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Online Coding Platforms & Versi)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "google.com": {
     "key": "google.com",
@@ -2637,7 +2649,7 @@
     "description": "High-utility developer platform: Code Converter Tools (Code Converter Tool)",
     "source": "Excel: 💻 Coding Websites.xlsx (Interview, Utilities & Extras -)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/top-30-html-interview-questions": {
     "key": "geeksforgeeks.org/top-30-html-interview-questions",
@@ -2649,7 +2661,7 @@
     "description": "High-utility developer platform: Top 30 HTML Interview Questions (Technical Interview Preparation)",
     "source": "Excel: 💻 Coding Websites.xlsx (Interview, Utilities & Extras -)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "projectlearn.io": {
     "key": "projectlearn.io",
@@ -2661,7 +2673,7 @@
     "description": "High-utility developer platform: ProjectLearn (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Interview, Utilities & Extras -)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "html.com": {
     "key": "html.com",
@@ -2673,7 +2685,7 @@
     "description": "High-utility developer platform: HTML.com (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "web.dev": {
     "key": "web.dev",
@@ -2685,7 +2697,7 @@
     "description": "High-utility developer platform: web.dev – Learn CSS (Developer Reference & Cheat Sheets)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "javascript.info": {
     "key": "javascript.info",
@@ -2697,7 +2709,7 @@
     "description": "High-utility developer platform: JavaScript.info (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "reactplay.io": {
     "key": "reactplay.io",
@@ -2709,7 +2721,7 @@
     "description": "High-utility developer platform: ReactPlay (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learnvue.co": {
     "key": "learnvue.co",
@@ -2721,7 +2733,7 @@
     "description": "High-utility developer platform: LearnVue (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "git-scm.com": {
     "key": "git-scm.com",
@@ -2733,7 +2745,7 @@
     "description": "High-utility developer platform: Git Book (Official) (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learnweb3.io": {
     "key": "learnweb3.io",
@@ -2745,7 +2757,7 @@
     "description": "High-utility developer platform: LearnWeb3 (Web Development Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "phptherightway.com": {
     "key": "phptherightway.com",
@@ -2757,7 +2769,7 @@
     "description": "High-utility developer platform: PHP The Right Way (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "w3schools.com/sql": {
     "key": "w3schools.com/sql",
@@ -2769,7 +2781,7 @@
     "description": "High-utility developer platform: W3Schools – SQL (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "cryptozombies.io": {
     "key": "cryptozombies.io",
@@ -2781,7 +2793,7 @@
     "description": "High-utility developer platform: CryptoZombies (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "nextjs.org": {
     "key": "nextjs.org",
@@ -2793,7 +2805,7 @@
     "description": "High-utility developer platform: Next.js Learn (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "elementsofai.com": {
     "key": "elementsofai.com",
@@ -2805,7 +2817,7 @@
     "description": "High-utility developer platform: Elements of AI (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "rapidapi.com": {
     "key": "rapidapi.com",
@@ -2817,7 +2829,7 @@
     "description": "High-utility developer platform: RapidAPI Learn (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "learn-golang.org": {
     "key": "learn-golang.org",
@@ -2829,7 +2841,7 @@
     "description": "High-utility developer platform: Learn Go (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Programming & Tech Learning Res)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "leetcode.com": {
     "key": "leetcode.com",
@@ -2841,7 +2853,7 @@
     "description": "Developer platform: LeetCode (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "reddit.com/r/dailyprogrammer": {
     "key": "reddit.com/r/dailyprogrammer",
@@ -2853,7 +2865,7 @@
     "description": "Coding Practice Community - Official platform for /r/DailyProgrammer subreddit",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "projecteuler.net": {
     "key": "projecteuler.net",
@@ -2865,7 +2877,7 @@
     "description": "Coding Practice Platform - Official platform for Project Euler",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "rosalind.info": {
     "key": "rosalind.info",
@@ -2877,7 +2889,7 @@
     "description": "Coding Practice Platform - Official platform for Rosalind Bioinformatics Problems",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "python.swaroopch.com": {
     "key": "python.swaroopch.com",
@@ -2889,7 +2901,7 @@
     "description": "Developer platform: Python Swaroop (Python Programming Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "pythonspot.com": {
     "key": "pythonspot.com",
@@ -2901,7 +2913,7 @@
     "description": "Developer platform: PythonSpot (Python Programming Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "fullstackpython.com": {
     "key": "fullstackpython.com",
@@ -2913,7 +2925,7 @@
     "description": "Developer platform: Full Stack Python (Python Programming Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "diveintopython3.problemsolving.io": {
     "key": "diveintopython3.problemsolving.io",
@@ -2925,7 +2937,7 @@
     "description": "Python Resource - Official platform for Dive Into Python 3",
     "source": "Excel: 💻 Coding Websites.xlsx (Pythons - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "exercism.org": {
     "key": "exercism.org",
@@ -2937,7 +2949,7 @@
     "description": "Developer platform: Exercism (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "edx.org": {
     "key": "edx.org",
@@ -2949,7 +2961,7 @@
     "description": "Developer platform: EdX (Coding Learning Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/codewithharry": {
     "key": "instagram.com/codewithharry",
@@ -2961,7 +2973,7 @@
     "description": "Developer platform: Code With Harry (Social Coding Creator)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "t.me/pythonhub": {
     "key": "t.me/pythonhub",
@@ -2973,7 +2985,7 @@
     "description": "Developer platform: Python Hub (Telegram Tech Community)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/codewithimraan/profilecard?igsh=Mzh1cHgwdTUxcWRj": {
     "key": "instagram.com/codewithimraan/profilecard?igsh=Mzh1cHgwdTUxcWRj",
@@ -2985,7 +2997,7 @@
     "description": "Developer platform: Codewithimran (Social Coding Creator)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "hackerrank.com": {
     "key": "hackerrank.com",
@@ -2997,7 +3009,7 @@
     "description": "Developer platform: HackerRank (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/codzlearner?igsh=bG56NGppZGRvaWxw": {
     "key": "instagram.com/codzlearner?igsh=bG56NGppZGRvaWxw",
@@ -3009,7 +3021,7 @@
     "description": "Developer platform: Code learner (Social Coding Creator)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codewars.com": {
     "key": "codewars.com",
@@ -3021,7 +3033,7 @@
     "description": "Developer platform: Codewars (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "coddy.tech/courses": {
     "key": "coddy.tech/courses",
@@ -3033,7 +3045,7 @@
     "description": "Developer platform: Launage Courses (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@ProgrammingwithMosh": {
     "key": "youtube.com/@ProgrammingwithMosh",
@@ -3045,7 +3057,7 @@
     "description": "Developer platform: Programming with Mosh (YouTube Coding Channel)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "topcoder.com": {
     "key": "topcoder.com",
@@ -3057,7 +3069,7 @@
     "description": "Developer platform: TopCoder (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "classcentral.com/report/free-developer-it-certifications?ref=dailydev": {
     "key": "classcentral.com/report/free-developer-it-certifications?ref=dailydev",
@@ -3069,7 +3081,7 @@
     "description": "Developer platform: 900+ Free Developer and IT Certifications (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "diveintopython3.net": {
     "key": "diveintopython3.net",
@@ -3081,7 +3093,7 @@
     "description": "Developer platform: Dive Into Python 3 (Python Programming Resource)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@Academind": {
     "key": "youtube.com/@Academind",
@@ -3093,7 +3105,7 @@
     "description": "Developer platform: Academind (YouTube Coding Channel)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "coderbyte.com": {
     "key": "coderbyte.com",
@@ -3105,7 +3117,7 @@
     "description": "Developer platform: Coderbyte (Coding Practice & Challenges)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT": {
     "key": "youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT",
@@ -3117,7 +3129,7 @@
     "description": "Developer platform: SortedCoding (YouTube Coding Channel)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "designwithrehana.com": {
     "key": "designwithrehana.com",
@@ -3129,7 +3141,7 @@
     "description": "Developer platform: Top 30 HTML Interview Questions and Answers (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "codeconvert.ai": {
     "key": "codeconvert.ai",
@@ -3141,7 +3153,7 @@
     "description": "Developer platform: Code Convertor - Example - C++ to Java (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/rengatechnologies?igsh=NXhreW9vcHlsbHM4": {
     "key": "instagram.com/rengatechnologies?igsh=NXhreW9vcHlsbHM4",
@@ -3153,7 +3165,7 @@
     "description": "Developer platform: Rangatechoologies (Social Coding Creator)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/startupbaniya/profilecard?igsh=MW5wODZxd3RqdTY4Yg==": {
     "key": "instagram.com/startupbaniya/profilecard?igsh=MW5wODZxd3RqdTY4Yg==",
@@ -3165,7 +3177,7 @@
     "description": "Developer platform: Startup Baniya (Social Coding Creator)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "github.com/gendx/html-cheat-sheet?tab=readme-ov-file": {
     "key": "github.com/gendx/html-cheat-sheet?tab=readme-ov-file",
@@ -3177,7 +3189,7 @@
     "description": "Developer platform: Github (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "shorturl.at": {
     "key": "shorturl.at",
@@ -3189,7 +3201,7 @@
     "description": "Developer platform: DSA video lecturz (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "instagram.com/iron.coding/profilecard?igsh=MWFvNDh5ZDRwZWM4OQ==": {
     "key": "instagram.com/iron.coding/profilecard?igsh=MWFvNDh5ZDRwZWM4OQ==",
@@ -3201,7 +3213,7 @@
     "description": "Developer platform: Instagram (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "github.com/SortedCoding?tab=repositories": {
     "key": "github.com/SortedCoding?tab=repositories",
@@ -3213,7 +3225,7 @@
     "description": "Developer platform: Github (Version Control & Repository Platform)",
     "source": "Excel: 💻 Coding Websites.xlsx (Sheet32 - BH)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Department+Store+Management+System+%28DSMS%29+using+C%2B%2B": {
     "key": "geeksforgeeks.org?s=Department+Store+Management+System+%28DSMS%29+using+C%2B%2B",
@@ -3225,7 +3237,7 @@
     "description": "Step-by-step source code guide & project implementation: Department Store Management System (DSMS) using C++",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Test+Cases+For+Signup+Page+Using+C+Language": {
     "key": "geeksforgeeks.org?s=Test+Cases+For+Signup+Page+Using+C+Language",
@@ -3237,7 +3249,7 @@
     "description": "Step-by-step source code guide & project implementation: Test Cases For Signup Page Using C Language",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Shopping+Cart+Project+Using+C+Language": {
     "key": "geeksforgeeks.org?s=Shopping+Cart+Project+Using+C+Language",
@@ -3249,7 +3261,7 @@
     "description": "Step-by-step source code guide & project implementation: Shopping Cart Project Using C Language",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+for+Face+Detection": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+for+Face+Detection",
@@ -3261,7 +3273,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program for Face Detection",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+for+Coin+Detection": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+for+Coin+Detection",
@@ -3273,7 +3285,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program for Coin Detection",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Blur+an+Image": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Blur+an+Image",
@@ -3285,7 +3297,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program to Blur an Image",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Create+a+Single+Colored+Blank+Image": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Create+a+Single+Colored+Blank+Image",
@@ -3297,7 +3309,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program to Create a Single Colored Blank Image",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Blur+a+Video": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Blur+a+Video",
@@ -3309,7 +3321,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program to Blur a Video",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Play+a+Video": {
     "key": "geeksforgeeks.org?s=OpenCV+C%2B%2B+Program+to+Play+a+Video",
@@ -3321,7 +3333,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV C++ Program to Play a Video",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creating+a+PortScanner+in+C": {
     "key": "geeksforgeeks.org?s=Creating+a+PortScanner+in+C",
@@ -3333,7 +3345,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a PortScanner in C",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Student+Data+Management+in+C%2B%2B": {
     "key": "geeksforgeeks.org?s=Student+Data+Management+in+C%2B%2B",
@@ -3345,7 +3357,7 @@
     "description": "Step-by-step source code guide & project implementation: Student Data Management in C++",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenGL+Program+for+Simple+Ball+Game": {
     "key": "geeksforgeeks.org?s=OpenGL+Program+for+Simple+Ball+Game",
@@ -3357,7 +3369,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenGL Program for Simple Ball Game",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Implementation+of+Minesweeper+Game": {
     "key": "geeksforgeeks.org?s=Implementation+of+Minesweeper+Game",
@@ -3369,7 +3381,7 @@
     "description": "Step-by-step source code guide & project implementation: Implementation of Minesweeper Game",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Finding+Cabs+Nearby+Using+Great+Circle+Distance+Formula": {
     "key": "geeksforgeeks.org?s=Finding+Cabs+Nearby+Using+Great+Circle+Distance+Formula",
@@ -3381,7 +3393,7 @@
     "description": "Step-by-step source code guide & project implementation: Finding Cabs Nearby Using Great Circle Distance Formula",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Program+to+Remotely+Power+On+a+PC+over+the+Internet+Using+the+Wake-on-LAN+Protocol": {
     "key": "geeksforgeeks.org?s=Program+to+Remotely+Power+On+a+PC+over+the+Internet+Using+the+Wake-on-LAN+Protocol",
@@ -3393,7 +3405,7 @@
     "description": "Step-by-step source code guide & project implementation: Program to Remotely Power On a PC over the Internet Using the Wake-on-LAN Protocol",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=A+Group+Chat+Application+in+Java": {
     "key": "geeksforgeeks.org?s=A+Group+Chat+Application+in+Java",
@@ -3405,7 +3417,7 @@
     "description": "Step-by-step source code guide & project implementation: A Group Chat Application in Java",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Generating+Password+and+OTP+in+Java": {
     "key": "geeksforgeeks.org?s=Generating+Password+and+OTP+in+Java",
@@ -3417,7 +3429,7 @@
     "description": "Step-by-step source code guide & project implementation: Generating Password and OTP in Java",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/creative-programming-processing-set-1-random-walker": {
     "key": "geeksforgeeks.org/creative-programming-processing-set-1-random-walker",
@@ -3429,7 +3441,7 @@
     "description": "Step-by-step source code guide & project implementation: Creative Programming in Processing",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/creative-programming-processing-set-2-lorenz-attractor": {
     "key": "geeksforgeeks.org/creative-programming-processing-set-2-lorenz-attractor",
@@ -3441,7 +3453,7 @@
     "description": "Step-by-step source code guide & project implementation: Creative Programming in Processing",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Make+Notepad+using+Tkinter": {
     "key": "geeksforgeeks.org?s=Make+Notepad+using+Tkinter",
@@ -3453,7 +3465,7 @@
     "description": "Step-by-step source code guide & project implementation: Make Notepad using Tkinter",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Color+Game+using+Tkinter+in+Python": {
     "key": "geeksforgeeks.org?s=Color+Game+using+Tkinter+in+Python",
@@ -3465,7 +3477,7 @@
     "description": "Step-by-step source code guide & project implementation: Color Game using Tkinter in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/python-message-encode-decode-using-tkinter": {
     "key": "geeksforgeeks.org/python-message-encode-decode-using-tkinter",
@@ -3477,7 +3489,7 @@
     "description": "Step-by-step source code guide & project implementation: Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=XML+Parsing+in+Python": {
     "key": "geeksforgeeks.org?s=XML+Parsing+in+Python",
@@ -3489,7 +3501,7 @@
     "description": "Step-by-step source code guide & project implementation: XML Parsing in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Desktop+Notifier+in+Python": {
     "key": "geeksforgeeks.org?s=Desktop+Notifier+in+Python",
@@ -3501,7 +3513,7 @@
     "description": "Step-by-step source code guide & project implementation: Desktop Notifier in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Hangman+Game+in+Python": {
     "key": "geeksforgeeks.org?s=Hangman+Game+in+Python",
@@ -3513,7 +3525,7 @@
     "description": "Step-by-step source code guide & project implementation: Hangman Game in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Junk+File+Organizer+in+Python": {
     "key": "geeksforgeeks.org?s=Junk+File+Organizer+in+Python",
@@ -3525,7 +3537,7 @@
     "description": "Step-by-step source code guide & project implementation: Junk File Organizer in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Browser+Automation+Using+Selenium": {
     "key": "geeksforgeeks.org?s=Browser+Automation+Using+Selenium",
@@ -3537,7 +3549,7 @@
     "description": "Step-by-step source code guide & project implementation: Browser Automation Using Selenium",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Tracking+Bird+Migration+using+Python-3": {
     "key": "geeksforgeeks.org?s=Tracking+Bird+Migration+using+Python-3",
@@ -3549,7 +3561,7 @@
     "description": "Step-by-step source code guide & project implementation: Tracking Bird Migration using Python-3",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Twitter+Sentiment+Analysis+using+Python": {
     "key": "geeksforgeeks.org?s=Twitter+Sentiment+Analysis+using+Python",
@@ -3561,7 +3573,7 @@
     "description": "Step-by-step source code guide & project implementation: Twitter Sentiment Analysis using Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Image+Classifier+using+CNN": {
     "key": "geeksforgeeks.org?s=Image+Classifier+using+CNN",
@@ -3573,7 +3585,7 @@
     "description": "Step-by-step source code guide & project implementation: Image Classifier using CNN",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Implementing+Photomosaics": {
     "key": "geeksforgeeks.org?s=Implementing+Photomosaics",
@@ -3585,7 +3597,7 @@
     "description": "Step-by-step source code guide & project implementation: Implementing Photomosaics",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Working+with+Images+in+Python": {
     "key": "geeksforgeeks.org?s=Working+with+Images+in+Python",
@@ -3597,7 +3609,7 @@
     "description": "Step-by-step source code guide & project implementation: Working with Images in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+to+blur+an+image": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+to+blur+an+image",
@@ -3609,7 +3621,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program to blur an image",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+program+for+Face+Detection": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+program+for+Face+Detection",
@@ -3621,7 +3633,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python program for Face Detection",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Cartooning+an+Image+using+OpenCV+%E2%80%93+Python": {
     "key": "geeksforgeeks.org?s=Cartooning+an+Image+using+OpenCV+%E2%80%93+Python",
@@ -3633,7 +3645,7 @@
     "description": "Step-by-step source code guide & project implementation: Cartooning an Image using OpenCV – Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+to+analyze+an+image+using+Histogram": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+to+analyze+an+image+using+Histogram",
@@ -3645,7 +3657,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program to analyze an image using Histogram",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+program+for+Vehicle+detection+in+a+Video+frame": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+program+for+Vehicle+detection+in+a+Video+frame",
@@ -3657,7 +3669,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python program for Vehicle detection in a Video frame",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=DNA+to+Protein+in+Python+3": {
     "key": "geeksforgeeks.org?s=DNA+to+Protein+in+Python+3",
@@ -3669,7 +3681,7 @@
     "description": "Step-by-step source code guide & project implementation: DNA to Protein in Python 3",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Viruses+%E2%80%93+From+Newbie+to+Pro": {
     "key": "geeksforgeeks.org?s=Viruses+%E2%80%93+From+Newbie+to+Pro",
@@ -3681,7 +3693,7 @@
     "description": "Step-by-step source code guide & project implementation: Viruses – From Newbie to Pro",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Handling+Ajax+request+in+Django": {
     "key": "geeksforgeeks.org?s=Handling+Ajax+request+in+Django",
@@ -3693,7 +3705,7 @@
     "description": "Step-by-step source code guide & project implementation: Handling Ajax request in Django",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Working+with+zip+files+in+Python": {
     "key": "geeksforgeeks.org?s=Working+with+zip+files+in+Python",
@@ -3705,7 +3717,7 @@
     "description": "Step-by-step source code guide & project implementation: Working with zip files in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Morse+Code+Translator+in+Python": {
     "key": "geeksforgeeks.org?s=Morse+Code+Translator+in+Python",
@@ -3717,7 +3729,7 @@
     "description": "Step-by-step source code guide & project implementation: Morse Code Translator in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Simple+Chat+Room+using+Python": {
     "key": "geeksforgeeks.org?s=Simple+Chat+Room+using+Python",
@@ -3729,7 +3741,7 @@
     "description": "Step-by-step source code guide & project implementation: Simple Chat Room using Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-1": {
     "key": "geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-1",
@@ -3741,7 +3753,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a Proxy Webserver in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-2": {
     "key": "geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-2",
@@ -3753,7 +3765,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a Proxy Webserver in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Audio+to+Sign+Language+Translator": {
     "key": "geeksforgeeks.org?s=Audio+to+Sign+Language+Translator",
@@ -3765,7 +3777,7 @@
     "description": "Step-by-step source code guide & project implementation: Audio to Sign Language Translator",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Understanding+Code+Reuse+and+Modularity+in+Python+3": {
     "key": "geeksforgeeks.org?s=Understanding+Code+Reuse+and+Modularity+in+Python+3",
@@ -3777,7 +3789,7 @@
     "description": "Step-by-step source code guide & project implementation: Understanding Code Reuse and Modularity in Python 3",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:09"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Multi-Messenger+%3A+A+Python+project%2C+messaging+via+Terminal": {
     "key": "geeksforgeeks.org?s=Multi-Messenger+%3A+A+Python+project%2C+messaging+via+Terminal",
@@ -3789,7 +3801,7 @@
     "description": "Step-by-step source code guide & project implementation: Multi-Messenger : A Python project, messaging via Terminal",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Movie+recommendation+based+on+emotion+in+Python": {
     "key": "geeksforgeeks.org?s=Movie+recommendation+based+on+emotion+in+Python",
@@ -3801,7 +3813,7 @@
     "description": "Step-by-step source code guide & project implementation: Movie recommendation based on emotion in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Implementing+Web+Scraping+in+Python+with+BeautifulSoup": {
     "key": "geeksforgeeks.org?s=Implementing+Web+Scraping+in+Python+with+BeautifulSoup",
@@ -3813,7 +3825,7 @@
     "description": "Step-by-step source code guide & project implementation: Implementing Web Scraping in Python with BeautifulSoup",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Computer+Vision+Module+application+for+finding+a+target+in+a+live+camera": {
     "key": "geeksforgeeks.org?s=Computer+Vision+Module+application+for+finding+a+target+in+a+live+camera",
@@ -3825,7 +3837,7 @@
     "description": "Step-by-step source code guide & project implementation: Computer Vision Module application for finding a target in a live camera",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+an+Event+Webpage+using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+an+Event+Webpage+using+HTML+%26+CSS",
@@ -3837,7 +3849,7 @@
     "description": "Step-by-step source code guide & project implementation: Design an Event Webpage using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Parallax+Webpage+using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+a+Parallax+Webpage+using+HTML+%26+CSS",
@@ -3849,7 +3861,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Parallax Webpage using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Webpage+like+Technical+Documentation+using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+a+Webpage+like+Technical+Documentation+using+HTML+%26+CSS",
@@ -3861,7 +3873,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Webpage like Technical Documentation using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+Homepages+like+Facebook+using+HTML+and+CSS": {
     "key": "geeksforgeeks.org?s=Design+Homepages+like+Facebook+using+HTML+and+CSS",
@@ -3873,7 +3885,7 @@
     "description": "Step-by-step source code guide & project implementation: Design Homepages like Facebook using HTML and CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Page+for+Online+Food+Delivery+System+using+HTML+and+CSS": {
     "key": "geeksforgeeks.org?s=Page+for+Online+Food+Delivery+System+using+HTML+and+CSS",
@@ -3885,7 +3897,7 @@
     "description": "Step-by-step source code guide & project implementation: Page for Online Food Delivery System using HTML and CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Responsive+Sliding+Login+and+Registration+Forms+using+HTML%2C+CSS%2C+and+JavaScript": {
     "key": "geeksforgeeks.org?s=Responsive+Sliding+Login+and+Registration+Forms+using+HTML%2C+CSS%2C+and+JavaScript",
@@ -3897,7 +3909,7 @@
     "description": "Step-by-step source code guide & project implementation: Responsive Sliding Login and Registration Forms using HTML, CSS, and JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Student+Grade+Calculator+using+JavaScript": {
     "key": "geeksforgeeks.org?s=Design+a+Student+Grade+Calculator+using+JavaScript",
@@ -3909,7 +3921,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Student Grade Calculator using JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Slide+Down+a+Navigation+Bar+on+Scroll+using+HTML%2C+CSS%2C+and+JavaScript": {
     "key": "geeksforgeeks.org?s=Slide+Down+a+Navigation+Bar+on+Scroll+using+HTML%2C+CSS%2C+and+JavaScript",
@@ -3921,7 +3933,7 @@
     "description": "Step-by-step source code guide & project implementation: Slide Down a Navigation Bar on Scroll using HTML, CSS, and JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+BMI+Calculator+using+JavaScript": {
     "key": "geeksforgeeks.org?s=Design+a+BMI+Calculator+using+JavaScript",
@@ -3933,7 +3945,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a BMI Calculator using JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Task+Tracker+Project": {
     "key": "geeksforgeeks.org?s=Task+Tracker+Project",
@@ -3945,7 +3957,7 @@
     "description": "Step-by-step source code guide & project implementation: Task Tracker Project",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Static+Code+Checker+for+C%2B%2B": {
     "key": "geeksforgeeks.org?s=Static+Code+Checker+for+C%2B%2B",
@@ -3957,7 +3969,7 @@
     "description": "Step-by-step source code guide & project implementation: Static Code Checker for C++",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Dynamic+Hand+Gesture+Recognition+using+Neural+Network": {
     "key": "geeksforgeeks.org?s=Dynamic+Hand+Gesture+Recognition+using+Neural+Network",
@@ -3969,7 +3981,7 @@
     "description": "Step-by-step source code guide & project implementation: Dynamic Hand Gesture Recognition using Neural Network",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=God%E2%80%99s+Eye": {
     "key": "geeksforgeeks.org?s=God%E2%80%99s+Eye",
@@ -3981,7 +3993,7 @@
     "description": "Step-by-step source code guide & project implementation: God’s Eye",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Ca-solutions": {
     "key": "geeksforgeeks.org?s=Ca-solutions",
@@ -3993,7 +4005,7 @@
     "description": "Step-by-step source code guide & project implementation: Ca-solutions",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=College+Connect": {
     "key": "geeksforgeeks.org?s=College+Connect",
@@ -4005,7 +4017,7 @@
     "description": "Step-by-step source code guide & project implementation: College Connect",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Empower+Illiterate": {
     "key": "geeksforgeeks.org?s=Empower+Illiterate",
@@ -4017,7 +4029,7 @@
     "description": "Step-by-step source code guide & project implementation: Empower Illiterate",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Remote+Lab+Assistance": {
     "key": "geeksforgeeks.org?s=Remote+Lab+Assistance",
@@ -4029,7 +4041,7 @@
     "description": "Step-by-step source code guide & project implementation: Remote Lab Assistance",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Project+Approval+System": {
     "key": "geeksforgeeks.org?s=Project+Approval+System",
@@ -4041,7 +4053,7 @@
     "description": "Step-by-step source code guide & project implementation: Project Approval System",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Online+Course+Registration": {
     "key": "geeksforgeeks.org?s=Online+Course+Registration",
@@ -4053,7 +4065,7 @@
     "description": "Step-by-step source code guide & project implementation: Online Course Registration",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Universal+Database+Viewer": {
     "key": "geeksforgeeks.org?s=Universal+Database+Viewer",
@@ -4065,7 +4077,7 @@
     "description": "Step-by-step source code guide & project implementation: Universal Database Viewer",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Sun+Rise%2FSet+Time+Finder": {
     "key": "geeksforgeeks.org?s=Sun+Rise%2FSet+Time+Finder",
@@ -4077,7 +4089,7 @@
     "description": "Step-by-step source code guide & project implementation: Sun Rise/Set Time Finder",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Automatic+YouTube+Playlist+Downloader": {
     "key": "geeksforgeeks.org?s=Automatic+YouTube+Playlist+Downloader",
@@ -4089,7 +4101,7 @@
     "description": "Step-by-step source code guide & project implementation: Automatic YouTube Playlist Downloader",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Aadhaar+Thumb%3A+A+Platform+to+All+Services": {
     "key": "geeksforgeeks.org?s=Aadhaar+Thumb%3A+A+Platform+to+All+Services",
@@ -4101,7 +4113,7 @@
     "description": "Step-by-step source code guide & project implementation: Aadhaar Thumb: A Platform to All Services",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Health+Services+%26+Medical+Outcome+Monitoring": {
     "key": "geeksforgeeks.org?s=Health+Services+%26+Medical+Outcome+Monitoring",
@@ -4113,7 +4125,7 @@
     "description": "Step-by-step source code guide & project implementation: Health Services & Medical Outcome Monitoring",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Magical+Hangouts%3A+An+Android+Messaging+App": {
     "key": "geeksforgeeks.org?s=Magical+Hangouts%3A+An+Android+Messaging+App",
@@ -4125,7 +4137,7 @@
     "description": "Step-by-step source code guide & project implementation: Magical Hangouts: An Android Messaging App",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=JamFree": {
     "key": "geeksforgeeks.org?s=JamFree",
@@ -4137,7 +4149,7 @@
     "description": "Step-by-step source code guide & project implementation: JamFree",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=AI+Therapist": {
     "key": "geeksforgeeks.org?s=AI+Therapist",
@@ -4149,7 +4161,7 @@
     "description": "Step-by-step source code guide & project implementation: AI Therapist",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Get+Your+Logo": {
     "key": "geeksforgeeks.org?s=Get+Your+Logo",
@@ -4161,7 +4173,7 @@
     "description": "Step-by-step source code guide & project implementation: Get Your Logo",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Client+Master": {
     "key": "geeksforgeeks.org?s=Client+Master",
@@ -4173,7 +4185,7 @@
     "description": "Step-by-step source code guide & project implementation: Client Master",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=A+Game+of+Anagrams": {
     "key": "geeksforgeeks.org?s=A+Game+of+Anagrams",
@@ -4185,7 +4197,7 @@
     "description": "Step-by-step source code guide & project implementation: A Game of Anagrams",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Games+using+Hand+Gestures": {
     "key": "geeksforgeeks.org?s=Games+using+Hand+Gestures",
@@ -4197,7 +4209,7 @@
     "description": "Step-by-step source code guide & project implementation: Games using Hand Gestures",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Amanda%3A+A+Smart+Enquiry+Chatbot": {
     "key": "geeksforgeeks.org?s=Amanda%3A+A+Smart+Enquiry+Chatbot",
@@ -4209,7 +4221,7 @@
     "description": "Step-by-step source code guide & project implementation: Amanda: A Smart Enquiry Chatbot",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=A.T.L.A.S%3A+App+Time+Limit+Alerting+System": {
     "key": "geeksforgeeks.org?s=A.T.L.A.S%3A+App+Time+Limit+Alerting+System",
@@ -4221,7 +4233,7 @@
     "description": "Step-by-step source code guide & project implementation: A.T.L.A.S: App Time Limit Alerting System",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Sign+Language+Translator+for+Speech-Impaired": {
     "key": "geeksforgeeks.org?s=Sign+Language+Translator+for+Speech-Impaired",
@@ -4233,7 +4245,7 @@
     "description": "Step-by-step source code guide & project implementation: Sign Language Translator for Speech-Impaired",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Personality+Analysis+using+Hashtags+from+Tweets": {
     "key": "geeksforgeeks.org?s=Personality+Analysis+using+Hashtags+from+Tweets",
@@ -4245,7 +4257,7 @@
     "description": "Step-by-step source code guide & project implementation: Personality Analysis using Hashtags from Tweets",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Recommendation+System+based+on+Graph+Database": {
     "key": "geeksforgeeks.org?s=Recommendation+System+based+on+Graph+Database",
@@ -4257,7 +4269,7 @@
     "description": "Step-by-step source code guide & project implementation: Recommendation System based on Graph Database",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creating+a+C%2FC%2B%2B+Code+Formatting+Tool+with+Help+of+Clang+Tools": {
     "key": "geeksforgeeks.org?s=Creating+a+C%2FC%2B%2B+Code+Formatting+Tool+with+Help+of+Clang+Tools",
@@ -4269,7 +4281,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a C/C++ Code Formatting Tool with Help of Clang Tools",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Augmented+Reality+%E2%80%93+QR+Code+Scanner": {
     "key": "geeksforgeeks.org?s=Augmented+Reality+%E2%80%93+QR+Code+Scanner",
@@ -4281,7 +4293,7 @@
     "description": "Step-by-step source code guide & project implementation: Augmented Reality – QR Code Scanner",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Augmented+Reality+%E2%80%93+ARuco+Code+Detection+and+Estimation": {
     "key": "geeksforgeeks.org?s=Augmented+Reality+%E2%80%93+ARuco+Code+Detection+and+Estimation",
@@ -4293,7 +4305,7 @@
     "description": "Step-by-step source code guide & project implementation: Augmented Reality – ARuco Code Detection and Estimation",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=CSE+Webnode": {
     "key": "geeksforgeeks.org?s=CSE+Webnode",
@@ -4305,7 +4317,7 @@
     "description": "Step-by-step source code guide & project implementation: CSE Webnode",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=College+Network": {
     "key": "geeksforgeeks.org?s=College+Network",
@@ -4317,7 +4329,7 @@
     "description": "Step-by-step source code guide & project implementation: College Network",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Online+UML+Designing+Tool": {
     "key": "geeksforgeeks.org?s=Online+UML+Designing+Tool",
@@ -4329,7 +4341,7 @@
     "description": "Step-by-step source code guide & project implementation: Online UML Designing Tool",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Voice-Based+Email+for+Visually+Challenged": {
     "key": "geeksforgeeks.org?s=Voice-Based+Email+for+Visually+Challenged",
@@ -4341,7 +4353,7 @@
     "description": "Step-by-step source code guide & project implementation: Voice-Based Email for Visually Challenged",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Assist+Bot": {
     "key": "geeksforgeeks.org?s=Assist+Bot",
@@ -4353,7 +4365,7 @@
     "description": "Step-by-step source code guide & project implementation: Assist Bot",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Social-Cop": {
     "key": "geeksforgeeks.org?s=Social-Cop",
@@ -4365,7 +4377,7 @@
     "description": "Step-by-step source code guide & project implementation: Social-Cop",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=MediTrack": {
     "key": "geeksforgeeks.org?s=MediTrack",
@@ -4377,7 +4389,7 @@
     "description": "Step-by-step source code guide & project implementation: MediTrack",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=CAPTURED": {
     "key": "geeksforgeeks.org?s=CAPTURED",
@@ -4389,7 +4401,7 @@
     "description": "Step-by-step source code guide & project implementation: CAPTURED",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=LinkBook": {
     "key": "geeksforgeeks.org?s=LinkBook",
@@ -4401,7 +4413,7 @@
     "description": "Step-by-step source code guide & project implementation: LinkBook",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=EveMythra+Bot": {
     "key": "geeksforgeeks.org?s=EveMythra+Bot",
@@ -4413,7 +4425,7 @@
     "description": "Step-by-step source code guide & project implementation: EveMythra Bot",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Green+Rides": {
     "key": "geeksforgeeks.org?s=Green+Rides",
@@ -4425,7 +4437,7 @@
     "description": "Step-by-step source code guide & project implementation: Green Rides",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=E-Ration+Shop": {
     "key": "geeksforgeeks.org?s=E-Ration+Shop",
@@ -4437,7 +4449,7 @@
     "description": "Step-by-step source code guide & project implementation: E-Ration Shop",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Smart+Elevator": {
     "key": "geeksforgeeks.org?s=Smart+Elevator",
@@ -4449,7 +4461,7 @@
     "description": "Step-by-step source code guide & project implementation: Smart Elevator",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Get+Me+Through": {
     "key": "geeksforgeeks.org?s=Get+Me+Through",
@@ -4461,7 +4473,7 @@
     "description": "Step-by-step source code guide & project implementation: Get Me Through",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Innovate+Email": {
     "key": "geeksforgeeks.org?s=Innovate+Email",
@@ -4473,7 +4485,7 @@
     "description": "Step-by-step source code guide & project implementation: Innovate Email",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=NextVAC+Platform": {
     "key": "geeksforgeeks.org?s=NextVAC+Platform",
@@ -4485,7 +4497,7 @@
     "description": "Step-by-step source code guide & project implementation: NextVAC Platform",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=League+of+Fitness": {
     "key": "geeksforgeeks.org?s=League+of+Fitness",
@@ -4497,7 +4509,7 @@
     "description": "Step-by-step source code guide & project implementation: League of Fitness",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=A+Personal+Assistant": {
     "key": "geeksforgeeks.org?s=A+Personal+Assistant",
@@ -4509,7 +4521,7 @@
     "description": "Step-by-step source code guide & project implementation: A Personal Assistant",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Smart+Restaurants": {
     "key": "geeksforgeeks.org?s=Smart+Restaurants",
@@ -4521,7 +4533,7 @@
     "description": "Step-by-step source code guide & project implementation: Smart Restaurants",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Scikit-learn+%E2%80%93+Whisky+Clustering": {
     "key": "geeksforgeeks.org?s=Scikit-learn+%E2%80%93+Whisky+Clustering",
@@ -4533,7 +4545,7 @@
     "description": "Step-by-step source code guide & project implementation: Scikit-learn – Whisky Clustering",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creating+a+Calculator+for+Android+Devices": {
     "key": "geeksforgeeks.org?s=Creating+a+Calculator+for+Android+Devices",
@@ -4545,7 +4557,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a Calculator for Android Devices",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Airport+Security+Using+Beacon": {
     "key": "geeksforgeeks.org?s=Airport+Security+Using+Beacon",
@@ -4557,7 +4569,7 @@
     "description": "Step-by-step source code guide & project implementation: Airport Security Using Beacon",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Brain+Computer+Interface": {
     "key": "geeksforgeeks.org?s=Brain+Computer+Interface",
@@ -4569,7 +4581,7 @@
     "description": "Step-by-step source code guide & project implementation: Brain Computer Interface",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=True+Random+Number+Generator": {
     "key": "geeksforgeeks.org?s=True+Random+Number+Generator",
@@ -4581,7 +4593,7 @@
     "description": "Step-by-step source code guide & project implementation: True Random Number Generator",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Distributed+Downloading+System": {
     "key": "geeksforgeeks.org?s=Distributed+Downloading+System",
@@ -4593,7 +4605,7 @@
     "description": "Step-by-step source code guide & project implementation: Distributed Downloading System",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Personalized+Real-time+Update+System": {
     "key": "geeksforgeeks.org?s=Personalized+Real-time+Update+System",
@@ -4605,7 +4617,7 @@
     "description": "Step-by-step source code guide & project implementation: Personalized Real-time Update System",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Attendance+System+Using+Smart+Card": {
     "key": "geeksforgeeks.org?s=Attendance+System+Using+Smart+Card",
@@ -4617,7 +4629,7 @@
     "description": "Step-by-step source code guide & project implementation: Attendance System Using Smart Card",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Detection+of+Malicious+Network+Activity": {
     "key": "geeksforgeeks.org?s=Detection+of+Malicious+Network+Activity",
@@ -4629,7 +4641,7 @@
     "description": "Step-by-step source code guide & project implementation: Detection of Malicious Network Activity",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Smart+Waste+Management+System": {
     "key": "geeksforgeeks.org?s=Smart+Waste+Management+System",
@@ -4641,7 +4653,7 @@
     "description": "Step-by-step source code guide & project implementation: Smart Waste Management System",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Bio-Hashing%3A+Two-factor+Authentication": {
     "key": "geeksforgeeks.org?s=Bio-Hashing%3A+Two-factor+Authentication",
@@ -4653,7 +4665,7 @@
     "description": "Step-by-step source code guide & project implementation: Bio-Hashing: Two-factor Authentication",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=noteSort%3A+Classify+Handwritten+Notes": {
     "key": "geeksforgeeks.org?s=noteSort%3A+Classify+Handwritten+Notes",
@@ -4665,7 +4677,7 @@
     "description": "Step-by-step source code guide & project implementation: noteSort: Classify Handwritten Notes",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Health+Application+Powered+by+IBM+Watson": {
     "key": "geeksforgeeks.org?s=Health+Application+Powered+by+IBM+Watson",
@@ -4677,7 +4689,7 @@
     "description": "Step-by-step source code guide & project implementation: Health Application Powered by IBM Watson",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Collaborative+Editor+Framework+in+Real+Time": {
     "key": "geeksforgeeks.org?s=Collaborative+Editor+Framework+in+Real+Time",
@@ -4689,7 +4701,7 @@
     "description": "Step-by-step source code guide & project implementation: Collaborative Editor Framework in Real Time",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Department+Data+Analysis+Mobile+Application": {
     "key": "geeksforgeeks.org?s=Department+Data+Analysis+Mobile+Application",
@@ -4701,7 +4713,7 @@
     "description": "Step-by-step source code guide & project implementation: Department Data Analysis Mobile Application",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Analysis+of+Emergency+911+Calls+using+Association+Rule+Mining": {
     "key": "geeksforgeeks.org?s=Analysis+of+Emergency+911+Calls+using+Association+Rule+Mining",
@@ -4713,7 +4725,7 @@
     "description": "Step-by-step source code guide & project implementation: Analysis of Emergency 911 Calls using Association Rule Mining",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Crop+Monitoring+and+Smart+Farming+using+IoT": {
     "key": "geeksforgeeks.org?s=Crop+Monitoring+and+Smart+Farming+using+IoT",
@@ -4725,7 +4737,7 @@
     "description": "Step-by-step source code guide & project implementation: Crop Monitoring and Smart Farming using IoT",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=MyHelper%3A+Access+Your+Phone+from+Anywhere+without+Internet": {
     "key": "geeksforgeeks.org?s=MyHelper%3A+Access+Your+Phone+from+Anywhere+without+Internet",
@@ -4737,7 +4749,7 @@
     "description": "Step-by-step source code guide & project implementation: MyHelper: Access Your Phone from Anywhere without Internet",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Robust+Pedestrian+Detection": {
     "key": "geeksforgeeks.org?s=Robust+Pedestrian+Detection",
@@ -4749,7 +4761,7 @@
     "description": "Step-by-step source code guide & project implementation: Robust Pedestrian Detection",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Character+Recognition+from+Image": {
     "key": "geeksforgeeks.org?s=Character+Recognition+from+Image",
@@ -4761,7 +4773,7 @@
     "description": "Step-by-step source code guide & project implementation: Character Recognition from Image",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Model-Based+Image+Compression+of+Medical+Images": {
     "key": "geeksforgeeks.org?s=Model-Based+Image+Compression+of+Medical+Images",
@@ -4773,7 +4785,7 @@
     "description": "Step-by-step source code guide & project implementation: Model-Based Image Compression of Medical Images",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Motion+Detection+using+Background+Subtraction+Techniques": {
     "key": "geeksforgeeks.org?s=Motion+Detection+using+Background+Subtraction+Techniques",
@@ -4785,7 +4797,7 @@
     "description": "Step-by-step source code guide & project implementation: Motion Detection using Background Subtraction Techniques",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Optimization+of+Object-Based+Image+Analysis+with+Super-Pixel+for+Land+Cover+Mapping": {
     "key": "geeksforgeeks.org?s=Optimization+of+Object-Based+Image+Analysis+with+Super-Pixel+for+Land+Cover+Mapping",
@@ -4797,7 +4809,7 @@
     "description": "Step-by-step source code guide & project implementation: Optimization of Object-Based Image Analysis with Super-Pixel for Land Cover Mapping",
     "source": "Excel: 💻 Coding Websites.xlsx (All Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Program+to+Remotely+Power+On+a+PC+Over+the+Internet+Using+Wake-on-LAN+Protocol": {
     "key": "geeksforgeeks.org?s=Program+to+Remotely+Power+On+a+PC+Over+the+Internet+Using+Wake-on-LAN+Protocol",
@@ -4809,7 +4821,7 @@
     "description": "Step-by-step source code guide & project implementation: Program to Remotely Power On a PC Over the Internet Using Wake-on-LAN Protocol",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creative+Programming+in+Processing+-+Set+1+%28Random+Walker%29": {
     "key": "geeksforgeeks.org?s=Creative+Programming+in+Processing+-+Set+1+%28Random+Walker%29",
@@ -4821,7 +4833,7 @@
     "description": "Step-by-step source code guide & project implementation: Creative Programming in Processing - Set 1 (Random Walker)",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creative+Programming+in+Processing+-+Set+2+%28Lorenz+Attractor%29": {
     "key": "geeksforgeeks.org?s=Creative+Programming+in+Processing+-+Set+2+%28Lorenz+Attractor%29",
@@ -4833,7 +4845,7 @@
     "description": "Step-by-step source code guide & project implementation: Creative Programming in Processing - Set 2 (Lorenz Attractor)",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Make+Notepad+Using+Tkinter": {
     "key": "geeksforgeeks.org?s=Make+Notepad+Using+Tkinter",
@@ -4845,7 +4857,7 @@
     "description": "Step-by-step source code guide & project implementation: Make Notepad Using Tkinter",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Color+Game+Using+Tkinter+in+Python": {
     "key": "geeksforgeeks.org?s=Color+Game+Using+Tkinter+in+Python",
@@ -4857,7 +4869,7 @@
     "description": "Step-by-step source code guide & project implementation: Color Game Using Tkinter in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Tracking+Bird+Migration+Using+Python-3": {
     "key": "geeksforgeeks.org?s=Tracking+Bird+Migration+Using+Python-3",
@@ -4869,7 +4881,7 @@
     "description": "Step-by-step source code guide & project implementation: Tracking Bird Migration Using Python-3",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Twitter+Sentiment+Analysis+Using+Python": {
     "key": "geeksforgeeks.org?s=Twitter+Sentiment+Analysis+Using+Python",
@@ -4881,7 +4893,7 @@
     "description": "Step-by-step source code guide & project implementation: Twitter Sentiment Analysis Using Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Image+Classifier+Using+CNN": {
     "key": "geeksforgeeks.org?s=Image+Classifier+Using+CNN",
@@ -4893,7 +4905,7 @@
     "description": "Step-by-step source code guide & project implementation: Image Classifier Using CNN",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+to+Blur+an+Image": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+to+Blur+an+Image",
@@ -4905,7 +4917,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program to Blur an Image",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+for+Face+Detection": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+for+Face+Detection",
@@ -4917,7 +4929,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program for Face Detection",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Cartooning+an+Image+Using+OpenCV+%E2%80%93+Python": {
     "key": "geeksforgeeks.org?s=Cartooning+an+Image+Using+OpenCV+%E2%80%93+Python",
@@ -4929,7 +4941,7 @@
     "description": "Step-by-step source code guide & project implementation: Cartooning an Image Using OpenCV – Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+to+Analyze+an+Image+Using+Histogram": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+to+Analyze+an+Image+Using+Histogram",
@@ -4941,7 +4953,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program to Analyze an Image Using Histogram",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=OpenCV+Python+Program+for+Vehicle+Detection+in+a+Video+Frame": {
     "key": "geeksforgeeks.org?s=OpenCV+Python+Program+for+Vehicle+Detection+in+a+Video+Frame",
@@ -4953,7 +4965,7 @@
     "description": "Step-by-step source code guide & project implementation: OpenCV Python Program for Vehicle Detection in a Video Frame",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Handling+Ajax+Request+in+Django": {
     "key": "geeksforgeeks.org?s=Handling+Ajax+Request+in+Django",
@@ -4965,7 +4977,7 @@
     "description": "Step-by-step source code guide & project implementation: Handling Ajax Request in Django",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Working+with+Zip+Files+in+Python": {
     "key": "geeksforgeeks.org?s=Working+with+Zip+Files+in+Python",
@@ -4977,7 +4989,7 @@
     "description": "Step-by-step source code guide & project implementation: Working with Zip Files in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Simple+Chat+Room+Using+Python": {
     "key": "geeksforgeeks.org?s=Simple+Chat+Room+Using+Python",
@@ -4989,7 +5001,7 @@
     "description": "Step-by-step source code guide & project implementation: Simple Chat Room Using Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creating+a+Proxy+Webserver+in+Python+%28Set+1%29": {
     "key": "geeksforgeeks.org?s=Creating+a+Proxy+Webserver+in+Python+%28Set+1%29",
@@ -5001,7 +5013,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a Proxy Webserver in Python (Set 1)",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Creating+a+Proxy+Webserver+in+Python+%28Set+2%29": {
     "key": "geeksforgeeks.org?s=Creating+a+Proxy+Webserver+in+Python+%28Set+2%29",
@@ -5013,7 +5025,7 @@
     "description": "Step-by-step source code guide & project implementation: Creating a Proxy Webserver in Python (Set 2)",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Movie+Recommendation+Based+on+Emotion+in+Python": {
     "key": "geeksforgeeks.org?s=Movie+Recommendation+Based+on+Emotion+in+Python",
@@ -5025,7 +5037,7 @@
     "description": "Step-by-step source code guide & project implementation: Movie Recommendation Based on Emotion in Python",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Computer+Vision+Module+Application+for+Finding+a+Target+in+a+Live+Camera": {
     "key": "geeksforgeeks.org?s=Computer+Vision+Module+Application+for+Finding+a+Target+in+a+Live+Camera",
@@ -5037,7 +5049,7 @@
     "description": "Step-by-step source code guide & project implementation: Computer Vision Module Application for Finding a Target in a Live Camera",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+an+Event+Webpage+Using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+an+Event+Webpage+Using+HTML+%26+CSS",
@@ -5049,7 +5061,7 @@
     "description": "Step-by-step source code guide & project implementation: Design an Event Webpage Using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Parallax+Webpage+Using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+a+Parallax+Webpage+Using+HTML+%26+CSS",
@@ -5061,7 +5073,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Parallax Webpage Using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Webpage+like+Technical+Documentation+Using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Design+a+Webpage+like+Technical+Documentation+Using+HTML+%26+CSS",
@@ -5073,7 +5085,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Webpage like Technical Documentation Using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+Homepages+Like+Facebook+Using+HTML+and+CSS": {
     "key": "geeksforgeeks.org?s=Design+Homepages+Like+Facebook+Using+HTML+and+CSS",
@@ -5085,7 +5097,7 @@
     "description": "Step-by-step source code guide & project implementation: Design Homepages Like Facebook Using HTML and CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Page+for+Online+Food+Delivery+System+Using+HTML+%26+CSS": {
     "key": "geeksforgeeks.org?s=Page+for+Online+Food+Delivery+System+Using+HTML+%26+CSS",
@@ -5097,7 +5109,7 @@
     "description": "Step-by-step source code guide & project implementation: Page for Online Food Delivery System Using HTML & CSS",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Responsive+Sliding+Login+and+Registration+Forms+Using+HTML%2C+CSS%2C+and+JavaScript": {
     "key": "geeksforgeeks.org?s=Responsive+Sliding+Login+and+Registration+Forms+Using+HTML%2C+CSS%2C+and+JavaScript",
@@ -5109,7 +5121,7 @@
     "description": "Step-by-step source code guide & project implementation: Responsive Sliding Login and Registration Forms Using HTML, CSS, and JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+Student+Grade+Calculator+Using+JavaScript": {
     "key": "geeksforgeeks.org?s=Design+a+Student+Grade+Calculator+Using+JavaScript",
@@ -5121,7 +5133,7 @@
     "description": "Step-by-step source code guide & project implementation: Design a Student Grade Calculator Using JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Slide+Down+a+Navigation+Bar+on+Scroll+Using+HTML%2C+CSS%2C+and+JavaScript": {
     "key": "geeksforgeeks.org?s=Slide+Down+a+Navigation+Bar+on+Scroll+Using+HTML%2C+CSS%2C+and+JavaScript",
@@ -5133,7 +5145,7 @@
     "description": "Step-by-step source code guide & project implementation: Slide Down a Navigation Bar on Scroll Using HTML, CSS, and JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   },
   "geeksforgeeks.org?s=Design+a+BMI+Calculator+Using+JavaScript": {
     "key": "geeksforgeeks.org?s=Design+a+BMI+Calculator+Using+JavaScript",
@@ -5145,6 +5157,6 @@
     "description": "Step-by-step source code guide & project implementation: Design a BMI Calculator Using JavaScript",
     "source": "Excel: 💻 Coding Websites.xlsx (C Project Ideas)",
     "priority": 8,
-    "added_at": "2026-10-25 13:37:10"
+    "added_at": "2026-10-25 13:44:29"
   }
 }

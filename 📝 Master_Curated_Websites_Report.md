@@ -1,7 +1,7 @@
 # 🌐 Curated Websites & Tools Master Directory
 
 > **Consolidated, Deduplicated & Isolated Directory of High-Utility Web Platforms**  
-> **Total Unique Websites**: `429` across `12` distinct categories.  
+> **Total Unique Websites**: `430` across `12` distinct categories.  
 > **Repository**: [https://github.com/Satyenderparihar/Websites-Scrapes-Manually](https://github.com/Satyenderparihar/Websites-Scrapes-Manually)
 
 ---
@@ -12,7 +12,7 @@
 - [📻 Online Radio & Interactive Maps](%F0%9F%93%81%20%F0%9F%93%BB%20Online%20Radio%20%26%20Interactive%20Maps) — `1 Websites` — *Global live interactive radio maps, globe rotating tuners, and international frequency streams.*
 - [📺 Global TV & Media Discovery](%F0%9F%93%81%20%F0%9F%93%BA%20Global%20TV%20%26%20Media%20Discovery) — `6 Websites` — *Worldwide live TV channels, vintage nostalgic television simulators, webcams & broadcast discovery.*
 - [⬇️ Video & Media Downloaders](%F0%9F%93%81%20%E2%AC%87%EF%B8%8F%20Video%20%26%20Media%20Downloaders) — `13 Websites` — *Fast online downloaders & converters for YouTube, Instagram, Facebook, Pinterest, Twitter & video media.*
-- [💻 Coding & Developer Platforms](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms) — `281 Websites` — *Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.*
+- [💻 Coding & Developer Platforms](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms) — `282 Websites` — *Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.*
 - [🤖 AI & Machine Learning Tools](%F0%9F%93%81%20%F0%9F%A4%96%20AI%20%26%20Machine%20Learning%20Tools) — `25 Websites` — *Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.*
 - [🎓 Free Courses & Learning Platforms](%F0%9F%93%81%20%F0%9F%8E%93%20Free%20Courses%20%26%20Learning%20Platforms) — `15 Websites` — *High-impact free certification courses, computer science tutorials, AI academies & skill bootcamps.*
 - [📄 PDF & Document Utilities](%F0%9F%93%81%20%F0%9F%93%84%20PDF%20%26%20Document%20Utilities) — `3 Websites` — *Online PDF editors, format converters, document mergers, splitters and lightweight office utilities.*
@@ -100,7 +100,7 @@
 
 ## 💻 Coding & Developer Platforms
 
-*Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.* (Total: `281`)
+*Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.* (Total: `282`)
 
 | # | Website Name | Website Type | Official URL | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
@@ -356,35 +356,36 @@
 | **250** | **Page for Online Food Delivery System using HTML and CSS** | `Web Dev Project Implementation` | [https://www.geeksforgeeks.org/?s=Page+for+Online+Food+Delivery+System+using+HTML+and+CSS](https://www.geeksforgeeks.org/?s=Page+for+Online+Food+Delivery+System+using+HTML+and+CSS) | `Free` | Step-by-step source code guide & project implementation: Page for Online Food Delivery System using HTML and CSS |
 | **251** | **Animated Loaders** | `Web Development Resource` | [https://coddy.tech/onboard](https://coddy.tech/onboard) | `Free` | High-utility developer platform: Animated Loaders (Web Development Resource) |
 | **252** | **Developer Roadmaps** | `Web Development Resource` | [https://developerroadmaps.com](https://developerroadmaps.com) | `Free` | High-utility developer platform: Developer Roadmaps (Web Development Resource) |
-| **253** | **HTML Visuals** | `Web Development Resource` | [https://www.htmlvisuals.com](https://www.htmlvisuals.com) | `Free` | High-utility developer platform: HTML Visuals (Web Development Resource) |
-| **254** | **HTML.com** | `Web Development Resource` | [https://html.com](https://html.com) | `Free` | High-utility developer platform: HTML.com (Web Development Resource) |
-| **255** | **HTML5 Cheat Sheet** | `Web Development Resource` | [https://www.geeksforgeeks.org/html5-cheat-sheet](https://www.geeksforgeeks.org/html5-cheat-sheet) | `Free` | High-utility developer platform: HTML5 Cheat Sheet (Web Development Resource) |
-| **256** | **LearnWeb3** | `Web Development Resource` | [https://learnweb3.io](https://learnweb3.io) | `Free` | High-utility developer platform: LearnWeb3 (Web Development Resource) |
-| **257** | **W3Schools** | `Web Development Resource` | [https://www.w3schools.com](https://www.w3schools.com) | `Free` | High-utility developer platform: W3Schools (Web Development Resource) |
-| **258** | **Academind** | `YouTube Coding Channel` | [https://www.youtube.com/@academind](https://www.youtube.com/@academind) | `Free` | Deep-dive technical tutorials on React, Angular, Vue, Node.js, and cloud tech. |
-| **259** | **Academind** | `YouTube Coding Channel` | [https://www.youtube.com/@Academind](https://www.youtube.com/@Academind) | `Free` | Developer platform: Academind (YouTube Coding Channel) |
-| **260** | **Anuj Bhaiya** | `YouTube Coding Channel` | [https://www.youtube.com/@AnujBhaiya](https://www.youtube.com/@AnujBhaiya) | `Free` | Data structures, algorithms, system design, and software engineering placement prep. |
-| **261** | **Apni Kaksha** | `YouTube Coding Channel` | [https://www.youtube.com/@ApniKaksha](https://www.youtube.com/@ApniKaksha) | `Free` | Free quality coding education, college roadmap, and placement interview guidance. |
-| **262** | **Bhagwan Singh Vishwakarma** | `YouTube Coding Channel` | [https://www.youtube.com/@bhagwansinghvishwakarma](https://www.youtube.com/@bhagwansinghvishwakarma) | `Free` | Computer science, programming, and technical academic tutorials. |
-| **263** | **Clever Programmer** | `YouTube Coding Channel` | [https://www.youtube.com/@CleverProgrammer](https://www.youtube.com/@CleverProgrammer) | `Free` | Full-stack web development clone builds with JavaScript, React, and Python. |
-| **264** | **CodeWithHarry** | `YouTube Coding Channel` | [https://www.youtube.com/@CodeWithHarry](https://www.youtube.com/@CodeWithHarry) | `Free` | Top Indian programming channel teaching Python, Web Dev, C, C++, and Java in Hindi. |
-| **265** | **Derek Banas** | `YouTube Coding Channel` | [https://www.youtube.com/@derekbanas](https://www.youtube.com/@derekbanas) | `Free` | Learn complex programming languages and frameworks in single comprehensive videos. |
-| **266** | **freeCodeCamp.org** | `YouTube Coding Channel` | [https://www.youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) | `Free` | Thousands of hours of free coding courses from industry professionals. |
-| **267** | **Gate Smashers** | `YouTube Coding Channel` | [https://www.youtube.com/@GateSmashers](https://www.youtube.com/@GateSmashers) | `Free` | Operating systems, DBMS, computer networks, and GATE computer science lectures. |
-| **268** | **Jenny's Lectures CS IT** | `YouTube Coding Channel` | [https://www.youtube.com/@JennyslecturesCSIT](https://www.youtube.com/@JennyslecturesCSIT) | `Free` | Engineering CS/IT subjects, algorithms, data structures, and theory of computation. |
-| **269** | **LearnCode.academy** | `YouTube Coding Channel` | [https://www.youtube.com/@learncodeacademy](https://www.youtube.com/@learncodeacademy) | `Free` | Web development tutorials, responsive design, JavaScript, React, and DevOps. |
-| **270** | **mycodeschool** | `YouTube Coding Channel` | [https://www.youtube.com/@mycodeschool](https://www.youtube.com/@mycodeschool) | `Free` | Classic, world-renowned lessons on data structures, pointers, and memory management. |
-| **271** | **MySirG.com** | `YouTube Coding Channel` | [https://www.youtube.com/@MySirG](https://www.youtube.com/@MySirG) | `Free` | Premier Hindi channel for C, C++, Python, Data Structures, and programming fundamentals. |
-| **272** | **Programming Hub** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingHub](https://www.youtube.com/@ProgrammingHub) | `Free` | Accessible tech tutorials covering AI, app development, and programming languages. |
-| **273** | **Programming with Mosh** | `YouTube Coding Channel` | [https://www.youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh) | `Free` | Clear, concise tutorials on Python, JavaScript, React, C#, and SQL. |
-| **274** | **Programming with Mosh** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingwithMosh](https://www.youtube.com/@ProgrammingwithMosh) | `Free` | Developer platform: Programming with Mosh (YouTube Coding Channel) |
-| **275** | **ProgrammingKnowledge** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingKnowledge](https://www.youtube.com/@ProgrammingKnowledge) | `Free` | Step-by-step programming tutorials on Android, Java, Python, and Linux. |
-| **276** | **SoloLearn** | `YouTube Coding Channel` | [https://www.youtube.com/@SoloLearn](https://www.youtube.com/@SoloLearn) | `Free` | Bite-sized mobile-first coding lessons and language deep-dives. |
-| **277** | **SortedCoding** | `YouTube Coding Channel` | [https://www.youtube.com/@SortedCoding](https://www.youtube.com/@SortedCoding) | `Free` | Frontend tricks, CSS animations, JavaScript projects, and coding shorts. |
-| **278** | **SortedCoding** | `YouTube Coding Channel` | [https://youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT](https://youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT) | `Free` | Developer platform: SortedCoding (YouTube Coding Channel) |
-| **279** | **Telusko** | `YouTube Coding Channel` | [https://www.youtube.com/@Telusko](https://www.youtube.com/@Telusko) | `Free` | Java, Python, Blockchain, Docker, and full-stack web development tutorials. |
-| **280** | **thenewboston** | `YouTube Coding Channel` | [https://www.youtube.com/@thenewboston](https://www.youtube.com/@thenewboston) | `Free` | Pioneering computer science, web dev, and blockchain video tutorials. |
-| **281** | **Traversy Media** | `YouTube Coding Channel` | [https://www.youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia) | `Free` | Practical web development tutorials, crash courses, and project builds. |
+| **253** | **Explorer.globe.engineer** | `Web Development Resource` | [https://explorer.globe.engineer](https://explorer.globe.engineer) | `Free` | High-utility developer platform: Explorer.globe.engineer (Web Development Resource) |
+| **254** | **HTML Visuals** | `Web Development Resource` | [https://www.htmlvisuals.com](https://www.htmlvisuals.com) | `Free` | High-utility developer platform: HTML Visuals (Web Development Resource) |
+| **255** | **HTML.com** | `Web Development Resource` | [https://html.com](https://html.com) | `Free` | High-utility developer platform: HTML.com (Web Development Resource) |
+| **256** | **HTML5 Cheat Sheet** | `Web Development Resource` | [https://www.geeksforgeeks.org/html5-cheat-sheet](https://www.geeksforgeeks.org/html5-cheat-sheet) | `Free` | High-utility developer platform: HTML5 Cheat Sheet (Web Development Resource) |
+| **257** | **LearnWeb3** | `Web Development Resource` | [https://learnweb3.io](https://learnweb3.io) | `Free` | High-utility developer platform: LearnWeb3 (Web Development Resource) |
+| **258** | **W3Schools** | `Web Development Resource` | [https://www.w3schools.com](https://www.w3schools.com) | `Free` | High-utility developer platform: W3Schools (Web Development Resource) |
+| **259** | **Academind** | `YouTube Coding Channel` | [https://www.youtube.com/@academind](https://www.youtube.com/@academind) | `Free` | Deep-dive technical tutorials on React, Angular, Vue, Node.js, and cloud tech. |
+| **260** | **Academind** | `YouTube Coding Channel` | [https://www.youtube.com/@Academind](https://www.youtube.com/@Academind) | `Free` | Developer platform: Academind (YouTube Coding Channel) |
+| **261** | **Anuj Bhaiya** | `YouTube Coding Channel` | [https://www.youtube.com/@AnujBhaiya](https://www.youtube.com/@AnujBhaiya) | `Free` | Data structures, algorithms, system design, and software engineering placement prep. |
+| **262** | **Apni Kaksha** | `YouTube Coding Channel` | [https://www.youtube.com/@ApniKaksha](https://www.youtube.com/@ApniKaksha) | `Free` | Free quality coding education, college roadmap, and placement interview guidance. |
+| **263** | **Bhagwan Singh Vishwakarma** | `YouTube Coding Channel` | [https://www.youtube.com/@bhagwansinghvishwakarma](https://www.youtube.com/@bhagwansinghvishwakarma) | `Free` | Computer science, programming, and technical academic tutorials. |
+| **264** | **Clever Programmer** | `YouTube Coding Channel` | [https://www.youtube.com/@CleverProgrammer](https://www.youtube.com/@CleverProgrammer) | `Free` | Full-stack web development clone builds with JavaScript, React, and Python. |
+| **265** | **CodeWithHarry** | `YouTube Coding Channel` | [https://www.youtube.com/@CodeWithHarry](https://www.youtube.com/@CodeWithHarry) | `Free` | Top Indian programming channel teaching Python, Web Dev, C, C++, and Java in Hindi. |
+| **266** | **Derek Banas** | `YouTube Coding Channel` | [https://www.youtube.com/@derekbanas](https://www.youtube.com/@derekbanas) | `Free` | Learn complex programming languages and frameworks in single comprehensive videos. |
+| **267** | **freeCodeCamp.org** | `YouTube Coding Channel` | [https://www.youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) | `Free` | Thousands of hours of free coding courses from industry professionals. |
+| **268** | **Gate Smashers** | `YouTube Coding Channel` | [https://www.youtube.com/@GateSmashers](https://www.youtube.com/@GateSmashers) | `Free` | Operating systems, DBMS, computer networks, and GATE computer science lectures. |
+| **269** | **Jenny's Lectures CS IT** | `YouTube Coding Channel` | [https://www.youtube.com/@JennyslecturesCSIT](https://www.youtube.com/@JennyslecturesCSIT) | `Free` | Engineering CS/IT subjects, algorithms, data structures, and theory of computation. |
+| **270** | **LearnCode.academy** | `YouTube Coding Channel` | [https://www.youtube.com/@learncodeacademy](https://www.youtube.com/@learncodeacademy) | `Free` | Web development tutorials, responsive design, JavaScript, React, and DevOps. |
+| **271** | **mycodeschool** | `YouTube Coding Channel` | [https://www.youtube.com/@mycodeschool](https://www.youtube.com/@mycodeschool) | `Free` | Classic, world-renowned lessons on data structures, pointers, and memory management. |
+| **272** | **MySirG.com** | `YouTube Coding Channel` | [https://www.youtube.com/@MySirG](https://www.youtube.com/@MySirG) | `Free` | Premier Hindi channel for C, C++, Python, Data Structures, and programming fundamentals. |
+| **273** | **Programming Hub** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingHub](https://www.youtube.com/@ProgrammingHub) | `Free` | Accessible tech tutorials covering AI, app development, and programming languages. |
+| **274** | **Programming with Mosh** | `YouTube Coding Channel` | [https://www.youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh) | `Free` | Clear, concise tutorials on Python, JavaScript, React, C#, and SQL. |
+| **275** | **Programming with Mosh** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingwithMosh](https://www.youtube.com/@ProgrammingwithMosh) | `Free` | Developer platform: Programming with Mosh (YouTube Coding Channel) |
+| **276** | **ProgrammingKnowledge** | `YouTube Coding Channel` | [https://www.youtube.com/@ProgrammingKnowledge](https://www.youtube.com/@ProgrammingKnowledge) | `Free` | Step-by-step programming tutorials on Android, Java, Python, and Linux. |
+| **277** | **SoloLearn** | `YouTube Coding Channel` | [https://www.youtube.com/@SoloLearn](https://www.youtube.com/@SoloLearn) | `Free` | Bite-sized mobile-first coding lessons and language deep-dives. |
+| **278** | **SortedCoding** | `YouTube Coding Channel` | [https://www.youtube.com/@SortedCoding](https://www.youtube.com/@SortedCoding) | `Free` | Frontend tricks, CSS animations, JavaScript projects, and coding shorts. |
+| **279** | **SortedCoding** | `YouTube Coding Channel` | [https://youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT](https://youtube.com/@sortedcoding?si=OViA9rO2lCUgosxT) | `Free` | Developer platform: SortedCoding (YouTube Coding Channel) |
+| **280** | **Telusko** | `YouTube Coding Channel` | [https://www.youtube.com/@Telusko](https://www.youtube.com/@Telusko) | `Free` | Java, Python, Blockchain, Docker, and full-stack web development tutorials. |
+| **281** | **thenewboston** | `YouTube Coding Channel` | [https://www.youtube.com/@thenewboston](https://www.youtube.com/@thenewboston) | `Free` | Pioneering computer science, web dev, and blockchain video tutorials. |
+| **282** | **Traversy Media** | `YouTube Coding Channel` | [https://www.youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia) | `Free` | Practical web development tutorials, crash courses, and project builds. |
 
 ---
 

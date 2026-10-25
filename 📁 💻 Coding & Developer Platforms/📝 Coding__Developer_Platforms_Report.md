@@ -1,7 +1,7 @@
 # 💻 Coding & Developer Platforms
 
 > Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.  
-> **Total Curated Tools**: `281` | **Zero Repeats & Deduplicated**
+> **Total Curated Tools**: `282` | **Zero Repeats & Deduplicated**
 
 ---
 
@@ -10,7 +10,7 @@
 - **💻 Online Code Editors & Cloud IDEs**: `6 Platforms / Projects`
 - **⚔️ Coding Challenges & Practice Platforms**: `11 Platforms / Projects`
 - **🎓 Programming & Tech Learning Platforms**: `31 Platforms / Projects`
-- **📚 Developer Reference, Roadmaps & Cheat Sheets**: `10 Platforms / Projects`
+- **📚 Developer Reference, Roadmaps & Cheat Sheets**: `11 Platforms / Projects`
 - **🐍 Python Dedicated Resources**: `8 Platforms / Projects`
 - **🐙 Version Control & Repository Platforms**: `14 Platforms / Projects`
 - **💼 Technical Interview Prep & Coding Utilities**: `4 Platforms / Projects`
@@ -88,20 +88,21 @@
 
 ---
 
-### 📚 Developer Reference, Roadmaps & Cheat Sheets (`10 Resources`)
+### 📚 Developer Reference, Roadmaps & Cheat Sheets (`11 Resources`)
 
 | # | Name / Project Title | Website Type | Official Link | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
 | **1** | **Animated Loaders** | `Web Development Resource` | [Visit / View Guide](https://coddy.tech/onboard) | `Free` | High-utility developer platform: Animated Loaders (Web Development Resource) |
 | **2** | **Developer Roadmaps** | `Web Development Resource` | [Visit / View Guide](https://developerroadmaps.com) | `Free` | High-utility developer platform: Developer Roadmaps (Web Development Resource) |
-| **3** | **HTML Visuals** | `Web Development Resource` | [Visit / View Guide](https://www.htmlvisuals.com) | `Free` | High-utility developer platform: HTML Visuals (Web Development Resource) |
-| **4** | **HTML.com** | `Web Development Resource` | [Visit / View Guide](https://html.com) | `Free` | High-utility developer platform: HTML.com (Web Development Resource) |
-| **5** | **HTML5 Cheat Sheet** | `Web Development Resource` | [Visit / View Guide](https://www.geeksforgeeks.org/html5-cheat-sheet) | `Free` | High-utility developer platform: HTML5 Cheat Sheet (Web Development Resource) |
-| **6** | **LearnWeb3** | `Web Development Resource` | [Visit / View Guide](https://learnweb3.io) | `Free` | High-utility developer platform: LearnWeb3 (Web Development Resource) |
-| **7** | **QuickRef** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://quickref.me) | `Free` | High-utility developer platform: QuickRef (Developer Reference & Cheat Sheets) |
-| **8** | **uiverse.io** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://uiverse.io) | `Free` | Developer platform: uiverse.io (Developer Reference & Cheat Sheets) |
-| **9** | **W3Schools** | `Web Development Resource` | [Visit / View Guide](https://www.w3schools.com) | `Free` | High-utility developer platform: W3Schools (Web Development Resource) |
-| **10** | **web.dev – Learn CSS** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://web.dev/learn/css) | `Free` | High-utility developer platform: web.dev – Learn CSS (Developer Reference & Cheat Sheets) |
+| **3** | **Explorer.globe.engineer** | `Web Development Resource` | [Visit / View Guide](https://explorer.globe.engineer) | `Free` | High-utility developer platform: Explorer.globe.engineer (Web Development Resource) |
+| **4** | **HTML Visuals** | `Web Development Resource` | [Visit / View Guide](https://www.htmlvisuals.com) | `Free` | High-utility developer platform: HTML Visuals (Web Development Resource) |
+| **5** | **HTML.com** | `Web Development Resource` | [Visit / View Guide](https://html.com) | `Free` | High-utility developer platform: HTML.com (Web Development Resource) |
+| **6** | **HTML5 Cheat Sheet** | `Web Development Resource` | [Visit / View Guide](https://www.geeksforgeeks.org/html5-cheat-sheet) | `Free` | High-utility developer platform: HTML5 Cheat Sheet (Web Development Resource) |
+| **7** | **LearnWeb3** | `Web Development Resource` | [Visit / View Guide](https://learnweb3.io) | `Free` | High-utility developer platform: LearnWeb3 (Web Development Resource) |
+| **8** | **QuickRef** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://quickref.me) | `Free` | High-utility developer platform: QuickRef (Developer Reference & Cheat Sheets) |
+| **9** | **uiverse.io** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://uiverse.io) | `Free` | Developer platform: uiverse.io (Developer Reference & Cheat Sheets) |
+| **10** | **W3Schools** | `Web Development Resource` | [Visit / View Guide](https://www.w3schools.com) | `Free` | High-utility developer platform: W3Schools (Web Development Resource) |
+| **11** | **web.dev – Learn CSS** | `Developer Reference & Cheat Sheets` | [Visit / View Guide](https://web.dev/learn/css) | `Free` | High-utility developer platform: web.dev – Learn CSS (Developer Reference & Cheat Sheets) |
 
 ---
 
