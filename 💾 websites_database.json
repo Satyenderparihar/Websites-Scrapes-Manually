@@ -8,7 +8,8 @@
     "pricing": "Free + Paid",
     "description": "Official music streaming service by YouTube with personalized recommendations and music videos.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "spotify.com": {
     "key": "spotify.com",
@@ -19,7 +20,8 @@
     "pricing": "Free + Paid",
     "description": "Global digital music and podcast platform with millions of tracks and curated playlists.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "music.apple.com": {
     "key": "music.apple.com",
@@ -30,7 +32,8 @@
     "pricing": "Paid",
     "description": "Premium audio streaming platform with lossless audio, Dolby Atmos spatial sound, and exclusive releases.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "soundcloud.com": {
     "key": "soundcloud.com",
@@ -41,7 +44,8 @@
     "pricing": "Free + Paid",
     "description": "Open audio platform connecting fans directly with independent artists, DJs, and podcasters.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "gaana.com": {
     "key": "gaana.com",
@@ -52,7 +56,8 @@
     "pricing": "Free + Paid",
     "description": "Commercial music streaming service offering Bollywood, Punjabi, Tamil, Telugu, and English songs.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "jiosaavn.com": {
     "key": "jiosaavn.com",
@@ -63,18 +68,20 @@
     "pricing": "Free + Paid",
     "description": "Extensive Indian music library with 80M+ tracks, original podcasts, and regional radio stations.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "radio.garden": {
     "key": "radio.garden",
     "name": "Radio Garden",
-    "website_type": "3D Virtual Vehicle Customizer",
+    "website_type": "Online Radio Map",
     "url": "https://radio.garden",
-    "category": "🎨 Design & Creator Tools",
+    "category": "📻 Online Radio & Interactive Maps",
     "pricing": "Free",
     "description": "Interactive 3D globe allowing users to rotate the earth and tune into live radio stations worldwide.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "tv.garden": {
     "key": "tv.garden",
@@ -85,7 +92,8 @@
     "pricing": "Free",
     "description": "Global television discovery platform to watch live broadcasts and international channels.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "famelack.com": {
     "key": "famelack.com",
@@ -96,7 +104,8 @@
     "pricing": "Free",
     "description": "Watch free live TV streams, international webcams, and explore worldwide broadcasting channels.",
     "source": "User Chat Prompt",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 10,
+    "added_at": "2026-10-25 11:45:22"
   },
   "fdown.net": {
     "key": "fdown.net",
@@ -107,7 +116,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Facebook Video Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "botdownloader.com/facebook-video-downloader": {
     "key": "botdownloader.com/facebook-video-downloader",
@@ -118,7 +128,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Facebook Video Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "igram.io": {
     "key": "igram.io",
@@ -129,7 +140,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Instagram Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "botdownloader.com/pinterest-video-downloader": {
     "key": "botdownloader.com/pinterest-video-downloader",
@@ -140,7 +152,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Pinterest Video Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "botdownloader.com/twitter-video-downloader": {
     "key": "botdownloader.com/twitter-video-downloader",
@@ -151,7 +164,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Twitter Video Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "ssyoutube.com/en1/youtube-video-downloader": {
     "key": "ssyoutube.com/en1/youtube-video-downloader",
@@ -162,7 +176,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: YouTube Video Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "y2mate.lol": {
     "key": "y2mate.lol",
@@ -173,7 +188,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: YouTube to MP4 Converter",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "cobalt.tools": {
     "key": "cobalt.tools",
@@ -184,7 +200,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Universal Media Downloader",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "github.com/aman2k4/StartupBaniya/tree/main/autosubtitles": {
     "key": "github.com/aman2k4/StartupBaniya/tree/main/autosubtitles",
@@ -195,7 +212,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Subtitle Automation Tool",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "filepursuit.com": {
     "key": "filepursuit.com",
@@ -206,7 +224,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: File Search Engine",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "image.pi7.org": {
     "key": "image.pi7.org",
@@ -217,7 +236,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: Image Processing Tool",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "instagram.com/reel/DcyyG0Tvhqb": {
     "key": "instagram.com/reel/DcyyG0Tvhqb",
@@ -228,7 +248,8 @@
     "pricing": "Free",
     "description": "High-speed online tool: YouTube Video , Mp3 download with timestamp",
     "source": "Excel: ⬇️ Video Downloaders.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "yout.com": {
     "key": "yout.com",
@@ -239,7 +260,8 @@
     "pricing": "Free",
     "description": "Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "instag.com": {
     "key": "instag.com",
@@ -250,7 +272,8 @@
     "pricing": "Free",
     "description": "Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 2)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "faceb.com": {
     "key": "faceb.com",
@@ -261,7 +284,8 @@
     "pricing": "Free",
     "description": "Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL.",
     "source": "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 9,
+    "added_at": "2026-10-25 11:45:22"
   },
   "123apps.com": {
     "key": "123apps.com",
@@ -272,7 +296,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Online Utility Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "xtiles.app": {
     "key": "xtiles.app",
@@ -283,7 +308,8 @@
     "pricing": "Free + Paid",
     "description": "High-utility web tool: Workspace / Productivity",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "earthcam.com": {
     "key": "earthcam.com",
@@ -294,7 +320,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Live Camera Streaming",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "virtualvacation.us": {
     "key": "virtualvacation.us",
@@ -305,7 +332,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Virtual Travel",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "zoomquilt.org": {
     "key": "zoomquilt.org",
@@ -316,7 +344,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Interactive Visual Experience",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "flightradar24.com": {
     "key": "flightradar24.com",
@@ -327,7 +356,8 @@
     "pricing": "Free + Paid",
     "description": "High-utility web tool: Flight Tracking",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "mrfreetools.com": {
     "key": "mrfreetools.com",
@@ -338,7 +368,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Free Online Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "10015.io": {
     "key": "10015.io",
@@ -349,7 +380,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Developer Tools",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "websiteplanet.com": {
     "key": "websiteplanet.com",
@@ -360,7 +392,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Web Utilities",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "github.com/J0rgeSerran0/Useful-Free-Online-Tools-and-Sites": {
     "key": "github.com/J0rgeSerran0/Useful-Free-Online-Tools-and-Sites",
@@ -371,7 +404,8 @@
     "pricing": "Free",
     "description": "High-utility web tool: Tool Collection (GitHub)",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Sheet3)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 7,
+    "added_at": "2026-10-25 11:45:22"
   },
   "replit.com": {
     "key": "replit.com",
@@ -382,7 +416,8 @@
     "pricing": "Freemium",
     "description": "Fastest and most accurate AI website builder I've tried so far.",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "hyperpost.studio": {
     "key": "hyperpost.studio",
@@ -393,7 +428,8 @@
     "pricing": "Freemium",
     "description": "Social media template booster packs",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "1aauto.com": {
     "key": "1aauto.com",
@@ -404,7 +440,8 @@
     "pricing": "Free",
     "description": "Free DIY car repair video guides showing step-by-step fixes for common vehicle problems",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "3dtuning.com": {
     "key": "3dtuning.com",
@@ -415,7 +452,8 @@
     "pricing": "Freemium",
     "description": "Virtual car customization tool to visualize modifications and dream builds before spending money",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "90s.myretrotvs.com": {
     "key": "90s.myretrotvs.com",
@@ -426,7 +464,8 @@
     "pricing": "Free",
     "description": "Nostalgic 90s TV channel experience that recreates the feeling of old-school channel surfing",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "acapella-extractor.com": {
     "key": "acapella-extractor.com",
@@ -437,7 +476,8 @@
     "pricing": "Freemium",
     "description": "Extract clean vocals from any song for remixes and music production projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "airconsole.com": {
     "key": "airconsole.com",
@@ -448,7 +488,8 @@
     "pricing": "Freemium",
     "description": "Multiplayer party games using phones as controllers - no console or downloads needed",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "animejs.com": {
     "key": "animejs.com",
@@ -459,7 +500,8 @@
     "pricing": "Free",
     "description": "Lightweight JavaScript animation library for smooth web animations without heavy dependencies",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "app.emergent.sh": {
     "key": "app.emergent.sh",
@@ -470,7 +512,8 @@
     "pricing": "Freemium",
     "description": "AI builds functional web app MVPs from text prompts - great for rapid prototyping",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "archive.ph": {
     "key": "archive.ph",
@@ -481,7 +524,8 @@
     "pricing": "Free",
     "description": "Save permanent copies of web pages before they change or disappear forever",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "autocatalogarchive.com": {
     "key": "autocatalogarchive.com",
@@ -492,7 +536,8 @@
     "pricing": "Free",
     "description": "Archive of vintage car brochures and catalogs for classic vehicle research and nostalgia",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "autodraw.com": {
     "key": "autodraw.com",
@@ -503,7 +548,8 @@
     "pricing": "Free",
     "description": "Google's AI that turns rough sketches into clean professional drawings instantly",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "azgaar.github.io": {
     "key": "azgaar.github.io",
@@ -514,7 +560,8 @@
     "pricing": "Free",
     "description": "Procedural fantasy map generator for D&D campaigns and worldbuilding projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "beforeiplay.com": {
     "key": "beforeiplay.com",
@@ -525,7 +572,8 @@
     "pricing": "Free",
     "description": "Spoiler-free tips and advice to read before starting any new video game",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "builditapp.com": {
     "key": "builditapp.com",
@@ -536,7 +584,8 @@
     "pricing": "Freemium",
     "description": "Step-by-step Minecraft building guides with layer-by-layer instructions for impressive structures",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "carcarekiosk.com": {
     "key": "carcarekiosk.com",
@@ -547,7 +596,8 @@
     "pricing": "Free",
     "description": "Vehicle-specific maintenance video tutorials for your exact car make and model",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "chef.convex.dev": {
     "key": "chef.convex.dev",
@@ -558,7 +608,8 @@
     "pricing": "Freemium",
     "description": "AI generates real-time app backends from prompts - deploy working prototypes in minutes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "chefgpt.xyz": {
     "key": "chefgpt.xyz",
@@ -569,7 +620,8 @@
     "pricing": "Free",
     "description": "AI suggests recipes based on ingredients already in your fridge to reduce food waste",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "chemequations.com": {
     "key": "chemequations.com",
@@ -580,7 +632,8 @@
     "pricing": "Free",
     "description": "Auto-balance chemical equations instantly - essential tool for chemistry homework and learning",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "chunkbase.com": {
     "key": "chunkbase.com",
@@ -591,7 +644,8 @@
     "pricing": "Free",
     "description": "Find Minecraft structures and biomes by entering your world seed before exploring",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "classcentral.com": {
     "key": "classcentral.com",
@@ -602,7 +656,8 @@
     "pricing": "Free",
     "description": "Search engine aggregating online courses from all major platforms with reviews and ratings",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "clicktheredbutton.com": {
     "key": "clicktheredbutton.com",
@@ -613,7 +668,8 @@
     "pricing": "Free",
     "description": "Random weird website discovery tool - click and find something unexpected on the internet",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coddy.tech": {
     "key": "coddy.tech",
@@ -624,7 +680,8 @@
     "pricing": "Freemium",
     "description": "Bite-sized coding lessons you complete in your browser with instant feedback",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "collov.ai": {
     "key": "collov.ai",
@@ -635,7 +692,8 @@
     "pricing": "Freemium",
     "description": "AI virtual home staging that transforms empty rooms into furnished spaces for listings",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coze.com": {
     "key": "coze.com",
@@ -646,7 +704,8 @@
     "pricing": "Freemium",
     "description": "Build custom AI chatbots and agents without code - deploy to messaging platforms",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "cymath.com": {
     "key": "cymath.com",
@@ -657,7 +716,8 @@
     "pricing": "Freemium",
     "description": "Step-by-step math problem solver that shows you how to get the answer",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "dora.run": {
     "key": "dora.run",
@@ -668,7 +728,8 @@
     "pricing": "Freemium",
     "description": "No-code builder for impressive 3D animated websites without learning WebGL or Three.js",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "dreamforth.com": {
     "key": "dreamforth.com",
@@ -679,7 +740,8 @@
     "pricing": "Free",
     "description": "Dream interpretation dictionary to explore what your vivid or recurring dreams might mean",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "drivenlisten.com": {
     "key": "drivenlisten.com",
@@ -690,7 +752,8 @@
     "pricing": "Free",
     "description": "Virtual drives through cities worldwide with real dashcam footage and local radio",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "dungeonscrawl.com": {
     "key": "dungeonscrawl.com",
@@ -701,7 +764,8 @@
     "pricing": "Freemium",
     "description": "Create custom dungeon maps online for tabletop RPGs and virtual tabletop sessions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "entertrained.app": {
     "key": "entertrained.app",
@@ -712,7 +776,8 @@
     "pricing": "Free",
     "description": "Practice typing by retyping classic books - skill building while reading great literature",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "enzostvs-deepsite.hf.space": {
     "key": "enzostvs-deepsite.hf.space",
@@ -723,7 +788,8 @@
     "pricing": "Free",
     "description": "AI generates complete websites from text prompts using open-source models - free hosting included",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "fakeupdate.net": {
     "key": "fakeupdate.net",
@@ -734,7 +800,8 @@
     "pricing": "Free",
     "description": "Fake system update screens perfect for office pranks or looking busy during meetings",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "flourish.studio": {
     "key": "flourish.studio",
@@ -745,7 +812,8 @@
     "pricing": "Freemium",
     "description": "Create beautiful interactive data visualizations and charts without knowing how to code",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "flowith.io": {
     "key": "flowith.io",
@@ -756,7 +824,8 @@
     "pricing": "Freemium",
     "description": "AI workspace with infinite canvas for non-linear conversations and complex reasoning tasks",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "fragrantica.com": {
     "key": "fragrantica.com",
@@ -767,7 +836,8 @@
     "pricing": "Free",
     "description": "Comprehensive perfume database with detailed notes and community reviews before you buy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "framer.com": {
     "key": "framer.com",
@@ -778,7 +848,8 @@
     "pricing": "Freemium",
     "description": "No-code website builder with pixel-perfect control for designers who want professional results",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "freepik.com": {
     "key": "freepik.com",
@@ -789,7 +860,8 @@
     "pricing": "Freemium",
     "description": "Stock graphics library with AI image generation tools - one-stop shop for visual assets",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "freesewing.eu": {
     "key": "freesewing.eu",
@@ -800,7 +872,8 @@
     "pricing": "Free",
     "description": "Generate custom sewing patterns from your exact body measurements - open source and free",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "gamma.app": {
     "key": "gamma.app",
@@ -811,7 +884,8 @@
     "pricing": "Freemium",
     "description": "AI generates complete presentations from text - turn ideas into slides in minutes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "gptexcel.uk": {
     "key": "gptexcel.uk",
@@ -822,7 +896,8 @@
     "pricing": "Freemium",
     "description": "AI generates spreadsheet formulas from plain English - stop memorizing VLOOKUP syntax",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "haveibeenpwned.com": {
     "key": "haveibeenpwned.com",
@@ -833,7 +908,8 @@
     "pricing": "Free",
     "description": "Check if your email or password appeared in data breaches - everyone should use this",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "heyzxz.me": {
     "key": "heyzxz.me",
@@ -844,7 +920,8 @@
     "pricing": "Freemium",
     "description": "AI voice synthesis and cloning for content creators needing voiceovers without recording",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "home.by.me": {
     "key": "home.by.me",
@@ -855,7 +932,8 @@
     "pricing": "Freemium",
     "description": "3D home design and room planner to visualize renovations before committing to changes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "human.biodigital.com": {
     "key": "human.biodigital.com",
@@ -866,7 +944,8 @@
     "pricing": "Free",
     "description": "Interactive 3D human anatomy model for medical students and curious minds to explore",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "ifixit.com": {
     "key": "ifixit.com",
@@ -877,7 +956,8 @@
     "pricing": "Free",
     "description": "Free repair guides for phones laptops and appliances - fix it yourself and save money",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "intangible.ai": {
     "key": "intangible.ai",
@@ -888,7 +968,8 @@
     "pricing": "Freemium",
     "description": "AI video generation for pre-production visualization - save thousands on production costs",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "internet-janitor.itch.io": {
     "key": "internet-janitor.itch.io",
@@ -899,7 +980,8 @@
     "pricing": "Free",
     "description": "Tool for making interactive fiction and clicky experiences without learning a game engine",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "jitter.video": {
     "key": "jitter.video",
@@ -910,7 +992,8 @@
     "pricing": "Freemium",
     "description": "Browser-based motion graphics editor for designers who don't want to learn After Effects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "kiddoworksheets.com": {
     "key": "kiddoworksheets.com",
@@ -921,7 +1004,8 @@
     "pricing": "Free",
     "description": "Free printable worksheets for kids covering math reading and educational activities",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "kittl.com": {
     "key": "kittl.com",
@@ -932,7 +1016,8 @@
     "pricing": "Freemium",
     "description": "AI-powered design tool perfect for print-on-demand sellers creating professional graphics quickly",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "layla.ai": {
     "key": "layla.ai",
@@ -943,7 +1028,8 @@
     "pricing": "Freemium",
     "description": "AI travel itinerary planner that creates balanced trip plans from your preferences",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "learn-anything.xyz": {
     "key": "learn-anything.xyz",
@@ -954,7 +1040,8 @@
     "pricing": "Free",
     "description": "Curated learning paths for any topic - community-organized roadmaps instead of random tutorials",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "litsolutions.org": {
     "key": "litsolutions.org",
@@ -965,7 +1052,8 @@
     "pricing": "Free",
     "description": "Free textbook solutions and homework help with step-by-step workings for STEM courses",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "lostgamer.io": {
     "key": "lostgamer.io",
@@ -976,7 +1064,8 @@
     "pricing": "Free",
     "description": "GeoGuessr but for video games - guess your location from in-game screenshots",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "makemydrivefun.com": {
     "key": "makemydrivefun.com",
@@ -987,7 +1076,8 @@
     "pricing": "Free",
     "description": "Find quirky roadside attractions and interesting detours along your planned driving route",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "mapgenie.io": {
     "key": "mapgenie.io",
@@ -998,7 +1088,8 @@
     "pricing": "Freemium",
     "description": "Interactive game maps with collectible tracking for completionists who want 100% in games",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "mcbroken.com": {
     "key": "mcbroken.com",
@@ -1009,7 +1100,8 @@
     "pricing": "Free",
     "description": "Check if the McDonald's ice cream machine near you is working before you drive there",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "meshy.ai": {
     "key": "meshy.ai",
@@ -1020,7 +1112,8 @@
     "pricing": "Freemium",
     "description": "AI generates 3D models from text prompts or images for games and visualization",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "mindluster.com": {
     "key": "mindluster.com",
@@ -1031,7 +1124,8 @@
     "pricing": "Free",
     "description": "Free online courses with certificates you can add to your resume upon completion",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "moewalls.com": {
     "key": "moewalls.com",
@@ -1042,7 +1136,8 @@
     "pricing": "Free",
     "description": "Animated wallpapers and live desktop backgrounds for Windows with huge variety",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "musclewiki.com": {
     "key": "musclewiki.com",
@@ -1053,7 +1148,8 @@
     "pricing": "Free",
     "description": "Interactive muscle map showing exercises for every body part with video demonstrations",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "music-map.com": {
     "key": "music-map.com",
@@ -1064,7 +1160,8 @@
     "pricing": "Free",
     "description": "Discover similar artists visualized as a spatial map - type any band and explore",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "musicca.com": {
     "key": "musicca.com",
@@ -1075,7 +1172,8 @@
     "pricing": "Free",
     "description": "Interactive music theory lessons with virtual instruments and exercises to practice concepts",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "myfridgefood.com": {
     "key": "myfridgefood.com",
@@ -1086,7 +1184,8 @@
     "pricing": "Free",
     "description": "Recipe finder that suggests meals based on ingredients you already have at home",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "n8n.io": {
     "key": "n8n.io",
@@ -1097,7 +1196,8 @@
     "pricing": "Freemium",
     "description": "Open-source workflow automation that connects apps and automates tasks with visual builder",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "napkin.ai": {
     "key": "napkin.ai",
@@ -1108,7 +1208,8 @@
     "pricing": "Freemium",
     "description": "AI transforms text into visual diagrams and illustrations automatically - just paste and go",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "natively.dev": {
     "key": "natively.dev",
@@ -1119,7 +1220,8 @@
     "pricing": "Freemium",
     "description": "AI no-code platform for building native mobile apps without any programming knowledge",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "newarc.ai": {
     "key": "newarc.ai",
@@ -1130,7 +1232,8 @@
     "pricing": "Freemium",
     "description": "AI architecture design tool that generates photorealistic building visualizations from concepts",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "nullfake.com": {
     "key": "nullfake.com",
@@ -1141,7 +1244,8 @@
     "pricing": "Free",
     "description": "Detect fake Amazon reviews and see adjusted ratings based only on authentic reviews",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "onelook.com": {
     "key": "onelook.com",
@@ -1152,7 +1256,8 @@
     "pricing": "Free",
     "description": "Reverse dictionary that finds words when you only know the definition or concept",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "pacdora.com": {
     "key": "pacdora.com",
@@ -1163,7 +1268,8 @@
     "pricing": "Freemium",
     "description": "3D packaging mockup generator for product branding with realistic visualization",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "paperanimator.com": {
     "key": "paperanimator.com",
@@ -1174,7 +1280,8 @@
     "pricing": "Freemium",
     "description": "Turn hand-drawn character sketches into animations with simple drag-and-drop rigging",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "phet.colorado.edu": {
     "key": "phet.colorado.edu",
@@ -1185,7 +1292,8 @@
     "pricing": "Free",
     "description": "Free interactive science simulations from University of Colorado for physics chemistry and biology",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "planyourroom.com": {
     "key": "planyourroom.com",
@@ -1196,7 +1304,8 @@
     "pricing": "Free",
     "description": "Drag-and-drop room layout planner to test furniture arrangements before buying or moving",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "pngimg.com": {
     "key": "pngimg.com",
@@ -1207,7 +1316,8 @@
     "pricing": "Free",
     "description": "Free database of PNG images with transparent backgrounds ready for design projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "pointerpointer.com": {
     "key": "pointerpointer.com",
@@ -1218,7 +1328,8 @@
     "pricing": "Free",
     "description": "Whimsical website that finds photos of people pointing exactly where your cursor is",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "ponder.chat": {
     "key": "ponder.chat",
@@ -1229,7 +1340,8 @@
     "pricing": "Freemium",
     "description": "AI writing assistant for creating blog posts social media content and marketing copy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "reactbits.dev": {
     "key": "reactbits.dev",
@@ -1240,7 +1352,8 @@
     "pricing": "Free",
     "description": "Collection of animated React components ready to copy and paste into your projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "reimaginehome.ai": {
     "key": "reimaginehome.ai",
@@ -1251,7 +1364,8 @@
     "pricing": "Freemium",
     "description": "Upload a room photo and get AI-generated interior design ideas in different styles",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "remove.photos": {
     "key": "remove.photos",
@@ -1262,7 +1376,8 @@
     "pricing": "Freemium",
     "description": "AI background remover for quick photo editing in your browser - no software needed",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "roadmap.sh": {
     "key": "roadmap.sh",
@@ -1273,7 +1388,8 @@
     "pricing": "Free",
     "description": "Developer career learning paths with step-by-step roadmaps for any tech specialization",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "roadtrippers.com": {
     "key": "roadtrippers.com",
@@ -1284,7 +1400,8 @@
     "pricing": "Freemium",
     "description": "Road trip planning tool with stops attractions and route optimization all in one",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "same.new": {
     "key": "same.new",
@@ -1295,7 +1412,8 @@
     "pricing": "Freemium",
     "description": "AI clones any website's design in seconds and generates the code for you",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "sketch.metademolab.com": {
     "key": "sketch.metademolab.com",
@@ -1306,7 +1424,8 @@
     "pricing": "Free",
     "description": "Meta's AI that automatically animates hand-drawn character sketches - free research demo",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "slowroads.io": {
     "key": "slowroads.io",
@@ -1317,7 +1436,8 @@
     "pricing": "Free",
     "description": "Relaxing endless driving game with procedurally generated roads through beautiful landscapes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "smart.servier.com": {
     "key": "smart.servier.com",
@@ -1328,7 +1448,8 @@
     "pricing": "Free",
     "description": "Free high-resolution medical and scientific images for anatomy biology and healthcare projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "spacetypegenerator.com": {
     "key": "spacetypegenerator.com",
@@ -1339,7 +1460,8 @@
     "pricing": "Free",
     "description": "Animated typography effects generator for creating dynamic text for videos and social media",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "squoosh.app": {
     "key": "squoosh.app",
@@ -1350,7 +1472,8 @@
     "pricing": "Free",
     "description": "Google's image compression tool with side-by-side comparison to optimize file sizes",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "ssemble.com": {
     "key": "ssemble.com",
@@ -1361,7 +1484,8 @@
     "pricing": "Freemium",
     "description": "Browser-based video editor with AI features for creating and editing without downloads",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "startmycar.com": {
     "key": "startmycar.com",
@@ -1372,7 +1496,8 @@
     "pricing": "Free",
     "description": "Car troubleshooting guide that helps diagnose why your car won't start with solutions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "stirlingpdf.io": {
     "key": "stirlingpdf.io",
@@ -1383,7 +1508,8 @@
     "pricing": "Free",
     "description": "Open-source all-in-one PDF manipulation tool you can self-host for privacy",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "supercook.com": {
     "key": "supercook.com",
@@ -1394,7 +1520,8 @@
     "pricing": "Free",
     "description": "Recipe search engine that finds dishes you can make with ingredients you already have",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "sweezy-cursors.com": {
     "key": "sweezy-cursors.com",
@@ -1405,7 +1532,8 @@
     "pricing": "Free",
     "description": "Custom animated browser cursors with hundreds of themed and animated styles to choose",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "systemrequirementslab.com": {
     "key": "systemrequirementslab.com",
@@ -1416,7 +1544,8 @@
     "pricing": "Free",
     "description": "Check if your PC can run a game by scanning your specs against requirements",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "tailornova.com": {
     "key": "tailornova.com",
@@ -1427,7 +1556,8 @@
     "pricing": "Freemium",
     "description": "Generate custom sewing patterns made-to-measure from your exact body measurements",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "text-to-cad.zoo.dev": {
     "key": "text-to-cad.zoo.dev",
@@ -1438,7 +1568,8 @@
     "pricing": "Free",
     "description": "AI generates 3D CAD models from text descriptions for engineering and design projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "thetoymaker.com": {
     "key": "thetoymaker.com",
@@ -1449,7 +1580,8 @@
     "pricing": "Free",
     "description": "Printable paper toy templates you can cut fold and glue into whimsical 3D figures",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "thetruesize.com": {
     "key": "thetruesize.com",
@@ -1460,18 +1592,20 @@
     "pricing": "Free",
     "description": "Interactive map showing true size of countries by correcting Mercator projection distortions",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "tinywow.com": {
     "key": "tinywow.com",
-    "name": "tinywow.com",
-    "website_type": "Productivity Tool",
+    "name": "TinyWow",
+    "website_type": "Multi-Tool Suite",
     "url": "https://tinywow.com",
     "category": "📄 PDF & Document Utilities",
     "pricing": "Freemium",
-    "description": "Swiss Army knife of 200+ free online tools for PDF image video and file conversions",
+    "description": "Free online tools for PDF, video, image, and document conversion",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "topoexport.com": {
     "key": "topoexport.com",
@@ -1482,7 +1616,8 @@
     "pricing": "Freemium",
     "description": "Export 3D terrain models from anywhere on Earth for 3D printing or game development",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "trace.moe": {
     "key": "trace.moe",
@@ -1493,7 +1628,8 @@
     "pricing": "Free",
     "description": "Reverse image search for anime that identifies the exact scene from any screenshot",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "typefaceanimator.com": {
     "key": "typefaceanimator.com",
@@ -1504,7 +1640,8 @@
     "pricing": "Free",
     "description": "Browser tool for creating animated typeface transitions and kinetic typography effects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "typelit.io": {
     "key": "typelit.io",
@@ -1515,7 +1652,8 @@
     "pricing": "Freemium",
     "description": "Practice typing by retyping classic literature - combine skill development with reading great books",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "typingclub.com": {
     "key": "typingclub.com",
@@ -1526,7 +1664,8 @@
     "pricing": "Freemium",
     "description": "Structured typing lessons for schools and individuals with gamified progress tracking",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "uiball.com": {
     "key": "uiball.com",
@@ -1537,7 +1676,8 @@
     "pricing": "Free",
     "description": "Free collection of beautiful loading spinners and UI loaders for modern web projects",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "uiverse.io": {
     "key": "uiverse.io",
@@ -1548,7 +1688,8 @@
     "pricing": "Free",
     "description": "Community-driven library of free open-source UI elements including buttons cards and loaders",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "unpigeon.me": {
     "key": "unpigeon.me",
@@ -1559,7 +1700,8 @@
     "pricing": "Free",
     "description": "Convert email newsletter subscriptions to RSS feeds to escape inbox clutter",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "versus.com": {
     "key": "versus.com",
@@ -1570,7 +1712,8 @@
     "pricing": "Free",
     "description": "Side-by-side product comparisons with detailed spec breakdowns across phones laptops and more",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "vocalremover.org": {
     "key": "vocalremover.org",
@@ -1581,7 +1724,8 @@
     "pricing": "Freemium",
     "description": "AI separates vocals from instrumentals in any song for karaoke remixing or production",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "watabou.github.io": {
     "key": "watabou.github.io",
@@ -1592,7 +1736,8 @@
     "pricing": "Free",
     "description": "Collection of procedural generators for dungeon maps medieval cities and fantasy worlds",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "whitescreen.online": {
     "key": "whitescreen.online",
@@ -1603,7 +1748,8 @@
     "pricing": "Free",
     "description": "Full-screen color display for testing monitors lighting video calls or cleaning screens",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "wifimap.io": {
     "key": "wifimap.io",
@@ -1614,7 +1760,8 @@
     "pricing": "Freemium",
     "description": "Crowdsourced database of WiFi passwords from cafes airports and public places worldwide",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "wolframalpha.com": {
     "key": "wolframalpha.com",
@@ -1625,7 +1772,8 @@
     "pricing": "Freemium",
     "description": "Computational knowledge engine that answers questions with computed data rather than web links",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "x-minus.pro": {
     "key": "x-minus.pro",
@@ -1636,7 +1784,8 @@
     "pricing": "Freemium",
     "description": "Split any song into vocals and instrumentals for karaoke remixing or music production",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "zty.pe": {
     "key": "zty.pe",
@@ -1647,7 +1796,8 @@
     "pricing": "Free",
     "description": "Typing game where you shoot down enemy ships by typing words - fun skill practice",
     "source": "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 5,
+    "added_at": "2026-10-25 11:45:22"
   },
   "sejda.com": {
     "key": "sejda.com",
@@ -1658,7 +1808,8 @@
     "pricing": "Freemium",
     "description": "Online PDF editor, merge, split, and conversion tools",
     "source": "Excel: 📄 PDF Resources.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "play.google.com": {
     "key": "play.google.com",
@@ -1669,7 +1820,8 @@
     "pricing": "Free",
     "description": "Offline PDF management and conversion app",
     "source": "Excel: 📄 PDF Resources.xlsx",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "elementsofai.com": {
     "key": "elementsofai.com",
@@ -1680,7 +1832,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: Elements of AI (AI Course Platform)",
     "source": "Excel: 🎓 Course Library.xlsx (Ai)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "github.com/microsoft/generative-ai-for-beginners": {
     "key": "github.com/microsoft/generative-ai-for-beginners",
@@ -1691,7 +1844,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: GitHub – Microsoft Generative AI for Beginners (Open Source AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Ai)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "databricks.com": {
     "key": "databricks.com",
@@ -1702,7 +1856,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: Databricks – Generative AI Fundamentals (AI Training Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Ai)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coursera.org/learn/generative-ai-with-llms": {
     "key": "coursera.org/learn/generative-ai-with-llms",
@@ -1713,7 +1868,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: Coursera – Generative AI with LLMs (Online Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Ai)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coursera.org/learn/generative-ai-for-everyone": {
     "key": "coursera.org/learn/generative-ai-for-everyone",
@@ -1724,7 +1880,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: Coursera – Generative AI for Everyone (Online Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Ai)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coursera.org/learn/machine-learning": {
     "key": "coursera.org/learn/machine-learning",
@@ -1735,7 +1892,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: Coursera – Machine Learning (Online Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Machine Learning)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "coursera.org/professional-certificates/google-data-analytics": {
     "key": "coursera.org/professional-certificates/google-data-analytics",
@@ -1746,7 +1904,8 @@
     "pricing": "Paid",
     "description": "Free education and certified training: Coursera – Google Data Analytics (Professional Certificate)",
     "source": "Excel: 🎓 Course Library.xlsx (Data Analysis)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "mygreatlearning.com": {
     "key": "mygreatlearning.com",
@@ -1757,7 +1916,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: Great Learning Academy (Online Course Platform)",
     "source": "Excel: 🎓 Course Library.xlsx (Data Analysis)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "stpcomputereducation.com/courses": {
     "key": "stpcomputereducation.com/courses",
@@ -1768,7 +1928,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: STP Computer Education – Courses (Computer Courses Platform)",
     "source": "Excel: 🎓 Course Library.xlsx (Computer)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "stpcomputereducation.com/notes": {
     "key": "stpcomputereducation.com/notes",
@@ -1779,7 +1940,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: STP Computer Education – Notes (Study Notes / Learning Material)",
     "source": "Excel: 🎓 Course Library.xlsx (Computer)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "stpcomputereducation.com/courses/web-development.html": {
     "key": "stpcomputereducation.com/courses/web-development.html",
@@ -1790,7 +1952,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: STP Computer Education – Web Development (Web Development Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Computer)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "skillshop.withgoogle.com": {
     "key": "skillshop.withgoogle.com",
@@ -1801,7 +1964,8 @@
     "pricing": "Free",
     "description": "Free education and certified training: Google Skillshop (Official Google Training)",
     "source": "Excel: 🎓 Course Library.xlsx (Google)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "cloudskillsboost.google/paths/118": {
     "key": "cloudskillsboost.google/paths/118",
@@ -1812,7 +1976,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: Google Cloud Skills Boost (Cloud Training Path)",
     "source": "Excel: 🎓 Course Library.xlsx (Google)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "learnvern.com": {
     "key": "learnvern.com",
@@ -1823,7 +1988,8 @@
     "pricing": "Free + Paid",
     "description": "Free education and certified training: LearnVern (Skill Development Platform)",
     "source": "Excel: 🎓 Course Library.xlsx (Skill Based)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "instagram.com/learn_english_with_shaba": {
     "key": "instagram.com/learn_english_with_shaba",
@@ -1834,18 +2000,20 @@
     "pricing": "Free",
     "description": "Free education and certified training: Instagram – Learn English With Shaba (English Learning Page)",
     "source": "Excel: 🎓 Course Library.xlsx (English)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "youtu.be": {
     "key": "youtu.be",
-    "name": "YouTube – ES4TpVsTkgc",
+    "name": "YouTube – dLKPBSov2F4",
     "website_type": "English Learning Video",
     "url": "https://youtu.be/ES4TpVsTkgc",
     "category": "🎓 Free Courses & Learning Platforms",
     "pricing": "Free",
-    "description": "Free education and certified training: YouTube – ES4TpVsTkgc (English Learning Video)",
+    "description": "Free education and certified training: YouTube – dLKPBSov2F4 (English Learning Video)",
     "source": "Excel: 🎓 Course Library.xlsx (English)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/learning-path/generative-ai-program-free": {
     "key": "analyticsvidhya.com/courses/learning-path/generative-ai-program-free",
@@ -1856,7 +2024,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: GenAI Free Program - 7 Courses Combo (Free Program Combo Bundle)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/learning-path/data-science-program": {
     "key": "analyticsvidhya.com/courses/learning-path/data-science-program",
@@ -1867,7 +2036,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Data Science Free Program - 9 Courses Combo (Free Program Combo Bundle)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/genai-a-way-of-life": {
     "key": "analyticsvidhya.com/courses/genai-a-way-of-life",
@@ -1878,7 +2048,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Generative AI - A Way of Life (Generative AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/build-product-10x-faster-with-genai": {
     "key": "analyticsvidhya.com/courses/build-product-10x-faster-with-genai",
@@ -1889,7 +2060,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Build Products 10x Faster with GenAI (Generative AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/deepseek-from-scratch": {
     "key": "analyticsvidhya.com/courses/deepseek-from-scratch",
@@ -1900,7 +2072,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: DeepSeek from Scratch (Generative AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/genai-applied-to-quantitative-finance-for-control-implementation": {
     "key": "analyticsvidhya.com/courses/genai-applied-to-quantitative-finance-for-control-implementation",
@@ -1911,7 +2084,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: GenAI for Quantitative Finance & Control Implementation (Generative AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/reimagining-genai-common-mistakes-and-best-practices-for-success": {
     "key": "analyticsvidhya.com/courses/reimagining-genai-common-mistakes-and-best-practices-for-success",
@@ -1922,7 +2096,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Reimagining GenAI: Common Mistakes and Best Practices for Success (Generative AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/a-b-c-of-coding-to-build-ai-agents": {
     "key": "analyticsvidhya.com/courses/a-b-c-of-coding-to-build-ai-agents",
@@ -1933,7 +2108,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: A B C of Coding to Build AI Agents (Agentic AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/build-a-resume-review-agentic-system-with-crewai": {
     "key": "analyticsvidhya.com/courses/build-a-resume-review-agentic-system-with-crewai",
@@ -1944,7 +2120,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Build a Resume Review Agentic System with CrewAI (Agentic AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/agentic-ai-design-pattern": {
     "key": "analyticsvidhya.com/courses/agentic-ai-design-pattern",
@@ -1955,7 +2132,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Agentic : AI Design Pattern (Agentic AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/building-agentic-ai-system-with-with-bedrock": {
     "key": "analyticsvidhya.com/courses/building-agentic-ai-system-with-with-bedrock",
@@ -1966,7 +2144,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Building Agentic AI System with Bedrock (Agentic AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/knowledge-bases-and-memory-for-agentic-ai": {
     "key": "analyticsvidhya.com/courses/knowledge-bases-and-memory-for-agentic-ai",
@@ -1977,7 +2156,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Knowledge Bases & Memory for Agentic AI (Agentic AI Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-twenty-twenty-four": {
     "key": "analyticsvidhya.com/courses/a-comprehensive-learning-path-to-become-a-data-scientist-in-twenty-twenty-four",
@@ -1988,7 +2168,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: A Comprehensive Learning Path to Become a Data Scientist in 2025 (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/machine-learning-certification-program-beginners": {
     "key": "analyticsvidhya.com/courses/machine-learning-certification-program-beginners",
@@ -1999,7 +2180,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Machine Learning Certification course for Beginners (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/introduction-to-ai-ml": {
     "key": "analyticsvidhya.com/courses/introduction-to-ai-ml",
@@ -2010,7 +2192,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Introduction to AI & ML (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/getting-started-with-deep-learning": {
     "key": "analyticsvidhya.com/courses/getting-started-with-deep-learning",
@@ -2021,7 +2204,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Getting Started with Deep Learning (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/free-building-textclassification-natural-language-processing": {
     "key": "analyticsvidhya.com/courses/free-building-textclassification-natural-language-processing",
@@ -2032,7 +2216,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Building Text Classification Models in NLP (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/a-complete-mlops-journey": {
     "key": "analyticsvidhya.com/courses/a-complete-mlops-journey",
@@ -2043,7 +2228,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: A Complete MLops Journey (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/understanding-the-working-of-neural-networks": {
     "key": "analyticsvidhya.com/courses/understanding-the-working-of-neural-networks",
@@ -2054,7 +2240,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Understanding the working of Neural Networks (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/getting-started-with-llms": {
     "key": "analyticsvidhya.com/courses/getting-started-with-llms",
@@ -2065,7 +2252,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Getting Started With Large Language Models (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/introduction-to-transformers-and-attention-mechanisms": {
     "key": "analyticsvidhya.com/courses/introduction-to-transformers-and-attention-mechanisms",
@@ -2076,7 +2264,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Introduction to Transformers and Attention Mechanisms (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/bagging-boosting-ML-Algorithms": {
     "key": "analyticsvidhya.com/courses/bagging-boosting-ML-Algorithms",
@@ -2087,7 +2276,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Bagging and Boosting ML Algorithms (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/free-unsupervised-ml-guide": {
     "key": "analyticsvidhya.com/courses/free-unsupervised-ml-guide",
@@ -2098,7 +2288,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: The A to Z of Unsupervised ML (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/naive-bayes": {
     "key": "analyticsvidhya.com/courses/naive-bayes",
@@ -2109,7 +2300,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Naive Bayes from Scratch (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/K-Nearest-Neighbors-KNN-Algorithm": {
     "key": "analyticsvidhya.com/courses/K-Nearest-Neighbors-KNN-Algorithm",
@@ -2120,7 +2312,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: K-Nearest Neighbors (KNN) Algorithm in Python and R (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/Fundamentals-of-Regression-Analysis": {
     "key": "analyticsvidhya.com/courses/Fundamentals-of-Regression-Analysis",
@@ -2131,7 +2324,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Fundamentals of Regression Analysis (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/free-understanding-linear-regression": {
     "key": "analyticsvidhya.com/courses/free-understanding-linear-regression",
@@ -2142,7 +2336,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Understanding Linear Regression (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/dimensionality-reduction-for-machine-learning": {
     "key": "analyticsvidhya.com/courses/dimensionality-reduction-for-machine-learning",
@@ -2153,7 +2348,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Dimensionality Reduction for Machine Learning (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/ensemble-learning-and-ensemble-learning-techniques": {
     "key": "analyticsvidhya.com/courses/ensemble-learning-and-ensemble-learning-techniques",
@@ -2164,7 +2360,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Ensemble Learning and Ensemble Learning Techniques (Machine Learning & Deep Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/building-first-rag-systems-using-llamaindex": {
     "key": "analyticsvidhya.com/courses/building-first-rag-systems-using-llamaindex",
@@ -2175,7 +2372,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Build your first RAG system using Llamaindex (RAG Application Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/build-a-document-retriever-search-engine-with-langchain": {
     "key": "analyticsvidhya.com/courses/build-a-document-retriever-search-engine-with-langchain",
@@ -2186,7 +2384,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Build a Document Retriever Search Engine with LangChain (RAG Application Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/mastering-multimodal-rag-and-embeddings-with-amazon-nova-and-bedrock": {
     "key": "analyticsvidhya.com/courses/mastering-multimodal-rag-and-embeddings-with-amazon-nova-and-bedrock",
@@ -2197,7 +2396,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Mastering Multimodal RAG & Embeddings with Amazon Nova & Bedrock (RAG Application Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/improving-real-world-rag-systems-key-challenges": {
     "key": "analyticsvidhya.com/courses/improving-real-world-rag-systems-key-challenges",
@@ -2208,7 +2408,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Improving Real World RAG Systems :Key Challenges (RAG Application Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/end-to-end-app-rag-application-development-with-langchain-and-streamlit": {
     "key": "analyticsvidhya.com/courses/end-to-end-app-rag-application-development-with-langchain-and-streamlit",
@@ -2219,7 +2420,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: End to end RAG Application Development with LangChain and Streamlit (RAG Application Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/guide-to-vibe-coding-in-windsurf": {
     "key": "analyticsvidhya.com/courses/guide-to-vibe-coding-in-windsurf",
@@ -2230,7 +2432,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Guide to Vibe Coding in Windsurf (Vibe Coding Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/building-a-customized-newsletter-ai-agent": {
     "key": "analyticsvidhya.com/courses/building-a-customized-newsletter-ai-agent",
@@ -2241,7 +2444,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Building a Customized Newsletter AI Agent (Vibe Coding Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/vibe-coding-with-replit": {
     "key": "analyticsvidhya.com/courses/vibe-coding-with-replit",
@@ -2252,7 +2456,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Vibe Coding with Replit (Vibe Coding Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/n8n-a-complete-guide-to-the-automation-tool": {
     "key": "analyticsvidhya.com/courses/n8n-a-complete-guide-to-the-automation-tool",
@@ -2263,7 +2468,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: n8n - A Complete Guide to Automation Tool (Vibe Coding Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/loan-prediction-practice-problem-using-python": {
     "key": "analyticsvidhya.com/courses/loan-prediction-practice-problem-using-python",
@@ -2274,7 +2480,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Loan Prediction Practice Problem (Using Python) (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/big-mart-sales-prediction-using-r": {
     "key": "analyticsvidhya.com/courses/big-mart-sales-prediction-using-r",
@@ -2285,7 +2492,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Big Mart Sales Prediction Using R (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/building-a-deep-research-ai-agent": {
     "key": "analyticsvidhya.com/courses/building-a-deep-research-ai-agent",
@@ -2296,7 +2504,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Building a Deep Research AI Agent (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/model-deployment-using-fastapi": {
     "key": "analyticsvidhya.com/courses/model-deployment-using-fastapi",
@@ -2307,7 +2516,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Model Deployment using FastAPI (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/build-data-pipelines-with-apache-airflow": {
     "key": "analyticsvidhya.com/courses/build-data-pipelines-with-apache-airflow",
@@ -2318,7 +2528,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Build Data Pipelines with Apache Airflow (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/how-to-build-an-image-generator-web-app-with-zero-coding": {
     "key": "analyticsvidhya.com/courses/how-to-build-an-image-generator-web-app-with-zero-coding",
@@ -2329,7 +2540,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: How to Build an Image Generator Web App with Zero Coding (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/openengage-a-complete-ai-driven-marketing-engine": {
     "key": "analyticsvidhya.com/courses/openengage-a-complete-ai-driven-marketing-engine",
@@ -2340,7 +2552,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: OpenEngage: Build a complete AI Driven Marketing Engine (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/coding-a-chatgpt-style-language-model-from-scratch-in-pytorch": {
     "key": "analyticsvidhya.com/courses/coding-a-chatgpt-style-language-model-from-scratch-in-pytorch",
@@ -2351,7 +2564,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Coding a ChatGPT-style Language Model From Scratch in Pytorch (Project-Based Learning Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/getting-started-with-deepseek": {
     "key": "analyticsvidhya.com/courses/getting-started-with-deepseek",
@@ -2362,7 +2576,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Getting Started with DeepSeek-AI (AI Model Deep Dive Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/getting-started-with-openai-o3-mini": {
     "key": "analyticsvidhya.com/courses/getting-started-with-openai-o3-mini",
@@ -2373,7 +2588,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Getting Started with OpenAI o3-mini (AI Model Deep Dive Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/exploring-openai-o3-and-o4-mini": {
     "key": "analyticsvidhya.com/courses/exploring-openai-o3-and-o4-mini",
@@ -2384,7 +2600,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Exploring OpenAI o3 and o4-mini (AI Model Deep Dive Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/xai-grok-3-smartest-ai-on-earth": {
     "key": "analyticsvidhya.com/courses/xai-grok-3-smartest-ai-on-earth",
@@ -2395,7 +2612,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: xAI Grok 3: Smartest AI on Earth (AI Model Deep Dive Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/deep-dive-into-qwq-32b": {
     "key": "analyticsvidhya.com/courses/deep-dive-into-qwq-32b",
@@ -2406,7 +2624,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Deep Dive Into QwQ-32B (AI Model Deep Dive Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/excel-from-beginner-to-expert": {
     "key": "analyticsvidhya.com/courses/excel-from-beginner-to-expert",
@@ -2417,7 +2636,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Excel : From Beginner to Expert (Fundamental Tech Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/essential-sql-skills-for-data-beginners": {
     "key": "analyticsvidhya.com/courses/essential-sql-skills-for-data-beginners",
@@ -2428,7 +2648,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Essential : SQL Skills for Data Beginners (Fundamental Tech Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/getting-started-with-tableau": {
     "key": "analyticsvidhya.com/courses/getting-started-with-tableau",
@@ -2439,7 +2660,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Getting Started with Tableau (Fundamental Tech Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/genai-landscape": {
     "key": "analyticsvidhya.com/courses/genai-landscape",
@@ -2450,7 +2672,8 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: GenAI for Everyone (Fundamental Tech Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   },
   "analyticsvidhya.com/courses/introduction-to-data-science": {
     "key": "analyticsvidhya.com/courses/introduction-to-data-science",
@@ -2461,6 +2684,7 @@
     "pricing": "Free",
     "description": "Comprehensive free training course: Introduction to Python (Fundamental Tech Course)",
     "source": "Excel: 🎓 Course Library.xlsx (Sheet1)",
-    "added_at": "2026-10-25 11:40:15"
+    "priority": 8,
+    "added_at": "2026-10-25 11:45:22"
   }
 }

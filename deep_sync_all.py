@@ -111,7 +111,6 @@ def get_domain_key(url):
     if domain.startswith("www."):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
-    # Retain path for multi-service domains so distinct downloaders/courses don't collide
     if len(path) > 1 and any(sub in domain for sub in ['botdownloader.com', 'youtube.com', 'instagram.com', 'github.com', 'coursera.org', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google']):
         return f"{domain}{path}"
     return domain
@@ -133,7 +132,7 @@ def normalize_pricing(p):
 def build_database():
     db = {}
 
-    def add_entry(url, name, website_type, category, pricing, desc, source):
+    def add_entry(url, name, website_type, category, pricing, desc, source, priority=1):
         cleaned = clean_url(url)
         if not cleaned:
             return
@@ -141,18 +140,38 @@ def build_database():
         final_pricing = normalize_pricing(pricing)
         final_desc = desc if desc else f"Official platform resource for {name} ({website_type})"
 
+        # Priority protection for specific services
+        if "radio.garden" in cleaned:
+            name = "Radio Garden"
+            website_type = "Online Radio Map"
+            category = "📻 Online Radio & Interactive Maps"
+            final_desc = "Interactive 3D globe allowing users to rotate the earth and tune into live radio stations worldwide."
+        elif "tv.garden" in cleaned:
+            name = "TV Garden"
+            website_type = "Global TV Discovery"
+            category = "📺 Global TV & Media Discovery"
+            final_desc = "Global television discovery platform to watch live broadcasts and international channels."
+        elif "famelack.com" in cleaned:
+            name = "Fame Lack"
+            website_type = "Global TV Discovery"
+            category = "📺 Global TV & Media Discovery"
+            final_desc = "Watch free live TV streams, international webcams, and explore worldwide broadcasting channels."
+
         if key in db:
             rec = db[key]
-            if website_type and len(website_type) > len(rec.get("website_type", "")):
-                rec["website_type"] = website_type
-            if name and len(name) > len(rec.get("name", "")):
-                rec["name"] = name
-            if desc and len(desc) > len(rec.get("description", "")):
-                rec["description"] = desc
-            if final_pricing != "Free":
-                rec["pricing"] = final_pricing
-            if category and category != "🌐 General Curated Tools":
-                rec["category"] = category
+            rec_priority = rec.get("priority", 0)
+            if priority >= rec_priority:
+                if website_type:
+                    rec["website_type"] = website_type
+                if name:
+                    rec["name"] = name
+                if desc:
+                    rec["description"] = desc
+                if final_pricing != "Free":
+                    rec["pricing"] = final_pricing
+                if category:
+                    rec["category"] = category
+                rec["priority"] = priority
         else:
             rec = {
                 "key": key,
@@ -163,6 +182,7 @@ def build_database():
                 "pricing": final_pricing,
                 "description": final_desc,
                 "source": source,
+                "priority": priority,
                 "added_at": time.strftime("%Y-%m-%d %H:%M:%S")
             }
             db[key] = rec
@@ -180,14 +200,13 @@ def build_database():
         ("https://famelack.com", "Fame Lack", "Global TV Discovery", "📺 Global TV & Media Discovery", "Free", "Watch free live TV streams, international webcams, and explore worldwide broadcasting channels.")
     ]
     for url, name, wtype, cat, prc, dsc in user_initial:
-        add_entry(url, name, wtype, cat, prc, dsc, "User Chat Prompt")
+        add_entry(url, name, wtype, cat, prc, dsc, "User Chat Prompt", priority=10)
 
     print(">>> 2. Processing ⬇️ Video Downloaders.xlsx...")
     f_down = os.path.join(DOWNLOADS_DIR, "⬇️ Video Downloaders.xlsx")
     if os.path.exists(f_down):
         wb = openpyxl.load_workbook(f_down, data_only=True)
         ws = wb['Sheet3 - BH']
-        # Read exact rows 2 to 13
         for r in range(2, 14):
             wtype = str(ws.cell(r, 1).value or '').strip()
             name = str(ws.cell(r, 2).value or '').strip()
@@ -196,13 +215,11 @@ def build_database():
             if not name and 'timestamp' in wtype.lower():
                 name = "YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)"
             if url:
-                # Proper category mapping
                 cat = "⬇️ Video & Media Downloaders"
                 if "search" in wtype.lower() or "image" in wtype.lower():
                     cat = "🛠️ Web Utilities & Productivity"
-                add_entry(url, name, wtype, cat, pricing, f"High-speed online tool: {wtype}", "Excel: ⬇️ Video Downloaders.xlsx")
+                add_entry(url, name, wtype, cat, pricing, f"High-speed online tool: {wtype}", "Excel: ⬇️ Video Downloaders.xlsx", priority=9)
 
-        # 3 Hidden URL Tricks
         add_entry(
             "https://www.yout.com",
             "Yout.com (YouTube URL Trick)",
@@ -210,7 +227,8 @@ def build_database():
             "⬇️ Video & Media Downloaders",
             "Free",
             "Directly download any YouTube video as MP4 or MP3 by removing 'ube' from youtube.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 1)"
+            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 1)",
+            priority=9
         )
         add_entry(
             "https://www.instag.com",
@@ -219,7 +237,8 @@ def build_database():
             "⬇️ Video & Media Downloaders",
             "Free",
             "Directly download Instagram Reels in highest available quality by removing 'ram' from instagram.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 2)"
+            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 2)",
+            priority=9
         )
         add_entry(
             "https://www.faceb.com",
@@ -228,7 +247,8 @@ def build_database():
             "⬇️ Video & Media Downloaders",
             "Free",
             "Directly download Facebook videos by removing 'ook' from facebook.com in the browser URL.",
-            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 3)"
+            "Excel: ⬇️ Video Downloaders.xlsx (URL Trick 3)",
+            priority=9
         )
 
     print(">>> 3. Processing 🎵 Online Music & Video.xlsx...")
@@ -245,13 +265,12 @@ def build_database():
                 cat = "🎵 Music & Audio Streaming"
                 if "Radio" in wtype: cat = "📻 Online Radio & Interactive Maps"
                 elif "TV" in wtype: cat = "📺 Global TV & Media Discovery"
-                add_entry(url, name, wtype, cat, pricing, f"Official platform for {name} ({wtype})", "Excel: 🎵 Online Music & Video.xlsx")
+                add_entry(url, name, wtype, cat, pricing, f"Official platform for {name} ({wtype})", "Excel: 🎵 Online Music & Video.xlsx", priority=8)
 
     print(">>> 4. Processing 🌐 Powerful Websites.xlsx...")
     f_power = os.path.join(DOWNLOADS_DIR, "🌐 Powerful Websites.xlsx")
     if os.path.exists(f_power):
         wb = openpyxl.load_workbook(f_power, data_only=True)
-        # Sheet3 - BH
         ws3 = wb['Sheet3 - BH']
         for r in range(2, ws3.max_row + 1):
             wtype = str(ws3.cell(r, 1).value or '').strip()
@@ -262,9 +281,8 @@ def build_database():
                 cat = "🛠️ Web Utilities & Productivity"
                 if any(k in wtype.lower() for k in ['camera', 'virtual travel', 'visual experience']):
                     cat = "📺 Global TV & Media Discovery"
-                add_entry(url, name, wtype, cat, pricing, f"High-utility web tool: {wtype}", "Excel: 🌐 Powerful Websites.xlsx (Sheet3)")
+                add_entry(url, name, wtype, cat, pricing, f"High-utility web tool: {wtype}", "Excel: 🌐 Powerful Websites.xlsx (Sheet3)", priority=7)
 
-        # Websites - BH
         ws_bh = wb['Websites - BH']
         for r in range(2, ws_bh.max_row + 1):
             site = str(ws_bh.cell(r, 1).value or '').strip()
@@ -276,7 +294,6 @@ def build_database():
             url = site if site.startswith("http") else f"https://{site}"
             name = site.split('/')[0].replace('www.', '')
 
-            # Detailed type derivation
             d = f"{site} {raw_cat} {desc}".lower()
             if raw_cat == "AI Tools":
                 cat = "🤖 AI & Machine Learning Tools"
@@ -320,7 +337,8 @@ def build_database():
                 cat = "🌐 General Curated Tools"
                 wtype = "Curated Web Resource"
 
-            add_entry(url, name, wtype, cat, pricing, desc, "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)")
+            # Priority 5 for broad catalog
+            add_entry(url, name, wtype, cat, pricing, desc, "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)", priority=5)
 
     print(">>> 5. Processing 📄 PDF Resources.xlsx...")
     f_pdf = os.path.join(DOWNLOADS_DIR, "📄 PDF Resources.xlsx")
@@ -335,7 +353,7 @@ def build_database():
             pricing = str(ws.cell(r, 5).value or 'Free').strip()
             if url and 'http' in url:
                 wtype = cat_raw if cat_raw else "PDF & Document Utility"
-                add_entry(url, name, wtype, "📄 PDF & Document Utilities", pricing, desc, "Excel: 📄 PDF Resources.xlsx")
+                add_entry(url, name, wtype, "📄 PDF & Document Utilities", pricing, desc, "Excel: 📄 PDF Resources.xlsx", priority=8)
 
     print(">>> 6. Processing 🎓 Course Library.xlsx...")
     f_course = os.path.join(DOWNLOADS_DIR, "🎓 Course Library.xlsx")
@@ -343,7 +361,6 @@ def build_database():
         wb = openpyxl.load_workbook(f_course, data_only=True)
         wb_f = openpyxl.load_workbook(f_course, data_only=False)
         
-        # Individual course sheets
         for sname in ['Ai', 'Machine Learning ', 'Data Analysis ', 'Computer ', 'Google ', 'Skill Based', 'English']:
             if sname in wb.sheetnames:
                 ws = wb[sname]
@@ -364,9 +381,8 @@ def build_database():
                     if url and 'http' in url:
                         if not wtype:
                             wtype = f"{sname.strip()} Course"
-                        add_entry(url, name, wtype, "🎓 Free Courses & Learning Platforms", pricing, f"Free education and certified training: {name} ({wtype})", f"Excel: 🎓 Course Library.xlsx ({sname.strip()})")
+                        add_entry(url, name, wtype, "🎓 Free Courses & Learning Platforms", pricing, f"Free education and certified training: {name} ({wtype})", f"Excel: 🎓 Course Library.xlsx ({sname.strip()})", priority=8)
 
-        # Sheet1 (Analytics Vidhya tracks)
         ws1 = wb['Sheet1']
         ws1_f = wb_f['Sheet1']
         current_section = "Generative AI"
@@ -413,7 +429,7 @@ def build_database():
                         
                 if url and 'http' in url:
                     wtype = section_type_map.get(current_section, f"{current_section} Course")
-                    add_entry(url, course_name, wtype, "🎓 Free Courses & Learning Platforms", "Free", f"Comprehensive free training course: {course_name} ({wtype})", "Excel: 🎓 Course Library.xlsx (Sheet1)")
+                    add_entry(url, course_name, wtype, "🎓 Free Courses & Learning Platforms", "Free", f"Comprehensive free training course: {course_name} ({wtype})", "Excel: 🎓 Course Library.xlsx (Sheet1)", priority=8)
 
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
@@ -709,7 +725,6 @@ def export_all(db):
     print(f"📝 Master Markdown Report saved: {MASTER_MD}")
     print(f"📄 README.md updated: {README_FILE}")
 
-    # Save JSON database
     with open(DB_FILE, 'w', encoding='utf-8') as f:
         json.dump(db, f, indent=2, ensure_ascii=False)
     print(f"💾 Raw JSON Database saved: {DB_FILE}")
