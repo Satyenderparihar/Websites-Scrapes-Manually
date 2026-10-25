@@ -140,7 +140,8 @@ def map_course_to_subcat(wtype, name=""):
 CODING_SUBCATEGORIES = {
     "🌐 HTML, CSS & Web Development": [
         "Web Development Resource", "Web Dev Project Implementation", "CSS Learning", "JavaScript Learning",
-        "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "Next.js Learning", "Web Development"
+        "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "Next.js Learning", "Web Development",
+        "HTML Cheat Sheet PDF Document"
     ],
     "⚡ C Programming Language": [
         "C Project Implementation", "C Language Resource", "C Programming"
@@ -918,6 +919,57 @@ def build_database():
 
                         add_entry(cu, name, wtype, "💻 Coding & Developer Platforms", "Free", f"Verified tutorial & implementation guide: {name} ({wtype})", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
 
+    print(">>> 9. Processing 📄 HTML Cheat Sheet PDFs...")
+    html_cheat_sheets = [
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML5%20Comprehensive%20Elements%20%26%20Attributes%20Cheat%20Sheet.pdf",
+            "HTML5 Comprehensive Elements & Attributes Cheat Sheet (53-Page Complete Guide)",
+            "HTML Cheat Sheet PDF Document",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "53-page exhaustive HTML5 element guide with code examples, descriptions, attributes, and character entity tables by HTML.com.",
+            "PDF: Html cheat sheet 1.pdf"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20Complete%20HTML%20Reference%20Cheat%20Sheet%20(Hostinger).pdf",
+            "Complete HTML Reference Cheat Sheet (Hostinger Visual Guide)",
+            "HTML Cheat Sheet PDF Document",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "9-page comprehensive visual reference covering essential HTML tags, semantic elements, forms, media embedding, and page structure.",
+            "PDF: Html cheat sheet 2.pdf"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML%20Core%20Attributes%20%26%20Quick%20Reference%20Cheat%20Sheet.pdf",
+            "HTML Core Attributes & Quick Reference Cheat Sheet (Single-Page Poster)",
+            "HTML Cheat Sheet PDF Document",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "Compact 1-page quick lookup cheat sheet for HTML core attributes, language tags, comments, and inline/block element rules.",
+            "PDF: Html cheat sheet 3.pdf"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML%20Essential%20Tags%20%26%20Syntax%20Visual%20Cheat%20Sheet.pdf",
+            "HTML Essential Tags & Syntax Visual Cheat Sheet (2-Page Rapid Reference)",
+            "HTML Cheat Sheet PDF Document",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "2-page visual cheat sheet covering basic HTML document structure, text formatting, links, lists, tables, and color codes.",
+            "PDF: Html cheat sheet 4.pdf"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20Web%20Development%20HTML%20and%20CSS%20University%20Lecture%20Guide.pdf",
+            "Web Development HTML and CSS University Lecture Guide (Stony Brook CSE316)",
+            "HTML Cheat Sheet PDF Document",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "65-page comprehensive university textbook slides covering HTML5 semantics, CSS selectors, box model, web layout, and HTTP architecture.",
+            "PDF: Html cheat sheet 5.pdf"
+        )
+    ]
+    for url, name, wtype, cat, prc, dsc, src in html_cheat_sheets:
+        add_entry(url, name, wtype, cat, prc, dsc, src, priority=10)
+
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
 
@@ -1017,7 +1069,8 @@ def export_all(db):
                     url = item.get("url")
                     pricing = item.get("pricing", "Free")
                     desc = (item.get("description") or f"Platform resource for {name}").replace('|', '-')
-                    md_lines.append(f"| **{idx}** | **{name}** | `{wtype}` | [Visit / View Guide]({url}) | `{pricing}` | {desc} |")
+                    link_label = "View / Download PDF" if ("pdf" in wtype.lower() or url.endswith(".pdf")) else "Visit / View Guide"
+                    md_lines.append(f"| **{idx}** | **{name}** | `{wtype}` | [{link_label}]({url}) | `{pricing}` | {desc} |")
                 md_lines.append("\n---\n")
 
         else:
