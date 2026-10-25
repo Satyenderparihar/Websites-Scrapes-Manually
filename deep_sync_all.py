@@ -1,6 +1,7 @@
 """
 Deep Ingestion and Re-synchronization of all Curated Websites
-Ensures Website Type is accurately captured and displayed for every single website.
+Ensures Website Type is accurately captured, classified and displayed for every single website.
+Zero Mixing, 100% Isolated Categories.
 """
 
 import os
@@ -110,7 +111,8 @@ def get_domain_key(url):
     if domain.startswith("www."):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
-    if len(path) > 1 and any(sub in domain for sub in ['youtube.com', 'instagram.com', 'github.com', 'coursera.org', 'analyticsvidhya.com', 'stpcomputereducation.com']):
+    # Retain path for multi-service domains so distinct downloaders/courses don't collide
+    if len(path) > 1 and any(sub in domain for sub in ['botdownloader.com', 'youtube.com', 'instagram.com', 'github.com', 'coursera.org', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google']):
         return f"{domain}{path}"
     return domain
 
@@ -128,113 +130,6 @@ def normalize_pricing(p):
         return "Free"
     return str(p).strip()
 
-def derive_website_type(site_name, category, desc, url):
-    d = f"{site_name} {category} {desc} {url}".lower()
-    
-    # 1. Downloaders (Very specific platform mapping)
-    if 'downloader' in d or 'download' in d:
-        if 'facebook' in d: return "Facebook Video Downloader"
-        if 'instagram' in d: return "Instagram Downloader"
-        if 'pinterest' in d: return "Pinterest Video Downloader"
-        if 'twitter' in d or 'x.com' in d: return "Twitter Video Downloader"
-        if 'youtube' in d and 'mp4' in d: return "YouTube to MP4 Converter"
-        if 'youtube' in d: return "YouTube Video Downloader"
-        if 'subtitle' in d: return "Subtitle Automation Tool"
-        if 'timestamp' in d: return "YouTube Video & MP3 Timestamp Downloader"
-        return "Universal Media Downloader"
-        
-    # 2. Radio & TV
-    if any(k in d for k in ['radio.garden', 'radio garden', 'online radio', 'radio map']):
-        return "Online Radio Map"
-    if any(k in d for k in ['tv garden', 'tv.garden', 'famelack', 'live tv', 'global tv']):
-        return "Global TV Discovery"
-    if 'retrotvs' in d or '90s tv' in d or 'channel surfing' in d:
-        return "Retro TV Channel Simulator"
-    if 'camera' in d or 'earthcam' in d:
-        return "Live Camera Streaming"
-    if 'virtual vacation' in d or 'virtual travel' in d:
-        return "Virtual Travel Platform"
-        
-    # 3. Music
-    if 'gaana' in d or 'jiosaavn' in d or 'music streaming (india)' in d:
-        return "Music Streaming (India)"
-    if any(k in d for k in ['youtube music', 'spotify', 'apple music', 'soundcloud', 'music streaming']):
-        return "Music Streaming"
-    if 'acapella' in d or 'vocals' in d:
-        return "AI Vocal & Acapella Extractor"
-        
-    # 4. Courses
-    if 'agentic' in d: return "Agentic AI Course"
-    if 'generative ai' in d or 'genai' in d: return "Generative AI Course"
-    if 'rag' in d: return "RAG Application Course"
-    if 'vibe coding' in d: return "Vibe Coding Course"
-    if 'machine learning' in d or 'deep learning' in d: return "Machine Learning Course"
-    if 'deepseek' in d or 'openai' in d or 'model' in d: return "AI Model Deep Dive Course"
-    if 'project' in d: return "Project-Based Learning Course"
-    if 'data analytics' in d or 'data science' in d: return "Data Science Course"
-    if 'computer courses' in d: return "Computer Courses Platform"
-    if 'study notes' in d: return "Study Notes / Learning Material"
-    if 'web development' in d: return "Web Development Course"
-    if 'skill development' in d or 'learnvern' in d: return "Skill Development Platform"
-    if 'english' in d: return "English Learning Page"
-    if 'google training' in d or 'skillshop' in d: return "Official Google Training"
-    if 'cloud training' in d: return "Cloud Training Path"
-    if 'free program' in d or 'combo' in d: return "Free Program Combo Bundle"
-    if 'course' in d or 'tutorial' in d: return "Online Course Platform"
-    
-    # 5. PDF
-    if 'sejda' in d or ('pdf' in d and 'editor' in d): return "Online PDF Editor"
-    if 'tinywow' in d: return "Multi-Tool Suite (PDF & Media)"
-    if 'pdf chef' in d or 'mobile' in d and 'pdf' in d: return "Mobile PDF Tool"
-    if 'pdf' in d: return "PDF & Document Tool"
-    
-    # 6. AI & Tech
-    if 'replit' in d or 'ai website builder' in d: return "AI Website Builder & IDE"
-    if 'template' in d or 'hyperpost' in d: return "Social Media Template Booster"
-    if 'car repair' in d or '1aauto' in d: return "DIY Vehicle Repair Guides"
-    if '3dtuning' in d or 'car customization' in d: return "3D Vehicle Customizer"
-    if 'airconsole' in d or 'multiplayer party' in d: return "Phone-Controller Multiplayer Games"
-    if 'animejs' in d or 'animation library' in d: return "JavaScript Animation Engine"
-    if 'filepursuit' in d or 'file search' in d: return "File Search Engine"
-    if 'pi7' in d or 'image processing' in d: return "Image Processing Tool"
-    if 'flightradar' in d or 'flight tracking' in d: return "Flight Tracking Platform"
-    if 'zoomquilt' in d or 'interactive visual' in d: return "Interactive Visual Experience"
-    if 'xtiles' in d or 'workspace' in d: return "Workspace / Productivity"
-    if '123apps' in d or 'utility tools' in d: return "Online Utility Tools"
-    if '10015' in d or 'developer tools' in d: return "Developer Tools"
-    if 'mrfreetools' in d or 'free online tools' in d: return "Free Online Tools Collection"
-    if 'website planet' in d or 'web tools' in d: return "Web Utilities"
-    
-    if category and category != "🌐 General Curated Tools":
-        return category
-    return "Curated Web Platform"
-
-def normalize_category(raw_cat, site_name="", url="", desc="", website_type=""):
-    text = f"{raw_cat} {site_name} {url} {desc} {website_type}".lower()
-    
-    if any(k in text for k in ['radio.garden', 'radio garden', 'online radio', 'radio map', 'live radio']):
-        return "📻 Online Radio & Interactive Maps"
-    if any(k in text for k in ['tv garden', 'tv.garden', 'famelack', 'live tv', 'global tv', 'retro tv', 'retrotvs', 'earthcam', 'camera streaming', 'virtual vacation']):
-        return "📺 Global TV & Media Discovery"
-    if any(k in text for k in ['music streaming', 'youtube music', 'spotify', 'soundcloud', 'gaana', 'jiosaavn', 'apple music', 'vocals', 'acapella', 'music production', 'online music']):
-        return "🎵 Music & Audio Streaming"
-    if any(k in text for k in ['downloader', 'download', 'fdown', 'igram', 'ssyoutube', 'y2mate', 'cobalt', 'save', 'botdownloader', 'autosubtitles', 'yout.com', 'instag.com', 'faceb.com']):
-        return "⬇️ Video & Media Downloaders"
-    if any(k in text for k in ['course', 'academy', 'learn', 'education', 'tutorial', 'coursera', 'skillshop', 'training', 'beginner', 'study notes', 'learning', 'databricks']):
-        return "🎓 Free Courses & Learning Platforms"
-    if any(k in text for k in ['pdf', 'sejda', 'tinywow']):
-        return "📄 PDF & Document Utilities"
-    if any(k in text for k in ['ai tools', 'replit', 'genai', 'agentic', 'deepseek', 'gpt', 'model', 'machine learning', 'artificial intelligence', 'ai builder']):
-        return "🤖 AI & Machine Learning Tools"
-    if any(k in text for k in ['design', 'creator tools', 'template', '3dtuning', 'animejs', 'animation', 'ui/ux', 'customization']):
-        return "🎨 Design & Creator Tools"
-    if any(k in text for k in ['gaming', 'game', 'airconsole', 'party game', 'multiplayer']):
-        return "🎮 Gaming & Entertainment"
-    if any(k in text for k in ['utility', 'workspace', 'productivity', 'tool', 'xtiles', '123apps', 'filepursuit', 'image.pi7.org', 'flightradar', '1aauto', 'zoomquilt']):
-        return "🛠️ Web Utilities & Productivity"
-        
-    return "🌐 General Curated Tools"
-
 def build_database():
     db = {}
 
@@ -243,35 +138,28 @@ def build_database():
         if not cleaned:
             return
         key = get_domain_key(cleaned)
-        
-        # Clean website type
-        if not website_type or website_type in ["Free", "Paid", "None", ""]:
-            website_type = derive_website_type(name, category, desc, cleaned)
-            
-        final_cat = normalize_category(category, name, cleaned, desc, website_type)
         final_pricing = normalize_pricing(pricing)
-        final_desc = desc if desc else f"Official platform for {name} ({website_type})"
+        final_desc = desc if desc else f"Official platform resource for {name} ({website_type})"
 
         if key in db:
             rec = db[key]
-            # If incoming has more specific website type, keep it!
-            if website_type and website_type not in ["Curated Web Platform", "Web Platform", "AI Tools", "Utility"]:
+            if website_type and len(website_type) > len(rec.get("website_type", "")):
                 rec["website_type"] = website_type
-            if name and len(name) > len(rec["name"]):
+            if name and len(name) > len(rec.get("name", "")):
                 rec["name"] = name
-            if desc and len(desc) > len(rec["description"]):
+            if desc and len(desc) > len(rec.get("description", "")):
                 rec["description"] = desc
             if final_pricing != "Free":
                 rec["pricing"] = final_pricing
-            if final_cat != "🌐 General Curated Tools":
-                rec["category"] = final_cat
+            if category and category != "🌐 General Curated Tools":
+                rec["category"] = category
         else:
             rec = {
                 "key": key,
                 "name": name,
                 "website_type": website_type,
                 "url": cleaned,
-                "category": final_cat,
+                "category": category,
                 "pricing": final_pricing,
                 "description": final_desc,
                 "source": source,
@@ -299,7 +187,7 @@ def build_database():
     if os.path.exists(f_down):
         wb = openpyxl.load_workbook(f_down, data_only=True)
         ws = wb['Sheet3 - BH']
-        # Read table rows 2 to 13
+        # Read exact rows 2 to 13
         for r in range(2, 14):
             wtype = str(ws.cell(r, 1).value or '').strip()
             name = str(ws.cell(r, 2).value or '').strip()
@@ -308,9 +196,13 @@ def build_database():
             if not name and 'timestamp' in wtype.lower():
                 name = "YouTube Video & MP3 Timestamp Downloader (Instagram Reel Guide)"
             if url:
-                add_entry(url, name, wtype, "⬇️ Video & Media Downloaders", pricing, f"High-speed online tool: {wtype}", "Excel: ⬇️ Video Downloaders.xlsx")
+                # Proper category mapping
+                cat = "⬇️ Video & Media Downloaders"
+                if "search" in wtype.lower() or "image" in wtype.lower():
+                    cat = "🛠️ Web Utilities & Productivity"
+                add_entry(url, name, wtype, cat, pricing, f"High-speed online tool: {wtype}", "Excel: ⬇️ Video Downloaders.xlsx")
 
-        # Ingest 3 Hidden URL Tricks
+        # 3 Hidden URL Tricks
         add_entry(
             "https://www.yout.com",
             "Yout.com (YouTube URL Trick)",
@@ -350,7 +242,10 @@ def build_database():
             url = str(ws.cell(r, 3).value or '').strip()
             pricing = str(ws.cell(r, 4).value or 'Free').strip()
             if url and 'http' in url:
-                add_entry(url, name, wtype, "🎵 Music & Audio Streaming", pricing, f"Official platform for {name} ({wtype})", "Excel: 🎵 Online Music & Video.xlsx")
+                cat = "🎵 Music & Audio Streaming"
+                if "Radio" in wtype: cat = "📻 Online Radio & Interactive Maps"
+                elif "TV" in wtype: cat = "📺 Global TV & Media Discovery"
+                add_entry(url, name, wtype, cat, pricing, f"Official platform for {name} ({wtype})", "Excel: 🎵 Online Music & Video.xlsx")
 
     print(">>> 4. Processing 🌐 Powerful Websites.xlsx...")
     f_power = os.path.join(DOWNLOADS_DIR, "🌐 Powerful Websites.xlsx")
@@ -364,20 +259,68 @@ def build_database():
             url = str(ws3.cell(r, 3).value or '').strip()
             pricing = str(ws3.cell(r, 4).value or 'Free').strip()
             if url and 'http' in url:
-                add_entry(url, name, wtype, "🛠️ Web Utilities & Productivity", pricing, f"High-utility web tool: {wtype}", "Excel: 🌐 Powerful Websites.xlsx (Sheet3)")
+                cat = "🛠️ Web Utilities & Productivity"
+                if any(k in wtype.lower() for k in ['camera', 'virtual travel', 'visual experience']):
+                    cat = "📺 Global TV & Media Discovery"
+                add_entry(url, name, wtype, cat, pricing, f"High-utility web tool: {wtype}", "Excel: 🌐 Powerful Websites.xlsx (Sheet3)")
 
         # Websites - BH
         ws_bh = wb['Websites - BH']
         for r in range(2, ws_bh.max_row + 1):
             site = str(ws_bh.cell(r, 1).value or '').strip()
             desc = str(ws_bh.cell(r, 2).value or '').strip()
-            cat = str(ws_bh.cell(r, 3).value or '').strip()
+            raw_cat = str(ws_bh.cell(r, 3).value or '').strip()
             pricing = str(ws_bh.cell(r, 4).value or 'Free').strip()
-            if site and site != "None":
-                url = site if site.startswith("http") else f"https://{site}"
-                name = site.split('/')[0].replace('www.', '')
-                wtype = derive_website_type(name, cat, desc, url)
-                add_entry(url, name, wtype, cat, pricing, desc, "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)")
+            if not site or site == "None":
+                continue
+            url = site if site.startswith("http") else f"https://{site}"
+            name = site.split('/')[0].replace('www.', '')
+
+            # Detailed type derivation
+            d = f"{site} {raw_cat} {desc}".lower()
+            if raw_cat == "AI Tools":
+                cat = "🤖 AI & Machine Learning Tools"
+                if 'builder' in d or 'replit' in d: wtype = "AI Website Builder & IDE"
+                elif 'vocal' in d or 'acapella' in d:
+                    wtype = "AI Vocal Extractor"
+                    cat = "🎵 Music & Audio Streaming"
+                elif 'video' in d: wtype = "AI Video Generation & Pre-Production"
+                elif 'audio' in d or 'voice' in d: wtype = "AI Audio & Voice Tool"
+                elif 'image' in d or 'photo' in d: wtype = "AI Image Generator & Enhancer"
+                elif 'writing' in d or 'text' in d or 'copy' in d: wtype = "AI Writing & Copywriting Assistant"
+                else: wtype = "AI Productivity & Generation Tool"
+            elif raw_cat == "Gaming":
+                cat = "🎮 Gaming & Entertainment"
+                if 'multiplayer' in d or 'phone' in d or 'party' in d: wtype = "Phone-Controller Multiplayer Games"
+                elif 'map' in d: wtype = "Interactive Fantasy Map Generator"
+                else: wtype = "Browser Game & Interactive Entertainment"
+            elif raw_cat in ["Creator Tools", "Creative", "Design"]:
+                cat = "🎨 Design & Creator Tools"
+                if 'template' in d: wtype = "Social Media Template Booster"
+                elif 'car' in d or '3d' in d or 'tuning' in d: wtype = "3D Virtual Vehicle Customizer"
+                elif 'animation' in d: wtype = "JavaScript Web Animation Engine"
+                elif 'video' in d or 'editor' in d: wtype = "Browser-Based Video Editor"
+                elif 'color' in d or 'palette' in d: wtype = "Color Palette & Visual Design Tool"
+                else: wtype = f"{raw_cat} Design Platform"
+            elif raw_cat in ["Utility", "Productivity", "Developer"]:
+                cat = "🛠️ Web Utilities & Productivity"
+                if 'car repair' in d or 'fix common vehicle' in d: wtype = "DIY Vehicle Repair Guides"
+                elif 'tv' in d or 'retro' in d or 'surfing' in d:
+                    wtype = "Retro TV Channel Simulator"
+                    cat = "📺 Global TV & Media Discovery"
+                elif 'archive' in d or 'permanent' in d: wtype = "Permanent Web Archiving Utility"
+                elif 'repair' in d or 'fixit' in d: wtype = "Hardware & Device Repair Guides"
+                elif 'workspace' in d or 'notes' in d: wtype = "Workspace & Productivity Tool"
+                elif 'code' in d or 'developer' in d or 'api' in d: wtype = "Developer & Code Utility"
+                else: wtype = f"{raw_cat} Tool"
+            elif raw_cat == "Education":
+                cat = "🎓 Free Courses & Learning Platforms"
+                wtype = "Educational Learning Platform"
+            else:
+                cat = "🌐 General Curated Tools"
+                wtype = "Curated Web Resource"
+
+            add_entry(url, name, wtype, cat, pricing, desc, "Excel: 🌐 Powerful Websites.xlsx (Websites-BH)")
 
     print(">>> 5. Processing 📄 PDF Resources.xlsx...")
     f_pdf = os.path.join(DOWNLOADS_DIR, "📄 PDF Resources.xlsx")
@@ -386,12 +329,12 @@ def build_database():
         ws = wb['Sheet1']
         for r in range(2, ws.max_row + 1):
             name = str(ws.cell(r, 1).value or '').strip()
-            cat = str(ws.cell(r, 2).value or '').strip()
+            cat_raw = str(ws.cell(r, 2).value or '').strip()
             desc = str(ws.cell(r, 3).value or '').strip()
             url = str(ws.cell(r, 4).value or '').strip()
             pricing = str(ws.cell(r, 5).value or 'Free').strip()
             if url and 'http' in url:
-                wtype = derive_website_type(name, cat, desc, url)
+                wtype = cat_raw if cat_raw else "PDF & Document Utility"
                 add_entry(url, name, wtype, "📄 PDF & Document Utilities", pricing, desc, "Excel: 📄 PDF Resources.xlsx")
 
     print(">>> 6. Processing 🎓 Course Library.xlsx...")
@@ -400,7 +343,7 @@ def build_database():
         wb = openpyxl.load_workbook(f_course, data_only=True)
         wb_f = openpyxl.load_workbook(f_course, data_only=False)
         
-        # Other course sheets
+        # Individual course sheets
         for sname in ['Ai', 'Machine Learning ', 'Data Analysis ', 'Computer ', 'Google ', 'Skill Based', 'English']:
             if sname in wb.sheetnames:
                 ws = wb[sname]
@@ -420,10 +363,10 @@ def build_database():
                         elif 'pricing' in h or 'free' in h: pricing = v
                     if url and 'http' in url:
                         if not wtype:
-                            wtype = derive_website_type(name, sname, "", url)
-                        add_entry(url, name, wtype, "🎓 Free Courses & Learning Platforms", pricing, f"Free education and certified training: {wtype}", f"Excel: 🎓 Course Library.xlsx ({sname.strip()})")
+                            wtype = f"{sname.strip()} Course"
+                        add_entry(url, name, wtype, "🎓 Free Courses & Learning Platforms", pricing, f"Free education and certified training: {name} ({wtype})", f"Excel: 🎓 Course Library.xlsx ({sname.strip()})")
 
-        # Sheet1 (Analytics Vidhya sections)
+        # Sheet1 (Analytics Vidhya tracks)
         ws1 = wb['Sheet1']
         ws1_f = wb_f['Sheet1']
         current_section = "Generative AI"
@@ -440,21 +383,15 @@ def build_database():
         }
 
         for r in range(1, ws1.max_row + 1):
-            cell_a = ws1.cell(r, 1)
-            val_a = str(cell_a.value or '').strip()
-            
-            # Detect section header
+            val_a = str(ws1.cell(r, 1).value or '').strip()
             if val_a in section_type_map or (len(val_a) > 3 and not val_a.replace('.', '').isdigit() and not val_a.startswith('SNo') and not val_a.startswith('Top') and not val_a.startswith('Covering') and not val_a.startswith('ALL')):
                 current_section = val_a
 
-            # Detect course row
             if val_a.replace('.', '').isdigit() or (ws1.cell(r, 2).value and 'course' not in str(ws1.cell(r, 2).value).lower()):
                 course_name = str(ws1.cell(r, 2).value or '').strip()
                 if not course_name or course_name == "None" or "Course Name" in course_name:
                     continue
-                
                 url = ""
-                # Check hyperlinks
                 for c in range(1, ws1.max_column + 1):
                     cell = ws1.cell(r, c)
                     cell_f = ws1_f.cell(r, c)
@@ -465,11 +402,9 @@ def build_database():
                         m = re.search(r'=HYPERLINK\("?([^",\)]+)"?', str(cell_f.value))
                         if m:
                             ref = m.group(1).strip()
-                            if ref.startswith("http"):
-                                url = ref
+                            if ref.startswith("http"): url = ref
                             else:
-                                try:
-                                    url = ws1[ref].value
+                                try: url = ws1[ref].value
                                 except: pass
                             break
                     elif cell.value and str(cell.value).startswith("http"):
@@ -512,7 +447,6 @@ def export_all(db):
             ""
         ]
 
-        # Special Section for Video Downloaders
         if "Video" in cat_name:
             md_lines.extend([
                 "### 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
@@ -537,7 +471,7 @@ def export_all(db):
             wtype = (item.get("website_type") or "Curated Platform").replace('|', '-')
             url = item.get("url")
             pricing = item.get("pricing", "Free")
-            desc = (item.get("description") or f"Official platform resource for {name}").replace('|', '-')
+            desc = (item.get("description") or f"Official platform for {name}").replace('|', '-')
             md_lines.append(f"| **{i}** | **{name}** | `{wtype}` | [Visit Website]({url}) | `{pricing}` | {desc} |")
             
         md_lines.append("\n---\n*Auto-generated & Curated by Autonomous Websites Agent.*")
@@ -563,10 +497,8 @@ def export_all(db):
         folder_link = urllib.parse.quote(meta["folder"])
         master_lines.append(f"- [{cat_name}]({folder_link}) — `{count} Websites` — *{meta['desc']}*")
         
-    master_lines.append("\n---\n")
-
-    # Hidden URL tricks summary in master
     master_lines.extend([
+        "\n---\n",
         "## 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
         "",
         "| Platform | Trick | Before / After | Direct Action |",
@@ -653,12 +585,12 @@ def export_all(db):
         "## ⚡ 1-Click Autonomous Agent (How It Works)",
         "",
         "Whenever you have new website links, tables, or notes:",
-        "1. Double click **`⚡ Run Manual Websites Agent.bat`** (or use the Desktop Shortcut **`Manual Websites Agent.lnk`**).",
+        "1. Double click **`⚡ Run Manual Websites Agent.bat`** (or use Desktop Shortcut **`Manual Websites Agent.lnk`**).",
         "2. Paste your links or text (or put them in `💾 paste_links_here.txt`).",
         "3. The agent automatically:",
-        "   - Preserves / infers the exact **`Website Type`** (e.g. Facebook Video Downloader, Music Streaming, AI Course),",
-        "   - Classifies them into the appropriate category,",
-        "   - Deduplicates and prevents any duplicates (`Zero Repeats`),",
+        "   - Preserves and categorizes the exact **`Website Type`** (e.g. Facebook Video Downloader, Music Streaming, AI Course),",
+        "   - Categorizes cleanly into isolated directories,",
+        "   - Prevents duplicate links (`Zero Repeats`),",
         "   - Updates the Markdown reports and multi-sheet Excel file,",
         "   - **Automatically commits & pushes to GitHub in 1 click!**",
         "",
