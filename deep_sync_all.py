@@ -922,31 +922,67 @@ def build_database():
     print(">>> 9. Processing 📝 HTML & CSS Lightweight Markdown Cheat Sheets...")
     html_cheat_sheets = [
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md",
-            "HTML5 Master Cheat Sheet: Complete Elements & Attributes Reference",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%9D%20HTML_Cheat_Sheet_1_Hostinger_Complete_Reference.md",
+            "HTML Cheat Sheet 1: Hostinger Complete HTML Reference",
             "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "Complete HTML5 semantic elements, forms, tables, media, and global attributes reference guide (zero-storage markdown).",
-            "Markdown Reference: HTML5 Master Guide"
+            "Hostinger 9-page guide covering Document Structure, Headings, Text Formatting, Forms, Tables, iFrames, and HTML5 Semantic tags.",
+            "Markdown: HTML Cheat Sheet 1 (Hostinger)"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20CSS3_Mega_Properties_Cheat_Sheet.md",
-            "CSS3 Mega Properties Cheat Sheet: Modern Layouts, Styling & Animations",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%9D%20HTML_Cheat_Sheet_2_University_Web_Architecture_Guide.md",
+            "HTML Cheat Sheet 2: Stony Brook University Web Architecture Guide",
             "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "Comprehensive CSS3 reference covering Flexbox, Grid, Box Model, typography, gradients, transitions, and responsive media queries.",
-            "Markdown Reference: CSS3 Mega Guide"
+            "Stony Brook CSE316 Computer Science lecture guide on Web Architecture, DOM Tree, HTML parsing, and CSS Specificity math.",
+            "Markdown: HTML Cheat Sheet 2 (University CSE316)"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20Web_Development_HTML_and_CSS_Complete_Guide.md",
-            "Web Development Architecture: HTML5 & CSS Complete Computer Science Guide",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%9D%20HTML_Cheat_Sheet_3_Core_Attributes_and_Quick_Reference.md",
+            "HTML Cheat Sheet 3: Core Attributes & Quick Reference",
             "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "University lecture notes (Stony Brook CSE316) on Web Architecture, DOM tree hierarchy, CSS cascade, specificity math, and performance.",
-            "Markdown Reference: Stony Brook CSE316"
+            "Quick reference covering Core Attributes, Language, Keyboard, Window/Form/Mouse Event Handlers, and Character Entities.",
+            "Markdown: HTML Cheat Sheet 3 (Core Attributes)"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%9D%20HTML_Cheat_Sheet_4_Essential_Tags_and_Syntax.md",
+            "HTML Cheat Sheet 4: Essential Tags & Syntax Visual Cheat Sheet",
+            "Developer Reference & Cheat Sheets",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "Visual syntax reference covering Basic Tags, Email HTML Body Attributes, Text Formatting, Dividers, and Form controls.",
+            "Markdown: HTML Cheat Sheet 4 (Essential Tags)"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%9D%20HTML_Cheat_Sheet_5_HTML5_Comprehensive_Elements.md",
+            "HTML Cheat Sheet 5: HTML5 Comprehensive Elements & Attributes Guide",
+            "Developer Reference & Cheat Sheets",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "HTML.com 53-page master encyclopedia detailing all HTML5 tags from <a> to <wbr> with official MDN documentation links.",
+            "Markdown: HTML Cheat Sheet 5 (HTML.com A-Z)"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20CSS%20Cheat%20Sheets/%F0%9F%93%9D%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md",
+            "CSS Cheat Sheet 1: The Mega Properties & Syntax Reference",
+            "Developer Reference & Cheat Sheets",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "The Mega CSS Cheat Sheet (14 pages) covering Backgrounds, Borders, Box Model, Typography, Columns, Transforms, and Animations.",
+            "Markdown: CSS Cheat Sheet 1 (The Mega Guide)"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20CSS%20Cheat%20Sheets/%F0%9F%93%9D%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md",
+            "CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Layouts",
+            "Developer Reference & Cheat Sheets",
+            "💻 Coding & Developer Platforms",
+            "Free",
+            "CheatSheetCSS (23 pages) covering Modern Selectors, Display, Positioning, Flexbox (1D), CSS Grid (2D), and Responsive Media Queries.",
+            "Markdown: CSS Cheat Sheet 2 (Flexbox & Grid)"
         ),
         (
             "https://www.hostinger.com/tutorials/html-cheat-sheet",
@@ -1245,13 +1281,19 @@ def export_all(db):
         "",
         "- 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**",
         "- 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects (Clickable Directory)](📝%20350_HTML_CSS_JavaScript_Projects.md)**",
-        "- 🌐 **[HTML5 Master Elements & Attributes Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md)**",
-        "- 🎨 **[CSS3 Mega Properties & Layouts Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20CSS3_Mega_Properties_Cheat_Sheet.md)**",
-        "- 🏛️ **[Web Development Architecture & DOM Hierarchy Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20Web_Development_HTML_and_CSS_Complete_Guide.md)**",
+        "- 📄 **[HTML Cheat Sheets Hub (All 5 Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**",
+        "  - 📄 [HTML Cheat Sheet 1: Hostinger Complete Reference](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_1_Hostinger_Complete_Reference.md)",
+        "  - 📄 [HTML Cheat Sheet 2: Stony Brook University Web Architecture Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_2_University_Web_Architecture_Guide.md)",
+        "  - 📄 [HTML Cheat Sheet 3: Core Attributes & Event Handlers](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_3_Core_Attributes_and_Quick_Reference.md)",
+        "  - 📄 [HTML Cheat Sheet 4: Essential Tags & Visual Syntax](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_4_Essential_Tags_and_Syntax.md)",
+        "  - 📄 [HTML Cheat Sheet 5: Comprehensive HTML5 Elements (A-Z)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_5_HTML5_Comprehensive_Elements.md)",
+        "- 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**",
+        "  - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)",
+        "  - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)",
         "- 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**",
         "- 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**",
         "",
-        "> ⚡ **Zero-Storage Markdown Architecture**: All reference cheat sheets and 306+ web projects are formatted in lightweight, native Markdown instead of heavy PDF binary files. This eliminates GitHub repository bloat and enables 100% interactive, 1-click clickable links on both mobile and desktop browsers without sandbox restrictions.",
+        "> ⚡ **Zero-Storage Markdown Architecture**: All reference cheat sheets (5 HTML + 2 CSS) and 306+ web projects are formatted in lightweight, native Markdown instead of heavy PDF binary files. This eliminates GitHub repository bloat and enables 100% interactive, 1-click clickable links on both mobile and desktop browsers without sandbox restrictions.",
         "",
         "---",
         "",

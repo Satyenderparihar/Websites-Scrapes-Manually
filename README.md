@@ -1,7 +1,7 @@
 # 🌐 Curated Useful Websites & Media Tools Directory
 
 ![Status](https://img.shields.io/badge/Status-Active%20%26%20Auto--Synced-success) 
-![Total Websites](https://img.shields.io/badge/Total%20Websites-1258-blue) 
+![Total Websites](https://img.shields.io/badge/Total%20Websites-1265-blue) 
 ![Categories](https://img.shields.io/badge/Categories-12-orange) 
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -14,13 +14,19 @@
 
 - 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**
 - 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects (Clickable Directory)](📝%20350_HTML_CSS_JavaScript_Projects.md)**
-- 🌐 **[HTML5 Master Elements & Attributes Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md)**
-- 🎨 **[CSS3 Mega Properties & Layouts Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20CSS3_Mega_Properties_Cheat_Sheet.md)**
-- 🏛️ **[Web Development Architecture & DOM Hierarchy Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20Web_Development_HTML_and_CSS_Complete_Guide.md)**
+- 📄 **[HTML Cheat Sheets Hub (All 5 Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**
+  - 📄 [HTML Cheat Sheet 1: Hostinger Complete Reference](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_1_Hostinger_Complete_Reference.md)
+  - 📄 [HTML Cheat Sheet 2: Stony Brook University Web Architecture Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_2_University_Web_Architecture_Guide.md)
+  - 📄 [HTML Cheat Sheet 3: Core Attributes & Event Handlers](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_3_Core_Attributes_and_Quick_Reference.md)
+  - 📄 [HTML Cheat Sheet 4: Essential Tags & Visual Syntax](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_4_Essential_Tags_and_Syntax.md)
+  - 📄 [HTML Cheat Sheet 5: Comprehensive HTML5 Elements (A-Z)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_5_HTML5_Comprehensive_Elements.md)
+- 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**
+  - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)
+  - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)
 - 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**
 - 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**
 
-> ⚡ **Zero-Storage Markdown Architecture**: All reference cheat sheets and 306+ web projects are formatted in lightweight, native Markdown instead of heavy PDF binary files. This eliminates GitHub repository bloat and enables 100% interactive, 1-click clickable links on both mobile and desktop browsers without sandbox restrictions.
+> ⚡ **Zero-Storage Markdown Architecture**: All reference cheat sheets (5 HTML + 2 CSS) and 306+ web projects are formatted in lightweight, native Markdown instead of heavy PDF binary files. This eliminates GitHub repository bloat and enables 100% interactive, 1-click clickable links on both mobile and desktop browsers without sandbox restrictions.
 
 ---
 
@@ -32,7 +38,7 @@
 | **📻 Online Radio & Interactive Maps** | **1** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%93%BB%20Online%20Radio%20%26%20Interactive%20Maps) / [📖 Report](%F0%9F%93%81%20%F0%9F%93%BB%20Online%20Radio%20%26%20Interactive%20Maps/📝%20Online_Radio__Interactive_Maps_Report.md) | Global live interactive radio maps, globe rotating tuners, and international frequency streams. |
 | **📺 Global TV & Media Discovery** | **6** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%93%BA%20Global%20TV%20%26%20Media%20Discovery) / [📖 Report](%F0%9F%93%81%20%F0%9F%93%BA%20Global%20TV%20%26%20Media%20Discovery/📝%20Global_TV__Media_Discovery_Report.md) | Worldwide live TV channels, vintage nostalgic television simulators, webcams & broadcast discovery. |
 | **⬇️ Video & Media Downloaders** | **13** | [📁 Explore Category](%F0%9F%93%81%20%E2%AC%87%EF%B8%8F%20Video%20%26%20Media%20Downloaders) / [📖 Report](%F0%9F%93%81%20%E2%AC%87%EF%B8%8F%20Video%20%26%20Media%20Downloaders/📝%20Video__Media_Downloaders_Report.md) | Fast online downloaders & converters for YouTube, Instagram, Facebook, Pinterest, Twitter & video media. |
-| **💻 Coding & Developer Platforms** | **1110** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms) / [📖 Report](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/📝%20Coding__Developer_Platforms_Report.md) | Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations. |
+| **💻 Coding & Developer Platforms** | **1117** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms) / [📖 Report](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/📝%20Coding__Developer_Platforms_Report.md) | Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations. |
 | **🤖 AI & Machine Learning Tools** | **25** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%A4%96%20AI%20%26%20Machine%20Learning%20Tools) / [📖 Report](%F0%9F%93%81%20%F0%9F%A4%96%20AI%20%26%20Machine%20Learning%20Tools/📝%20AI__Machine_Learning_Tools_Report.md) | Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites. |
 | **🎓 Free Courses & Learning Platforms** | **15** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%8E%93%20Free%20Courses%20%26%20Learning%20Platforms) / [📖 Report](%F0%9F%93%81%20%F0%9F%8E%93%20Free%20Courses%20%26%20Learning%20Platforms/📝%20Free_Courses__Learning_Platforms_Report.md) | High-impact free certification courses, computer science tutorials, AI academies & skill bootcamps. |
 | **📄 PDF & Document Utilities** | **3** | [📁 Explore Category](%F0%9F%93%81%20%F0%9F%93%84%20PDF%20%26%20Document%20Utilities) / [📖 Report](%F0%9F%93%81%20%F0%9F%93%84%20PDF%20%26%20Document%20Utilities/📝%20PDF__Document_Utilities_Report.md) | Online PDF editors, format converters, document mergers, splitters and lightweight office utilities. |
