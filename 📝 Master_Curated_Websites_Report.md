@@ -1,7 +1,7 @@
 # 🌐 Curated Websites & Tools Master Directory
 
 > **Consolidated, Deduplicated & Isolated Directory of High-Utility Web Platforms**  
-> **Total Unique Websites**: `1362` across `12` distinct categories.  
+> **Total Unique Websites**: `1371` across `12` distinct categories.  
 > **Repository**: [https://github.com/Satyenderparihar/Websites-Scrapes-Manually](https://github.com/Satyenderparihar/Websites-Scrapes-Manually)
 
 ---
@@ -13,11 +13,11 @@
 - [📺 Global TV & Media Discovery](%F0%9F%93%81%20%F0%9F%93%BA%20Global%20TV%20%26%20Media%20Discovery) — `4 Websites` — *Worldwide live TV channels, vintage nostalgic television simulators, webcams & broadcast discovery.*
 - [⬇️ Video & Media Downloaders](%F0%9F%93%81%20%E2%AC%87%EF%B8%8F%20Video%20%26%20Media%20Downloaders) — `13 Websites` — *Fast online downloaders & converters for YouTube, Instagram, Facebook, Pinterest, Twitter & video media.*
 - [💻 Coding & Developer Platforms](%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms) — `1156 Websites` — *Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations.*
-- [🤖 AI & Machine Learning Tools](%F0%9F%93%81%20%F0%9F%A4%96%20AI%20%26%20Machine%20Learning%20Tools) — `30 Websites` — *Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.*
+- [🤖 AI & Machine Learning Tools](%F0%9F%93%81%20%F0%9F%A4%96%20AI%20%26%20Machine%20Learning%20Tools) — `37 Websites` — *Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.*
 - [🎓 Free Courses & Learning Platforms](%F0%9F%93%81%20%F0%9F%8E%93%20Free%20Courses%20%26%20Learning%20Platforms) — `59 Websites` — *High-impact free certification courses, computer science tutorials, AI academies & skill bootcamps.*
 - [📄 PDF & Document Utilities](%F0%9F%93%81%20%F0%9F%93%84%20PDF%20%26%20Document%20Utilities) — `8 Websites` — *Online PDF editors, format converters, document mergers, splitters and lightweight office utilities.*
 - [🛠️ Web Utilities & Productivity](%F0%9F%93%81%20%F0%9F%9B%A0%EF%B8%8F%20Web%20Utilities%20%26%20Productivity) — `23 Websites` — *Universal web tools, personal workspaces, open file search engines, and daily browser utilities.*
-- [🎨 Design & Creator Tools](%F0%9F%93%81%20%F0%9F%8E%A8%20Design%20%26%20Creator%20Tools) — `31 Websites` — *Social media template packs, 3D modeling, lightweight JS animation libraries, and graphic assets.*
+- [🎨 Design & Creator Tools](%F0%9F%93%81%20%F0%9F%8E%A8%20Design%20%26%20Creator%20Tools) — `33 Websites` — *Social media template packs, 3D modeling, lightweight JS animation libraries, and graphic assets.*
 - [🎮 Gaming & Entertainment](%F0%9F%93%81%20%F0%9F%8E%AE%20Gaming%20%26%20Entertainment) — `19 Websites` — *Browser multiplayer party games, retro simulators, and casual entertainment platforms.*
 - [🌐 General Curated Tools](%F0%9F%93%81%20%F0%9F%8C%90%20General%20Curated%20Tools) — `6 Websites` — *Curated online resources and verified web applications across diverse domains.*
 
@@ -1266,40 +1266,47 @@
 
 ## 🤖 AI & Machine Learning Tools
 
-*Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.* (Total: `30`)
+*Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites.* (Total: `37`)
 
 | # | Website Name | Website Type | Official URL | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
-| **1** | **Answer Ai Pro** | `Generative AI Tool` | [https://answeraipro.com](https://answeraipro.com) | `Free` | सवाल पूछने पर सटीक और तुरंत जवाब (Accurate Answer) पाने के लिए. |
-| **2** | **Autodraw** | `Generative AI Tool` | [https://autodraw.com](https://autodraw.com) | `Free` | Google's AI that turns rough sketches into clean professional drawings instantly |
-| **3** | **Chatgpt** | `Generative AI Tool` | [https://chat.openai.com](https://chat.openai.com) | `Freemium` | ChatGPT |
-| **4** | **Chef Convex** | `Generative AI Tool` | [https://chef.convex.dev](https://chef.convex.dev) | `Freemium` | AI generates real-time app backends from prompts - deploy working prototypes in minutes |
-| **5** | **Chefgpt** | `Generative AI Tool` | [https://chefgpt.xyz](https://chefgpt.xyz) | `Free` | AI suggests recipes based on ingredients already in your fridge to reduce food waste |
-| **6** | **Claude** | `Generative AI Tool` | [https://claude.ai](https://claude.ai) | `Freemium` | Claude AI |
-| **7** | **Cleanup.pictures** | `Generative AI Tool` | [https://cleanup.pictures](https://cleanup.pictures) | `Freemium` | AI removes unwanted objects and people from photos with one click - no Photoshop needed |
-| **8** | **Collov** | `Generative AI Tool` | [https://collov.ai](https://collov.ai) | `Freemium` | AI virtual home staging that transforms empty rooms into furnished spaces for listings |
-| **9** | **Copilot.microsoft** | `Generative AI Tool` | [https://copilot.microsoft.com](https://copilot.microsoft.com) | `Freemium` | Microsoft Copilot |
-| **10** | **Coze** | `Generative AI Tool` | [https://coze.com](https://coze.com) | `Freemium` | Build custom AI chatbots and agents without code - deploy to messaging platforms |
-| **11** | **Dadi Ai** | `Generative AI Tool` | [https://dadiai.com](https://dadiai.com) | `Free` | डॉक्यूमेंट या पीडीएफ से फ्लैश कार्ड्स और MCQs जनरेट करने के लिए. |
-| **12** | **Emergent** | `Generative AI Tool` | [https://app.emergent.sh](https://app.emergent.sh) | `Freemium` | AI builds functional web app MVPs from text prompts - great for rapid prototyping |
-| **13** | **Enzostvs Deepsite.hf** | `Generative AI Tool` | [https://enzostvs-deepsite.hf.space](https://enzostvs-deepsite.hf.space) | `Free` | AI generates complete websites from text prompts using open-source models - free hosting included |
-| **14** | **Flowith** | `Generative AI Tool` | [https://flowith.io](https://flowith.io) | `Freemium` | AI workspace with infinite canvas for non-linear conversations and complex reasoning tasks |
-| **15** | **Freepik** | `Generative AI Tool` | [https://freepik.com](https://freepik.com) | `Freemium` | Stock graphics library with AI image generation tools - one-stop shop for visual assets |
-| **16** | **Google Gemini** | `Generative AI Tool` | [https://gemini.google.com](https://gemini.google.com) | `Freemium` | Google Gemini |
-| **17** | **Gptexcel** | `Generative AI Tool` | [https://gptexcel.uk](https://gptexcel.uk) | `Freemium` | AI generates spreadsheet formulas from plain English - stop memorizing VLOOKUP syntax |
-| **18** | **Heyzxz** | `Generative AI Tool` | [https://heyzxz.me](https://heyzxz.me) | `Freemium` | AI voice synthesis and cloning for content creators needing voiceovers without recording |
-| **19** | **Intangible** | `Generative AI Tool` | [https://intangible.ai](https://intangible.ai) | `Freemium` | AI video generation for pre-production visualization - save thousands on production costs |
-| **20** | **Kittl** | `Generative AI Tool` | [https://kittl.com](https://kittl.com) | `Freemium` | AI-powered design tool perfect for print-on-demand sellers creating professional graphics quickly |
-| **21** | **Layla** | `Generative AI Tool` | [https://layla.ai](https://layla.ai) | `Freemium` | AI travel itinerary planner that creates balanced trip plans from your preferences |
-| **22** | **Meshy** | `Generative AI Tool` | [https://meshy.ai](https://meshy.ai) | `Freemium` | AI generates 3D models from text prompts or images for games and visualization |
-| **23** | **Napkin** | `Generative AI Tool` | [https://napkin.ai](https://napkin.ai) | `Freemium` | AI transforms text into visual diagrams and illustrations automatically - just paste and go |
-| **24** | **Natively** | `Generative AI Tool` | [https://natively.dev](https://natively.dev) | `Freemium` | AI no-code platform for building native mobile apps without any programming knowledge |
-| **25** | **Newarc** | `Generative AI Tool` | [https://newarc.ai](https://newarc.ai) | `Freemium` | AI architecture design tool that generates photorealistic building visualizations from concepts |
-| **26** | **Ponder** | `Generative AI Tool` | [https://ponder.chat](https://ponder.chat) | `Freemium` | AI writing assistant for creating blog posts social media content and marketing copy |
-| **27** | **Reimaginehome** | `Generative AI Tool` | [https://reimaginehome.ai](https://reimaginehome.ai) | `Freemium` | Upload a room photo and get AI-generated interior design ideas in different styles |
-| **28** | **Remove.photos** | `Generative AI Tool` | [https://remove.photos](https://remove.photos) | `Freemium` | AI background remover for quick photo editing in your browser - no software needed |
-| **29** | **Sketch.metademolab** | `Generative AI Tool` | [https://sketch.metademolab.com](https://sketch.metademolab.com) | `Free` | Meta's AI that automatically animates hand-drawn character sketches - free research demo |
-| **30** | **Text To Cad.zoo** | `Generative AI Tool` | [https://text-to-cad.zoo.dev](https://text-to-cad.zoo.dev) | `Free` | AI generates 3D CAD models from text descriptions for engineering and design projects |
+| **1** | **100 Unique Indian AI Influencer Image-Gen Prompts** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20100_Unique_Indian_AI_Influencer_Prompts.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20100_Unique_Indian_AI_Influencer_Prompts.md) | `Free` | 100 distinct persona schemas with quick specs, camera angles, lighting, and ready-to-copy prompts for Midjourney, SDXL, Flux, and Reve. |
+| **2** | **360° Character Consistency Reference Sheet Prompt** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Character_Sheet_Master_Prompt_360.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Character_Sheet_Master_Prompt_360.md) | `Free` | Production-ready master prompt locking face, hairstyle, lighting, and physique across 360-degree angles for AI animation and video storytelling. |
+| **3** | **AI Image & Text Prompts Directory (525+ Shortcut Commands)** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20AI_Image_and_Text_Prompts_Quick_Guide.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20AI_Image_and_Text_Prompts_Quick_Guide.md) | `Free` | Categorized directory of 525+ prompt shortcuts across analysis, design, copywriting, coding, and brainstorming with easy Hindi meanings. |
+| **4** | **Answer Ai Pro** | `Generative AI Tool` | [https://answeraipro.com](https://answeraipro.com) | `Free` | सवाल पूछने पर सटीक और तुरंत जवाब (Accurate Answer) पाने के लिए. |
+| **5** | **Autodraw** | `Generative AI Tool` | [https://autodraw.com](https://autodraw.com) | `Free` | Google's AI that turns rough sketches into clean professional drawings instantly |
+| **6** | **Chatgpt** | `Generative AI Tool` | [https://chat.openai.com](https://chat.openai.com) | `Freemium` | ChatGPT |
+| **7** | **Chef Convex** | `Generative AI Tool` | [https://chef.convex.dev](https://chef.convex.dev) | `Freemium` | AI generates real-time app backends from prompts - deploy working prototypes in minutes |
+| **8** | **Chefgpt** | `Generative AI Tool` | [https://chefgpt.xyz](https://chefgpt.xyz) | `Free` | AI suggests recipes based on ingredients already in your fridge to reduce food waste |
+| **9** | **Claude** | `Generative AI Tool` | [https://claude.ai](https://claude.ai) | `Freemium` | Claude AI |
+| **10** | **Cleanup.pictures** | `Generative AI Tool` | [https://cleanup.pictures](https://cleanup.pictures) | `Freemium` | AI removes unwanted objects and people from photos with one click - no Photoshop needed |
+| **11** | **Collov** | `Generative AI Tool` | [https://collov.ai](https://collov.ai) | `Freemium` | AI virtual home staging that transforms empty rooms into furnished spaces for listings |
+| **12** | **Copilot.microsoft** | `Generative AI Tool` | [https://copilot.microsoft.com](https://copilot.microsoft.com) | `Freemium` | Microsoft Copilot |
+| **13** | **Coze** | `Generative AI Tool` | [https://coze.com](https://coze.com) | `Freemium` | Build custom AI chatbots and agents without code - deploy to messaging platforms |
+| **14** | **Dadi Ai** | `Generative AI Tool` | [https://dadiai.com](https://dadiai.com) | `Free` | डॉक्यूमेंट या पीडीएफ से फ्लैश कार्ड्स और MCQs जनरेट करने के लिए. |
+| **15** | **Emergent** | `Generative AI Tool` | [https://app.emergent.sh](https://app.emergent.sh) | `Freemium` | AI builds functional web app MVPs from text prompts - great for rapid prototyping |
+| **16** | **Enzostvs Deepsite.hf** | `Generative AI Tool` | [https://enzostvs-deepsite.hf.space](https://enzostvs-deepsite.hf.space) | `Free` | AI generates complete websites from text prompts using open-source models - free hosting included |
+| **17** | **Flowith** | `Generative AI Tool` | [https://flowith.io](https://flowith.io) | `Freemium` | AI workspace with infinite canvas for non-linear conversations and complex reasoning tasks |
+| **18** | **Freepik** | `Generative AI Tool` | [https://freepik.com](https://freepik.com) | `Freemium` | Stock graphics library with AI image generation tools - one-stop shop for visual assets |
+| **19** | **Google Flow AI Video & Creative Prompt Studio Hub** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/README.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/README.md) | `Free` | Master creative hub containing 9 AI prompt libraries, Google Omni Flash logo animation guides, 3D billboards, VFX, and influencer schemas. |
+| **20** | **Google Gemini** | `Generative AI Tool` | [https://gemini.google.com](https://gemini.google.com) | `Freemium` | Google Gemini |
+| **21** | **Google Omni Flash — Logo Animation Guide (11 Ready Prompts)** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Logo_Animation_Guide_Google_Omni_Flash.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Logo_Animation_Guide_Google_Omni_Flash.md) | `Free` | Step-by-step workflow for animating static logos using Google Flow, Google Omni Flash, and Nano Banana with 11 production-ready prompt formulas. |
+| **22** | **Gptexcel** | `Generative AI Tool` | [https://gptexcel.uk](https://gptexcel.uk) | `Freemium` | AI generates spreadsheet formulas from plain English - stop memorizing VLOOKUP syntax |
+| **23** | **Heyzxz** | `Generative AI Tool` | [https://heyzxz.me](https://heyzxz.me) | `Freemium` | AI voice synthesis and cloning for content creators needing voiceovers without recording |
+| **24** | **Intangible** | `Generative AI Tool` | [https://intangible.ai](https://intangible.ai) | `Freemium` | AI video generation for pre-production visualization - save thousands on production costs |
+| **25** | **Kittl** | `Generative AI Tool` | [https://kittl.com](https://kittl.com) | `Freemium` | AI-powered design tool perfect for print-on-demand sellers creating professional graphics quickly |
+| **26** | **Layla** | `Generative AI Tool` | [https://layla.ai](https://layla.ai) | `Freemium` | AI travel itinerary planner that creates balanced trip plans from your preferences |
+| **27** | **Meshy** | `Generative AI Tool` | [https://meshy.ai](https://meshy.ai) | `Freemium` | AI generates 3D models from text prompts or images for games and visualization |
+| **28** | **Napkin** | `Generative AI Tool` | [https://napkin.ai](https://napkin.ai) | `Freemium` | AI transforms text into visual diagrams and illustrations automatically - just paste and go |
+| **29** | **Natively** | `Generative AI Tool` | [https://natively.dev](https://natively.dev) | `Freemium` | AI no-code platform for building native mobile apps without any programming knowledge |
+| **30** | **Newarc** | `Generative AI Tool` | [https://newarc.ai](https://newarc.ai) | `Freemium` | AI architecture design tool that generates photorealistic building visualizations from concepts |
+| **31** | **Ponder** | `Generative AI Tool` | [https://ponder.chat](https://ponder.chat) | `Freemium` | AI writing assistant for creating blog posts social media content and marketing copy |
+| **32** | **Reimaginehome** | `Generative AI Tool` | [https://reimaginehome.ai](https://reimaginehome.ai) | `Freemium` | Upload a room photo and get AI-generated interior design ideas in different styles |
+| **33** | **Remove.photos** | `Generative AI Tool` | [https://remove.photos](https://remove.photos) | `Freemium` | AI background remover for quick photo editing in your browser - no software needed |
+| **34** | **Sketch.metademolab** | `Generative AI Tool` | [https://sketch.metademolab.com](https://sketch.metademolab.com) | `Free` | Meta's AI that automatically animates hand-drawn character sketches - free research demo |
+| **35** | **Spiderman & Anamorphic 3D Billboard Cinematic Video Guide** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Spiderman_and_3D_Billboard_Video_Prompts.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Spiderman_and_3D_Billboard_Video_Prompts.md) | `Free` | Viral 3D billboard reveal videos and anamorphic illusion prompts with day/night lighting, screen extrusion, and product VFX physics. |
+| **36** | **Text To Cad.zoo** | `Generative AI Tool` | [https://text-to-cad.zoo.dev](https://text-to-cad.zoo.dev) | `Free` | AI generates 3D CAD models from text descriptions for engineering and design projects |
+| **37** | **Universal Master Prompt — Anamorphic 3D Billboard Ads** | `Generative AI Tool` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Universal_Master_Prompt_3D_Billboard.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Universal_Master_Prompt_3D_Billboard.md) | `Free` | ZeroG Mobile Companion 3D Billboard master prompting formula for creating realistic corner LED display commercials. |
 
 ---
 
@@ -1422,41 +1429,43 @@
 
 ## 🎨 Design & Creator Tools
 
-*Social media template packs, 3D modeling, lightweight JS animation libraries, and graphic assets.* (Total: `31`)
+*Social media template packs, 3D modeling, lightweight JS animation libraries, and graphic assets.* (Total: `33`)
 
 | # | Website Name | Website Type | Official URL | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
-| **1** | **3d Tuning** | `Design & Creator Asset` | [https://3dtuning.com](https://3dtuning.com) | `Freemium` | Virtual car customization tool to visualize modifications and dream builds before spending money |
-| **2** | **Animejs** | `Design & Creator Asset` | [https://animejs.com](https://animejs.com) | `Free` | Lightweight JavaScript animation library for smooth web animations without heavy dependencies |
-| **3** | **Carcarekiosk** | `Design & Creator Asset` | [https://carcarekiosk.com](https://carcarekiosk.com) | `Free` | Vehicle-specific maintenance video tutorials for your exact car make and model |
-| **4** | **Clicktheredbutton** | `Design & Creator Asset` | [https://clicktheredbutton.com](https://clicktheredbutton.com) | `Free` | Random weird website discovery tool - click and find something unexpected on the internet |
-| **5** | **Dora** | `Design & Creator Asset` | [https://dora.run](https://dora.run) | `Freemium` | No-code builder for impressive 3D animated websites without learning WebGL or Three.js |
-| **6** | **Dreamforth** | `Design & Creator Asset` | [https://dreamforth.com](https://dreamforth.com) | `Free` | Dream interpretation dictionary to explore what your vivid or recurring dreams might mean |
-| **7** | **Flourish** | `Design & Creator Asset` | [https://flourish.studio](https://flourish.studio) | `Freemium` | Create beautiful interactive data visualizations and charts without knowing how to code |
-| **8** | **Fragrantica** | `Design & Creator Asset` | [https://fragrantica.com](https://fragrantica.com) | `Free` | Comprehensive perfume database with detailed notes and community reviews before you buy |
-| **9** | **Framer** | `Design & Creator Asset` | [https://framer.com](https://framer.com) | `Freemium` | No-code website builder with pixel-perfect control for designers who want professional results |
-| **10** | **Home.by** | `Design & Creator Asset` | [https://home.by.me](https://home.by.me) | `Freemium` | 3D home design and room planner to visualize renovations before committing to changes |
-| **11** | **Hyperpost** | `Design & Creator Asset` | [https://hyperpost.studio](https://hyperpost.studio) | `Freemium` | Social media template booster packs |
-| **12** | **Jitter.video** | `Design & Creator Asset` | [https://jitter.video](https://jitter.video) | `Freemium` | Browser-based motion graphics editor for designers who don't want to learn After Effects |
-| **13** | **Musclewiki** | `Design & Creator Asset` | [https://musclewiki.com](https://musclewiki.com) | `Free` | Interactive muscle map showing exercises for every body part with video demonstrations |
-| **14** | **Nullfake** | `Design & Creator Asset` | [https://nullfake.com](https://nullfake.com) | `Free` | Detect fake Amazon reviews and see adjusted ratings based only on authentic reviews |
-| **15** | **Pacdora** | `Design & Creator Asset` | [https://pacdora.com](https://pacdora.com) | `Freemium` | 3D packaging mockup generator for product branding with realistic visualization |
-| **16** | **Paperanimator** | `Design & Creator Asset` | [https://paperanimator.com](https://paperanimator.com) | `Freemium` | Turn hand-drawn character sketches into animations with simple drag-and-drop rigging |
-| **17** | **Phet.colorado.edu** | `Design & Creator Asset` | [https://phet.colorado.edu](https://phet.colorado.edu) | `Free` | Free interactive science simulations from University of Colorado for physics chemistry and biology |
-| **18** | **Planyourroom** | `Design & Creator Asset` | [https://planyourroom.com](https://planyourroom.com) | `Free` | Drag-and-drop room layout planner to test furniture arrangements before buying or moving |
-| **19** | **Pngimg** | `Design & Creator Asset` | [https://pngimg.com](https://pngimg.com) | `Free` | Free database of PNG images with transparent backgrounds ready for design projects |
-| **20** | **Reactbits** | `Design & Creator Asset` | [https://reactbits.dev](https://reactbits.dev) | `Free` | Collection of animated React components ready to copy and paste into your projects |
-| **21** | **Spacetypegenerator** | `Design & Creator Asset` | [https://spacetypegenerator.com](https://spacetypegenerator.com) | `Free` | Animated typography effects generator for creating dynamic text for videos and social media |
-| **22** | **Squoosh** | `Design & Creator Asset` | [https://squoosh.app](https://squoosh.app) | `Free` | Google's image compression tool with side-by-side comparison to optimize file sizes |
-| **23** | **Ssemble** | `Design & Creator Asset` | [https://ssemble.com](https://ssemble.com) | `Freemium` | Browser-based video editor with AI features for creating and editing without downloads |
-| **24** | **Startmycar** | `Design & Creator Asset` | [https://startmycar.com](https://startmycar.com) | `Free` | Car troubleshooting guide that helps diagnose why your car won't start with solutions |
-| **25** | **Supercook** | `Design & Creator Asset` | [https://supercook.com](https://supercook.com) | `Free` | Recipe search engine that finds dishes you can make with ingredients you already have |
-| **26** | **Sweezy Cursors** | `Design & Creator Asset` | [https://sweezy-cursors.com](https://sweezy-cursors.com) | `Free` | Custom animated browser cursors with hundreds of themed and animated styles to choose |
-| **27** | **Tailornova** | `Design & Creator Asset` | [https://tailornova.com](https://tailornova.com) | `Freemium` | Generate custom sewing patterns made-to-measure from your exact body measurements |
-| **28** | **Thetoymaker** | `Design & Creator Asset` | [https://thetoymaker.com](https://thetoymaker.com) | `Free` | Printable paper toy templates you can cut fold and glue into whimsical 3D figures |
-| **29** | **Thetruesize** | `Design & Creator Asset` | [https://thetruesize.com](https://thetruesize.com) | `Free` | Interactive map showing true size of countries by correcting Mercator projection distortions |
-| **30** | **Typefaceanimator** | `Design & Creator Asset` | [https://typefaceanimator.com](https://typefaceanimator.com) | `Free` | Browser tool for creating animated typeface transitions and kinetic typography effects |
-| **31** | **Uiball** | `Design & Creator Asset` | [https://uiball.com](https://uiball.com) | `Free` | Free collection of beautiful loading spinners and UI loaders for modern web projects |
+| **1** | **20 Viral VFX & Product Video Prompts (Image + Video)** | `Design & Creator Asset` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2020_VFX_Product_Video_Prompts.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2020_VFX_Product_Video_Prompts.md) | `Free` | 20 viral commercial VFX concepts including Giant Rooftop Models, liquid splashes, and luxury product reveals with exact image and image-to-video prompts. |
+| **2** | **3d Tuning** | `Design & Creator Asset` | [https://3dtuning.com](https://3dtuning.com) | `Freemium` | Virtual car customization tool to visualize modifications and dream builds before spending money |
+| **3** | **55 One-Word ADS Codes Shortcuts for AI Ad Visuals** | `Design & Creator Asset` | [https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2055_One_Word_ADS_Codes_Shortcuts.md](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2055_One_Word_ADS_Codes_Shortcuts.md) | `Free` | 55 prompt presets (/packshot, /hero, /float, /cheesepull, /POV, /unbox, /luxe) for ultra-fast creative direction in Midjourney, Kling, and Veo. |
+| **4** | **Animejs** | `Design & Creator Asset` | [https://animejs.com](https://animejs.com) | `Free` | Lightweight JavaScript animation library for smooth web animations without heavy dependencies |
+| **5** | **Carcarekiosk** | `Design & Creator Asset` | [https://carcarekiosk.com](https://carcarekiosk.com) | `Free` | Vehicle-specific maintenance video tutorials for your exact car make and model |
+| **6** | **Clicktheredbutton** | `Design & Creator Asset` | [https://clicktheredbutton.com](https://clicktheredbutton.com) | `Free` | Random weird website discovery tool - click and find something unexpected on the internet |
+| **7** | **Dora** | `Design & Creator Asset` | [https://dora.run](https://dora.run) | `Freemium` | No-code builder for impressive 3D animated websites without learning WebGL or Three.js |
+| **8** | **Dreamforth** | `Design & Creator Asset` | [https://dreamforth.com](https://dreamforth.com) | `Free` | Dream interpretation dictionary to explore what your vivid or recurring dreams might mean |
+| **9** | **Flourish** | `Design & Creator Asset` | [https://flourish.studio](https://flourish.studio) | `Freemium` | Create beautiful interactive data visualizations and charts without knowing how to code |
+| **10** | **Fragrantica** | `Design & Creator Asset` | [https://fragrantica.com](https://fragrantica.com) | `Free` | Comprehensive perfume database with detailed notes and community reviews before you buy |
+| **11** | **Framer** | `Design & Creator Asset` | [https://framer.com](https://framer.com) | `Freemium` | No-code website builder with pixel-perfect control for designers who want professional results |
+| **12** | **Home.by** | `Design & Creator Asset` | [https://home.by.me](https://home.by.me) | `Freemium` | 3D home design and room planner to visualize renovations before committing to changes |
+| **13** | **Hyperpost** | `Design & Creator Asset` | [https://hyperpost.studio](https://hyperpost.studio) | `Freemium` | Social media template booster packs |
+| **14** | **Jitter.video** | `Design & Creator Asset` | [https://jitter.video](https://jitter.video) | `Freemium` | Browser-based motion graphics editor for designers who don't want to learn After Effects |
+| **15** | **Musclewiki** | `Design & Creator Asset` | [https://musclewiki.com](https://musclewiki.com) | `Free` | Interactive muscle map showing exercises for every body part with video demonstrations |
+| **16** | **Nullfake** | `Design & Creator Asset` | [https://nullfake.com](https://nullfake.com) | `Free` | Detect fake Amazon reviews and see adjusted ratings based only on authentic reviews |
+| **17** | **Pacdora** | `Design & Creator Asset` | [https://pacdora.com](https://pacdora.com) | `Freemium` | 3D packaging mockup generator for product branding with realistic visualization |
+| **18** | **Paperanimator** | `Design & Creator Asset` | [https://paperanimator.com](https://paperanimator.com) | `Freemium` | Turn hand-drawn character sketches into animations with simple drag-and-drop rigging |
+| **19** | **Phet.colorado.edu** | `Design & Creator Asset` | [https://phet.colorado.edu](https://phet.colorado.edu) | `Free` | Free interactive science simulations from University of Colorado for physics chemistry and biology |
+| **20** | **Planyourroom** | `Design & Creator Asset` | [https://planyourroom.com](https://planyourroom.com) | `Free` | Drag-and-drop room layout planner to test furniture arrangements before buying or moving |
+| **21** | **Pngimg** | `Design & Creator Asset` | [https://pngimg.com](https://pngimg.com) | `Free` | Free database of PNG images with transparent backgrounds ready for design projects |
+| **22** | **Reactbits** | `Design & Creator Asset` | [https://reactbits.dev](https://reactbits.dev) | `Free` | Collection of animated React components ready to copy and paste into your projects |
+| **23** | **Spacetypegenerator** | `Design & Creator Asset` | [https://spacetypegenerator.com](https://spacetypegenerator.com) | `Free` | Animated typography effects generator for creating dynamic text for videos and social media |
+| **24** | **Squoosh** | `Design & Creator Asset` | [https://squoosh.app](https://squoosh.app) | `Free` | Google's image compression tool with side-by-side comparison to optimize file sizes |
+| **25** | **Ssemble** | `Design & Creator Asset` | [https://ssemble.com](https://ssemble.com) | `Freemium` | Browser-based video editor with AI features for creating and editing without downloads |
+| **26** | **Startmycar** | `Design & Creator Asset` | [https://startmycar.com](https://startmycar.com) | `Free` | Car troubleshooting guide that helps diagnose why your car won't start with solutions |
+| **27** | **Supercook** | `Design & Creator Asset` | [https://supercook.com](https://supercook.com) | `Free` | Recipe search engine that finds dishes you can make with ingredients you already have |
+| **28** | **Sweezy Cursors** | `Design & Creator Asset` | [https://sweezy-cursors.com](https://sweezy-cursors.com) | `Free` | Custom animated browser cursors with hundreds of themed and animated styles to choose |
+| **29** | **Tailornova** | `Design & Creator Asset` | [https://tailornova.com](https://tailornova.com) | `Freemium` | Generate custom sewing patterns made-to-measure from your exact body measurements |
+| **30** | **Thetoymaker** | `Design & Creator Asset` | [https://thetoymaker.com](https://thetoymaker.com) | `Free` | Printable paper toy templates you can cut fold and glue into whimsical 3D figures |
+| **31** | **Thetruesize** | `Design & Creator Asset` | [https://thetruesize.com](https://thetruesize.com) | `Free` | Interactive map showing true size of countries by correcting Mercator projection distortions |
+| **32** | **Typefaceanimator** | `Design & Creator Asset` | [https://typefaceanimator.com](https://typefaceanimator.com) | `Free` | Browser tool for creating animated typeface transitions and kinetic typography effects |
+| **33** | **Uiball** | `Design & Creator Asset` | [https://uiball.com](https://uiball.com) | `Free` | Free collection of beautiful loading spinners and UI loaders for modern web projects |
 
 ---
 

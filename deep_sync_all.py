@@ -1181,6 +1181,93 @@ def build_database():
         except Exception as e:
             print(f"    -> Error processing Bookmark Hub: {e}")
 
+    print(">>> 12. Processing 🌊 Google Flow & Creative AI Prompts...")
+    google_flow_entries = [
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/README.md",
+            "Google Flow AI Video & Creative Prompt Studio Hub",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "Master creative hub containing 9 AI prompt libraries, Google Omni Flash logo animation guides, 3D billboards, VFX, and influencer schemas.",
+            "Hub: Google Flow Studio"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Logo_Animation_Guide_Google_Omni_Flash.md",
+            "Google Omni Flash — Logo Animation Guide (11 Ready Prompts)",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "Step-by-step workflow for animating static logos using Google Flow, Google Omni Flash, and Nano Banana with 11 production-ready prompt formulas.",
+            "Markdown: Logo Animation Guide"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20100_Unique_Indian_AI_Influencer_Prompts.md",
+            "100 Unique Indian AI Influencer Image-Gen Prompts",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "100 distinct persona schemas with quick specs, camera angles, lighting, and ready-to-copy prompts for Midjourney, SDXL, Flux, and Reve.",
+            "Markdown: 100 Indian AI Influencers"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2020_VFX_Product_Video_Prompts.md",
+            "20 Viral VFX & Product Video Prompts (Image + Video)",
+            "Design & Creator Asset",
+            "🎨 Design & Creator Tools",
+            "Free",
+            "20 viral commercial VFX concepts including Giant Rooftop Models, liquid splashes, and luxury product reveals with exact image and image-to-video prompts.",
+            "Markdown: 20 VFX Product Prompts"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%2055_One_Word_ADS_Codes_Shortcuts.md",
+            "55 One-Word ADS Codes Shortcuts for AI Ad Visuals",
+            "Design & Creator Asset",
+            "🎨 Design & Creator Tools",
+            "Free",
+            "55 prompt presets (/packshot, /hero, /float, /cheesepull, /POV, /unbox, /luxe) for ultra-fast creative direction in Midjourney, Kling, and Veo.",
+            "Markdown: 55 ADS Codes"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Character_Sheet_Master_Prompt_360.md",
+            "360° Character Consistency Reference Sheet Prompt",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "Production-ready master prompt locking face, hairstyle, lighting, and physique across 360-degree angles for AI animation and video storytelling.",
+            "Markdown: 360 Character Sheet"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Spiderman_and_3D_Billboard_Video_Prompts.md",
+            "Spiderman & Anamorphic 3D Billboard Cinematic Video Guide",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "Viral 3D billboard reveal videos and anamorphic illusion prompts with day/night lighting, screen extrusion, and product VFX physics.",
+            "Markdown: 3D Billboard Video Guide"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20Universal_Master_Prompt_3D_Billboard.md",
+            "Universal Master Prompt — Anamorphic 3D Billboard Ads",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "ZeroG Mobile Companion 3D Billboard master prompting formula for creating realistic corner LED display commercials.",
+            "Markdown: Universal 3D Billboard"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%9D%20AI_Image_and_Text_Prompts_Quick_Guide.md",
+            "AI Image & Text Prompts Directory (525+ Shortcut Commands)",
+            "Generative AI Tool",
+            "🤖 AI & Machine Learning Tools",
+            "Free",
+            "Categorized directory of 525+ prompt shortcuts across analysis, design, copywriting, coding, and brainstorming with easy Hindi meanings.",
+            "Markdown: AI Prompts Directory"
+        )
+    ]
+    for url, name, wtype, cat, prc, dsc, src in google_flow_entries:
+        add_entry(url, name, wtype, cat, prc, dsc, src, priority=10)
+
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
 
@@ -1408,6 +1495,14 @@ def export_all(db):
         "- 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**",
         "  - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)",
         "  - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)",
+        "- 🌊 **[Google Flow — AI Video & Creative Prompt Studio Hub](📁%20🌊%20Google%20Flow/)**",
+        "  - 🎬 [Google Omni Flash: Logo Animation Guide (11 Prompts)](📁%20🌊%20Google%20Flow/📝%20Logo_Animation_Guide_Google_Omni_Flash.md)",
+        "  - ✨ [100 Unique Indian AI Influencer Prompts](📁%20🌊%20Google%20Flow/📝%20100_Unique_Indian_AI_Influencer_Prompts.md)",
+        "  - 🚀 [20 Viral VFX & Product Video Prompts](📁%20🌊%20Google%20Flow/📝%2020_VFX_Product_Video_Prompts.md)",
+        "  - ⚡ [55 One-Word ADS Codes Shortcuts](📁%20🌊%20Google%20Flow/📝%2055_One_Word_ADS_Codes_Shortcuts.md)",
+        "  - 👤 [360° Character Consistency Master Sheet](📁%20🌊%20Google%20Flow/📝%20Character_Sheet_Master_Prompt_360.md)",
+        "  - 🏙️ [Spiderman & 3D Billboard Cinematic Video Guide](📁%20🌊%20Google%20Flow/📝%20Spiderman_and_3D_Billboard_Video_Prompts.md)",
+        "  - 📚 [AI Image & Text Prompts Directory (525+ Commands)](📁%20🌊%20Google%20Flow/📝%20AI_Image_and_Text_Prompts_Quick_Guide.md)",
         "- 🔖 **[Premium Bookmark Hub (Interactive Web App)](📁%20🛠️%20Web%20Utilities%20&%20Productivity/🔖%2093_Bookmark_Hub_Interactive_App.html)**",
         "- ⚡ **[Windows Desktop Management & Cleaning Tools](📁%20🛠️%20Web%20Utilities%20&%20Productivity/)**",
         "- 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**",
