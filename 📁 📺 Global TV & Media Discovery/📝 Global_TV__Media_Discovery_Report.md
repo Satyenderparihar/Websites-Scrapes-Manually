@@ -1,7 +1,7 @@
 # 📺 Global TV & Media Discovery
 
 > Worldwide live TV channels, vintage nostalgic television simulators, webcams & broadcast discovery.  
-> **Total Curated Tools**: `6` | **Zero Repeats & Deduplicated**
+> **Total Curated Tools**: `4` | **Zero Repeats & Deduplicated**
 
 ---
 
@@ -9,10 +9,8 @@
 | :-: | :--- | :--- | :--- | :-: | :--- |
 | **1** | **Fame Lack** | `Global TV Discovery` | [Visit Website](https://famelack.com) | `Free` | Watch free live TV streams, international webcams, and explore worldwide broadcasting channels. |
 | **2** | **TV Garden** | `Global TV Discovery` | [Visit Website](https://tv.garden) | `Free` | Global television discovery platform to watch live broadcasts and international channels. |
-| **3** | **ZoomQuilt** | `Interactive Visual Experience` | [Visit Website](https://zoomquilt.org) | `Free` | High-utility web tool: Interactive Visual Experience |
-| **4** | **EarthCam** | `Live Camera Streaming` | [Visit Website](https://www.earthcam.com) | `Free` | High-utility web tool: Live Camera Streaming |
-| **5** | **90s.myretrotvs.com** | `Retro TV Channel Simulator` | [Visit Website](https://90s.myretrotvs.com) | `Free` | Nostalgic 90s TV channel experience that recreates the feeling of old-school channel surfing |
-| **6** | **Virtual Vacation** | `Virtual Travel` | [Visit Website](https://virtualvacation.us) | `Free` | High-utility web tool: Virtual Travel |
+| **3** | **90s.myretrotvs** | `Media & Broadcast Tool` | [Visit Website](https://90s.myretrotvs.com) | `Free` | Nostalgic 90s TV channel experience that recreates the feeling of old-school channel surfing |
+| **4** | **Drivenlisten** | `Media & Broadcast Tool` | [Visit Website](https://drivenlisten.com) | `Free` | Virtual drives through cities worldwide with real dashcam footage and local radio |
 
 ---
 *Auto-generated & Curated by Autonomous Websites Agent.*

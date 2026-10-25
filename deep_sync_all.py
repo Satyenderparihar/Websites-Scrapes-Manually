@@ -1063,6 +1063,124 @@ def build_database():
         except Exception as e:
             print(f"    -> Error parsing 350 Projects PDF: {e}")
 
+    print(">>> 11. Processing 🔖 93. Bookmark Hub & Windows Desktop Utilities...")
+    # Copy 93. Bookmark Hub.html and batch tools to Web Utilities
+    hub_src = os.path.join(DOWNLOADS_DIR, "93. Bookmark Hub.html")
+    web_util_dir = os.path.join(BASE_DIR, "📁 🛠️ Web Utilities & Productivity")
+    os.makedirs(web_util_dir, exist_ok=True)
+    hub_dest = os.path.join(web_util_dir, "🔖 93_Bookmark_Hub_Interactive_App.html")
+    if os.path.exists(hub_src) and not os.path.exists(hub_dest):
+        import shutil
+        shutil.copy2(hub_src, hub_dest)
+
+    # Copy Desktop Batch Utilities to Web Utilities for Git Tracking
+    batch_tools_src = r"D:\Antigravity - Agent\⚡ Desktop Management Tools"
+    if os.path.exists(batch_tools_src):
+        import shutil
+        for bname in ["⚡ Desktop Organised.bat", "⚡ Desktop UN-Organised.bat", "⚡ Delete Empty Folders.bat"]:
+            bsrc = os.path.join(batch_tools_src, bname)
+            bdest = os.path.join(web_util_dir, bname)
+            if os.path.exists(bsrc) and not os.path.exists(bdest):
+                shutil.copy2(bsrc, bdest)
+
+    # Ingest 93. Bookmark Hub Interactive App Link
+    hub_repo_url = "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%9B%A0%EF%B8%8F%20Web%20Utilities%20%26%20Productivity/%F0%9F%94%96%2093_Bookmark_Hub_Interactive_App.html"
+    add_entry(
+        hub_repo_url,
+        "Premium Bookmark Hub (Interactive Web App)",
+        "Web Utility & Productivity Tool",
+        "🛠️ Web Utilities & Productivity",
+        "Free",
+        "Standalone interactive bookmark dashboard featuring 329 categorized web utilities, search filtering, and 1-click launch.",
+        "Interactive App: 93. Bookmark Hub.html",
+        priority=10
+    )
+
+    # Desktop Management Automation Tools
+    desktop_tools = [
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%9B%A0%EF%B8%8F%20Web%20Utilities%20%26%20Productivity/%E2%9A%A1%20Desktop%20Organised.bat",
+            "⚡ Windows Desktop Organiser (Batch Automation)",
+            "Desktop Organization Utility",
+            "🛠️ Web Utilities & Productivity",
+            "Free",
+            "1-click Windows batch tool to categorize loose desktop files into Images, Documents, Videos, Music, Archives, and Programs while protecting shortcuts.",
+            "Batch Utility: Desktop Organised.bat"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%9B%A0%EF%B8%8F%20Web%20Utilities%20%26%20Productivity/%E2%9A%A1%20Desktop%20UN-Organised.bat",
+            "⚡ Windows Desktop UN-Organiser (Batch Restoration)",
+            "Desktop Organization Utility",
+            "🛠️ Web Utilities & Productivity",
+            "Free",
+            "1-click Windows batch tool to restore all categorized files back to Desktop root and safely delete empty folders.",
+            "Batch Utility: Desktop UN-Organised.bat"
+        ),
+        (
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%9B%A0%EF%B8%8F%20Web%20Utilities%20%26%20Productivity/%E2%9A%A1%20Delete%20Empty%20Folders.bat",
+            "⚡ Windows Delete Empty Folders (Batch Cleaner)",
+            "Desktop Maintenance Utility",
+            "🛠️ Web Utilities & Productivity",
+            "Free",
+            "Safely scans and removes only zero-byte completely empty directory folders from the Windows Desktop.",
+            "Batch Utility: Delete Empty Folders.bat"
+        )
+    ]
+    for url, name, wtype, cat, prc, dsc, src in desktop_tools:
+        add_entry(url, name, wtype, cat, prc, dsc, src, priority=9)
+
+    # Parse all 329 items from 93. Bookmark Hub.html
+    if os.path.exists(hub_src) or os.path.exists(hub_dest):
+        actual_hub = hub_src if os.path.exists(hub_src) else hub_dest
+        try:
+            with open(actual_hub, "r", encoding="utf-8", errors="ignore") as f:
+                h_text = f.read()
+            bm_match = re.search(r'const\s+linksData\s*=\s*(\[[\s\S]*?\]);', h_text)
+            if bm_match:
+                bm_list = json.loads(bm_match.group(1))
+                bm_added = 0
+                for item in bm_list:
+                    u = (item.get("url") or "").strip()
+                    if not u or "chatgpt.com" in u or not (u.startswith("http://") or u.startswith("https://")):
+                        continue
+                    title = (item.get("title") or "").strip()
+                    desc = (item.get("description") or "").strip()
+                    pricing = (item.get("pricing") or "Free").strip()
+                    raw_cat = (item.get("category") or "").strip().lower()
+
+                    t_lower = f"{title} {desc} {u} {raw_cat}".lower()
+
+                    if raw_cat == "video downloader" or any(k in t_lower for k in ['downloader', 'savefrom', 'snaptik', 'y2mate', 'ssyoutube', 'fdownloader', 'instasave']):
+                        cat, wtype = "⬇️ Video & Media Downloaders", "Video & Media Downloader"
+                    elif raw_cat == "pdf" or any(k in t_lower for k in ['chatpdf', 'askyourpdf', 'pdf', 'ilovepdf', 'sejda', 'doc', 'signature', 'dkb']):
+                        cat, wtype = "📄 PDF & Document Utilities", "PDF & Document Utility"
+                    elif raw_cat == "ai tools" or any(k in t_lower for k in ['chatgpt', 'claude', 'copilot', 'openai', 'midjourney', 'cleanup.pictures', 'ai writer', 'gemini', 'perplexity', 'huggingface', 'answeraipro', 'dadiai']):
+                        cat, wtype = "🤖 AI & Machine Learning Tools", "Generative AI Tool"
+                    elif any(k in t_lower for k in ['acapella', 'vocal', 'music', 'spotify', 'soundcloud', 'audio', 'song']):
+                        cat, wtype = "🎵 Music & Audio Streaming", "Audio & Music Tool"
+                    elif any(k in t_lower for k in ['retrotvs', 'tv', 'webcam', 'radio.garden', 'radio']):
+                        cat, wtype = "📺 Global TV & Media Discovery", "Media & Broadcast Tool"
+                    elif raw_cat in ["gaming", "entertainment"] or any(k in t_lower for k in ['game', 'party game', 'airconsole', 'play', 'arcade']):
+                        cat, wtype = "🎮 Gaming & Entertainment", "Browser Game & Entertainment"
+                    elif raw_cat in ["design", "creator tools"] or any(k in t_lower for k in ['3dtuning', 'animejs', 'canva', 'figma', 'font', 'icon', 'palette', 'color', 'svg']):
+                        cat, wtype = "🎨 Design & Creator Tools", "Design & Creator Asset"
+                    elif raw_cat in ["students", "education"] or any(k in t_lower for k in ['course', 'certificate', 'digital defyne', 'learning', 'tutorial', 'academy', 'flashcard', 'mcq']):
+                        cat, wtype = "🎓 Free Courses & Learning Platforms", "Educational Learning Platform"
+                    elif raw_cat in ["coding", "developer"] or any(k in t_lower for k in ['github', 'leetcode', 'ide', 'code', 'compiler', 'programming', 'cheat sheet', 'developer tool']):
+                        cat, wtype = "💻 Coding & Developer Platforms", "Coding & Developer Platform"
+                    elif raw_cat in ["utility", "utilities", "productivity"] or any(k in t_lower for k in ['calculator', 'cvmaker', 'converter', 'archive', 'tools', 'repair']):
+                        cat, wtype = "🛠️ Web Utilities & Productivity", "Web Utility & Productivity Tool"
+                    else:
+                        cat, wtype = "🌐 General Curated Tools", "Curated Online Platform"
+
+                    c_url = clean_url(u)
+                    if c_url:
+                        add_entry(c_url, title, wtype, cat, pricing, desc if len(desc) > 5 else f"Curated resource: {title} ({wtype})", "Bookmark Hub: 93. Bookmark Hub.html", priority=7)
+                        bm_added += 1
+                print(f"    -> Processed {bm_added} bookmarks from 93. Bookmark Hub.html")
+        except Exception as e:
+            print(f"    -> Error processing Bookmark Hub: {e}")
+
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
 
@@ -1290,6 +1408,8 @@ def export_all(db):
         "- 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**",
         "  - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)",
         "  - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)",
+        "- 🔖 **[Premium Bookmark Hub (Interactive Web App)](📁%20🛠️%20Web%20Utilities%20&%20Productivity/🔖%2093_Bookmark_Hub_Interactive_App.html)**",
+        "- ⚡ **[Windows Desktop Management & Cleaning Tools](📁%20🛠️%20Web%20Utilities%20&%20Productivity/)**",
         "- 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**",
         "- 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**",
         "",
