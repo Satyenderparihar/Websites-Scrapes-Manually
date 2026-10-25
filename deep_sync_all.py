@@ -138,6 +138,34 @@ def map_course_to_subcat(wtype, name=""):
     return "🌐 Academic STEM Tools & Learning Platforms"
 
 CODING_SUBCATEGORIES = {
+    "🌐 HTML, CSS & Web Development": [
+        "Web Development Resource", "Web Dev Project Implementation", "CSS Learning", "JavaScript Learning",
+        "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "Next.js Learning", "Web Development"
+    ],
+    "⚡ C Programming Language": [
+        "C Project Implementation", "C Language Resource", "C Programming"
+    ],
+    "⚙️ C++ Programming Language": [
+        "C++ Project Implementation", "C++ Language Resource", "C++ Programming"
+    ],
+    "☕ Java Programming & Android Tech": [
+        "Java Project Implementation", "Java Language Resource", "Java Programming"
+    ],
+    "🐍 Python Programming & Projects": [
+        "Python Programming Resource", "Python Project Implementation", "Python Resource", "Python Learning"
+    ],
+    "📈 R Programming & Statistical Computing": [
+        "R Programming Resource", "R Project Implementation", "Statistical Computing Resource"
+    ],
+    "📊 Data Science, Big Data & Analytics": [
+        "Data Science & Analytics Resource", "Data Analytics Resource", "Big Data Resource", "Data Science Project Implementation"
+    ],
+    "🤖 Machine Learning, AI & Deep Learning": [
+        "Machine Learning & AI Resource", "Machine Learning Resource", "Deep Learning Resource", "Machine Learning Project Implementation"
+    ],
+    "🚀 Computer Science & Engineering Projects": [
+        "Coding Project Implementation"
+    ],
     "📋 Master Tech Cheat Sheets (Google Sheets Library)": [
         "Google Sheets Master Cheat Sheet", "Master Tech Cheat Sheet"
     ],
@@ -147,75 +175,91 @@ CODING_SUBCATEGORIES = {
     "⚔️ Coding Challenges & Practice Platforms": [
         "Coding Practice & Challenges", "Coding Practice Platform", "Coding Practice Community"
     ],
-    "🎓 Programming & Tech Learning Platforms": [
+    "🎓 Full-Stack & Computer Science Learning Platforms": [
         "Coding Learning Platform", "Tech Learning Platform", "Interactive Coding App", "Learning Platform"
     ],
-    "📚 Developer Reference, Roadmaps & Guides": [
-        "Developer Roadmap & Career Guide", "Developer Cheat Sheets & Reference", "Developer Reference & Cheat Sheets",
-        "Web Development Resource", "Programming Resources & Reference", "CSS Learning", "JavaScript Learning",
-        "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "SQL Learning", "Blockchain Learning",
-        "Next.js Learning", "API Learning", "Go Language Learning", "Web Development"
-    ],
-    "🐍 Python Dedicated Resources": [
-        "Python Programming Resource", "Python Resource", "Python Learning"
-    ],
-    "📊 Data Science, Big Data & Analytics Resources": [
-        "Data Science & Analytics Resource", "Data Analytics Resource", "Big Data Resource"
-    ],
-    "🤖 Machine Learning & Neural Network Resources": [
-        "Machine Learning & AI Resource", "Machine Learning Resource", "Deep Learning Resource"
-    ],
-    "📈 R Programming & Statistical Computing": [
-        "R Programming Resource", "Statistical Computing Resource"
-    ],
-    "🐙 Version Control & Repository Platforms": [
+    "🐙 Version Control, Git & Repositories": [
         "Version Control & Repository Platform", "Version Control", "Version Control (Git)"
-    ],
-    "💼 Technical Interview Prep & Coding Utilities": [
-        "Technical Interview Preparation", "Interview Prep", "Code Converter Tool", "Code Converter", "Developer Utility"
     ],
     "📺 Programming Creators & Channels (YouTube & Social)": [
         "YouTube Coding Channel", "Social Coding Creator", "Telegram Tech Community"
     ],
-    "🚀 Hands-on Project Guides & Implementations": [
-        "C Project Implementation", "C++ Project Implementation", "Python Project Implementation",
-        "Java Project Implementation", "Web Dev Project Implementation", "Coding Project Implementation",
-        "Data Science Project Implementation", "Machine Learning Project Implementation", "R Project Implementation"
+    "💼 Interview Prep & Developer Utilities": [
+        "Technical Interview Preparation", "Interview Prep", "Code Converter Tool", "Code Converter", "Developer Utility"
     ]
 }
 
 def map_coding_to_subcat(wtype, name="", url=""):
     wtype_clean = (wtype or "").strip()
-    name_lower = (name or "").lower()
-    url_lower = (url or "").lower()
+    name_clean = (name or "").strip()
+    url_clean = (url or "").strip()
     
-    if 'docs.google.com' in url_lower or 'google sheet' in wtype_clean.lower() or 'google sheet' in name_lower:
+    name_lower = name_clean.lower()
+    wtype_lower = wtype_clean.lower()
+    url_lower = url_clean.lower()
+    
+    # 1. Master Cheat Sheets (Google Sheets Library)
+    if 'docs.google.com' in url_lower or 'google sheet' in wtype_lower:
         return "📋 Master Tech Cheat Sheets (Google Sheets Library)"
-    if 'project' in wtype_clean.lower() or 'implementation' in wtype_clean.lower():
-        return "🚀 Hands-on Project Guides & Implementations"
-    if any(k in name_lower for k in ['replit', 'glitch', 'codepen', 'jsfiddle', 'codesandbox', 'stackblitz']):
-        return "💻 Online Code Editors & Cloud IDEs"
-    if any(k in name_lower for k in ['leetcode', 'hackerrank', 'codewars', 'topcoder', 'coderbyte', 'codechef', 'exercism', 'project euler', 'dailyprogrammer', 'rosalind']):
-        return "⚔️ Coding Challenges & Practice Platforms"
-    if any(k in name_lower for k in ['github', 'gitlab', 'bitbucket', 'git book']):
-        return "🐙 Version Control & Repository Platforms"
-    if 'telegram' in wtype_clean.lower() or any(k in name_lower for k in ['mosh', 'harry', 'telusko', 'traversy', 'gate smashers', 'anuj bhaiya', 'apni kaksha', 'jenny', 'mysirg', 'derek banas', 'academind', 'thenewboston', 'sortedcoding', 'clever programmer', 'programmingknowledge', 'freecodecamp (social)', 'codz learner', 'imran', 'rengatechnologies', 'startup baniya', 'iron coding']):
-        return "📺 Programming Creators & Channels (YouTube & Social)"
-    if 'machine learning' in wtype_clean.lower():
-        return "🤖 Machine Learning & Neural Network Resources"
-    if 'data science' in wtype_clean.lower():
-        return "📊 Data Science, Big Data & Analytics Resources"
-    if 'r programming' in wtype_clean.lower():
-        return "📈 R Programming & Statistical Computing"
-    if 'python' in wtype_clean.lower() or ('python' in name_lower and not any(k in name_lower for k in ['youtube', 'channel', 'course', 'project', 'full course'])):
-        return "🐍 Python Dedicated Resources"
-    if any(k in name_lower for k in ['converter', 'interview questions', 'interviewbit']):
-        return "💼 Technical Interview Prep & Coding Utilities"
 
-    for subcat, types in CODING_SUBCATEGORIES.items():
-        if wtype_clean in types:
-            return subcat
-    return "📚 Developer Reference, Roadmaps & Guides"
+    # 2. Online IDEs & Cloud Editors
+    if any(k in name_lower for k in ['replit', 'glitch', 'codepen', 'jsfiddle', 'codesandbox', 'stackblitz']) or 'online code editor' in wtype_lower:
+        return "💻 Online Code Editors & Cloud IDEs"
+
+    # 3. Coding Challenges & Practice Platforms
+    if any(k in name_lower for k in ['leetcode', 'hackerrank', 'codewars', 'topcoder', 'coderbyte', 'codechef', 'exercism', 'project euler', 'dailyprogrammer', 'rosalind']) or 'coding practice' in wtype_lower:
+        return "⚔️ Coding Challenges & Practice Platforms"
+
+    # 4. Version Control & Git Repositories
+    if any(k in name_lower for k in ['github', 'gitlab', 'bitbucket', 'git book']) or 'version control' in wtype_lower:
+        return "🐙 Version Control, Git & Repositories"
+
+    # 5. Programming Creators & Channels (YouTube & Social)
+    if 'youtube' in wtype_lower or 'social' in wtype_lower or 'telegram' in wtype_lower or any(k in name_lower for k in ['mosh', 'harry', 'telusko', 'traversy', 'gate smashers', 'anuj bhaiya', 'apni kaksha', 'jenny', 'mysirg', 'derek banas', 'academind', 'thenewboston', 'sortedcoding', 'clever programmer', 'programmingknowledge', 'codz learner', 'startup baniya', 'iron coding']):
+        return "📺 Programming Creators & Channels (YouTube & Social)"
+
+    # 6. Technical Interview Prep & Developer Utilities
+    if any(k in name_lower for k in ['interview', 'converter tool', 'code converter', 'interviewbit']) or 'technical interview' in wtype_lower:
+        return "💼 Interview Prep & Developer Utilities"
+
+    # 7. HTML, CSS & Web Development (HTML, CSS, JS, React, Vue, Next.js, Web pages)
+    if any(k in name_lower for k in ['javascript', 'html', 'css', 'react', 'vue', 'frontend', 'front-end', 'next.js', 'php', 'food delivery', 'webpage', 'ajax']) or any(k in wtype_lower for k in ['web dev', 'web development', 'css']):
+        return "🌐 HTML, CSS & Web Development"
+
+    # 8. C++ Programming Language
+    if 'c++' in wtype_lower or 'c++' in name_lower or re.search(r'\b(cpp|c\+\+)\b', name_lower):
+        return "⚙️ C++ Programming Language"
+
+    # 9. C Programming Language
+    if 'c project' in wtype_lower or re.search(r'\b(c\s+language|c\s+project|in\s+c|c\s+programming)\b', name_lower):
+        return "⚡ C Programming Language"
+
+    # 10. Java Programming & Android Tech
+    if ('java' in wtype_lower or re.search(r'\b(java|android)\b', name_lower)) and not any(k in name_lower for k in ['javascript', 'python vs java', 'ml java']):
+        return "☕ Java Programming & Android Tech"
+
+    # 11. Python Programming & Projects
+    if 'pythongeeks.org' in url_lower or 'python' in wtype_lower or ('python' in name_lower and not any(k in name_lower for k in ['course', 'channel', 'social'])):
+        return "🐍 Python Programming & Projects"
+
+    # 12. R Programming & Statistical Computing
+    if 'r programming' in wtype_lower or 'r project' in wtype_lower or 'learn r' in name_lower or re.search(r'\b(r\s+programming|r\s+project|in\s+r)\b', name_lower):
+        return "📈 R Programming & Statistical Computing"
+
+    # 13. Data Science, Big Data & Analytics
+    if 'data science' in wtype_lower or any(k in name_lower for k in ['data science', 'analytics', 'big data', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'statistics', 'tableau', 'association rule mining', 'data analysis', 'data cleansing']):
+        return "📊 Data Science, Big Data & Analytics"
+
+    # 14. Machine Learning, AI & Deep Learning
+    if 'machine learning' in wtype_lower or any(k in name_lower for k in ['machine learning', 'neural', 'cnn', 'deep learning', 'svm', 'clustering', 'scikit-learn', 'artificial intelligence', 'nlp', 'computer vision', 'image classifier', 'speech recognition', 'sign language', 'reinforcement learning', 'ml java']):
+        return "🤖 Machine Learning, AI & Deep Learning"
+
+    # 15. Computer Science & Engineering Projects (Cross-Platform)
+    if 'project implementation' in wtype_lower or 'project' in name_lower:
+        return "🚀 Computer Science & Engineering Projects"
+
+    # 16. Full-Stack & Computer Science Learning Platforms (Default)
+    return "🎓 Full-Stack & Computer Science Learning Platforms"
 
 VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
@@ -1206,8 +1250,21 @@ def export_all(db):
                 cell.fill = header_fill
                 cell.font = header_font
                 cell.alignment = center_align
+
+            if "Courses" in cat_name:
+                sub_order = list(COURSE_SUBCATEGORIES.keys())
+                sorted_items = sorted(items, key=lambda x: (
+                    sub_order.index(map_course_to_subcat(x.get("website_type", ""), x.get("name", ""))) if map_course_to_subcat(x.get("website_type", ""), x.get("name", "")) in sub_order else 999,
+                    (x.get("name") or "").lower()
+                ))
+            else:
+                sub_order = list(CODING_SUBCATEGORIES.keys())
+                sorted_items = sorted(items, key=lambda x: (
+                    sub_order.index(map_coding_to_subcat(x.get("website_type", ""), x.get("name", ""), x.get("url", ""))) if map_coding_to_subcat(x.get("website_type", ""), x.get("name", ""), x.get("url", "")) in sub_order else 999,
+                    (x.get("name") or "").lower()
+                ))
                 
-            for i, item in enumerate(items, 1):
+            for i, item in enumerate(sorted_items, 1):
                 r = i + 1
                 if "Courses" in cat_name:
                     subcat = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
