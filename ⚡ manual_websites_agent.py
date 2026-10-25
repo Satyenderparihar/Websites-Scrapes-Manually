@@ -47,6 +47,10 @@ CATEGORIES = {
         "folder": "📁 ⬇️ Video & Media Downloaders",
         "desc": "Fast online downloaders & converters for YouTube, Instagram, Facebook, Pinterest, Twitter & video media."
     },
+    "💻 Coding & Developer Platforms": {
+        "folder": "📁 💻 Coding & Developer Platforms",
+        "desc": "Coding practice, cloud IDEs, language references, GitHub repos, cheat sheets, developer tools & project implementations."
+    },
     "🤖 AI & Machine Learning Tools": {
         "folder": "📁 🤖 AI & Machine Learning Tools",
         "desc": "Cutting-edge Generative AI builders, neural models, agentic workflows, LLM tools & prompt suites."
@@ -205,6 +209,8 @@ def normalize_category(raw_cat, site_name="", url="", desc="", website_type=""):
         return "🎵 Music & Audio Streaming"
     if any(k in text for k in ['downloader', 'download', 'fdown', 'igram', 'ssyoutube', 'y2mate', 'cobalt', 'save', 'botdownloader', 'autosubtitles', 'yout.com', 'instag.com', 'faceb.com']):
         return "⬇️ Video & Media Downloaders"
+    if any(k in text for k in ['leetcode', 'hackerrank', 'codewars', 'topcoder', 'coderbyte', 'codechef', 'exercism', 'github', 'gitlab', 'bitbucket', 'codepen', 'jsfiddle', 'codesandbox', 'stackblitz', 'glitch', 'overapi', 'quickref', 'goalkicker', 'w3schools', 'programming', 'developer roadmap', 'cheat sheet', 'project implementation', 'python resource', 'html.com', 'javascript.info', 'reactplay', 'learnvue', 'nextjs.org/learn', 'web3', 'cryptozombies']):
+        return "💻 Coding & Developer Platforms"
     if any(k in text for k in ['course', 'academy', 'learn', 'education', 'tutorial', 'coursera', 'skillshop', 'training', 'beginner', 'study notes', 'learning', 'databricks']):
         return "🎓 Free Courses & Learning Platforms"
     if any(k in text for k in ['pdf', 'sejda', 'tinywow']):
