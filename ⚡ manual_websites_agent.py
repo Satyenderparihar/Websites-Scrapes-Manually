@@ -85,7 +85,7 @@ VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
     'cc', 'ly', 'to', 'la', 'fm', 'xyz', 'tech', 'online', 'site', 'store', 'club', 'pro', 'studio', 'tools', 'garden',
     'lol', 'live', 'page', 'space', 'fun', 'design', 'world', 'media', 'stream', 'cloud', 'engineer', 'academy',
-    'software', 'download', 'community', 'systems', 'education', 'solutions', 'technology'
+    'software', 'download', 'community', 'systems', 'education', 'solutions', 'technology', 'training'
 ])
 
 def clean_url(u):
@@ -104,7 +104,7 @@ def clean_url(u):
     if len(parts) < 2:
         return ""
     tld = parts[-1].split(':')[0]
-    if tld not in VALID_TLDS and len(tld) > 6:
+    if tld not in VALID_TLDS and len(tld) > 10:
         return ""
     clean_query = []
     if parsed.query:
@@ -121,8 +121,13 @@ def get_domain_key(url):
     if domain.startswith("www."):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
-    if len(path) > 1 and any(sub in domain for sub in ['youtube.com', 'instagram.com', 'github.com', 'coursera.org', 'analyticsvidhya.com', 'stpcomputereducation.com']):
-        return f"{domain}{path}"
+    query = parsed.query
+    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google', 'data-flair.training', 'docs.google.com']):
+        key_suffix = path
+        if query:
+            key_suffix = f"{path}?{query}" if path else f"?{query}"
+        if key_suffix:
+            return f"{domain}{key_suffix}"
     return domain
 
 def normalize_pricing(p):

@@ -156,6 +156,15 @@ CODING_SUBCATEGORIES = {
     "🐍 Python Dedicated Resources": [
         "Python Programming Resource", "Python Resource", "Python Learning"
     ],
+    "📊 Data Science, Big Data & Analytics Resources": [
+        "Data Science & Analytics Resource", "Data Analytics Resource", "Big Data Resource"
+    ],
+    "🤖 Machine Learning & Neural Network Resources": [
+        "Machine Learning & AI Resource", "Machine Learning Resource", "Deep Learning Resource"
+    ],
+    "📈 R Programming & Statistical Computing": [
+        "R Programming Resource", "Statistical Computing Resource"
+    ],
     "🐙 Version Control & Repository Platforms": [
         "Version Control & Repository Platform", "Version Control", "Version Control (Git)"
     ],
@@ -167,7 +176,8 @@ CODING_SUBCATEGORIES = {
     ],
     "🚀 Hands-on Project Guides & Implementations": [
         "C Project Implementation", "C++ Project Implementation", "Python Project Implementation",
-        "Java Project Implementation", "Web Dev Project Implementation", "Coding Project Implementation"
+        "Java Project Implementation", "Web Dev Project Implementation", "Coding Project Implementation",
+        "Data Science Project Implementation", "Machine Learning Project Implementation", "R Project Implementation"
     ]
 }
 
@@ -183,12 +193,18 @@ def map_coding_to_subcat(wtype, name=""):
         return "⚔️ Coding Challenges & Practice Platforms"
     if any(k in name_lower for k in ['github', 'gitlab', 'bitbucket', 'git book']):
         return "🐙 Version Control & Repository Platforms"
-    if 'python' in name_lower and not any(k in name_lower for k in ['youtube', 'channel', 'course', 'project', 'full course']):
+    if 'telegram' in wtype_clean.lower() or any(k in name_lower for k in ['mosh', 'harry', 'telusko', 'traversy', 'gate smashers', 'anuj bhaiya', 'apni kaksha', 'jenny', 'mysirg', 'derek banas', 'academind', 'thenewboston', 'sortedcoding', 'clever programmer', 'programmingknowledge', 'freecodecamp (social)', 'codz learner', 'imran', 'rengatechnologies', 'startup baniya', 'iron coding']):
+        return "📺 Programming Creators & Channels (YouTube & Social)"
+    if 'machine learning' in wtype_clean.lower():
+        return "🤖 Machine Learning & Neural Network Resources"
+    if 'data science' in wtype_clean.lower():
+        return "📊 Data Science, Big Data & Analytics Resources"
+    if 'r programming' in wtype_clean.lower():
+        return "📈 R Programming & Statistical Computing"
+    if 'python' in wtype_clean.lower() or ('python' in name_lower and not any(k in name_lower for k in ['youtube', 'channel', 'course', 'project', 'full course'])):
         return "🐍 Python Dedicated Resources"
     if any(k in name_lower for k in ['converter', 'interview questions', 'interviewbit']):
         return "💼 Technical Interview Prep & Coding Utilities"
-    if any(k in name_lower for k in ['mosh', 'harry', 'telusko', 'traversy', 'gate smashers', 'anuj bhaiya', 'apni kaksha', 'jenny', 'mysirg', 'derek banas', 'academind', 'thenewboston', 'sortedcoding', 'clever programmer', 'programmingknowledge', 'freecodecamp (social)', 'codz learner', 'imran', 'rengatechnologies', 'startup baniya', 'iron coding']):
-        return "📺 Programming Creators & Channels (YouTube & Social)"
 
     for subcat, types in CODING_SUBCATEGORIES.items():
         if wtype_clean in types:
@@ -199,7 +215,7 @@ VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
     'cc', 'ly', 'to', 'la', 'fm', 'xyz', 'tech', 'online', 'site', 'store', 'club', 'pro', 'studio', 'tools', 'garden',
     'lol', 'live', 'page', 'space', 'fun', 'design', 'world', 'media', 'stream', 'cloud', 'engineer', 'academy',
-    'software', 'download', 'community', 'systems', 'education', 'solutions', 'technology'
+    'software', 'download', 'community', 'systems', 'education', 'solutions', 'technology', 'training'
 ])
 
 def clean_url(u):
@@ -218,7 +234,7 @@ def clean_url(u):
     if len(parts) < 2:
         return ""
     tld = parts[-1].split(':')[0]
-    if tld not in VALID_TLDS and len(tld) > 6:
+    if tld not in VALID_TLDS and len(tld) > 10:
         return ""
     clean_query = []
     if parsed.query:
@@ -236,7 +252,7 @@ def get_domain_key(url):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
     query = parsed.query
-    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google']):
+    if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google', 'data-flair.training', 'docs.google.com']):
         key_suffix = path
         if query:
             key_suffix = f"{path}?{query}" if path else f"?{query}"
@@ -741,6 +757,89 @@ def build_database():
                         
                     add_entry(real_url, proj_name, ptype, "💻 Coding & Developer Platforms", "Free", f"Step-by-step source code guide & project implementation: {proj_name}", f"Excel: 💻 Coding Websites.xlsx ({sname})", priority=8)
 
+    print(">>> 8. Processing 📚 All In One Programming Resources.xlsx (All 6 Sheets)...")
+    f_all_in_one = os.path.join(DOWNLOADS_DIR, "All In One Programming Resources.xlsx")
+    if os.path.exists(f_all_in_one):
+        wb_aio = openpyxl.load_workbook(f_all_in_one, data_only=False)
+        wb_aiod = openpyxl.load_workbook(f_all_in_one, data_only=True)
+
+        for sname in wb_aio.sheetnames:
+            ws = wb_aio[sname]
+            ws_d = wb_aiod[sname]
+
+            # 8.1 Cheatsheet-list (70 Google Sheet Cheat Sheets)
+            if sname == "Cheatsheet-list":
+                for r in range(1, ws.max_row + 1):
+                    name = str(ws.cell(r, 1).value or '').strip()
+                    cell_2 = ws.cell(r, 2)
+                    url = cell_2.hyperlink.target if cell_2.hyperlink else str(cell_2.value or '').strip()
+                    if not name or name in ["None"] or len(name) < 3:
+                        continue
+                    cu = clean_url(url)
+                    if cu:
+                        add_entry(cu, name, "Developer Reference & Cheat Sheets", "💻 Coding & Developer Platforms", "Free", f"Comprehensive developer cheat sheet and reference spreadsheet: {name}", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
+                continue
+
+            # 8.2 Stay updated on Telegram (4 channels)
+            if sname == "Stay updated on Telegram":
+                for r in range(1, ws.max_row + 1):
+                    c1 = str(ws.cell(r, 1).value or '').strip()
+                    c2_cell = ws.cell(r, 2)
+                    c3 = str(ws.cell(r, 3).value or '').strip()
+                    if not c1 or any(k in c1 for k in ["NOTE:", "Channel / Group Name", "None"]) or len(c1) < 3:
+                        continue
+                    url = c2_cell.hyperlink.target if c2_cell.hyperlink else str(c2_cell.value or '').strip()
+                    cu = clean_url(url)
+                    if cu:
+                        desc = c3 if c3 and len(c3) > 10 else f"Technical developer community on Telegram: {c1}"
+                        add_entry(cu, f"{c1} (Telegram)", "Telegram Tech Community", "💻 Coding & Developer Platforms", "Free", desc, f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
+                continue
+
+            # 8.3 Learn Python, Learn Machine Learning, Learn Data Science, Learn R
+            for r in range(1, ws.max_row + 1):
+                for c in range(1, ws.max_column + 1):
+                    cell = ws.cell(r, c)
+                    cell_d = ws_d.cell(r, c)
+                    val = str(cell_d.value or cell.value or '').strip()
+                    hl = cell.hyperlink.target if cell.hyperlink else None
+                    url = hl if hl else (val if val.startswith("http") else "")
+
+                    if not val or val in ["None", "Link", "Click Here"] or len(val) < 2:
+                        continue
+                    if val.startswith("NOTE:") or val.startswith("http"):
+                        val_name = ""
+                    else:
+                        val_name = val
+
+                    cu = clean_url(url)
+                    if cu and "chatgpt.com" not in cu:
+                        name = val_name if val_name else cu.split('/')[-1].replace('-', ' ').title()
+                        p_lower = name.lower()
+
+                        if "project" in p_lower:
+                            if "python" in sname.lower() or "python" in p_lower:
+                                wtype = "Python Project Implementation"
+                            elif "machine learning" in sname.lower() or "ml" in p_lower:
+                                wtype = "Machine Learning Project Implementation"
+                            elif "data science" in sname.lower():
+                                wtype = "Data Science Project Implementation"
+                            elif "r" in sname.lower():
+                                wtype = "R Project Implementation"
+                            else:
+                                wtype = "Coding Project Implementation"
+                        elif "learn python" in sname.lower() or "python" in p_lower:
+                            wtype = "Python Programming Resource"
+                        elif "machine learning" in sname.lower() or any(m in p_lower for m in ['neural', 'cnn', 'rnn', 'ann', 'svm', 'clustering', 'deep learning']):
+                            wtype = "Machine Learning & AI Resource"
+                        elif "data science" in sname.lower() or any(d in p_lower for d in ['pandas', 'numpy', 'matplotlib', 'seaborn', 'statistics', 'tableau']):
+                            wtype = "Data Science & Analytics Resource"
+                        elif "learn r" in sname.lower() or " r " in f" {p_lower} ":
+                            wtype = "R Programming Resource"
+                        else:
+                            wtype = "Developer Reference & Cheat Sheets"
+
+                        add_entry(cu, name, wtype, "💻 Coding & Developer Platforms", "Free", f"Verified tutorial & implementation guide: {name} ({wtype})", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
+
     print(f"\n✅ Total Deduplicated Curated Websites: {len(db)}")
     return db
 
@@ -1157,7 +1256,7 @@ def main():
 
     print("\nGit commit and push...")
     subprocess.run(["git", "add", "."], cwd=BASE_DIR, check=True)
-    subprocess.run(["git", "commit", "-m", f"feat: add 💻 Coding & Developer Platforms category with 282 resources across 9 tracks"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "commit", "-m", f"feat: add All In One Programming Resources (total {len(db)} curated websites across 12 categories)"], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
     print("\n🚀 All updates pushed to GitHub successfully!")
 
