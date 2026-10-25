@@ -310,8 +310,28 @@ YOUTUBE_CREATORS = {
     "Iron Coding": ("Iron Coding", "https://www.instagram.com/iron.coding/", "Social Coding Creator", "Programming tips, coding interview prep, and tech fundamentals.")
 }
 
+def load_existing_database():
+    # Priority 1: Check git commit 7a9f688 which has all 430 previously curated websites
+    try:
+        res = subprocess.run(['git', '-C', BASE_DIR, 'show', '7a9f688:💾 websites_database.json'], capture_output=True)
+        if res.returncode == 0:
+            data = json.loads(res.stdout.decode('utf-8'))
+            if len(data) >= 430:
+                print(f">>> Loaded {len(data)} existing curated websites from git baseline.")
+                return data
+    except Exception:
+        pass
+    if os.path.exists(DB_FILE):
+        try:
+            with open(DB_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data
+        except Exception:
+            pass
+    return {}
+
 def build_database():
-    db = {}
+    db = load_existing_database()
 
     def add_entry(url, name, website_type, category, pricing, desc, source, priority=1):
         cleaned = clean_url(url)
