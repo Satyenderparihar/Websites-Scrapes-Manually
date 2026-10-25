@@ -5,17 +5,17 @@
 
 ---
 
-| # | Tool / Website Name | Official Link | Pricing | Description |
-| :-: | :--- | :--- | :-: | :--- |
-| **1** | **acapella-extractor.com** | [Visit Website](https://www.youtube.com/shorts/JXqTVaM5TXw) | `Freemium` | Extract clean vocals from any song for remixes and music production projects |
-| **2** | **Apple Music** | [Visit Website](https://music.apple.com) | `Paid` | Premium ad-free audio streaming service featuring spatial audio, lossless sound, and curated playlists. |
-| **3** | **Gaana** | [Visit Website](https://gaana.com) | `Free + Paid` | Popular Indian commercial music streaming service offering Hindi, regional, and international tracks. |
-| **4** | **JioSaavn** | [Visit Website](https://www.jiosaavn.com) | `Free + Paid` | Leading Indian audio streaming service offering 80M+ tracks across Bollywood, regional, and English music. |
-| **5** | **SoundCloud** | [Visit Website](https://soundcloud.com) | `Free + Paid` | Artist-first audio platform allowing independent creators to upload, promote, and discover music. |
-| **6** | **Spotify** | [Visit Website](https://www.spotify.com) | `Free + Paid` | Global digital music, podcast, and video service with millions of songs and creator content. |
-| **7** | **vocalremover.org** | [Visit Website](https://www.youtube.com/shorts/iHy3gL7Xki4) | `Freemium` | AI separates vocals from instrumentals in any song for karaoke remixing or production |
-| **8** | **x-minus.pro** | [Visit Website](https://www.youtube.com/shorts/SRh-qMlibS4) | `Freemium` | Split any song into vocals and instrumentals for karaoke remixing or music production |
-| **9** | **YouTube Music** | [Visit Website](https://music.youtube.com) | `Free + Paid` | Official YouTube music streaming platform with official albums, live performances, and music videos. |
+| # | Website Name | Website Type | Official Link | Pricing | Description |
+| :-: | :--- | :--- | :--- | :-: | :--- |
+| **1** | **acapella-extractor.com** | `AI Vocal & Acapella Extractor` | [Visit Website](https://acapella-extractor.com) | `Freemium` | Extract clean vocals from any song for remixes and music production projects |
+| **2** | **vocalremover.org** | `AI Vocal & Acapella Extractor` | [Visit Website](https://vocalremover.org) | `Freemium` | AI separates vocals from instrumentals in any song for karaoke remixing or production |
+| **3** | **x-minus.pro** | `AI Vocal & Acapella Extractor` | [Visit Website](https://x-minus.pro) | `Freemium` | Split any song into vocals and instrumentals for karaoke remixing or music production |
+| **4** | **Apple Music** | `Music Streaming` | [Visit Website](https://music.apple.com) | `Paid` | Premium audio streaming platform with lossless audio, Dolby Atmos spatial sound, and exclusive releases. |
+| **5** | **SoundCloud** | `Music Streaming` | [Visit Website](https://soundcloud.com) | `Free + Paid` | Open audio platform connecting fans directly with independent artists, DJs, and podcasters. |
+| **6** | **Spotify** | `Music Streaming` | [Visit Website](https://www.spotify.com) | `Free + Paid` | Global digital music and podcast platform with millions of tracks and curated playlists. |
+| **7** | **YouTube Music** | `Music Streaming` | [Visit Website](https://music.youtube.com) | `Free + Paid` | Official music streaming service by YouTube with personalized recommendations and music videos. |
+| **8** | **Gaana** | `Music Streaming (India)` | [Visit Website](https://gaana.com) | `Free + Paid` | Commercial music streaming service offering Bollywood, Punjabi, Tamil, Telugu, and English songs. |
+| **9** | **JioSaavn** | `Music Streaming (India)` | [Visit Website](https://www.jiosaavn.com) | `Free + Paid` | Extensive Indian music library with 80M+ tracks, original podcasts, and regional radio stations. |
 
 ---
 *Auto-generated & Curated by Autonomous Websites Agent.*

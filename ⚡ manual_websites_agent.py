@@ -30,7 +30,6 @@ README_FILE = os.path.join(BASE_DIR, "README.md")
 INPUT_FILE = os.path.join(BASE_DIR, "💾 paste_links_here.txt")
 DOWNLOADS_DIR = r"C:\Users\satyanarayan verma\Downloads"
 
-# Standard Categories with Emojis and Descriptions
 CATEGORIES = {
     "🎵 Music & Audio Streaming": {
         "folder": "📁 🎵 Music & Audio Streaming",
@@ -96,15 +95,12 @@ def clean_url(u):
     parsed = urllib.parse.urlparse(u)
     if not parsed.netloc:
         return ""
-    
     parts = parsed.netloc.lower().split('.')
     if len(parts) < 2:
         return ""
     tld = parts[-1].split(':')[0]
     if tld not in VALID_TLDS and len(tld) > 6:
         return ""
-        
-    # Strip tracking parameters
     clean_query = []
     if parsed.query:
         for qp in parsed.query.split('&'):
@@ -124,51 +120,6 @@ def get_domain_key(url):
         return f"{domain}{path}"
     return domain
 
-def normalize_category(raw_cat, site_name="", url="", desc=""):
-    text = f"{raw_cat} {site_name} {url} {desc}".lower()
-    
-    # 1. Radio
-    if any(k in text for k in ['radio.garden', 'radio garden', 'online radio', 'radio map', 'live radio']):
-        return "📻 Online Radio & Interactive Maps"
-    
-    # 2. TV
-    if any(k in text for k in ['tv garden', 'tv.garden', 'famelack', 'live tv', 'tv discovery', 'myretrotvs', 'channel surfing']):
-        return "📺 Global TV & Media Discovery"
-        
-    # 3. Music
-    if any(k in text for k in ['music streaming', 'youtube music', 'spotify', 'soundcloud', 'gaana', 'jiosaavn', 'apple music', 'vocals', 'acapella', 'music production', 'online music']):
-        return "🎵 Music & Audio Streaming"
-        
-    # 4. Downloaders
-    if any(k in text for k in ['download', 'downloader', 'fdown', 'igram', 'ssyoutube', 'y2mate', 'cobalt', 'save', 'botdownloader', 'autosubtitles', 'video download']):
-        return "⬇️ Video & Media Downloaders"
-        
-    # 5. Courses & Learning
-    if any(k in text for k in ['course', 'academy', 'learn', 'education', 'tutorial', 'coursera', 'skillshop', 'training', 'beginner', 'study notes', 'learning']):
-        return "🎓 Free Courses & Learning Platforms"
-        
-    # 6. PDF
-    if any(k in text for k in ['pdf', 'sejda', 'tinywow']):
-        return "📄 PDF & Document Utilities"
-        
-    # 7. AI
-    if any(k in text for k in ['ai tools', 'replit', 'genai', 'agentic', 'deepseek', 'gpt', 'model', 'machine learning', 'artificial intelligence', 'ai builder']):
-        return "🤖 AI & Machine Learning Tools"
-        
-    # 8. Design & Creator
-    if any(k in text for k in ['design', 'creator tools', 'template', '3dtuning', 'animejs', 'animation', 'ui/ux', 'customization']):
-        return "🎨 Design & Creator Tools"
-        
-    # 9. Gaming
-    if any(k in text for k in ['gaming', 'game', 'airconsole', 'party game', 'multiplayer']):
-        return "🎮 Gaming & Entertainment"
-        
-    # 10. Utility & Productivity
-    if any(k in text for k in ['utility', 'workspace', 'productivity', 'tool', 'xtiles', '123apps', 'filepursuit', 'image.pi7.org']):
-        return "🛠️ Web Utilities & Productivity"
-        
-    return "🌐 General Curated Tools"
-
 def normalize_pricing(p):
     if not p:
         return "Free"
@@ -183,9 +134,94 @@ def normalize_pricing(p):
         return "Free"
     return str(p).strip()
 
+def derive_website_type(site_name, category, desc, url):
+    d = f"{site_name} {category} {desc} {url}".lower()
+    if 'downloader' in d or 'download' in d:
+        if 'facebook' in d: return "Facebook Video Downloader"
+        if 'instagram' in d: return "Instagram Downloader"
+        if 'pinterest' in d: return "Pinterest Video Downloader"
+        if 'twitter' in d or 'x.com' in d: return "Twitter Video Downloader"
+        if 'youtube' in d and 'mp4' in d: return "YouTube to MP4 Converter"
+        if 'youtube' in d: return "YouTube Video Downloader"
+        if 'subtitle' in d: return "Subtitle Automation Tool"
+        if 'timestamp' in d: return "YouTube Video & MP3 Timestamp Downloader"
+        return "Universal Media Downloader"
+    if any(k in d for k in ['radio.garden', 'radio garden', 'online radio', 'radio map']):
+        return "Online Radio Map"
+    if any(k in d for k in ['tv garden', 'tv.garden', 'famelack', 'live tv', 'global tv']):
+        return "Global TV Discovery"
+    if 'retrotvs' in d or '90s tv' in d: return "Retro TV Channel Simulator"
+    if 'camera' in d or 'earthcam' in d: return "Live Camera Streaming"
+    if 'virtual vacation' in d or 'virtual travel' in d: return "Virtual Travel Platform"
+    if 'gaana' in d or 'jiosaavn' in d or 'music streaming (india)' in d: return "Music Streaming (India)"
+    if any(k in d for k in ['youtube music', 'spotify', 'apple music', 'soundcloud', 'music streaming']): return "Music Streaming"
+    if 'acapella' in d or 'vocals' in d: return "AI Vocal & Acapella Extractor"
+    if 'agentic' in d: return "Agentic AI Course"
+    if 'generative ai' in d or 'genai' in d: return "Generative AI Course"
+    if 'rag' in d: return "RAG Application Course"
+    if 'vibe coding' in d: return "Vibe Coding Course"
+    if 'machine learning' in d or 'deep learning' in d: return "Machine Learning Course"
+    if 'deepseek' in d or 'openai' in d or 'model' in d: return "AI Model Deep Dive Course"
+    if 'project' in d: return "Project-Based Learning Course"
+    if 'data analytics' in d or 'data science' in d: return "Data Science Course"
+    if 'computer courses' in d: return "Computer Courses Platform"
+    if 'study notes' in d: return "Study Notes / Learning Material"
+    if 'web development' in d: return "Web Development Course"
+    if 'skill development' in d or 'learnvern' in d: return "Skill Development Platform"
+    if 'english' in d: return "English Learning Page"
+    if 'google training' in d or 'skillshop' in d: return "Official Google Training"
+    if 'cloud training' in d: return "Cloud Training Path"
+    if 'free program' in d or 'combo' in d: return "Free Program Combo Bundle"
+    if 'course' in d or 'tutorial' in d: return "Online Course Platform"
+    if 'sejda' in d or ('pdf' in d and 'editor' in d): return "Online PDF Editor"
+    if 'tinywow' in d: return "Multi-Tool Suite (PDF & Media)"
+    if 'pdf chef' in d or 'mobile' in d and 'pdf' in d: return "Mobile PDF Tool"
+    if 'pdf' in d: return "PDF & Document Tool"
+    if 'replit' in d or 'ai website builder' in d: return "AI Website Builder & IDE"
+    if 'template' in d or 'hyperpost' in d: return "Social Media Template Booster"
+    if 'car repair' in d or '1aauto' in d: return "DIY Vehicle Repair Guides"
+    if '3dtuning' in d or 'car customization' in d: return "3D Vehicle Customizer"
+    if 'airconsole' in d or 'multiplayer party' in d: return "Phone-Controller Multiplayer Games"
+    if 'animejs' in d or 'animation library' in d: return "JavaScript Animation Engine"
+    if 'filepursuit' in d or 'file search' in d: return "File Search Engine"
+    if 'pi7' in d or 'image processing' in d: return "Image Processing Tool"
+    if 'flightradar' in d or 'flight tracking' in d: return "Flight Tracking Platform"
+    if 'zoomquilt' in d: return "Interactive Visual Experience"
+    if 'xtiles' in d or 'workspace' in d: return "Workspace / Productivity"
+    if '123apps' in d or 'utility tools' in d: return "Online Utility Tools"
+    if '10015' in d or 'developer tools' in d: return "Developer Tools"
+    if 'mrfreetools' in d or 'free online tools' in d: return "Free Online Tools Collection"
+    if 'website planet' in d: return "Web Utilities"
+    if category and category != "🌐 General Curated Tools": return category
+    return "Curated Web Platform"
+
+def normalize_category(raw_cat, site_name="", url="", desc="", website_type=""):
+    text = f"{raw_cat} {site_name} {url} {desc} {website_type}".lower()
+    if any(k in text for k in ['radio.garden', 'radio garden', 'online radio', 'radio map', 'live radio']):
+        return "📻 Online Radio & Interactive Maps"
+    if any(k in text for k in ['tv garden', 'tv.garden', 'famelack', 'live tv', 'global tv', 'retro tv', 'retrotvs', 'earthcam', 'camera streaming', 'virtual vacation']):
+        return "📺 Global TV & Media Discovery"
+    if any(k in text for k in ['music streaming', 'youtube music', 'spotify', 'soundcloud', 'gaana', 'jiosaavn', 'apple music', 'vocals', 'acapella', 'music production', 'online music']):
+        return "🎵 Music & Audio Streaming"
+    if any(k in text for k in ['downloader', 'download', 'fdown', 'igram', 'ssyoutube', 'y2mate', 'cobalt', 'save', 'botdownloader', 'autosubtitles', 'yout.com', 'instag.com', 'faceb.com']):
+        return "⬇️ Video & Media Downloaders"
+    if any(k in text for k in ['course', 'academy', 'learn', 'education', 'tutorial', 'coursera', 'skillshop', 'training', 'beginner', 'study notes', 'learning', 'databricks']):
+        return "🎓 Free Courses & Learning Platforms"
+    if any(k in text for k in ['pdf', 'sejda', 'tinywow']):
+        return "📄 PDF & Document Utilities"
+    if any(k in text for k in ['ai tools', 'replit', 'genai', 'agentic', 'deepseek', 'gpt', 'model', 'machine learning', 'artificial intelligence', 'ai builder']):
+        return "🤖 AI & Machine Learning Tools"
+    if any(k in text for k in ['design', 'creator tools', 'template', '3dtuning', 'animejs', 'animation', 'ui/ux', 'customization']):
+        return "🎨 Design & Creator Tools"
+    if any(k in text for k in ['gaming', 'game', 'airconsole', 'party game', 'multiplayer']):
+        return "🎮 Gaming & Entertainment"
+    if any(k in text for k in ['utility', 'workspace', 'productivity', 'tool', 'xtiles', '123apps', 'filepursuit', 'image.pi7.org', 'flightradar', '1aauto', 'zoomquilt']):
+        return "🛠️ Web Utilities & Productivity"
+    return "🌐 General Curated Tools"
+
 def fetch_metadata(url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     }
     try:
         resp = requests.get(url, headers=headers, timeout=3, verify=False)
@@ -196,10 +232,8 @@ def fetch_metadata(url):
             meta_desc = soup.find('meta', attrs={'name': 'description'}) or soup.find('meta', attrs={'property': 'og:description'})
             if meta_desc and meta_desc.get('content'):
                 desc = meta_desc['content'].strip()
-            if title:
-                title = re.sub(r'[\r\n\t]+', ' ', title).strip()
-            if desc:
-                desc = re.sub(r'[\r\n\t]+', ' ', desc).strip()
+            if title: title = re.sub(r'[\r\n\t]+', ' ', title).strip()
+            if desc: desc = re.sub(r'[\r\n\t]+', ' ', desc).strip()
             return title, desc
     except Exception:
         pass
@@ -218,17 +252,21 @@ def save_database(data):
     with open(DB_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-def add_or_update_website(db, url, name="", category="", pricing="", description="", source="Manual", auto_fetch=False):
+def add_or_update_website(db, url, name="", website_type="", category="", pricing="", description="", source="Manual", auto_fetch=False):
     cleaned = clean_url(url)
     if not cleaned:
         return None
-        
     key = get_domain_key(cleaned)
-    final_cat = normalize_category(category, name, cleaned, description)
+    if not website_type or website_type in ["Free", "Paid", "None", ""]:
+        website_type = derive_website_type(name, category, description, cleaned)
+        
+    final_cat = normalize_category(category, name, cleaned, description, website_type)
     final_pricing = normalize_pricing(pricing)
     
     if key in db:
         rec = db[key]
+        if website_type and website_type not in ["Curated Web Platform", "Web Platform", "AI Tools", "Utility"]:
+            rec["website_type"] = website_type
         if name and (len(name) > len(rec.get("name", "")) or rec.get("name") == rec.get("key")):
             rec["name"] = name
         if final_cat != "🌐 General Curated Tools":
@@ -246,14 +284,14 @@ def add_or_update_website(db, url, name="", category="", pricing="", description
             meta_title, meta_desc = fetch_metadata(cleaned)
             
         final_name = name if (name and name != key) else (meta_title[:50] if meta_title else key)
-        final_desc = description if description else (meta_desc if meta_desc else f"Official platform resource for {final_name}")
-        
-        if final_cat == "🌐 General Curated Tools":
-            final_cat = normalize_category(category, final_name, cleaned, final_desc)
-            
+        final_desc = description if description else (meta_desc if meta_desc else f"Official platform resource for {final_name} ({website_type})")
+        if not website_type or website_type == "Curated Web Platform":
+            website_type = derive_website_type(final_name, category, final_desc, cleaned)
+
         rec = {
             "key": key,
             "name": final_name,
+            "website_type": website_type,
             "url": cleaned,
             "category": final_cat,
             "pricing": final_pricing,
@@ -283,131 +321,44 @@ def parse_user_text_input(text):
         else:
             parts = [line]
 
-        url, name, cat, pricing = "", "", "", ""
-        for p in parts:
-            if 'http://' in p or 'https://' in p or ('.' in p and '/' in p):
-                m = re.search(r'(https?://[^\s]+)', p)
-                if m:
-                    url = m.group(1)
-                else:
-                    url = p
-            elif any(pr in p.lower() for pr in ['free', 'paid', 'freemium', '$']):
-                pricing = p
-            elif any(c in p.lower() for c in ['streaming', 'music', 'radio', 'tv', 'download', 'ai', 'course', 'tools', 'utility', 'pdf', 'design']):
-                cat = p
-            else:
-                if not name:
-                    name = p
-                elif not cat:
-                    cat = p
-
-        if len(parts) >= 4 and not url:
-            for p in parts:
+        url, name, wtype, cat, pricing = "", "", "", "", ""
+        
+        # Check if 4-column format: [Website Type, Website Name, Official URL, Free / Paid]
+        if len(parts) >= 4 and any('http' in p for p in parts):
+            for i, p in enumerate(parts):
                 if 'http' in p:
                     url = p
-        if len(parts) == 4 and ('http' in parts[2]):
-            cat, name, url, pricing = parts[0], parts[1], parts[2], parts[3]
+                    if i >= 2:
+                        name = parts[i-1]
+                        wtype = parts[i-2]
+                    elif i == 1:
+                        name = parts[0]
+                    if i + 1 < len(parts):
+                        pricing = parts[i+1]
+                    break
+        else:
+            for p in parts:
+                if 'http://' in p or 'https://' in p:
+                    m = re.search(r'(https?://[^\s]+)', p)
+                    url = m.group(1) if m else p
+                elif any(pr in p.lower() for pr in ['free', 'paid', 'freemium', '$']):
+                    pricing = p
+                elif any(c in p.lower() for c in ['streaming', 'downloader', 'radio', 'tv', 'course', 'ai', 'pdf']):
+                    wtype = p
+                else:
+                    if not name: name = p
+                    elif not wtype: wtype = p
 
         if url:
             parsed_items.append({
                 "url": url,
                 "name": name,
+                "website_type": wtype,
                 "category": cat,
                 "pricing": pricing,
                 "description": ""
             })
     return parsed_items
-
-def ingest_downloads_excel_files(db):
-    files = glob.glob(os.path.join(DOWNLOADS_DIR, "*.xlsx"))
-    total_added = 0
-    print(f"\n📂 Scanning Downloads folder: Found {len(files)} Excel files...")
-    
-    for f in files:
-        fname = os.path.basename(f)
-        try:
-            wb = openpyxl.load_workbook(f, data_only=True)
-            wb_f = openpyxl.load_workbook(f, data_only=False)
-            file_count = 0
-            for sname in wb.sheetnames:
-                ws = wb[sname]
-                ws_f = wb_f[sname]
-                
-                header_row = 1
-                headers = []
-                for r in range(1, min(ws.max_row + 1, 15)):
-                    row_vals = [str(ws.cell(r, c).value or '').strip() for c in range(1, ws.max_column + 1)]
-                    joined = " ".join(row_vals).lower()
-                    if any(k in joined for k in ['website', 'url', 'link', 'course name', 'resource name']):
-                        header_row = r
-                        headers = [str(ws.cell(r, c).value or '').strip().lower() for c in range(1, ws.max_column + 1)]
-                        break
-                
-                for r in range(header_row + 1, ws.max_row + 1):
-                    name, url, cat, pricing, desc = "", "", "", "", ""
-                    for c in range(1, ws.max_column + 1):
-                        cell = ws.cell(r, c)
-                        cell_f = ws_f.cell(r, c)
-                        if cell.hyperlink and cell.hyperlink.target:
-                            url = cell.hyperlink.target
-                        elif cell_f.value and str(cell_f.value).startswith("=HYPERLINK"):
-                            m = re.search(r'=HYPERLINK\("?([^",\)]+)"?', str(cell_f.value))
-                            if m:
-                                ref = m.group(1).strip()
-                                if ref.startswith("http"):
-                                    url = ref
-                                else:
-                                    try:
-                                        url = ws[ref].value
-                                    except Exception:
-                                        pass
-                    
-                    for c, h in enumerate(headers, 1):
-                        val = str(ws.cell(r, c).value or "").strip()
-                        if not val or val == "None":
-                            continue
-                        if any(k in h for k in ['url', 'link']) or ('website' in h and ('.' in val or 'http' in val)):
-                            if not url or ('http' not in url and 'http' in val):
-                                url = val
-                        elif any(k in h for k in ['name', 'resource', 'course']):
-                            if not name:
-                                name = val
-                        elif any(k in h for k in ['type', 'category']):
-                            if not cat:
-                                cat = val
-                        elif any(k in h for k in ['free', 'pricing', 'paid']):
-                            if not pricing:
-                                pricing = val
-                        elif 'desc' in h:
-                            if not desc:
-                                desc = val
-                    
-                    if not url:
-                        for c in range(1, ws.max_column + 1):
-                            v = str(ws.cell(r, c).value or "").strip()
-                            if v.startswith("http://") or v.startswith("https://"):
-                                url = v
-                                break
-                    
-                    if not name and url:
-                        for c in range(1, ws.max_column + 1):
-                            v = str(ws.cell(r, c).value or "").strip()
-                            if v and v != url and v != "Click Here" and len(v) > 2:
-                                name = v
-                                break
-
-                    cleaned = clean_url(url)
-                    if cleaned:
-                        rec = add_or_update_website(db, cleaned, name=name, category=cat or sname, pricing=pricing, description=desc, source=f"Excel: {fname}", auto_fetch=False)
-                        if rec:
-                            file_count += 1
-                            total_added += 1
-            print(f"  ✓ {fname} -> Ingested {file_count} records.")
-        except Exception as e:
-            print(f"  ⚠️ Error processing {fname}: {e}")
-            
-    print(f"✅ Total processed from Downloads: {total_added} records.")
-    return total_added
 
 def build_category_directories_and_reports(db):
     by_category = {cat: [] for cat in CATEGORIES.keys()}
@@ -418,9 +369,9 @@ def build_category_directories_and_reports(db):
         by_category[cat].append(rec)
         
     for cat_name, items in by_category.items():
-        items.sort(key=lambda x: x.get("name", "").lower())
+        items.sort(key=lambda x: (x.get("website_type", "").lower(), x.get("name", "").lower()))
         
-    # 1. Create Dedicated Category Subfolders and Reports
+    # 1. Category Subfolders and Reports
     for cat_name, meta in CATEGORIES.items():
         folder_path = os.path.join(BASE_DIR, meta["folder"])
         os.makedirs(folder_path, exist_ok=True)
@@ -435,23 +386,41 @@ def build_category_directories_and_reports(db):
             f"> **Total Curated Tools**: `{len(cat_items)}` | **Zero Repeats & Deduplicated**",
             "",
             "---",
-            "",
-            "| # | Tool / Website Name | Official Link | Pricing | Description |",
-            "| :-: | :--- | :--- | :-: | :--- |"
+            ""
         ]
+
+        if "Video" in cat_name:
+            md_lines.extend([
+                "### 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
+                "",
+                "| # | Platform | URL Trick | Example URL | Result |",
+                "| :-: | :--- | :--- | :--- | :--- |",
+                "| 1 | **YouTube** | Remove `ube` from `youtube.com` | `https://www.yout.com/watch?v=...` | Direct MP4 / MP3 download page |",
+                "| 2 | **Instagram** | Remove `ram` from `instagram.com` | `https://www.instag.com/reel/...` | Highest quality direct Reel download |",
+                "| 3 | **Facebook** | Remove `ook` from `facebook.com` | `https://www.faceb.com/watch?v=...` | Direct Facebook Video download |",
+                "",
+                "---",
+                ""
+            ])
+
+        md_lines.extend([
+            "| # | Website Name | Website Type | Official Link | Pricing | Description |",
+            "| :-: | :--- | :--- | :--- | :-: | :--- |"
+        ])
         
         for i, item in enumerate(cat_items, 1):
             name = (item.get("name") or item.get("key")).replace('|', '-')
+            wtype = (item.get("website_type") or "Curated Platform").replace('|', '-')
             url = item.get("url")
             pricing = item.get("pricing", "Free")
             desc = (item.get("description") or f"Official platform for {name}").replace('|', '-')
-            md_lines.append(f"| **{i}** | **{name}** | [Visit Website]({url}) | `{pricing}` | {desc} |")
+            md_lines.append(f"| **{i}** | **{name}** | `{wtype}` | [Visit Website]({url}) | `{pricing}` | {desc} |")
             
         md_lines.append("\n---\n*Auto-generated & Curated by Autonomous Websites Agent.*")
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(md_lines))
 
-    # 2. Build Master Markdown Report
+    # 2. Master Markdown Report
     master_lines = [
         "# 🌐 Curated Websites & Tools Master Directory",
         "",
@@ -470,8 +439,20 @@ def build_category_directories_and_reports(db):
         folder_link = urllib.parse.quote(meta["folder"])
         master_lines.append(f"- [{cat_name}]({folder_link}) — `{count} Websites` — *{meta['desc']}*")
         
-    master_lines.append("\n---\n")
-    
+    master_lines.extend([
+        "\n---\n",
+        "## 💡 3 Hidden URL Tricks (Instant Direct Downloaders - Save This)",
+        "",
+        "| Platform | Trick | Before / After | Direct Action |",
+        "| :--- | :--- | :--- | :--- |",
+        "| **YouTube** | Remove `ube` | `youtube.com` -> `yout.com` | Instant MP4 & MP3 Download |",
+        "| **Instagram** | Remove `ram` | `instagram.com` -> `instag.com` | Highest Quality Reel Download |",
+        "| **Facebook** | Remove `ook` | `facebook.com` -> `faceb.com` | Direct Facebook Video Download |",
+        "",
+        "---",
+        ""
+    ])
+
     for cat_name, meta in CATEGORIES.items():
         items = by_category.get(cat_name, [])
         if not items:
@@ -481,21 +462,22 @@ def build_category_directories_and_reports(db):
             "",
             f"*{meta['desc']}* (Total: `{len(items)}`)",
             "",
-            "| # | Website Name | Official URL | Pricing | Description |",
-            "| :-: | :--- | :--- | :-: | :--- |"
+            "| # | Website Name | Website Type | Official URL | Pricing | Description |",
+            "| :-: | :--- | :--- | :--- | :-: | :--- |"
         ])
         for i, item in enumerate(items, 1):
             name = (item.get("name") or item.get("key")).replace('|', '-')
+            wtype = (item.get("website_type") or "Curated Platform").replace('|', '-')
             url = item.get("url")
             pricing = item.get("pricing", "Free")
-            desc = (item.get("description") or f"Official platform for {name}").replace('|', '-')
-            master_lines.append(f"| **{i}** | **{name}** | [{url}]({url}) | `{pricing}` | {desc} |")
+            desc = (item.get("description") or f"Official platform resource for {name}").replace('|', '-')
+            master_lines.append(f"| **{i}** | **{name}** | `{wtype}` | [{url}]({url}) | `{pricing}` | {desc} |")
         master_lines.append("\n---\n")
 
     with open(MASTER_MD, 'w', encoding='utf-8') as f:
         f.write("\n".join(master_lines))
 
-    # 3. Build Root README.md
+    # 3. Root README.md
     readme_lines = [
         "# 🌐 Curated Useful Websites & Media Tools Directory",
         "",
@@ -534,15 +516,23 @@ def build_category_directories_and_reports(db):
         "",
         "---",
         "",
+        "## 💡 3 Hidden URL Tricks (Direct Video Downloaders)",
+        "",
+        "1. **YouTube**: Remove `ube` from URL (`https://www.yout.com/...`) for instant MP4/MP3.",
+        "2. **Instagram**: Remove `ram` from URL (`https://www.instag.com/...`) for HD reels.",
+        "3. **Facebook**: Remove `ook` from URL (`https://www.faceb.com/...`) for direct video downloads.",
+        "",
+        "---",
+        "",
         "## ⚡ 1-Click Autonomous Agent (How It Works)",
         "",
         "Whenever you have new website links, tables, or notes:",
-        "1. Double click **`⚡ Run Manual Websites Agent.bat`** (or use the Desktop Shortcut **`⚡ Manual Websites Agent.lnk`**).",
+        "1. Double click **`⚡ Run Manual Websites Agent.bat`** (or use Desktop Shortcut **`Manual Websites Agent.lnk`**).",
         "2. Paste your links or text (or put them in `💾 paste_links_here.txt`).",
         "3. The agent automatically:",
-        "   - Fetches web titles & meta descriptions,",
-        "   - Classifies them into the appropriate category,",
-        "   - Deduplicates and prevents any duplicates (`Zero Repeats`),",
+        "   - Preserves and categorizes the exact **`Website Type`** (e.g. Facebook Video Downloader, Music Streaming, AI Course),",
+        "   - Categorizes cleanly into isolated directories,",
+        "   - Prevents duplicate links (`Zero Repeats`),",
         "   - Updates the Markdown reports and multi-sheet Excel file,",
         "   - **Automatically commits & pushes to GitHub in 1 click!**",
         "",
@@ -553,7 +543,7 @@ def build_category_directories_and_reports(db):
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write("\n".join(readme_lines))
 
-    # 4. Build Multi-Sheet Formatted Excel File
+    # 4. Multi-Sheet Formatted Excel File
     wb = openpyxl.Workbook()
     default_sheet = wb.active
     wb.remove(default_sheet)
@@ -572,7 +562,7 @@ def build_category_directories_and_reports(db):
 
     # Master Sheet
     ws_master = wb.create_sheet(title="All Websites Master")
-    headers = ["#", "Website Name", "Category", "Official URL", "Pricing", "Description", "Source"]
+    headers = ["#", "Website Name", "Website Type", "Category", "Official URL", "Pricing", "Description", "Source"]
     ws_master.append(headers)
     for col_idx in range(1, len(headers) + 1):
         cell = ws_master.cell(1, col_idx)
@@ -586,6 +576,7 @@ def build_category_directories_and_reports(db):
             ws_master.append([
                 row_num - 1,
                 item.get("name") or item.get("key"),
+                item.get("website_type") or "Curated Platform",
                 item.get("category"),
                 item.get("url"),
                 item.get("pricing", "Free"),
@@ -596,14 +587,15 @@ def build_category_directories_and_reports(db):
             ws_master.cell(row_num, 1).font = data_font
             ws_master.cell(row_num, 2).font = Font(name="Segoe UI", size=10, bold=True)
             ws_master.cell(row_num, 3).font = data_font
-            url_cell = ws_master.cell(row_num, 4)
+            ws_master.cell(row_num, 4).font = data_font
+            url_cell = ws_master.cell(row_num, 5)
             url_cell.font = link_font
             url_cell.hyperlink = item.get("url")
-            ws_master.cell(row_num, 5).alignment = center_align
-            ws_master.cell(row_num, 5).font = data_font
+            ws_master.cell(row_num, 6).alignment = center_align
             ws_master.cell(row_num, 6).font = data_font
             ws_master.cell(row_num, 7).font = data_font
-            for c in range(1, 8):
+            ws_master.cell(row_num, 8).font = data_font
+            for c in range(1, 9):
                 ws_master.cell(row_num, c).border = border_thin
             row_num += 1
 
@@ -618,7 +610,7 @@ def build_category_directories_and_reports(db):
             continue
         short_title = re.sub(r'[^\w\s]', '', cat_name)[:30].strip()
         ws_cat = wb.create_sheet(title=short_title)
-        cat_headers = ["#", "Website Name", "Official URL", "Pricing", "Description"]
+        cat_headers = ["#", "Website Name", "Website Type", "Official URL", "Pricing", "Description"]
         ws_cat.append(cat_headers)
         for col_idx in range(1, len(cat_headers) + 1):
             cell = ws_cat.cell(1, col_idx)
@@ -631,6 +623,7 @@ def build_category_directories_and_reports(db):
             ws_cat.append([
                 i,
                 item.get("name") or item.get("key"),
+                item.get("website_type") or "Curated Platform",
                 item.get("url"),
                 item.get("pricing", "Free"),
                 item.get("description", "")
@@ -638,13 +631,14 @@ def build_category_directories_and_reports(db):
             ws_cat.cell(r, 1).alignment = center_align
             ws_cat.cell(r, 1).font = data_font
             ws_cat.cell(r, 2).font = Font(name="Segoe UI", size=10, bold=True)
-            u_cell = ws_cat.cell(r, 3)
+            ws_cat.cell(r, 3).font = data_font
+            u_cell = ws_cat.cell(r, 4)
             u_cell.font = link_font
             u_cell.hyperlink = item.get("url")
-            ws_cat.cell(r, 4).alignment = center_align
-            ws_cat.cell(r, 4).font = data_font
+            ws_cat.cell(r, 5).alignment = center_align
             ws_cat.cell(r, 5).font = data_font
-            for c in range(1, 6):
+            ws_cat.cell(r, 6).font = data_font
+            for c in range(1, 7):
                 ws_cat.cell(r, c).border = border_thin
 
         for col in ws_cat.columns:
@@ -653,7 +647,7 @@ def build_category_directories_and_reports(db):
             ws_cat.column_dimensions[col_letter].width = min(max(max_len + 3, 10), 60)
 
     wb.save(MASTER_XLSX)
-    print(f"📊 Excel file saved: {MASTER_XLSX}")
+    print(f"📊 Formatted Excel Workbook saved: {MASTER_XLSX}")
     print(f"📝 Master Markdown Report saved: {MASTER_MD}")
     print(f"📄 README.md updated: {README_FILE}")
 
@@ -688,17 +682,18 @@ def main():
             git_commit_and_push(f"feat: rebuild and sync curated directory ({len(db)} websites)")
             return
         elif arg == "--ingest-downloads":
-            ingest_downloads_excel_files(db)
+            from deep_sync_all import build_database
+            db = build_database()
             save_database(db)
             build_category_directories_and_reports(db)
-            git_commit_and_push(f"feat: ingested websites from Downloads excel files ({len(db)} websites)")
+            git_commit_and_push(f"feat: deep re-ingestion of downloads excel files with Website Type ({len(db)} websites)")
             return
 
     while True:
         print("\nSelect an action:")
         print("  [1] ➕ Add / Paste Website(s) or Table (Multi-line supported)")
         print("  [2] 📄 Process Input File (💾 paste_links_here.txt)")
-        print("  [3] 📥 Import All Excel Files from Downloads")
+        print("  [3] 📥 Import All Excel Files from Downloads (Deep Extraction)")
         print("  [4] 🔄 Rebuild Reports, Excel & Push to GitHub")
         print("  [5] 🌐 Open GitHub Repository in Browser")
         print("  [6] 📊 Open Master Excel File")
@@ -723,9 +718,9 @@ def main():
                 items = parse_user_text_input(raw_text)
                 print(f"Found {len(items)} websites to process...")
                 for item in items:
-                    rec = add_or_update_website(db, item["url"], name=item["name"], category=item["category"], pricing=item["pricing"], description=item["description"], source="Direct Input", auto_fetch=True)
+                    rec = add_or_update_website(db, item["url"], name=item["name"], website_type=item["website_type"], category=item["category"], pricing=item["pricing"], description=item["description"], source="Direct Input", auto_fetch=True)
                     if rec:
-                        print(f"  ✓ Added: {rec['name']} -> {rec['category']} ({rec['pricing']})")
+                        print(f"  ✓ Added: {rec['name']} | Type: {rec['website_type']} -> {rec['category']} ({rec['pricing']})")
                 save_database(db)
                 build_category_directories_and_reports(db)
                 git_commit_and_push(f"feat: added {len(items)} curated websites (Total: {len(db)})")
@@ -735,7 +730,7 @@ def main():
         elif choice == "2":
             if not os.path.exists(INPUT_FILE):
                 with open(INPUT_FILE, 'w', encoding='utf-8') as f:
-                    f.write("# Paste website URLs, markdown tables, or text here.\n# One per line or tab-separated.\n")
+                    f.write("# Paste website URLs, tables, or text here.\n# Supports: Website Type | Website Name | Official URL | Free/Paid\n")
                 print(f"Created template file: {INPUT_FILE}. Paste links there and run again.")
             else:
                 with open(INPUT_FILE, 'r', encoding='utf-8') as f:
@@ -744,9 +739,9 @@ def main():
                 if items:
                     print(f"Found {len(items)} websites in {INPUT_FILE}...")
                     for item in items:
-                        rec = add_or_update_website(db, item["url"], name=item["name"], category=item["category"], pricing=item["pricing"], description=item["description"], source="Input File", auto_fetch=True)
+                        rec = add_or_update_website(db, item["url"], name=item["name"], website_type=item["website_type"], category=item["category"], pricing=item["pricing"], description=item["description"], source="Input File", auto_fetch=True)
                         if rec:
-                            print(f"  ✓ Added: {rec['name']} -> {rec['category']}")
+                            print(f"  ✓ Added: {rec['name']} | Type: {rec['website_type']}")
                     save_database(db)
                     build_category_directories_and_reports(db)
                     git_commit_and_push(f"feat: synced {len(items)} websites from input file (Total: {len(db)})")
@@ -754,10 +749,11 @@ def main():
                     print("No valid websites found in file.")
                     
         elif choice == "3":
-            ingest_downloads_excel_files(db)
+            from deep_sync_all import build_database
+            db = build_database()
             save_database(db)
             build_category_directories_and_reports(db)
-            git_commit_and_push(f"feat: imported websites from Downloads Excel files (Total: {len(db)})")
+            git_commit_and_push(f"feat: deep re-ingestion of downloads excel files with Website Type (Total: {len(db)})")
             
         elif choice == "4":
             build_category_directories_and_reports(db)
