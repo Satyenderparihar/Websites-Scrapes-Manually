@@ -23,9 +23,9 @@
 - 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**
   - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)
   - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)
-- 🤖 **[ChatGPT Secret Codes, Prompts & Saved Memory Hub](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Prompts/)**
-  - ⚡ [Master Secret Codes & Slash Commands (250+ Universal Prompts)](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Prompts/📝%20ChatGPT_Master_Secret_Codes_and_Slash_Commands.md)
-  - 🧠 [User Profile & Saved Memory (Satyanarayan)](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Prompts/📝%20ChatGPT_User_Profile_and_Saved_Memory.md)
+- 🤖 **[ChatGPT Hub](📁%20🤖%20ChatGPT/)**
+  - ⚡ [Master Secret Codes & Slash Commands (250+ Universal Prompts)](📁%20🤖%20ChatGPT/📝%20ChatGPT_Master_Secret_Codes_and_Slash_Commands.md)
+  - 🧠 [User Profile & Saved Memory (Satyanarayan)](📁%20🤖%20ChatGPT/📝%20ChatGPT_User_Profile_and_Saved_Memory.md)
 - 🌊 **[Google Flow — AI Video & Creative Prompt Studio Hub](📁%20🌊%20Google%20Flow/)**
   - 🎬 **[Logo Animations](📁%20🌊%20Google%20Flow/📁%20🎬%20Logo%20Animations/)**: [Google Omni Flash Guide (11 Prompts)](📁%20🌊%20Google%20Flow/📁%20🎬%20Logo%20Animations/📝%20Logo_Animation_Guide_Google_Omni_Flash.md)
   - 👤 **[AI Avatars & Character Sheets](📁%20🌊%20Google%20Flow/📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/)**: [360° Character Consistency](📁%20🌊%20Google%20Flow/📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Character_Sheet_Master_Prompt_360.md) & [Studio Avatar (3 Photos)](📁%20🌊%20Google%20Flow/📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)
