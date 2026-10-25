@@ -15022,5 +15022,77 @@
     "source": "PDF: 350 Html Css & Javascript Project.pdf (Page 10)",
     "priority": 9,
     "added_at": "2026-10-25 14:59:30"
+  },
+  "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md": {
+    "key": "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md",
+    "name": "HTML5 Master Cheat Sheet: Complete Elements & Attributes Reference",
+    "website_type": "Developer Reference & Cheat Sheets",
+    "url": "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "Complete HTML5 semantic elements, forms, tables, media, and global attributes reference guide (zero-storage markdown).",
+    "source": "Markdown Reference: HTML5 Master Guide",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
+  },
+  "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20CSS3_Mega_Properties_Cheat_Sheet.md": {
+    "key": "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20CSS3_Mega_Properties_Cheat_Sheet.md",
+    "name": "CSS3 Mega Properties Cheat Sheet: Modern Layouts, Styling & Animations",
+    "website_type": "Developer Reference & Cheat Sheets",
+    "url": "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20CSS3_Mega_Properties_Cheat_Sheet.md",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "Comprehensive CSS3 reference covering Flexbox, Grid, Box Model, typography, gradients, transitions, and responsive media queries.",
+    "source": "Markdown Reference: CSS3 Mega Guide",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
+  },
+  "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20Web_Development_HTML_and_CSS_Complete_Guide.md": {
+    "key": "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20Web_Development_HTML_and_CSS_Complete_Guide.md",
+    "name": "Web Development Architecture: HTML5 & CSS Complete Computer Science Guide",
+    "website_type": "Developer Reference & Cheat Sheets",
+    "url": "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20Web_Development_HTML_and_CSS_Complete_Guide.md",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "University lecture notes (Stony Brook CSE316) on Web Architecture, DOM tree hierarchy, CSS cascade, specificity math, and performance.",
+    "source": "Markdown Reference: Stony Brook CSE316",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
+  },
+  "hostinger.com": {
+    "key": "hostinger.com",
+    "name": "Hostinger HTML Cheat Sheet Guide",
+    "website_type": "Developer Reference & Cheat Sheets",
+    "url": "https://www.hostinger.com/tutorials/html-cheat-sheet",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "Official modern visual cheat sheet and syntax reference for HTML developers.",
+    "source": "Web Guide: Hostinger",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
+  },
+  "developer.mozilla.org": {
+    "key": "developer.mozilla.org",
+    "name": "MDN Web Docs - HTML Reference",
+    "website_type": "Developer Reference & Cheat Sheets",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "World standard documentation for HTML elements, attributes, APIs, and modern browser compatibility.",
+    "source": "Web Guide: MDN Web Docs",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
+  },
+  "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%9D%20350_HTML_CSS_JavaScript_Projects.md": {
+    "key": "github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%9D%20350_HTML_CSS_JavaScript_Projects.md",
+    "name": "350+ HTML CSS and JavaScript Projects Master Directory (Categorized Collection)",
+    "website_type": "Web Dev Project Implementation",
+    "url": "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%9D%20350_HTML_CSS_JavaScript_Projects.md",
+    "category": "💻 Coding & Developer Platforms",
+    "pricing": "Free",
+    "description": "Comprehensive master index containing 306+ categorized frontend projects across games, clones, dashboards, landing pages, and web apps with 100% working links.",
+    "source": "Markdown: 350 HTML Projects Master List",
+    "priority": 10,
+    "added_at": "2026-10-25 15:17:09"
   }
 }

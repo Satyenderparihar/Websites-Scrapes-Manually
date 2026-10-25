@@ -919,72 +919,72 @@ def build_database():
 
                         add_entry(cu, name, wtype, "💻 Coding & Developer Platforms", "Free", f"Verified tutorial & implementation guide: {name} ({wtype})", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
 
-    print(">>> 9. Processing 📄 HTML Cheat Sheet PDFs...")
+    print(">>> 9. Processing 📝 HTML & CSS Lightweight Markdown Cheat Sheets...")
     html_cheat_sheets = [
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML5%20Comprehensive%20Elements%20%26%20Attributes%20Cheat%20Sheet.pdf",
-            "HTML5 Comprehensive Elements & Attributes Cheat Sheet (53-Page Complete Guide)",
-            "HTML Cheat Sheet PDF Document",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md",
+            "HTML5 Master Cheat Sheet: Complete Elements & Attributes Reference",
+            "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "53-page exhaustive HTML5 element guide with code examples, descriptions, attributes, and character entity tables by HTML.com.",
-            "PDF: Html cheat sheet 1.pdf"
+            "Complete HTML5 semantic elements, forms, tables, media, and global attributes reference guide (zero-storage markdown).",
+            "Markdown Reference: HTML5 Master Guide"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20Complete%20HTML%20Reference%20Cheat%20Sheet%20(Hostinger).pdf",
-            "Complete HTML Reference Cheat Sheet (Hostinger Visual Guide)",
-            "HTML Cheat Sheet PDF Document",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20CSS3_Mega_Properties_Cheat_Sheet.md",
+            "CSS3 Mega Properties Cheat Sheet: Modern Layouts, Styling & Animations",
+            "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "9-page comprehensive visual reference covering essential HTML tags, semantic elements, forms, media embedding, and page structure.",
-            "PDF: Html cheat sheet 2.pdf"
+            "Comprehensive CSS3 reference covering Flexbox, Grid, Box Model, typography, gradients, transitions, and responsive media queries.",
+            "Markdown Reference: CSS3 Mega Guide"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML%20Core%20Attributes%20%26%20Quick%20Reference%20Cheat%20Sheet.pdf",
-            "HTML Core Attributes & Quick Reference Cheat Sheet (Single-Page Poster)",
-            "HTML Cheat Sheet PDF Document",
+            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%9D%20Web_Development_HTML_and_CSS_Complete_Guide.md",
+            "Web Development Architecture: HTML5 & CSS Complete Computer Science Guide",
+            "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "Compact 1-page quick lookup cheat sheet for HTML core attributes, language tags, comments, and inline/block element rules.",
-            "PDF: Html cheat sheet 3.pdf"
+            "University lecture notes (Stony Brook CSE316) on Web Architecture, DOM tree hierarchy, CSS cascade, specificity math, and performance.",
+            "Markdown Reference: Stony Brook CSE316"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20HTML%20Essential%20Tags%20%26%20Syntax%20Visual%20Cheat%20Sheet.pdf",
-            "HTML Essential Tags & Syntax Visual Cheat Sheet (2-Page Rapid Reference)",
-            "HTML Cheat Sheet PDF Document",
+            "https://www.hostinger.com/tutorials/html-cheat-sheet",
+            "Hostinger HTML Cheat Sheet Guide",
+            "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "2-page visual cheat sheet covering basic HTML document structure, text formatting, links, lists, tables, and color codes.",
-            "PDF: Html cheat sheet 4.pdf"
+            "Official modern visual cheat sheet and syntax reference for HTML developers.",
+            "Web Guide: Hostinger"
         ),
         (
-            "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20Web%20Development%20HTML%20and%20CSS%20University%20Lecture%20Guide.pdf",
-            "Web Development HTML and CSS University Lecture Guide (Stony Brook CSE316)",
-            "HTML Cheat Sheet PDF Document",
+            "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "MDN Web Docs - HTML Reference",
+            "Developer Reference & Cheat Sheets",
             "💻 Coding & Developer Platforms",
             "Free",
-            "65-page comprehensive university textbook slides covering HTML5 semantics, CSS selectors, box model, web layout, and HTTP architecture.",
-            "PDF: Html cheat sheet 5.pdf"
+            "World standard documentation for HTML elements, attributes, APIs, and modern browser compatibility.",
+            "Web Guide: MDN Web Docs"
         )
     ]
     for url, name, wtype, cat, prc, dsc, src in html_cheat_sheets:
         add_entry(url, name, wtype, cat, prc, dsc, src, priority=10)
 
-    print(">>> 10. Processing 🚀 350+ HTML CSS & JavaScript Projects PDF...")
+    print(">>> 10. Processing 🚀 350+ HTML CSS & JavaScript Projects...")
     pdf_350_path = os.path.join(DOWNLOADS_DIR, "350 Html Css & Javascript Project.pdf")
     if not os.path.exists(pdf_350_path):
-        pdf_350_path = os.path.join(BASE_DIR, "📁 💻 Coding & Developer Platforms", "📄 HTML Cheat Sheets", "📄 350+ HTML CSS and JavaScript Projects Master Guide.pdf")
+        pdf_350_path = os.path.join(r"D:\Antigravity - Agent\💾 Offline PDF Archive\📄 HTML & CSS Cheat Sheets", "350 Html Css & Javascript Project.pdf")
         
-    # Master PDF entry
-    master_pdf_url = "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%81%20%F0%9F%92%BB%20Coding%20%26%20Developer%20Platforms/%F0%9F%93%84%20HTML%20Cheat%20Sheets/%F0%9F%93%84%20350%2B%20HTML%20CSS%20and%20JavaScript%20Projects%20Master%20Guide.pdf"
+    # Master Projects Directory entry (Pure Markdown Link)
+    master_proj_url = "https://github.com/Satyenderparihar/Websites-Scrapes-Manually/blob/main/%F0%9F%93%9D%20350_HTML_CSS_JavaScript_Projects.md"
     add_entry(
-        master_pdf_url,
-        "350+ HTML CSS and JavaScript Projects Master Guide (Complete Collection)",
-        "HTML Cheat Sheet PDF Document",
+        master_proj_url,
+        "350+ HTML CSS and JavaScript Projects Master Directory (Categorized Collection)",
+        "Web Dev Project Implementation",
         "💻 Coding & Developer Platforms",
         "Free",
-        "Comprehensive 11-page master index containing 350+ categorized frontend projects across games, clones, dashboards, landing pages, and web apps.",
-        "PDF: 350 Html Css & Javascript Project.pdf",
+        "Comprehensive master index containing 306+ categorized frontend projects across games, clones, dashboards, landing pages, and web apps with 100% working links.",
+        "Markdown: 350 HTML Projects Master List",
         priority=10
     )
 
@@ -1245,11 +1245,13 @@ def export_all(db):
         "",
         "- 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**",
         "- 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects (Clickable Directory)](📝%20350_HTML_CSS_JavaScript_Projects.md)**",
-        "- 📄 **[HTML & Web Dev Cheat Sheets (PDF Library)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**",
+        "- 🌐 **[HTML5 Master Elements & Attributes Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20HTML5_Master_Elements_and_Attributes_Cheat_Sheet.md)**",
+        "- 🎨 **[CSS3 Mega Properties & Layouts Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20CSS3_Mega_Properties_Cheat_Sheet.md)**",
+        "- 🏛️ **[Web Development Architecture & DOM Hierarchy Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📝%20Web_Development_HTML_and_CSS_Complete_Guide.md)**",
         "- 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**",
         "- 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**",
         "",
-        "> 💡 **PDF Hyperlinks Tip**: GitHub web interface sandbox prevents clicking hyperlinks directly inside PDF files. Use the direct Markdown directory links above for instant 1-click redirects to project tutorials and live code, or click **[Download Raw PDF](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📄%20350%2B%20HTML%20CSS%20and%20JavaScript%20Projects%20Master%20Guide.pdf?raw=true)** to open with your local PDF reader where all links remain interactive.",
+        "> ⚡ **Zero-Storage Markdown Architecture**: All reference cheat sheets and 306+ web projects are formatted in lightweight, native Markdown instead of heavy PDF binary files. This eliminates GitHub repository bloat and enables 100% interactive, 1-click clickable links on both mobile and desktop browsers without sandbox restrictions.",
         "",
         "---",
         "",
