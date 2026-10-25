@@ -1470,6 +1470,7 @@ def main():
     print("\nGit commit and push...")
     subprocess.run(["git", "add", "."], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "commit", "-m", f"feat: add All In One Programming Resources (total {len(db)} curated websites across 12 categories)"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=BASE_DIR, check=False)
     subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
     print("\n🚀 All updates pushed to GitHub successfully!")
 
