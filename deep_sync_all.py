@@ -365,24 +365,26 @@ YOUTUBE_CREATORS = {
 }
 
 def load_existing_database():
-    # Priority 1: Check git commit 7a9f688 which has all 430 previously curated websites
-    try:
-        res = subprocess.run(['git', '-C', BASE_DIR, 'show', '7a9f688:💾 websites_database.json'], capture_output=True)
-        if res.returncode == 0:
-            data = json.loads(res.stdout.decode('utf-8'))
-            if len(data) >= 430:
-                print(f">>> Loaded {len(data)} existing curated websites from git baseline.")
-                return data
-    except Exception:
-        pass
+    best_data = {}
+    for commit in ['6cc85f9', 'HEAD', '7a9f688']:
+        try:
+            res = subprocess.run(['git', '-C', BASE_DIR, 'show', f'{commit}:💾 websites_database.json'], capture_output=True)
+            if res.returncode == 0:
+                data = json.loads(res.stdout.decode('utf-8'))
+                if len(data) > len(best_data):
+                    best_data = data
+        except Exception:
+            pass
     if os.path.exists(DB_FILE):
         try:
             with open(DB_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                return data
+                if len(data) > len(best_data):
+                    best_data = data
         except Exception:
             pass
-    return {}
+    print(f">>> Loaded {len(best_data)} existing curated websites from git baseline.")
+    return best_data
 
 def build_database():
     db = load_existing_database()
