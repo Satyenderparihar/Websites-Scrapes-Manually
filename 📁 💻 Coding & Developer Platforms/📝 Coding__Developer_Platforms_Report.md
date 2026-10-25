@@ -28,6 +28,9 @@
 
 ### 🌐 HTML, CSS & Web Development (`346 Resources`)
 
+> 🚀 **Special Dedicated Collection**: For quick access, browse the [📖 350+ HTML, CSS & JavaScript Projects Categorized Master List](📄%20HTML%20Cheat%20Sheets/📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md) with 306+ projects organized across Games, Web Apps, UI Components, and Clones!
+> 📄 **HTML PDF Cheat Sheets**: Access all offline cheat sheets in [📁 📄 HTML Cheat Sheets](📄%20HTML%20Cheat%20Sheets/).
+
 | # | Name / Project Title | Website Type | Official Link | Pricing | Description |
 | :-: | :--- | :--- | :--- | :-: | :--- |
 | **1** | **30 Minutes Countdown Timer Using JavaScript** | `Web Dev Project Implementation` | [Visit / View Guide](https://foolishdeveloper.com/30-minutes-countdown-timer-using-javascript) | `Free` | Complete source code & step-by-step tutorial: 30 Minutes Countdown Timer Using JavaScript (HTML/CSS/JS Project) |

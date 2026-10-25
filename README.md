@@ -13,6 +13,8 @@
 ## 📚 Master Directory & Download Links
 
 - 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**
+- 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects Master Directory](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md)**
+- 📄 **[HTML & Web Dev Cheat Sheets (PDF Library)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**
 - 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**
 - 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**
 
