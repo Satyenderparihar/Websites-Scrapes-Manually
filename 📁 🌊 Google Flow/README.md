@@ -50,6 +50,7 @@ All prompts are formatted inside standard fenced code blocks:
 
 ### 10. 🤖 [ChatGPT Secret Codes & Slash Commands](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/)
 - **[ChatGPT Master Secret Codes & Slash Commands (250+ Universal Prompts)](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20ChatGPT_Master_Secret_Codes_and_Slash_Commands.md)**: All-in-one single master guide consolidating all 103 Core Slash Commands, 55 Secret Codes & Power Prompt, and 100 Powerful Visual/Analytical AI Commands with 1-click Copy buttons.
+- **[ChatGPT User Profile & Saved Memory (Satyanarayan)](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20ChatGPT_User_Profile_and_Saved_Memory.md)**: Official personalized AI Memory & Custom Instructions configuration (Trading preferences, risk rules, response architecture, and Pips memory).
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*
