@@ -12,7 +12,7 @@
 
 ### 2. 👤 [AI Avatars & Character Sheets](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/)
 - **[360° Character Consistency Master Sheet](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Character_Sheet_Master_Prompt_360.md)**: Production-ready multi-angle consistency prompt locking face, hair, and physique.
-- **[AI Avatar Studio Setup & Audio Lip-Sync Guide](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)**: Photorealistic 16:9 studio avatar prompt with clean white aesthetic and YouTube lip-sync guide.
+- **[AI Avatar Studio Setup & Complete Video Director Guide](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)**: Photorealistic 16:9 studio prompt, 3 embedded reference images, Master Video Director prompt, and all 15 ready video variations with 1-click Copy buttons.
 
 ### 3. 🏙️ [3D Billboards & Anamorphic Ads](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/)
 - **[Spiderman & 3D Billboard Cinematic Video Guide](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/📝%20Spiderman_and_3D_Billboard_Video_Prompts.md)**: Viral Spiderman curtain reveal and day/night commercial billboard video prompts.
