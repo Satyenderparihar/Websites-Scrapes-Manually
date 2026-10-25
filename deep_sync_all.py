@@ -138,6 +138,9 @@ def map_course_to_subcat(wtype, name=""):
     return "🌐 Academic STEM Tools & Learning Platforms"
 
 CODING_SUBCATEGORIES = {
+    "📋 Master Tech Cheat Sheets (Google Sheets Library)": [
+        "Google Sheets Master Cheat Sheet", "Master Tech Cheat Sheet"
+    ],
     "💻 Online Code Editors & Cloud IDEs": [
         "Online Code Editor & IDE", "Online Code Editor", "Web IDE"
     ],
@@ -147,7 +150,7 @@ CODING_SUBCATEGORIES = {
     "🎓 Programming & Tech Learning Platforms": [
         "Coding Learning Platform", "Tech Learning Platform", "Interactive Coding App", "Learning Platform"
     ],
-    "📚 Developer Reference, Roadmaps & Cheat Sheets": [
+    "📚 Developer Reference, Roadmaps & Guides": [
         "Developer Roadmap & Career Guide", "Developer Cheat Sheets & Reference", "Developer Reference & Cheat Sheets",
         "Web Development Resource", "Programming Resources & Reference", "CSS Learning", "JavaScript Learning",
         "React Learning", "Vue.js Learning", "Web3 Learning", "PHP Learning", "SQL Learning", "Blockchain Learning",
@@ -181,10 +184,13 @@ CODING_SUBCATEGORIES = {
     ]
 }
 
-def map_coding_to_subcat(wtype, name=""):
+def map_coding_to_subcat(wtype, name="", url=""):
     wtype_clean = (wtype or "").strip()
     name_lower = (name or "").lower()
+    url_lower = (url or "").lower()
     
+    if 'docs.google.com' in url_lower or 'google sheet' in wtype_clean.lower() or 'google sheet' in name_lower:
+        return "📋 Master Tech Cheat Sheets (Google Sheets Library)"
     if 'project' in wtype_clean.lower() or 'implementation' in wtype_clean.lower():
         return "🚀 Hands-on Project Guides & Implementations"
     if any(k in name_lower for k in ['replit', 'glitch', 'codepen', 'jsfiddle', 'codesandbox', 'stackblitz']):
@@ -209,7 +215,7 @@ def map_coding_to_subcat(wtype, name=""):
     for subcat, types in CODING_SUBCATEGORIES.items():
         if wtype_clean in types:
             return subcat
-    return "📚 Developer Reference, Roadmaps & Cheat Sheets"
+    return "📚 Developer Reference, Roadmaps & Guides"
 
 VALID_TLDS = set([
     'com', 'org', 'net', 'edu', 'gov', 'mil', 'io', 'ai', 'co', 'app', 'dev', 'tv', 'me', 'in', 'is', 'so', 'gg',
@@ -242,7 +248,8 @@ def clean_url(u):
             if not any(qp.startswith(t) for t in ['utm_', 'fbclid', 'gclid', 'ref_']):
                 clean_query.append(qp)
     query_str = '&'.join(clean_query)
-    clean = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, query_str, ''))
+    fragment_str = parsed.fragment if ("docs.google.com" in parsed.netloc.lower() and parsed.fragment) else ""
+    clean = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, query_str, fragment_str))
     return clean.rstrip('/')
 
 def get_domain_key(url):
@@ -252,10 +259,13 @@ def get_domain_key(url):
         domain = domain[4:]
     path = parsed.path.rstrip('/')
     query = parsed.query
+    fragment = parsed.fragment
     if any(sub in domain for sub in ['youtube.com', 'instagram.com', 't.me', 'github.com', 'geeksforgeeks.org', 'reddit.com', 'edx.org', 'coursera.org', 'w3schools.com', 'coddy.tech', 'classcentral.com', 'botdownloader.com', 'analyticsvidhya.com', 'stpcomputereducation.com', 'cloudskillsboost.google', 'data-flair.training', 'docs.google.com']):
         key_suffix = path
         if query:
             key_suffix = f"{path}?{query}" if path else f"?{query}"
+        if fragment and 'docs.google.com' in domain:
+            key_suffix = f"{key_suffix}#{fragment}"
         if key_suffix:
             return f"{domain}{key_suffix}"
     return domain
@@ -792,12 +802,14 @@ def build_database():
                 for r in range(1, ws.max_row + 1):
                     name = str(ws.cell(r, 1).value or '').strip()
                     cell_2 = ws.cell(r, 2)
-                    url = cell_2.hyperlink.target if cell_2.hyperlink else str(cell_2.value or '').strip()
+                    val_2 = str(cell_2.value or '').strip()
+                    hl_2 = cell_2.hyperlink.target if cell_2.hyperlink else ''
+                    url = val_2 if ('#gid=' in val_2 or not hl_2) else hl_2
                     if not name or name in ["None"] or len(name) < 3:
                         continue
                     cu = clean_url(url)
                     if cu:
-                        add_entry(cu, name, "Developer Reference & Cheat Sheets", "💻 Coding & Developer Platforms", "Free", f"Comprehensive developer cheat sheet and reference spreadsheet: {name}", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=8)
+                        add_entry(cu, name, "Google Sheets Master Cheat Sheet", "💻 Coding & Developer Platforms", "Free", f"Comprehensive developer cheat sheet and reference spreadsheet: {name}", f"Excel: All In One Programming Resources.xlsx ({sname})", priority=9)
                 continue
 
             # 8.2 Stay updated on Telegram (4 channels)
@@ -931,7 +943,7 @@ def export_all(db):
         elif "Coding" in cat_name:
             coding_by_subcat = {sub: [] for sub in CODING_SUBCATEGORIES.keys()}
             for item in cat_items:
-                sub = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                sub = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""), item.get("url", ""))
                 coding_by_subcat[sub].append(item)
 
             md_lines.extend([
@@ -1200,7 +1212,7 @@ def export_all(db):
                 if "Courses" in cat_name:
                     subcat = map_course_to_subcat(item.get("website_type", ""), item.get("name", ""))
                 else:
-                    subcat = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""))
+                    subcat = map_coding_to_subcat(item.get("website_type", ""), item.get("name", ""), item.get("url", ""))
                 ws_cat.append([
                     i,
                     item.get("name") or item.get("key"),
