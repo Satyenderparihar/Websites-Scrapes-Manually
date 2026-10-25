@@ -367,7 +367,7 @@ YOUTUBE_CREATORS = {
 
 def load_existing_database():
     best_data = {}
-    for commit in ['9b189cc', '6cc85f9', 'HEAD', '7a9f688']:
+    for commit in ['42ece39', '25e9077', '9b189cc', '6cc85f9', 'HEAD', '7a9f688']:
         try:
             res = subprocess.run(['git', '-C', BASE_DIR, 'show', f'{commit}:💾 websites_database.json'], capture_output=True)
             if res.returncode == 0:
@@ -1244,10 +1244,12 @@ def export_all(db):
         "## 📚 Master Directory & Download Links",
         "",
         "- 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**",
-        "- 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects Master Directory](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md)**",
+        "- 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects (Clickable Directory)](📝%20350_HTML_CSS_JavaScript_Projects.md)**",
         "- 📄 **[HTML & Web Dev Cheat Sheets (PDF Library)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**",
         "- 📊 **[Download Formatted Master Excel Workbook](📊%20Websites_Master_List.xlsx)**",
         "- 💾 **[Raw Structured Database (JSON)](💾%20websites_database.json)**",
+        "",
+        "> 💡 **PDF Hyperlinks Tip**: GitHub web interface sandbox prevents clicking hyperlinks directly inside PDF files. Use the direct Markdown directory links above for instant 1-click redirects to project tutorials and live code, or click **[Download Raw PDF](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📄%20350%2B%20HTML%20CSS%20and%20JavaScript%20Projects%20Master%20Guide.pdf?raw=true)** to open with your local PDF reader where all links remain interactive.",
         "",
         "---",
         "",
