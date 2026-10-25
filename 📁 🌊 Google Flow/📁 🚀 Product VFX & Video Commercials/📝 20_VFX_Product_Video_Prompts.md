@@ -1,12 +1,12 @@
-# 🚀 20 Viral VFX & Product Video Prompts (Image + Image-to-Video)
+# 🚀 20 Viral VFX & Product Commercial Prompts
 
-> **Source**: Product Video Commands.xlsx (Sheet: 20_VFX_Ideas_Prompts)  
-> **Ready-to-Use**: Complete cinematic Image Prompts + matching Image-to-Video Animation Prompts.
+> **Ready-to-Use**: Complete cinematic Image Generation Prompts + matching Image-to-Video Animation Prompts.  
+> **Features**: Every prompt is wrapped in a dedicated code block with a 1-click GitHub Copy button!
 
 ---
 
 ## 💡 1. Giant Saree Rooftop Model
-- **Best For**: `Perfume, phone, beauty, fashion, luxury products`
+- **Best Suited For**: `Perfume, phone, beauty, fashion, luxury products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -21,7 +21,7 @@ Animate the uploaded image with a static camera. The giant Indian female model r
 ---
 
 ## 💡 2. Giant Male Model on Rooftop
-- **Best For**: `Mens grooming, watches, shoes, tech products`
+- **Best Suited For**: `Mens grooming, watches, shoes, tech products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -36,7 +36,7 @@ Animate the uploaded image with a mostly static camera and subtle cinematic brea
 ---
 
 ## 💡 3. Product Emerging from Ocean
-- **Best For**: `Beverages, skincare, perfume, summer products`
+- **Best Suited For**: `Beverages, skincare, perfume, summer products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -51,7 +51,7 @@ Animate the uploaded image with a steady cinematic camera. The ocean water moves
 ---
 
 ## 💡 4. Product Breaking Through Ice
-- **Best For**: `Cold drinks, energy drinks, skincare, cooling products`
+- **Best Suited For**: `Cold drinks, energy drinks, skincare, cooling products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -66,7 +66,7 @@ Animate the uploaded image with a locked camera. Add subtle motion to drifting c
 ---
 
 ## 💡 5. Product in Desert Storm
-- **Best For**: `Fragrance, rugged tech, adventure products, cars`
+- **Best Suited For**: `Fragrance, rugged tech, adventure products, cars`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -81,7 +81,7 @@ Animate the uploaded image with a static or very subtle push-in camera. Sand par
 ---
 
 ## 💡 6. Product in Flower Garden
-- **Best For**: `Perfume, skincare, beauty, wellness products`
+- **Best Suited For**: `Perfume, skincare, beauty, wellness products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -96,7 +96,7 @@ Animate the uploaded image with a gentle cinematic stillness. Flower petals floa
 ---
 
 ## 💡 7. Product on Busy Highway
-- **Best For**: `Automotive, sneakers, tech, energy drinks`
+- **Best Suited For**: `Automotive, sneakers, tech, energy drinks`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -111,7 +111,7 @@ Animate the uploaded image with a mostly static camera. Traffic moves smoothly a
 ---
 
 ## 💡 8. Product Floating in Cloudscape
-- **Best For**: `Luxury products, perfume, skincare, tech launches`
+- **Best Suited For**: `Luxury products, perfume, skincare, tech launches`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -126,7 +126,7 @@ Animate the uploaded image with subtle movement only. Clouds drift slowly, soft 
 ---
 
 ## 💡 9. Product Inside a Luxury Mall Atrium
-- **Best For**: `Phones, fashion, beauty, luxury items`
+- **Best Suited For**: `Phones, fashion, beauty, luxury items`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -141,7 +141,7 @@ Animate the uploaded image with a stable camera. Let shoppers move subtly in the
 ---
 
 ## 💡 10. Product on Mountain Cliff
-- **Best For**: `Outdoor gear, phones, watches, rugged products`
+- **Best Suited For**: `Outdoor gear, phones, watches, rugged products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -156,7 +156,7 @@ Animate the uploaded image with subtle cinematic realism. Clouds drift in the di
 ---
 
 ## 💡 11. Product in Rainy Street Scene
-- **Best For**: `Fashion, tech, perfume, lifestyle products`
+- **Best Suited For**: `Fashion, tech, perfume, lifestyle products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -171,7 +171,7 @@ Animate the uploaded image with soft rain falling, puddle ripples, subtle reflec
 ---
 
 ## 💡 12. Product in Minimal White Studio Monument
-- **Best For**: `Skincare, perfume, gadgets, luxury products`
+- **Best Suited For**: `Skincare, perfume, gadgets, luxury products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -186,7 +186,7 @@ Animate the uploaded image with a very subtle camera drift or gentle locked-off 
 ---
 
 ## 💡 13. Product on Giant Billboard Scene
-- **Best For**: `Phones, apps, beverages, youth products`
+- **Best Suited For**: `Phones, apps, beverages, youth products`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -201,7 +201,7 @@ Animate the uploaded image with natural street movement below: traffic, pedestri
 ---
 
 ## 💡 14. Product in Festival Scene
-- **Best For**: `Beauty, sweets, beverages, fashion, festive brands`
+- **Best Suited For**: `Beauty, sweets, beverages, fashion, festive brands`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -216,7 +216,7 @@ Animate the uploaded image with soft festive environmental motion: hanging decor
 ---
 
 ## 💡 15. Product in Futuristic Neon City
-- **Best For**: `Tech, gaming, audio gear, premium gadgets`
+- **Best Suited For**: `Tech, gaming, audio gear, premium gadgets`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -231,7 +231,7 @@ Animate the uploaded image with gentle neon flicker, passing vehicles or hover-l
 ---
 
 ## 💡 16. Product with Paint Splash Explosion
-- **Best For**: `Beauty, beverages, lifestyle, creative brands`
+- **Best Suited For**: `Beauty, beverages, lifestyle, creative brands`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -246,7 +246,7 @@ Animate the uploaded image by bringing the paint splash subtly to life: tiny flu
 ---
 
 ## 💡 17. Product on Café Rooftop Lifestyle Scene
-- **Best For**: `Coffee, snacks, lifestyle, beauty, fashion`
+- **Best Suited For**: `Coffee, snacks, lifestyle, beauty, fashion`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -261,7 +261,7 @@ Animate the uploaded image with subtle rooftop breeze, moving plants, distant ci
 ---
 
 ## 💡 18. Product in Temple or Heritage Courtyard
-- **Best For**: `Jewelry, beauty, ethnic fashion, premium Indian brands`
+- **Best Suited For**: `Jewelry, beauty, ethnic fashion, premium Indian brands`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -276,7 +276,7 @@ Animate the uploaded image with a subtle breeze moving fabric and hair, drifting
 ---
 
 ## 💡 19. Product on Mirror Water Surface
-- **Best For**: `Perfume, skincare, luxury, beauty launches`
+- **Best Suited For**: `Perfume, skincare, luxury, beauty launches`
 
 ### 🖼️ Image Generation Prompt:
 ```text
@@ -291,7 +291,7 @@ Animate the uploaded image with subtle ripples on the reflective water, gentle w
 ---
 
 ## 💡 20. Product in Giant Library / Knowledge Scene
-- **Best For**: `Education apps, tools, books, AI products, SaaS`
+- **Best Suited For**: `Education apps, tools, books, AI products, SaaS`
 
 ### 🖼️ Image Generation Prompt:
 ```text

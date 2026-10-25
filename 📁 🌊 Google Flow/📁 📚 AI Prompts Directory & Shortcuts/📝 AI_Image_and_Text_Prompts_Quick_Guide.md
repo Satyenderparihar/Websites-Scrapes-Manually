@@ -1,7 +1,7 @@
-# 📚 AI Image & Text Prompts Directory (Quick Guide)
+# 📚 AI Image & Text Prompts Directory (525+ Shortcut Commands)
 
-> **Source**: AI Image & Text Prompts Directory.xlsx  
-> **Total Commands**: 525+ Shortcut Commands with Hindi Explanations & Usage Guide.
+> **Resource**: Complete 525+ Command Shorthands for ChatGPT, Claude, Midjourney & Flux  
+> **Format**: Categorized Tables with Easy Hindi Meaning (`Aasan Matlab`) and When-To-Use Guides.
 
 ---
 
