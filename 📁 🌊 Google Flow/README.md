@@ -1,7 +1,7 @@
 # 🌊 Google Flow — AI Video & Creative Prompt Studio
 
 > **Consolidated, Categorized & 100% Lightweight Markdown Prompt Studio**  
-> Organized cleanly into 9 dedicated creative subfolders with 1-click GitHub Copy buttons on every prompt!
+> Organized cleanly into 10 dedicated creative subfolders with 1-click GitHub Copy buttons on every prompt!
 
 ---
 
@@ -47,6 +47,12 @@
 All prompts are formatted inside standard fenced code blocks:
 - On GitHub (mobile and desktop), simply click the **Copy icon** at the top right of each prompt box.
 - Paste directly into Midjourney, Flux, Google Flow, Kling, Veo, or Sora!
+
+### 10. 🤖 [ChatGPT Secret Codes & Slash Commands](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/)
+- **[ChatGPT Master Secret Codes & Slash Commands (250+ Universal Prompts)](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20ChatGPT_Master_Secret_Codes_and_Slash_Commands.md)**: Unified single master guide consolidating all 100+ Core Slash Commands, 50+ Secret Codes & Power Prompt, and 100 Powerful Visual/Analytical commands with 1-click Copy buttons.
+- **[ChatGPT 100+ Core Slash Commands Cheat Sheet](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20ChatGPT_100_Plus_Slash_Commands_Cheat_Sheet.md)**: 103 prompt shorthands for length, tone, language, format, editing, and decision-making.
+- **[50+ ChatGPT Secret Codes & World-Class Power Prompt](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20ChatGPT_50_Plus_Secret_Codes_and_Power_Prompt.md)**: 55 expert role-playing codes and the master meta-prompt framework.
+- **[100 Powerful AI Slash Commands & Shortcuts](📁%20🤖%20ChatGPT%20Secret%20Codes%20&%20Slash%20Commands/📝%20100_Powerful_AI_Slash_Commands_and_Prompt_Shortcuts.md)**: 100 visual, architectural, and strategic framework commands from Shivang AI.
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*
