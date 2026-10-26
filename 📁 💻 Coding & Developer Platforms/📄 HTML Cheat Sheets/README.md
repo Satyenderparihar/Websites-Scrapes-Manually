@@ -1,28 +1,33 @@
 # 📄 HTML & Web Development Cheat Sheets & Project Hub
 
 > **100% Zero-Storage & High-Speed Markdown Reference Library**  
-> All 5 HTML Cheat Sheets and the 350+ Projects collection have been converted from heavy binary PDFs into fast, lightweight, searchable Markdown files with 100% clickable links!
+> All 5 HTML Cheat Sheets have been consolidated into **ONE Single Exhaustive Master Guide**, alongside the 350+ Projects Collection!
 
 ---
 
-## 📚 Complete HTML Cheat Sheets Directory
+## 📚 Complete HTML Master Directory
 
-| # | Cheat Sheet Name | Source / Focus | Pages in Original | Markdown Link |
+| # | Guide Name | Coverage / Modules | Format | Markdown Link |
 | :-: | :--- | :--- | :-: | :--- |
-| **1** | **Hostinger Complete HTML Reference** | Document Structure, Forms, Tables, iFrames, Entities | 9 Pages | [📖 Open Cheat Sheet 1](📝%20HTML_Cheat_Sheet_1_Hostinger_Complete_Reference.md) |
-| **2** | **Stony Brook University Web Guide** | Computer Science: DOM Tree, Specificity Math, Cascade | 65 Pages | [📖 Open Cheat Sheet 2](📝%20HTML_Cheat_Sheet_2_University_Web_Architecture_Guide.md) |
-| **3** | **Core Attributes & Event Handlers** | Global Attributes, Window/Mouse/Keyboard Events | 1 Page | [📖 Open Cheat Sheet 3](📝%20HTML_Cheat_Sheet_3_Core_Attributes_and_Quick_Reference.md) |
-| **4** | **Essential Tags & Visual Syntax** | Basic Tags, Formatting, Lists, Email HTML Compat | 2 Pages | [📖 Open Cheat Sheet 4](📝%20HTML_Cheat_Sheet_4_Essential_Tags_and_Syntax.md) |
-| **5** | **HTML5 Comprehensive Elements (A-Z)** | Complete HTML5 Elements Dictionary with MDN Links | 53 Pages | [📖 Open Cheat Sheet 5](📝%20HTML_Cheat_Sheet_5_HTML5_Comprehensive_Elements.md) |
-| **🚀** | **350+ HTML, CSS & JS Projects** | 306 Verified Live Projects across 5 Categories | 11 Pages | [🚀 Open 350+ Projects Directory](📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md) |
+| **⭐** | **HTML Master All-In-One Cheat Sheet** | **All 5 Modules Consolidated**: Web Architecture & DOM Tree, Core Document & Forms (Hostinger), Global Attributes & Event Handlers, Essential Visual Syntax & Email Compat, and Complete HTML5 A-Z Encyclopedia | 43 KB Single File | [📖 Open HTML Master All-In-One Cheat Sheet](📝%20HTML_Master_All_In_One_Cheat_Sheet.md) |
+| **🚀** | **350+ HTML, CSS & JS Projects** | 306 Verified Live Projects across 5 Categories (Games, Apps, Clones, UI Components, Forms) with Clickable Links | 61 KB Master Hub | [🚀 Open 350+ Projects Directory](📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md) |
+
+---
+
+## 💡 What's Inside the Single Master HTML Cheat Sheet?
+- **Module 1**: Web Architecture, HTTP Lifecycle & DOM Tree (Stony Brook University Computer Science Guide).
+- **Module 2**: Core Document Structure, Multimedia, Tables & Forms (Hostinger Complete Reference).
+- **Module 3**: Core Attributes, Keyboard Navigation & Browser Event Handlers.
+- **Module 4**: Essential Tags, Typography, Visual Dividers & HTML Email Compatibility.
+- **Module 5**: Complete HTML5 Elements Encyclopedia (Exhaustive A–Z Dictionary from `<a href>` to `<wbr>`).
 
 ---
 
 ## 💡 Why Pure Markdown Instead of Heavy PDFs?
-- **Zero Storage Bloat**: PDFs take 10-20 MB; Markdown takes <100 KB, keeping Git repositories lightning-fast.
+- **Zero Storage Bloat**: PDFs take 10-20 MB; Markdown takes <50 KB, keeping Git repositories lightning-fast.
 - **100% Working Clickable Links**: GitHub blocks outbound links inside PDF viewers via CSP sandbox. Markdown links open directly in 1-click on all browsers and mobile devices.
-- **Full Text Search**: Easily search tags, attributes, or code snippets with Ctrl+F.
-- **Offline Safety**: All original PDFs are permanently preserved offline in `D:\Antigravity - Agent\💾 Offline PDF Archive\📄 HTML & CSS Cheat Sheets\`.
+- **Full Text Search**: Easily search any tag, attribute, or event handler with Ctrl+F.
+- **Offline Safety**: All original PDFs and previous individual drafts are permanently preserved offline in `D:\Antigravity - Agent\💾 Offline PDF Archive\📄 HTML & CSS Cheat Sheets\`.
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*

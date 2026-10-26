@@ -14,12 +14,8 @@
 
 - 📖 **[View Complete Master Categorized Report (Markdown)](📝%20Master_Curated_Websites_Report.md)**
 - 🚀 **[Explore 350+ HTML, CSS & JavaScript Projects (Clickable Directory)](📝%20350_HTML_CSS_JavaScript_Projects.md)**
-- 📄 **[HTML Cheat Sheets Hub (All 5 Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/)**
-  - 📄 [HTML Cheat Sheet 1: Hostinger Complete Reference](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_1_Hostinger_Complete_Reference.md)
-  - 📄 [HTML Cheat Sheet 2: Stony Brook University Web Architecture Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_2_University_Web_Architecture_Guide.md)
-  - 📄 [HTML Cheat Sheet 3: Core Attributes & Event Handlers](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_3_Core_Attributes_and_Quick_Reference.md)
-  - 📄 [HTML Cheat Sheet 4: Essential Tags & Visual Syntax](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_4_Essential_Tags_and_Syntax.md)
-  - 📄 [HTML Cheat Sheet 5: Comprehensive HTML5 Elements (A-Z)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Cheat_Sheet_5_HTML5_Comprehensive_Elements.md)
+- 📄 **[HTML Master All-In-One Cheat Sheet](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20HTML_Master_All_In_One_Cheat_Sheet.md)** (Consolidated from all 5 Guides: Web Architecture & DOM Tree, Hostinger Complete Reference, Core Attributes, Visual Syntax, and HTML5 A-Z Encyclopedia)
+- 🚀 **[350+ HTML, CSS & JavaScript Projects Hub](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20HTML%20Cheat%20Sheets/📝%20350_HTML_CSS_JavaScript_Projects_Master_List.md)**
 - 🎨 **[CSS Cheat Sheets Hub (Both Guides)](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/)**
   - 🎨 [CSS Cheat Sheet 1: The Mega Properties & Syntax Guide](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_1_The_Mega_Properties_Guide.md)
   - 🎨 [CSS Cheat Sheet 2: Modern Selectors, Flexbox, Grid & Animations](📁%20💻%20Coding%20&%20Developer%20Platforms/📄%20CSS%20Cheat%20Sheets/📝%20CSS_Cheat_Sheet_2_Modern_Selectors_Animations_Guide.md)
