@@ -50,7 +50,7 @@
 
 ### 9. ⚡ [Automation & Antigravity Workflows](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)
 - **[How to Install Google Antigravity on Android (Antigem App)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md)**: Native Android setup running Antigravity locally on phone via Antigem, shell setup commands, and mobile bridge.
-- **[Google Flow + Antigravity = Autopilot AI Videos (DeepX Extension)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_Antigravity_DeepX_Autopilot_Guide.md)**: Autonomous AI video producer connecting Antigravity to Google Flow via MCP, batch generation, and character consistency lock.
+- **[Google Flow + Antigravity: DEEPX Cinematic Automation Engine](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_Antigravity_DeepX_Autopilot_Guide.md)**: Autonomous AI video producer by @dipeshkyd with Universal Reference Lock, Character Consistency, and 100+ Prompt Batch Automation.
 - **[Automate Google Flow Completely (AutoFlow Extension)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_AutoFlow_Extension_Automation_Guide.md)**: Batch multi-prompt queuing for images and video animation on 100% autopilot.
 - **[Automate Google Flow with Antigravity (Flow Connector)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Automate_Google_Flow_with_Antigravity_Flow_Connector_Guide.md)**: Srijan Builds setup guide connecting Antigravity to Google Flow via Chrome/Edge Flow Connector extension with autopilot agent settings.
 

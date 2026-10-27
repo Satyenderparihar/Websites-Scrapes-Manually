@@ -9,6 +9,17 @@
 
 ---
 
+## ⚡ DEEPX — THE AI CINEMATIC AUTOMATION ENGINE 🚀
+
+> 🤖 **Antigravity × Google Flow** | 🎭 **Character Consistency** | 🔒 **Universal Reference Lock** | 🎬 **Scene Continuity** | ⚡ **100+ Prompt Batch Automation** | 🚀 **Ultra-Fast Media Injection** | 📱 **Mobile-Ready**  
+> 
+> 🌌 *One Idea. Infinite Scenes. Zero-Click Automation. Next-Level AI Filmmaking.*  
+> 🔥 *Stop Clicking. Start Creating. Welcome to the Future.*  
+> 👑 **BUILT BY**: [@dipeshkyd](https://youtu.be/iHoS37EtfHI)  
+> 🔗 **GET DEEPX HERE**: [https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
+
+---
+
 ## 📌 Video Overview & Chapters
 
 Complete walkthrough of the DeepX Extension — a custom Chrome bridge that connects Google Antigravity to Google Flow via MCP (Model Context Protocol) for hands-free, automated batch image and video generation.
@@ -48,6 +59,7 @@ WORKFLOW:
 ---
 
 ## 🔗 Resources & Community
+- 🔗 **GET DEEPX HERE (Direct Google Drive)**: [https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
 - **DeepX WhatsApp Channel (Extension ZIP inside)**: [https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h)
 - **Watch Full Sample Story Video**: [https://youtu.be/B8b7hk4YL6E](https://youtu.be/B8b7hk4YL6E)
 - **Antigravity on Mobile Setup**: [https://youtu.be/uZJPMTKVs_U](https://youtu.be/uZJPMTKVs_U)
