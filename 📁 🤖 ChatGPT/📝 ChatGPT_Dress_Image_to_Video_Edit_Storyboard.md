@@ -5,11 +5,11 @@
 
 ---
 
-## 🎬 Video Tutorial (Click to Play with Sound & Controls)
+## 🎬 Video Tutorial (Tap to Play Instantly in Browser)
 
-[![▶️ Click to Play Video Tutorial](🖼️%20Video_Screenshots/00_Play_Video_Cover.jpg)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%F0%9F%93%B1%20UGC%20Video%20Ads%20%26%20Storyboards/%F0%9F%8E%AC%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4)
+[![▶️ Click to Play Video Tutorial](🖼️%20Video_Screenshots/00_Play_Video_Cover.jpg)](https://files.catbox.moe/4pq4vt.mp4)
 
-> 💡 **[▶️ Click Image Above to Play Video with Sound, Seekbar & Controls (25s)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%F0%9F%93%B1%20UGC%20Video%20Ads%20&%20Storyboards/%F0%9F%8E%AC%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4)**
+> 💡 **[▶️ Click Image Above to Play Video Instantly with Sound, Seekbar & Controls (25s)](https://files.catbox.moe/4pq4vt.mp4)**
 
 ---
 
