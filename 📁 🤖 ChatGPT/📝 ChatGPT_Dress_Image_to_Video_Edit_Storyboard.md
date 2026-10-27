@@ -5,11 +5,9 @@
 
 ---
 
-## 🎬 Video Tutorial (Direct Play & Download)
+## 🎬 Video Tutorial (Direct Inline Play)
 
-https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%F0%9F%93%B1%20UGC%20Video%20Ads%20%26%20Storyboards/%F0%9F%8E%AC%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4
-
-> 📥 **Direct Link**: [▶️ Click here to Play / Download Video Tutorial (1.3 MB)](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4)
+![ChatGPT to Google Flow UGC Ads Video Tutorial](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.gif)
 
 ---
 
