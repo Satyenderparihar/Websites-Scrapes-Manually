@@ -1,49 +1,47 @@
-# 👗 ChatGPT: Dress Image to Video Edit Storyboard Guide
+# 👗 ChatGPT: Dress Image to Video Edit Storyboard
 
-> **Workflow**: Single Product / Outfit Photo ➔ ChatGPT 10-Panel Storyboard Grid ➔ Video Editing / AI Video Animation  
-> **Target Software**: Adobe Photoshop, Premiere Pro, DaVinci Resolve, Google Flow  
-> **Category**: [📁 🤖 ChatGPT](../📁%20🤖%20ChatGPT/) | Related Guide: [📁 🌊 Google Flow UGC Storyboard Guide](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)
+> **Workflow**: Dress Image ➔ ChatGPT Storyboard (10 Cuts, Every 1 Second) ➔ Google Flow  
+> **Category**: [📁 🤖 ChatGPT](../📁%20🤖%20ChatGPT/) | Full Guide: [Google Flow UGC Storyboard Guide](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)
 
 ---
 
-## 📋 The Viral Prompt Formula
+## 📋 Step 1: ChatGPT Prompt
 
-Upload your dress or product image to ChatGPT and paste:
+Dress ki photo upload karo aur type karo:
 
 ```text
 Create a story board image for my video edit cuts every second for Photoshop
 ```
 
----
-
-## 🎬 10-Cut Sequence Breakdown (1 Cut Every Second)
-
-| Cut # | Timecode | Framing | Focus |
-| :--- | :--- | :--- | :--- |
-| **Cut 1** | `0 - 1s` | Full Establishing Shot | Full outfit display in ambient palace/studio setup |
-| **Cut 2** | `1 - 2s` | Upper Body Close-Up | Bodice silhouette, tailoring, and jacket lapel |
-| **Cut 3** | `2 - 3s` | Sleeve & Cuff Macro | Detailed floral embroidery and zari work |
-| **Cut 4** | `3 - 4s` | Skirt Flare & Pleats | Lower flare and border hem details |
-| **Cut 5** | `4 - 5s` | Fabric Flow & Motion | Gentle fabric drape and natural physics |
-| **Cut 6** | `5 - 6s` | Neckline & Collar Detail | Precision stitching and collar cut |
-| **Cut 7** | `6 - 7s` | Sequin & Threadwork Shimmer | Macro lighting reflection on sequins |
-| **Cut 8** | `7 - 8s` | 45-Degree Angled Orbit | Dynamic 3D depth and profile view |
-| **Cut 9** | `8 - 9s` | Tactile Micro-Texture | Rich fabric weave and material luxury |
-| **Cut 10** | `9 - 10s` | Grand Final Full View | Complete beauty reveal with soft glow |
+### 🎬 10-Cut Storyboard Sequence (1 Cut Every Second)
+- `0 - 1s`: Shot 1 - Full Dress [Intro]
+- `1 - 2s`: Shot 2 - Upper Body Close-up
+- `2 - 3s`: Shot 3 - Sleeve Detail
+- `3 - 4s`: Shot 4 - Skirt Flare
+- `4 - 5s`: Shot 5 - Fabric Flow
+- `5 - 6s`: Shot 6 - Neckline & Cut
+- `6 - 7s`: Shot 7 - Embroidered Pattern Detail
+- `7 - 8s`: Shot 8 - Angled View
+- `8 - 9s`: Shot 9 - Close-up Texture
+- `9 - 10s`: Shot 10 - Final Full View
 
 ---
 
-## 🌊 Direct Animation in Google Flow
+## 🌊 Step 2: Google Flow Prompt & Settings
 
-After generating the storyboard image in ChatGPT:
-1. Open **Google Flow**.
-2. Upload the 10-panel storyboard grid image.
-3. Use prompt:
+Storyboard image upload karke prompt run karo:
+
 ```text
 Create a ugc cinematic video for professional video according to this story board sequence
 ```
-4. Settings: Mode: `Video` | Model: `Omni 1.1 Flash` | Duration: `10s` | Aspect Ratio: `9:16` | Resolution: `720p`.
+
+* **Mode**: `Video`
+* **Model**: `Omni 1.1 Flash`
+* **Aspect Ratio**: `9:16`
+* **Resolution**: `720p`
+* **Duration**: `10s`
+* **Quantity**: `x1` (16 credits)
 
 ---
 
-*Curated for Satyender Parihar's Master AI Repository.*
+*Notes curated directly from the video tutorial for Satyender Parihar's Master Repository.*
