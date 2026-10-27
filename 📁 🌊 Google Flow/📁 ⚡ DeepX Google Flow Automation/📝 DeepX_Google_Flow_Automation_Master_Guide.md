@@ -4,18 +4,26 @@
 > **🌌 One Idea. Infinite Scenes. Zero-Click Automation. Next-Level AI Filmmaking.**  
 > **🔥 Stop Clicking. Start Creating. Welcome to the Future.**  
 > **👑 BUILT BY [@dipeshkyd](https://youtube.com/@dipeshkyd)**  
-> **🔗 Official Google Drive**: [Download DeepX Drive Folder](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) | [Direct Zip Backup](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk)
+
+---
+
+> ### 📥 1-Click Direct Download Links:
+> - ⚡ **[Direct Download DeepX Extension (.zip) from GitHub](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip)** *(Instant 1-Click Browser Download — Fast & Free)*
+> - ☁️ **[Google Drive Official Cloud Mirror](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)**
+> - 💾 **[Direct Google Drive Zip File](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk)**
+> - 📦 **[View Local Bundle in GitHub Repo](📦%20DeepX_Extension_Full_Bundle.zip)**
 
 ---
 
 ## 📑 Table of Contents
-1. [Core Features in Detail](#-core-features-in-detail)
-2. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
-3. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
-4. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
-5. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
-6. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-7. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+1. [📥 Direct Download Options](#-1-click-direct-download-links)
+2. [Core Features in Detail](#-core-features-in-detail)
+3. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
+4. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
+5. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
+6. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
+7. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
+8. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
 
 ---
 

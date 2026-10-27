@@ -12,7 +12,6 @@
 - **[AI Avatar Studio Setup & Complete Video Director Guide](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)**: Photorealistic 16:9 studio prompt, 3 embedded reference images, Master Video Director prompt, and all 15 ready video variations with 1-click Copy buttons.
 - **[Create 3D Cartoon Animation Videos with AI](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%203D_Cartoon_Animation_Videos_Google_Flow_Guide.md)**: Pixar/Disney 3D animation video guide with 360° character sheet and scene director formula.
 - **[Realistic Talking AI Avatar for Faceless YouTube Channel](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Talking_AI_Avatar_Faceless_Channel_Google_Flow_Guide.md)**: Talking head presenter prompt, camera motion specs, dialogue lip-sync, and studio lighting setup.
-- **[Consistent Face & Image Reverse-Engineering with JSON](📁%20🤖%20ChatGPT/📝%20ChatGPT_Consistent_Face_Reverse_Engineering_JSON_Guide.md)**: Extract full JSON design from any aesthetic photo and lock consistent facial identity.
 
 ### 2. 🏙️ [3D Billboards & Anamorphic Ads](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/)
 - **[Spiderman & 3D Billboard Cinematic Video Guide](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/📝%20Spiderman_and_3D_Billboard_Video_Prompts.md)**: Viral Spiderman curtain reveal and day/night commercial billboard video prompts.
@@ -63,6 +62,7 @@ All prompts are formatted inside standard fenced code blocks:
 
 ### 9. ⚡ [DeepX Google Flow Automation](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
 - **[DeepX Flow Bridge — AI Cinematic Automation Engine](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Autonomous engine connecting Antigravity Coding Agents directly to Google Flow (Veo 3.1 & Imagen 3) with character consistency, universal reference lock, scene continuity, 100+ prompt batch dispatch, and 23 MCP tools.
+  - 📥 **[Direct Download DeepX Extension (.zip)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip)** *(1-Click Instant Browser Download)*
 - **[DeepX Chrome Extension (Unpacked)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧩%20DeepX%20Chrome%20Extension/)**: Ready-to-load browser bridge for Chrome, Brave, Edge & Kiwi Browser.
 - **[DeepX Standalone MCP Server](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🔌%20DeepX%20MCP%20Server/)**: Standard Model Context Protocol server for Antigravity AI agents.
 - **[DeepX Autonomous AI Skills](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧠%20DeepX%20AI%20Skills/)**: 5 pre-trained directorial skills (Rapid Flow, Storyboard Director, 2D Spy Documentary, Video Matting, 8-Bit Retro).
