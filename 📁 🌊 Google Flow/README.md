@@ -45,6 +45,11 @@
 - **[Google Flow Tutorial | Create & Edit AI Videos with Gemini Omni Flash](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20Google_Flow_Gemini_Omni_Flash_Tutorial_Guide.md)**: Master prompt for Gemini Omni Flash, video generation schema, and continuity-locked clip settings.
 - **[Make YouTube Thumbnails Using AI with Just 1 Photo](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20AI_YouTube_Thumbnail_Workflow_Guide.md)**: High-CTR YouTube thumbnail generator prompt, extreme rim light setup, and visual curiosity triggers.
 
+### 9. ⚡ [Automation & Antigravity Workflows](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)
+- **[How to Install Google Antigravity on Android (Antigem App)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md)**: Native Android setup running Antigravity locally on phone via Antigem, shell setup commands, and mobile bridge.
+- **[Google Flow + Antigravity = Autopilot AI Videos (DeepX Extension)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_Antigravity_DeepX_Autopilot_Guide.md)**: Autonomous AI video producer connecting Antigravity to Google Flow via MCP, batch generation, and character consistency lock.
+- **[Automate Google Flow Completely (AutoFlow Extension)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_AutoFlow_Extension_Automation_Guide.md)**: Batch multi-prompt queuing for images and video animation on 100% autopilot.
+
 ---
 
 ## 💡 1-Click Copy Prompt Feature
