@@ -10,6 +10,8 @@
 ### 1. 👤 [AI Avatars & Character Sheets](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/)
 - **[360° Character Consistency Master Sheet](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Character_Sheet_Master_Prompt_360.md)**: Production-ready multi-angle consistency prompt locking face, hair, and physique.
 - **[AI Avatar Studio Setup & Complete Video Director Guide](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)**: Photorealistic 16:9 studio prompt, 3 embedded reference images, Master Video Director prompt, and all 15 ready video variations with 1-click Copy buttons.
+- **[Create 3D Cartoon Animation Videos with AI](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%203D_Cartoon_Animation_Videos_Google_Flow_Guide.md)**: Pixar/Disney 3D animation video guide with 360° character sheet and scene director formula.
+- **[Realistic Talking AI Avatar for Faceless YouTube Channel](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Talking_AI_Avatar_Faceless_Channel_Google_Flow_Guide.md)**: Talking head presenter prompt, camera motion specs, dialogue lip-sync, and studio lighting setup.
 
 ### 2. 🏙️ [3D Billboards & Anamorphic Ads](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/)
 - **[Spiderman & 3D Billboard Cinematic Video Guide](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/📝%20Spiderman_and_3D_Billboard_Video_Prompts.md)**: Viral Spiderman curtain reveal and day/night commercial billboard video prompts.
@@ -26,6 +28,7 @@
 - **[AI Ads Generator Master Prompt (Ritika)](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20Master_Prompt_AI_Ads_Generator_Ritika.md)**: Step-by-step AI video ad director framework with YouTube video guide.
 - **[UGC Video Ads Master Prompt (Hindi Default)](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20UGC_Video_Ads_Master_Prompt_Hindi_Template.md)**: 5-segment 10-second formula with Hook Bank, 15 ad types, and filled GlowDrop Vitamin C example.
 - **[Make AI Product & UGC Ads That Brands Actually Pay For !](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20AI_Product_and_UGC_Ads_Google_Flow_Guide.md)**: Anuj Rathore video tutorial with product photo prompts, viral UGC script framework, and Google Flow Omni JSON formula.
+- **[I Made a VOX Style Documentary With ONE AI Master Prompt](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20VOX_Style_Documentary_Master_Prompt_Guide.md)**: Complete VOX-style investigative documentary blueprint with mixed-media collage and motion graphics prompts.
 
 ### 5. 💄 [Cosmetics & Skincare Commercials](📁%20💄%20Cosmetics%20&%20Skincare%20Commercials/)
 - **[Ponds & Lakmé Luxury Skincare Commercial Prompts & Scripts](📁%20💄%20Cosmetics%20&%20Skincare%20Commercials/📝%20Ponds_and_Lakme_Commercial_Prompts_and_Scripts.md)**: Full 753-paragraph production guide with 3 embedded reference photos, character continuity (Naina & Sanjana), timing splits, dialogues, and ₹1 CRORE visual quality.
@@ -39,6 +42,8 @@
 
 ### 8. 📚 [AI Prompts Directory & Shortcuts](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/)
 - **[AI Image & Text Prompts Directory (525+ Commands)](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20AI_Image_and_Text_Prompts_Quick_Guide.md)**: 525+ categorized prompt shortcuts with easy Hindi meanings and use cases.
+- **[Google Flow Tutorial | Create & Edit AI Videos with Gemini Omni Flash](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20Google_Flow_Gemini_Omni_Flash_Tutorial_Guide.md)**: Master prompt for Gemini Omni Flash, video generation schema, and continuity-locked clip settings.
+- **[Make YouTube Thumbnails Using AI with Just 1 Photo](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20AI_YouTube_Thumbnail_Workflow_Guide.md)**: High-CTR YouTube thumbnail generator prompt, extreme rim light setup, and visual curiosity triggers.
 
 ---
 
