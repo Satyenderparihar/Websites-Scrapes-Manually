@@ -12,6 +12,7 @@
 - **[AI Avatar Studio Setup & Complete Video Director Guide](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20AI_Avatar_Studio_Setup_and_Prompts.md)**: Photorealistic 16:9 studio prompt, 3 embedded reference images, Master Video Director prompt, and all 15 ready video variations with 1-click Copy buttons.
 - **[Create 3D Cartoon Animation Videos with AI](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%203D_Cartoon_Animation_Videos_Google_Flow_Guide.md)**: Pixar/Disney 3D animation video guide with 360° character sheet and scene director formula.
 - **[Realistic Talking AI Avatar for Faceless YouTube Channel](📁%20👤%20AI%20Avatars%20&%20Character%20Sheets/📝%20Talking_AI_Avatar_Faceless_Channel_Google_Flow_Guide.md)**: Talking head presenter prompt, camera motion specs, dialogue lip-sync, and studio lighting setup.
+- **[Consistent Face & Image Reverse-Engineering with JSON](📁%20🤖%20ChatGPT/📝%20ChatGPT_Consistent_Face_Reverse_Engineering_JSON_Guide.md)**: Extract full JSON design from any aesthetic photo and lock consistent facial identity.
 
 ### 2. 🏙️ [3D Billboards & Anamorphic Ads](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/)
 - **[Spiderman & 3D Billboard Cinematic Video Guide](📁%20🏙️%203D%20Billboards%20&%20Anamorphic%20Ads/📝%20Spiderman_and_3D_Billboard_Video_Prompts.md)**: Viral Spiderman curtain reveal and day/night commercial billboard video prompts.
