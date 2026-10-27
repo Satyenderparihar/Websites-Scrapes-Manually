@@ -1,17 +1,15 @@
 # 👗 ChatGPT: Dress Image to Video Edit Storyboard
 
 > **Workflow**: Dress Photo ➔ ChatGPT Storyboard (10 Cuts, Every 1 Second) ➔ Google Flow  
-> **Interactive Blog**: [🌐 Open Full Interactive Blog View](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📱%20UGC_Video_Ads_Guide_Blog.html)  
 > **Category**: [📁 🤖 ChatGPT](../📁%20🤖%20ChatGPT/) | Full Guide: [Google Flow UGC Storyboard Guide](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)
 
 ---
 
-## 🎬 Video Tutorial (Blog Player with Sound & Controls)
+## 🎬 Video Tutorial (Click to Play with Sound & Controls)
 
-<video controls width="100%" poster="🖼️ Video_Screenshots/03_ChatGPT_Generated_Storyboard.jpg" preload="metadata">
-  <source src="../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![▶️ Click to Play Video Tutorial](🖼️%20Video_Screenshots/00_Play_Video_Cover.jpg)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%F0%9F%93%B1%20UGC%20Video%20Ads%20%26%20Storyboards/%F0%9F%8E%AC%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4)
+
+> 💡 **[▶️ Click Image Above to Play Video with Sound, Seekbar & Controls (25s)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%F0%9F%93%B1%20UGC%20Video%20Ads%20&%20Storyboards/%F0%9F%8E%AC%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4)**
 
 ---
 
