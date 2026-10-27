@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>DeepX Flow Bridge</title>
+    <script>
+    try {
+      if (localStorage.getItem("deepx_unlocked") === "true") {
+        document.documentElement.classList.add("unlocked");
+      } else {
+        document.documentElement.classList.add("locked");
+      }
+    } catch (e) {
+      document.documentElement.classList.add("locked");
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #141c2e;
+      --accent: #00e5ff;
+      --accent-glow: rgba(0, 229, 255, 0.25);
+      --text: #f0f6fc;
+      --text-muted: #8b949e;
+      --border: #212c45;
+      --success: #00e676;
+      --danger: #ff5252;
+      --warning: #ffd600;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      width: 100%;
+      max-width: 420px;
+      min-width: 320px;
+      margin: 0 auto;
+      background: var(--bg);
+      color: var(--text);
+      padding: 16px;
+      font-size: 13px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+    }
+    .brand h1 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      background: linear-gradient(90deg, #00e5ff, #7c4dff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      font-size: 10px;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+    }
+    .badge.connected {
+      background: rgba(0, 230, 118, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(0, 230, 118, 0.3);
+    }
+    .badge.disconnected {
+      background: rgba(255, 82, 82, 0.15);
+      color: var(--danger);
+      border: 1px solid rgba(255, 82, 82, 0.3);
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+    }
+    .status-label {
+      color: var(--text-muted);
+    }
+    .status-val {
+      font-weight: 600;
+    }
+    .btn-master {
+      width: 100%;
+      background: linear-gradient(135deg, #00e5ff, #7c4dff);
+      color: #0b0f19;
+      font-weight: 700;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 14px var(--accent-glow);
+      transition: all 0.2s ease;
+      margin-bottom: 12px;
+    }
+    .btn-master:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+    .btn-master:active {
+      transform: translateY(0);
+    }
+    .btn-secondary {
+      background: #1e293b;
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: background 0.2s;
+    }
+    .btn-secondary:hover {
+      background: #334155;
+    }
+    .input-group {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    input[type="text"] {
+      flex: 1;
+      background: #0b0f19;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+    .toast {
+      position: fixed;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--success);
+      color: #0b0f19;
+      font-weight: 700;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .toast.show {
+      opacity: 1;
+    }
+    .quick-links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      font-size: 11px;
+    }
+    .quick-links a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .btn-power {
+      padding: 7px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-power-off {
+      background: linear-gradient(135deg, #00e5ff, #00e676);
+      color: #0b0f19;
+      box-shadow: 0 2px 10px rgba(0, 229, 255, 0.3);
+    }
+    .btn-power-off:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+    .btn-power-on {
+      background: rgba(255, 82, 82, 0.15);
+      color: var(--danger);
+      border: 1px solid rgba(255, 82, 82, 0.4);
+    }
+    .btn-power-on:hover {
+      background: rgba(255, 82, 82, 0.25);
+    }
+    /* Sponsor & Unlocked Badge */
+    .sponsor-badge {
+      display: none;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #ff4d4d;
+      background: rgba(255, 0, 0, 0.12);
+      border: 1px solid rgba(255, 0, 0, 0.35);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .sponsor-badge:hover {
+      background: rgba(255, 0, 0, 0.22);
+      border-color: #ff0000;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    }
+    .sponsor-badge.visible {
+      display: inline-flex;
+    }
+
+    /* Zero-Glitch Instant Lock Gate Controller */
+    .app-container {
+      display: none !important;
+    }
+    .lock-overlay {
+      display: flex !important;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #0f0f0f !important;
+      z-index: 999999;
+      padding: 16px;
+      overflow-y: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    html.locked body {
+      overflow: hidden !important;
+    }
+    html.locked .app-container {
+      display: none !important;
+    }
+    html.locked .lock-overlay {
+      display: flex !important;
+      animation: none !important;
+    }
+
+    /* Unlocked State: Display original UI cleanly */
+    html.unlocked body {
+      overflow: auto !important;
+    }
+    html.unlocked .app-container {
+      display: block !important;
+    }
+    html.unlocked .lock-overlay {
+      display: none !important;
+    }
+    @keyframes ytFadeIn {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .lock-card {
+      width: 100%;
+      max-width: 360px;
+      background: #181818; /* YouTube Dark Mode Surface */
+      border: 1px solid #272727;
+      border-radius: 16px;
+      padding: 22px 18px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.85);
+      position: relative;
+    }
+    .lock-badge-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 0, 0, 0.12);
+      border: 1px solid rgba(255, 0, 0, 0.35);
+      color: #ff4d4d;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+    .channel-avatar-wrap {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      margin: 0 auto 12px auto;
+      border: 2px solid #303030;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+      background: #212121;
+    }
+    .channel-avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .channel-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .verified-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .channel-handle {
+      font-size: 12px;
+      color: #aaaaaa;
+      font-weight: 500;
+      margin-top: 3px;
+      margin-bottom: 12px;
+    }
+    .lock-pitch {
+      font-size: 12px;
+      color: #cccccc;
+      line-height: 1.5;
+      margin-bottom: 14px;
+      padding: 0 4px;
+    }
+    .perks-box {
+      background: #121212;
+      border: 1px solid #242424;
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      text-align: left;
+      font-size: 11.5px;
+    }
+    .perk-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 0;
+      color: #e0e0e0;
+    }
+    /* Authentic YouTube Subscribe Pill Button */
+    .btn-subscribe-action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 12px 18px;
+      border-radius: 24px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      box-sizing: border-box;
+      text-decoration: none;
+      user-select: none;
+      margin-bottom: 8px;
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    /* Official YouTube Red Subscribe Button */
+    .btn-subscribe-action.dim {
+      background: #cc0000;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(204, 0, 0, 0.4);
+    }
+    .btn-subscribe-action.dim:hover {
+      background: #ff0000;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 0, 0, 0.55);
+    }
+    /* Real-time verifying state */
+    .btn-subscribe-action.checking {
+      background: #272727;
+      color: #ffffff;
+      border: 1px solid #3f3f3f;
+      animation: ytPulse 1.2s infinite alternate;
+    }
+    @keyframes ytPulse {
+      0% { border-color: #3f3f3f; }
+      100% { border-color: #ff0000; box-shadow: 0 0 16px rgba(255, 0, 0, 0.4); }
+    }
+    /* Subscribed state: YouTube dark mode confirmed pill button */
+    .btn-subscribe-action.subscribed {
+      background: rgba(0, 230, 118, 0.12) !important;
+      color: #00e676 !important;
+      border: 1.5px solid #00e676 !important;
+      box-shadow: 0 0 20px rgba(0, 230, 118, 0.35) !important;
+      font-weight: 800 !important;
+    }
+    .btn-subscribe-action svg {
+      width: 18px;
+      height: 18px;
+    }
+    .green-tick-pill-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #00e676;
+      color: #0b0f19;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 6px;
+      box-shadow: 0 0 10px rgba(0, 230, 118, 0.8);
+      flex-shrink: 0;
+    }
+    .lock-footer-note {
+      font-size: 10.5px;
+      color: #888888;
+      margin-top: 10px;
+    }
+    /* Automated Subscription Status Box with Green Tick */
+    .sub-status-box {
+      background: #141414;
+      border: 1px solid #272727;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+      transition: all 0.3s ease;
+    }
+    .sub-status-box.verified {
+      background: rgba(0, 230, 118, 0.08);
+      border-color: rgba(0, 230, 118, 0.4);
+      box-shadow: 0 0 16px rgba(0, 230, 118, 0.18);
+    }
+    .sub-status-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .sub-status-tick {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #272727;
+      color: #888888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 900;
+      flex-shrink: 0;
+      transition: all 0.3s ease;
+    }
+    .sub-status-box.verified .sub-status-tick {
+      background: #00e676;
+      color: #0b0f19;
+      box-shadow: 0 0 14px rgba(0, 230, 118, 0.7);
+    }
+    .sub-status-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #f1f1f1;
+    }
+    .sub-status-box.verified .sub-status-title {
+      color: #00e676;
+    }
+    .sub-status-sub {
+      font-size: 10px;
+      color: #888888;
+      margin-top: 1px;
+    }
+    .sub-status-box.verified .sub-status-sub {
+      color: #81c784;
+    }
+    .btn-auto-refresh {
+      background: #242424;
+      color: #aaaaaa;
+      border: 1px solid #383838;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-auto-refresh:hover {
+      background: #333333;
+      color: #ffffff;
+      border-color: #555555;
+    }
+    .sub-status-box.verified .btn-auto-refresh {
+      background: rgba(0, 230, 118, 0.15);
+      border-color: rgba(0, 230, 118, 0.4);
+      color: #00e676;
+      cursor: default;
+    }
+    /* Mobile YouTube App One-Tap Unlock */
+    .mobile-app-confirm-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #141414;
+      border: 1px solid #272727;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-top: 8px;
+      margin-bottom: 6px;
+      animation: ytFadeIn 0.3s ease;
+    }
+    .btn-mobile-unlock {
+      background: rgba(0, 230, 118, 0.15);
+      border: 1px solid rgba(0, 230, 118, 0.4);
+      color: #00e676;
+      font-weight: 700;
+      font-size: 11px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+    }
+    .btn-mobile-unlock:hover {
+      background: rgba(0, 230, 118, 0.25);
+      border-color: #00e676;
+      box-shadow: 0 0 10px rgba(0, 230, 118, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <!-- Lock & YouTube Subscription Ad Screen -->
+  <div id="lockOverlay" class="lock-overlay">
+    <div class="lock-card">
+      <div class="lock-badge-top">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="#ff0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        <span>YouTube Creator Access</span>
+      </div>
+      
+      <div class="channel-avatar-wrap">
+        <img src="icons/dipeshkyd_logo.jpg" alt="Dipeshkyd" class="channel-avatar-img">
+      </div>
+
+      <div class="channel-title">
+        <span>Dipeshkyd</span>
+        <span class="verified-badge" title="Verified Creator">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="#aaaaaa"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.5 14.5l-4-4 1.4-1.4 2.6 2.6 6.6-6.6 1.4 1.4-8 8z"/></svg>
+        </span>
+      </div>
+      <div class="channel-handle">@dipeshkyd</div>
+
+      <div class="lock-pitch">
+        Subscribe to our official YouTube channel <strong>@dipeshkyd</strong> to permanently unlock 100% free access to DeepX Flow Bridge & Antigravity AI generation.
+      </div>
+
+      <div class="perks-box">
+        <div class="perk-row"><span style="color: #ff0000; font-size: 10px;">▶</span> <span>100% Free Veo 3.1 & Imagen 3 Generation</span></div>
+        <div class="perk-row"><span style="color: #ff0000; font-size: 10px;">⚡</span> <span>Antigravity AI Agent Parallel Batching</span></div>
+        <div class="perk-row"><span style="color: #ff0000; font-size: 10px;">🎬</span> <span>Character Continuity & Storyboard Chaining</span></div>
+      </div>
+
+      <!-- Live Auto-Detection Status Box with Green Tick -->
+      <div id="subStatusBox" class="sub-status-box">
+        <div class="sub-status-left">
+          <div id="subStatusTick" class="sub-status-tick">🔒</div>
+          <div>
+            <div id="subStatusTitle" class="sub-status-title">Subscription Required</div>
+            <div id="subStatusSub" class="sub-status-sub">Subscribe to @dipeshkyd to unlock</div>
+          </div>
+        </div>
+        <button id="btnAutoCheck" class="btn-auto-refresh" title="Auto-Detect from open YouTube tabs">
+          <span>🔄 Auto-Check</span>
+        </button>
+      </div>
+
+      <button id="btnSubscribeUnlock" class="btn-subscribe-action dim">
+        <svg viewBox="0 0 24 24" fill="#ffffff"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        <span id="btnActionText">Subscribe to Unlock</span>
+      </button>
+
+      <!-- Mobile YouTube App Confirm Option -->
+      <div id="mobileAppConfirmRow" class="mobile-app-confirm-row" style="display: none;">
+        <span style="font-size: 11px; color: #aaaaaa;">Subscribed via YouTube Mobile App?</span>
+        <button id="btnMobileAppUnlock" class="btn-mobile-unlock">
+          <span>✔ Tap to Unlock</span>
+        </button>
+      </div>
+
+      <div class="lock-footer-note" id="lockFooterNote">
+        🔒 Real-time detection on YouTube • One-time permanent unlock
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Application Container (Hidden while locked) -->
+  <div id="appContainer" class="app-container">
+  <div class="header">
+    <div class="brand">
+      <img src="icons/icon48.png" alt="DeepX Logo">
+      <div>
+        <h1>DeepX Flow</h1>
+        <div style="font-size: 10px; color: var(--text-muted);">Antigravity Bridge</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 6px;">
+      <a href="https://www.youtube.com/@dipeshkyd" target="_blank" id="sponsorBadge" class="sponsor-badge" title="Official Creator Channel: @dipeshkyd">
+        <span>▶</span> @dipeshkyd 🔓
+      </a>
+      <div id="connectionBadge" class="badge disconnected">Disconnected</div>
+    </div>
+  </div>
+
+  <div class="card" id="powerCard" style="border: 1px solid var(--accent); background: linear-gradient(180deg, #18233c 0%, #101626 100%);">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px;">Extension Power</div>
+        <div id="powerStatusText" style="font-size: 13px; font-weight: 700; margin-top: 2px;">ON (Active)</div>
+      </div>
+      <button id="btnTogglePower" class="btn-power btn-power-on">Turn OFF</button>
+    </div>
+    <div id="powerHintText" style="font-size: 11px; color: var(--text-muted); margin-top: 8px; line-height: 1.4;">
+      Manual Power Control: DeepX stays ON until you manually turn it OFF.
+    </div>
+  </div>
+
+  <!-- Antigravity MCP Hub -->
+  <div class="card" style="border: 1px solid rgba(0, 229, 255, 0.4); background: linear-gradient(180deg, #182744 0%, #0d1627 100%);">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+      <div style="font-size: 10.5px; text-transform: uppercase; color: var(--accent); font-weight: 800; letter-spacing: 0.5px; display: flex; align-items: center; gap: 5px;">
+        <span>⚡</span> Antigravity MCP Hub
+      </div>
+      <span id="mcpHubBadge" class="badge" style="background: rgba(0, 229, 255, 0.15); color: var(--accent); font-size: 8.5px; padding: 1px 6px;">PROMPTS &amp; LAUNCH</span>
+    </div>
+
+    <button id="btnOpenAntigravity" class="btn-master" style="margin-top: 0; margin-bottom: 8px; background: linear-gradient(135deg, #00e5ff 0%, #00b0ff 100%); color: #000; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      <span>🚀</span> Open Antigravity &amp; Paste Prompt
+    </button>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 8px;">
+      <button id="btnCopyConnectPrompt" class="btn-secondary" style="font-size: 9.5px; padding: 6px 4px; display: flex; align-items: center; justify-content: center; gap: 4px; background: rgba(0, 230, 118, 0.14); color: var(--success); border-color: rgba(0, 230, 118, 0.45); font-weight: 700;" title="Copy 1-click connect prompt for Antigravity">
+        <span>⚡</span> Copy Connect Prompt
+      </button>
+      <button id="btnCopyDisconnectPrompt" class="btn-secondary" style="font-size: 9.5px; padding: 6px 4px; display: flex; align-items: center; justify-content: center; gap: 4px; background: rgba(255, 82, 82, 0.14); color: var(--danger); border-color: rgba(255, 82, 82, 0.45); font-weight: 700;" title="Disconnect from Antigravity MCP Server">
+        <span>🔌</span> Disconnect MCP
+      </button>
+    </div>
+
+    <button id="btnCopyMasterPrompt" class="btn-secondary" style="width: 100%; font-size: 9px; padding: 5px 8px; display: flex; align-items: center; justify-content: center; gap: 5px; color: var(--text-muted); border-color: rgba(255, 255, 255, 0.12);" title="Copy full master setup instructions with rules &amp; skills">
+      <span>📋</span> Copy Full Setup &amp; Directorial Prompt
+    </button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Antigravity MCP Bridge</div>
+    <div class="status-row">
+      <span class="status-label">Bridge Host:</span>
+      <span id="activeHostVal" class="status-val">ws://127.0.0.1:8792</span>
+    </div>
+    <div class="input-group">
+      <input type="text" id="customHostInput" placeholder="127.0.0.1:8792">
+      <button id="btnSaveHost" class="btn-secondary">Set</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Google Flow Session</div>
+    <div class="status-row">
+      <span class="status-label">Flow Tab:</span>
+      <span id="tabStatusVal" class="status-val" style="color: var(--danger);">Not Attached</span>
+    </div>
+    <div class="status-row" id="rowActiveProject" style="cursor: pointer;" title="Click to refresh Project Name & ID from Google Flow">
+      <span class="status-label">Active Project 🔄:</span>
+      <span id="projectVal" class="status-val" style="color: var(--text-muted); font-size: 11px;">None</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">Auth Session:</span>
+      <span id="authStatusVal" class="status-val" style="color: var(--danger);">No Token</span>
+    </div>
+    <div class="quick-links">
+      <a href="https://flow.google.com" target="_blank">Open flow.google.com ↗</a>
+      <a href="#" id="linkOpenSidePanel">Open Side Panel ↗</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">
+      <span>Parallel Batch Queue</span>
+      <span id="batchCountBadge" class="badge">0 Active</span>
+    </div>
+    <div style="font-size: 11px; color: var(--text-muted);">
+      Ready for multi-image (100+) & back-to-back video generation triggered by Antigravity.
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Master Prompt Copied!</div>
+
+    </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

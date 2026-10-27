@@ -1,7 +1,7 @@
 # 🌊 Google Flow — AI Video & Creative Prompt Studio
 
 > **Consolidated, Categorized & 100% Lightweight Markdown Prompt Studio**  
-> Organized cleanly into 8 dedicated creative subfolders with 1-click GitHub Copy buttons on every prompt!
+> Organized cleanly into 9 dedicated creative subfolders with 1-click GitHub Copy buttons on every prompt!
 
 ---
 
@@ -60,6 +60,13 @@
 All prompts are formatted inside standard fenced code blocks:
 - On GitHub (mobile and desktop), simply click the **Copy icon** at the top right of each prompt box.
 - Paste directly into Midjourney, Flux, Google Flow, Kling, Veo, or Sora!
+
+### 9. ⚡ [DeepX Google Flow Automation](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
+- **[DeepX Flow Bridge — AI Cinematic Automation Engine](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Autonomous engine connecting Antigravity Coding Agents directly to Google Flow (Veo 3.1 & Imagen 3) with character consistency, universal reference lock, scene continuity, 100+ prompt batch dispatch, and 23 MCP tools.
+- **[DeepX Chrome Extension (Unpacked)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧩%20DeepX%20Chrome%20Extension/)**: Ready-to-load browser bridge for Chrome, Brave, Edge & Kiwi Browser.
+- **[DeepX Standalone MCP Server](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🔌%20DeepX%20MCP%20Server/)**: Standard Model Context Protocol server for Antigravity AI agents.
+- **[DeepX Autonomous AI Skills](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧠%20DeepX%20AI%20Skills/)**: 5 pre-trained directorial skills (Rapid Flow, Storyboard Director, 2D Spy Documentary, Video Matting, 8-Bit Retro).
+- **[1-Click Windows Setup Runner](📁%20⚡%20DeepX%20Google%20Flow%20Automation/⚡%20Install%20&%20Setup%20DeepX%20on%20Windows.bat)**: Automated batch installer for Antigravity MCP config and skills.
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*

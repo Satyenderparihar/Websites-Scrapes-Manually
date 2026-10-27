@@ -1,0 +1,1 @@
+{"name":"deepx_rename_project","description":"Rename the active Google Flow project title.","parameters":{"$schema":"http://json-schema.org/draft-07/schema#","additionalProperties":false,"properties":{"new_name":{"description":"New title for the Google Flow project.","type":"string"}},"required":["new_name"],"type":"object"}}

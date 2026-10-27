@@ -1,0 +1,1 @@
+{"name":"deepx_cancel_job","description":"Cancel an active batch generation job by batch ID.","parameters":{"$schema":"http://json-schema.org/draft-07/schema#","additionalProperties":false,"properties":{"batch_id":{"description":"Batch ID to cancel.","type":"string"}},"required":["batch_id"],"type":"object"}}
