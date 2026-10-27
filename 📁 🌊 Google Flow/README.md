@@ -20,6 +20,8 @@
 ### 3. 🚀 [Product VFX & Video Commercials](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/)
 - **[20 Viral VFX & Product Commercial Prompts](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%2020_VFX_Product_Video_Prompts.md)**: 20 high-converting concepts (Giant Rooftop Model, Liquid Splash, Luxury Car, Watch VFX) with Image and Video prompts.
 - **[55 One-Word ADS Codes Shortcuts](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%2055_One_Word_ADS_Codes_Shortcuts.md)**: All 55 prompt shorthands across 6 categories with Rude Popcorn Studio guide & combo stacking.
+- **[Google Flow: 4 Camera Commands for Shop & Storefront Ads](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%20Google_Flow_Shop_Storefront_Cinematic_Video_Commands_Guide.md)**: 4 viral slash commands (`/city fpv to storefront`, `/mannequin to runway`, `/hyperlapse orbit`, `/fpv fly-through`) for cinematic storefront video ads.
+- **[ChatGPT Shoes AdCreative to Google Flow Commercial](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%20ChatGPT_Shoes_AdCreative_to_Google_Flow_Commercial_Guide.md)**: Sneaker photo into a 5-panel storyboard via `/adcreative /storyboard` and 3D commercial video in Flow using 7 slash codes.
 - **[Product Video Commands Directory (592 Commands)](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%20Product_Video_Commands_Directory_592.md)**: Massive dictionary of 592 ready video commands across 36 categories.
 
 ### 4. 📱 [UGC Video Ads & Storyboards](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/)
