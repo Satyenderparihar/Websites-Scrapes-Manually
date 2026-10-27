@@ -34,6 +34,7 @@
 
 ### 7. ✨ [Indian AI Influencers Library](📁%20✨%20Indian%20AI%20Influencers%20Library/)
 - **[100 Unique Indian AI Influencer Image-Gen Prompts](📁%20✨%20Indian%20AI%20Influencers%20Library/📝%20100_Unique_Indian_AI_Influencer_Prompts.md)**: 100 distinct persona schemas with quick specs, camera angles, and ready-to-copy prompts with negative prompts.
+- **[How to Create an AI Influencer That Actually Gets Brand Deals ! (Kriti Full Guide)](📁%20✨%20Indian%20AI%20Influencers%20Library/📝%20AI_Influencer_Brand_Deals_Google_Flow_Kriti_Guide.md)**: Full ChatGPT + Google Flow masterclass tutorial with video chapters, Character Reference Sheet (360°), Google Flow Video Director script prompt, outfit transfer, and brand outreach blueprint.
 
 ### 8. 📚 [AI Prompts Directory & Shortcuts](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/)
 - **[AI Image & Text Prompts Directory (525+ Commands)](📁%20📚%20AI%20Prompts%20Directory%20&%20Shortcuts/📝%20AI_Image_and_Text_Prompts_Quick_Guide.md)**: 525+ categorized prompt shortcuts with easy Hindi meanings and use cases.
