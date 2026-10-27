@@ -1,11 +1,16 @@
 # 👗 ChatGPT: Dress Image to Video Edit Storyboard
 
+![Status](https://img.shields.io/badge/Status-Verified-success)
+![Platform](https://img.shields.io/badge/Tools-ChatGPT%20%2B%20Flow-blue)
+![Format](https://img.shields.io/badge/Format-1--Click%20Copy%20Prompts-green)
+
 > **Workflow**: Dress Image ➔ ChatGPT Storyboard (10 Cuts, Every 1 Second) ➔ Google Flow  
+> **1-Click Copy**: Har ek prompt box ke top-right par GitHub ka **Copy button** hai! Click karke direct copy karein.  
 > **Category**: [📁 🤖 ChatGPT](../📁%20🤖%20ChatGPT/) | Full Guide: [Google Flow UGC Storyboard Guide](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)
 
 ---
 
-## 📸 Step-by-Step with Real Screenshots
+## 📸 Step-by-Step with Real Screenshots & Prompts
 
 ### 🔹 Step 1: Upload Dress Photo
 ChatGPT app open karke apni dress ki photo attach karein:
@@ -14,13 +19,35 @@ ChatGPT app open karke apni dress ki photo attach karein:
 
 ---
 
-### 🔹 Step 2: Storyboard Prompt Type Karein
-Photo ke sath ye exact prompt enter karein:
+### 🔹 Step 2: Storyboard Prompts (1-Click Copy)
+
+#### 📋 Ready-to-Copy Prompt 1: Quick Storyboard Prompt (Tutorial Default)
+```text
+Create a story board image for my video edit cuts every second for Photoshop
+```
 
 ![Type Prompt](🖼️%20Video_Screenshots/02_ChatGPT_Prompt_Typed.jpg)
 
+---
+
+#### 📋 Ready-to-Copy Prompt 2: Master Detailed Storyboard Grid Prompt
 ```text
-Create a story board image for my video edit cuts every second for Photoshop
+Create a detailed 10-panel video edit storyboard image for my video edit cuts every second for Photoshop based on the uploaded dress image.
+
+Header: VIDEO EDIT STORYBOARD
+Specs: 10 SECONDS | 10 CUTS | EVERY 1 SECONDS | Ps PHOTOSHOP EDIT
+
+Shot Breakdown:
+- Shot 1 (0-1s): Full Dress [Intro] - Establishing wide view of dress on mannequin in an opulent palace room with warm ambient lighting
+- Shot 2 (1-2s): Upper Body Close-up - Bodice embroidery, jacket lapels, and neckline fit
+- Shot 3 (2-3s): Sleeve Detail - Macro focus on intricate sleeve floral zari threadwork and cuff embroidery
+- Shot 4 (3-4s): Skirt Flare - Pleated skirt flare and bottom hem border details
+- Shot 5 (4-5s): Fabric Flow - Silhouette profile and soft fabric movement
+- Shot 6 (5-6s): Neckline & Cut - Detailed tailored cut and neckline styling
+- Shot 7 (6-7s): Embroidered Pattern Detail - Shimmering sequins and delicate craftsmanship
+- Shot 8 (7-8s): Angled View - Dynamic 45-degree angle luxury showcase
+- Shot 9 (8-9s): Close-up Texture - Tactile micro-texture of fabric under soft lighting
+- Shot 10 (9-10s): Final Full View - Grand final complete outfit glamour reveal
 ```
 
 ---
@@ -48,6 +75,7 @@ ChatGPT 10-panel grid image generate karega:
 
 Google Flow open karke storyboard image upload karein aur prompt dalein:
 
+### 📋 Ready-to-Copy Google Flow Video Prompt:
 ```text
 Create a ugc cinematic video for professional video according to this story board sequence
 ```
@@ -61,4 +89,4 @@ Create a ugc cinematic video for professional video according to this story boar
 
 ---
 
-*Direct step-by-step notes and video screenshots curated for Satyender Parihar's Master Repository.*
+*Direct step-by-step notes, 1-click copy prompts, and video screenshots curated for Satyender Parihar's Master Repository.*
