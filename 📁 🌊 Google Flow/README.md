@@ -26,7 +26,6 @@
 - **[Product Video Commands Directory (592 Commands)](📁%20🚀%20Product%20VFX%20&%20Video%20Commercials/📝%20Product_Video_Commands_Directory_592.md)**: Massive dictionary of 592 ready video commands across 36 categories.
 
 ### 4. 📱 [UGC Video Ads & Storyboards](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/)
-- **[ChatGPT Storyboard to Google Flow UGC Cinematic Video Ads](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)**: Turn any dress/product photo into a 10-panel 1-second-cut storyboard in ChatGPT and generate high-converting 10s cinematic UGC video ads in Google Flow.
 - **[Gemini UGC Ad Storyboard Starter Guide](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20Create_UGC_Ads_Gemini_Storyboard_Guide.md)**: 6-frame UGC storyboard workflow with direct Google Flow video prompt.
 - **[Premium AI Prompts Collection (UGC & Commercials)](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20Premium_AI_Prompts_Collection_UGC_Ads.md)**: Complete 1,584-paragraph suite covering product image gen, influencer prompts, Google Omni JSON generator, and scene storyboards.
 - **[AI Ads Generator Master Prompt (Ritika)](📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20Master_Prompt_AI_Ads_Generator_Ritika.md)**: Step-by-step AI video ad director framework with YouTube video guide.
