@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👗 ChatGPT Storyboard to Google Flow UGC Cinematic Video Ad</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #151c2c;
+      --accent: #6366f1;
+      --accent-glow: rgba(99, 102, 241, 0.35);
+      --cyan: #06b6d4;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border: #242f47;
+      --code-bg: #0e1524;
+      --success: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 760px;
+      width: 100%;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      background: rgba(99, 102, 241, 0.15);
+      color: #818cf8;
+      border: 1px solid var(--accent-glow);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #ffffff 40%, #a5b4fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    /* Video Player Card */
+    .video-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      margin-bottom: 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .video-header {
+      padding: 12px 18px;
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--cyan);
+    }
+
+    .video-wrapper {
+      position: relative;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    video {
+      width: 100%;
+      max-height: 520px;
+      display: block;
+      outline: none;
+    }
+
+    /* Step Cards */
+    .step-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 22px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .step-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #fff;
+    }
+
+    .step-num {
+      width: 28px;
+      height: 28px;
+      background: var(--accent);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .step-desc {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    /* Prompt Box with Copy Button */
+    .prompt-box {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      position: relative;
+    }
+
+    .prompt-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #818cf8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .prompt-text {
+      color: #e2e8f0;
+      font-size: 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      word-break: break-word;
+      line-height: 1.5;
+    }
+
+    .copy-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      margin-top: 10px;
+    }
+
+    .copy-btn:hover {
+      background: #4f46e5;
+      transform: translateY(-1px);
+    }
+
+    .copy-btn.copied {
+      background: var(--success);
+    }
+
+    /* Screenshots Gallery */
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    @media (min-width: 600px) {
+      .screenshot-grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .screenshot-card {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .screenshot-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+
+    .screenshot-card img:hover {
+      transform: scale(1.02);
+    }
+
+    .screenshot-caption {
+      padding: 8px 10px;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    /* Settings Table */
+    .settings-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    @media (min-width: 600px) {
+      .settings-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .setting-item {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+
+    .setting-name {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .setting-val {
+      font-size: 14px;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 0 10px;
+      color: var(--text-muted);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <div class="badge">🎬 Video Tutorial & Workflow</div>
+      <h1>ChatGPT Storyboard se Google Flow UGC Video Ad</h1>
+      <p class="subtitle">Dress Image ➔ 10-Cut Storyboard ➔ 10s Cinematic Video Ad</p>
+    </header>
+
+    <!-- Native Blog Video Player -->
+    <div class="video-card">
+      <div class="video-header">
+        <span>▶️ Video Tutorial (Play with Sound & Controls)</span>
+        <span>1080p • 25s</span>
+      </div>
+      <div class="video-wrapper">
+        <video controls poster="🖼️ Video_Screenshots/06_Google_Flow_Video_Output_Wide.jpg" preload="metadata">
+          <source src="🎬 Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Step 1 Card -->
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-num">1</span>
+        <span>ChatGPT Me Storyboard Banayein</span>
+      </div>
+      <p class="step-desc">ChatGPT app open karein, apni dress ki photo upload karein aur storyboard prompt run karein:</p>
+
+      <div class="screenshot-grid screenshot-grid-2">
+        <div class="screenshot-card">
+          <img src="🖼️ Video_Screenshots/01_ChatGPT_Upload_Dress.jpg" alt="Upload Dress Photo">
+          <div class="screenshot-caption">1. Dress Photo Upload</div>
+        </div>
+        <div class="screenshot-card">
+          <img src="🖼️ Video_Screenshots/02_ChatGPT_Prompt_Typed.jpg" alt="Type Prompt">
+          <div class="screenshot-caption">2. Prompt Enter Karein</div>
+        </div>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">
+          <span>📋 ChatGPT Prompt</span>
+        </div>
+        <div class="prompt-text" id="prompt1">Create a story board image for my video edit cuts every second for Photoshop</div>
+        <button class="copy-btn" onclick="copyPrompt('prompt1', this)">
+          📋 Copy Prompt
+        </button>
+      </div>
+
+      <div class="screenshot-card" style="margin-top: 14px;">
+        <img src="🖼️ Video_Screenshots/03_ChatGPT_Generated_Storyboard.jpg" alt="Generated 10-Panel Storyboard">
+        <div class="screenshot-caption">3. ChatGPT Generated 10-Panel Video Edit Storyboard (1 cut every second)</div>
+      </div>
+    </div>
+
+    <!-- Step 2 Card -->
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-num">2</span>
+        <span>Google Flow Me UGC Video Banayein</span>
+      </div>
+      <p class="step-desc">Google Flow open karke storyboard image upload karein aur UGC video director prompt run karein:</p>
+
+      <div class="screenshot-card">
+        <img src="🖼️ Video_Screenshots/04_Google_Flow_Upload_And_Prompt.jpg" alt="Google Flow Prompt">
+        <div class="screenshot-caption">Storyboard Attach Karke Prompt Enter Karein</div>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">
+          <span>📋 Google Flow Prompt</span>
+        </div>
+        <div class="prompt-text" id="prompt2">Create a ugc cinematic video for professional video according to this story board sequence</div>
+        <button class="copy-btn" onclick="copyPrompt('prompt2', this)">
+          📋 Copy Prompt
+        </button>
+      </div>
+
+      <div class="screenshot-card" style="margin-top: 14px;">
+        <img src="🖼️ Video_Screenshots/05_Google_Flow_Settings.jpg" alt="Google Flow Settings">
+        <div class="screenshot-caption">Exact Video Settings Selection</div>
+      </div>
+
+      <!-- Settings Grid -->
+      <div class="settings-grid">
+        <div class="setting-item">
+          <div class="setting-name">Mode</div>
+          <div class="setting-val">Video</div>
+        </div>
+        <div class="setting-item">
+          <div class="setting-name">Model</div>
+          <div class="setting-val">Omni 1.1 Flash</div>
+        </div>
+        <div class="setting-item">
+          <div class="setting-name">Aspect Ratio</div>
+          <div class="setting-val">9:16 (Reels/Shorts)</div>
+        </div>
+        <div class="setting-item">
+          <div class="setting-name">Resolution</div>
+          <div class="setting-val">720p</div>
+        </div>
+        <div class="setting-item">
+          <div class="setting-name">Duration</div>
+          <div class="setting-val">10s (10 cuts)</div>
+        </div>
+        <div class="setting-item">
+          <div class="setting-name">Credits</div>
+          <div class="setting-val">16 credits</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: Final Output -->
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-num">✨</span>
+        <span>Final Cinematic UGC Video Output</span>
+      </div>
+      <p class="step-desc">Google Flow 10-panel storyboard ko 1-1 second par match-cuts ke sath seamless animate kar deta hai:</p>
+
+      <div class="screenshot-card">
+        <img src="🖼️ Video_Screenshots/06_Google_Flow_Video_Output_Wide.jpg" alt="Final Video Output">
+        <div class="screenshot-caption">Seamless 10-Second Cinematic Fashion Video Ad</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Curated with ❤️ for Satyender Parihar's Master Repository & Google Flow Video Studio.
+    </footer>
+
+  </div>
+
+  <script>
+    function copyPrompt(id, btn) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '✅ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>

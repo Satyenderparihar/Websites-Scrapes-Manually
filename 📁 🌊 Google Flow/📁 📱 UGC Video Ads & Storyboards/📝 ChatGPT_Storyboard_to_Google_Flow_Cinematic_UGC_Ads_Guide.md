@@ -1,13 +1,17 @@
 # 👗 ChatGPT Storyboard to Google Flow UGC Video Ad
 
 > **Workflow**: Dress Photo ➔ ChatGPT (Storyboard) ➔ Google Flow (10s Video)  
+> **Interactive Blog**: [🌐 Open Full Interactive Blog View (Web Player & 1-Click Copy)](📱%20UGC_Video_Ads_Guide_Blog.html)  
 > **Category**: [📁 📱 UGC Video Ads & Storyboards](../📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/)
 
 ---
 
-## 🎬 Video Tutorial (Direct Inline Play)
+## 🎬 Video Tutorial (Blog Player with Sound & Controls)
 
-![ChatGPT to Google Flow UGC Ads Video Tutorial](🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.gif)
+<video controls width="100%" poster="🖼️ Video_Screenshots/06_Google_Flow_Video_Output_Wide.jpg" preload="metadata">
+  <source src="🎬 Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 

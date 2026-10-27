@@ -1,13 +1,17 @@
 # 👗 ChatGPT: Dress Image to Video Edit Storyboard
 
 > **Workflow**: Dress Photo ➔ ChatGPT Storyboard (10 Cuts, Every 1 Second) ➔ Google Flow  
+> **Interactive Blog**: [🌐 Open Full Interactive Blog View](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📱%20UGC_Video_Ads_Guide_Blog.html)  
 > **Category**: [📁 🤖 ChatGPT](../📁%20🤖%20ChatGPT/) | Full Guide: [Google Flow UGC Storyboard Guide](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/📝%20ChatGPT_Storyboard_to_Google_Flow_Cinematic_UGC_Ads_Guide.md)
 
 ---
 
-## 🎬 Video Tutorial (Direct Inline Play)
+## 🎬 Video Tutorial (Blog Player with Sound & Controls)
 
-![ChatGPT to Google Flow UGC Ads Video Tutorial](../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.gif)
+<video controls width="100%" poster="🖼️ Video_Screenshots/03_ChatGPT_Generated_Storyboard.jpg" preload="metadata">
+  <source src="../📁%20🌊%20Google%20Flow/📁%20📱%20UGC%20Video%20Ads%20&%20Storyboards/🎬%20Video_Tutorial/ChatGPT_to_Google_Flow_UGC_Ads_Tutorial.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
