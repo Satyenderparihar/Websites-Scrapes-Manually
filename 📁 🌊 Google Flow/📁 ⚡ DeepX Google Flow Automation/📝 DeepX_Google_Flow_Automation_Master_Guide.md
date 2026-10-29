@@ -5,10 +5,17 @@
 > **🔥 Stop Clicking. Start Creating. Welcome to the Future.**  
 > **👑 BUILT BY [@dipeshkyd](https://youtube.com/@dipeshkyd)**  
 
+[![1 Click Complete AI Video](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+
+> 📺 **Watch Masterclass on YouTube**: [1 Click = Complete AI Video 🎬 | FREE & Automated with Google Flow + Antigravity + DeepX Extension](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 👤 **Channel**: Dipeshkyd  
+> 📦 **Workflow Package**: `deepx-video-studio.zip` + DeepX Extension + Google Flow MCP Bridge  
+
 ---
 
 > ### 📥 1-Click Direct Download Links:
 > - ⚡ **[Direct Download DeepX Extension (.zip) from GitHub](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip)** *(Instant 1-Click Browser Download — Fast & Free)*
+> - 📦 **[DeepX Video Studio Skills ZIP (`deepx-video-studio.zip`)](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116)** *(Official WhatsApp Post #116)*
 > - ☁️ **[Google Drive Official Cloud Mirror](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)**
 > - 💾 **[Direct Google Drive Zip File](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk)**
 > - 📦 **[View Local Bundle in GitHub Repo](📦%20DeepX_Extension_Full_Bundle.zip)**
@@ -16,14 +23,48 @@
 ---
 
 ## 📑 Table of Contents
-1. [📥 Direct Download Options](#-1-click-direct-download-links)
-2. [Core Features in Detail](#-core-features-in-detail)
-3. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
-4. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
-5. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
-6. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
-7. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-8. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+1. [🎥 Official Video Tutorials & Walkthroughs](#-official-video-tutorials--walkthroughs)
+2. [📥 Direct Download Options](#-1-click-direct-download-links)
+3. [Core Features in Detail](#-core-features-in-detail)
+4. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
+5. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
+6. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
+7. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
+8. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
+9. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+
+---
+
+## 🎥 Official Video Tutorials & Walkthroughs
+
+### 🎬 Video 1 (Masterclass): 1 Click = Complete AI Video Studio (Latest)
+[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/hqdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+
+**YouTube Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)  
+**Duration**: 9:55 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+Complete hands-free workflow using `deepx-video-studio.zip`, real-time social media trend scouting (YouTube, X, Reddit), automated voiceover integration (Cartesia AI 20k free credits), character consistency locking, and multi-scene batch video generation.
+
+| Timestamp | Chapter | What's Covered |
+| :--- | :--- | :--- |
+| **0:00** | **Overview: Zero-Prompt AI Video Creation** | How zero-manual prompting produces full cinematic stories |
+| **0:45** | **How It Works (Architecture)** | Antigravity + Google Flow + DeepX MCP Bridge workflow |
+| **1:30** | **What is deepx-video-studio.zip & How to Load It** | Pre-trained automation skill package & setup |
+| **2:50** | **Setting Up DeepX Extension in Chrome / WebView** | Browser bridge activation and permission granting |
+| **4:15** | **Connecting DeepX Video Studio ZIP File** | Skill injection into Antigravity context |
+| **5:45** | **LIVE DEMO: 1 Prompt to Complete Multi-Scene Video** | Single-prompt command generating multi-shot scenes |
+| **6:20** | **100% Consistent Character Reference Locking** | Locking face, wardrobe, and style ID across all clips |
+| **7:50** | **Batch Image-to-Video Generation on Autopilot** | Hands-free image queue to video animation pipeline |
+| **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
+| **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
+
+---
+
+### 💻 Video 2 (Foundation): DeepX Extension Installation & Laptop Setup
+[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/hqdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+
+**YouTube Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)  
+**Duration**: 6:00 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extension activation, Turbo Mode configuration in Antigravity, and first live 2D animated story generation.
 
 ---
 
