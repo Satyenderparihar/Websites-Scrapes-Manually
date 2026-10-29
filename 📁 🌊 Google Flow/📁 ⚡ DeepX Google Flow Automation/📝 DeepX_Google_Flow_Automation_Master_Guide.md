@@ -5,11 +5,12 @@
 > **🔥 Stop Clicking. Start Creating. Welcome to the Future.**  
 > **👑 BUILT BY [@dipeshkyd](https://youtube.com/@dipeshkyd)**  
 
-[![1 Click Complete AI Video](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+[![DeepX Part 1 Setup](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
-> 📺 **Watch Masterclass on YouTube**: [1 Click = Complete AI Video 🎬 | FREE & Automated with Google Flow + Antigravity + DeepX Extension](https://youtu.be/Eg--8z9jz9k) (9:55)  
-> 👤 **Channel**: Dipeshkyd  
-> 📦 **Workflow Package**: `deepx-video-studio.zip` + DeepX Extension + Google Flow MCP Bridge  
+> 📺 **Part 1 (Setup Guide)**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
+> 📺 **Part 2 (Masterclass)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 👤 **Channel**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+> 📦 **Workflow Package**: DeepX Chrome Extension + `deepx-video-studio.zip` + Google Flow MCP Bridge  
 
 ---
 
@@ -24,6 +25,8 @@
 
 ## 📑 Table of Contents
 1. [🎥 Official Video Tutorials & Walkthroughs](#-official-video-tutorials--walkthroughs)
+   - [💻 Part 1: DeepX Extension Installation & Laptop Setup](#-part-1-deepx-extension-installation--laptop-setup-foundation)
+   - [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
 2. [📥 Direct Download Options](#-1-click-direct-download-links)
 3. [Core Features in Detail](#-core-features-in-detail)
 4. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
@@ -37,8 +40,31 @@
 
 ## 🎥 Official Video Tutorials & Walkthroughs
 
-### 🎬 Video 1 (Masterclass): 1 Click = Complete AI Video Studio (Latest)
-[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/hqdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+### 💻 Part 1: DeepX Extension Installation & Laptop Setup (Foundation)
+[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+
+**YouTube Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)  
+**Duration**: 6:00 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extension activation, Turbo Mode configuration in Antigravity, and first live 2D animated story generation.
+
+| Timestamp | Chapter | What's Covered |
+| :--- | :--- | :--- |
+| **0:00** | **Hook: Prompting Ka Daur Khatam** | Why manual copy-pasting prompts is obsolete |
+| **0:20** | **Live Result: "Sachchai ki Jeet" Story** | 100% automated 2D animated story demonstration |
+| **1:15** | **Architecture: Antigravity + DeepX + Flow** | How MCP bridge connects agent to browser DOM |
+| **2:00** | **DeepX Extension Installation** | Download ZIP -> Extract -> Load Unpacked in Chrome |
+| **2:45** | **Chrome Developer Mode & Pinning** | Activating dev settings & pinning extension icon |
+| **3:15** | **Subscribe to Unlock Feature** | 1-time channel unlock flow |
+| **3:45** | **Antigravity Settings Configuration** | Turbo Mode + Always Proceed auto-approval settings |
+| **4:15** | **LIVE DEMO: Batch Image Generation** | Parallel queueing of visual prompts |
+| **5:00** | **Batch Video Generation & Rapid Handoff** | Auto-animating still images sequentially |
+| **5:45** | **Character Reference Lock LIVE** | Locking facial features and lighting continuity |
+| **6:00** | **Final Story Output** | Zero-intervention autonomous output showcase |
+
+---
+
+### 🎬 Part 2: 1 Click = Complete AI Video Studio (Autopilot Masterclass)
+[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
 
 **YouTube Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)  
 **Duration**: 9:55 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
@@ -56,15 +82,6 @@ Complete hands-free workflow using `deepx-video-studio.zip`, real-time social me
 | **7:50** | **Batch Image-to-Video Generation on Autopilot** | Hands-free image queue to video animation pipeline |
 | **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
 | **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
-
----
-
-### 💻 Video 2 (Foundation): DeepX Extension Installation & Laptop Setup
-[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/hqdefault.jpg)](https://youtu.be/iHoS37EtfHI)
-
-**YouTube Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)  
-**Duration**: 6:00 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extension activation, Turbo Mode configuration in Antigravity, and first live 2D animated story generation.
 
 ---
 

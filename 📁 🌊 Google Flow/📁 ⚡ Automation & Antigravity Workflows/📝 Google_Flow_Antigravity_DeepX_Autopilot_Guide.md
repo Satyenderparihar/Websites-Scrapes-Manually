@@ -1,9 +1,10 @@
-# 🎬 1 Click = Complete AI Video | Google Flow + Antigravity + DeepX Extension (Full Autopilot Guide)
+# 🎬 Google Flow + Antigravity: DEEPX Cinematic Automation Engine (Complete Setup & Autopilot Guide)
 
-[![Watch DeepX 1-Click Video](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+[![Watch Part 1 Setup](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
-> 📺 **Watch Masterclass on YouTube**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k) (9:55)  
-> 👤 **Channel**: Dipeshkyd  
+> 📺 **Part 1 (Setup Guide)**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI) (6:00)  
+> 📺 **Part 2 (Masterclass)**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 👤 **Channel**: [@dipeshkyd](https://www.youtube.com/@Dipeshkyd)  
 > 🛠️ **Tools**: Google Antigravity + Google Flow + DeepX Extension + deepx-video-studio.zip  
 > 📁 **Category**: [📁 ⚡ Automation & Antigravity Workflows](../📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)  
 
@@ -23,30 +24,8 @@
 
 ## 📌 Part 1 & Part 2 Video Tutorials
 
-### 🎥 Part 2: 1 Click = Complete AI Video Studio (Latest Masterclass)
-[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/hqdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
-
-**YouTube Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)  
-**Duration**: 9:55  
-Complete hands-free workflow using `deepx-video-studio.zip`, trend discovery from social media, automated voiceover integration, character locking, and multi-scene batch video generation.
-
-| Timestamp | Chapter | What's Covered |
-| :--- | :--- | :--- |
-| **0:00** | **Overview: Zero-Prompt AI Video Creation** | How zero-manual prompting produces full cinematic stories |
-| **0:45** | **How It Works (Architecture)** | Antigravity + Google Flow + DeepX MCP Bridge workflow |
-| **1:30** | **What is deepx-video-studio.zip & How to Load It** | Pre-trained automation skill package & setup |
-| **2:50** | **Setting Up DeepX Extension in Chrome / WebView** | Browser bridge activation and permission granting |
-| **4:15** | **Connecting DeepX Video Studio ZIP File** | Skill injection into Antigravity context |
-| **5:45** | **LIVE DEMO: 1 Prompt to Complete Multi-Scene Video** | Single-prompt command generating multi-shot scenes |
-| **6:20** | **100% Consistent Character Reference Locking** | Locking face, wardrobe, and style ID across all clips |
-| **7:50** | **Batch Image-to-Video Generation on Autopilot** | Hands-free image queue to video animation pipeline |
-| **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
-| **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
-
----
-
-### 🎥 Part 1: DeepX Extension Installation & Laptop Setup
-[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/hqdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+### 🎥 Part 1: DeepX Extension Installation & Laptop Setup (Foundation Guide)
+[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
 **YouTube Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)  
 **Duration**: 6:00  
@@ -65,6 +44,28 @@ Initial setup guide covering Developer Mode, unpacked extension loading, Antigra
 | **5:00** | **Batch Video Generation & Rapid Handoff** | Auto-animating still images sequentially |
 | **5:45** | **Character Reference Lock LIVE** | Locking facial features and lighting continuity |
 | **6:00** | **Final Story Output** | Zero-intervention autonomous output showcase |
+
+---
+
+### 🎥 Part 2: 1 Click = Complete AI Video Studio (Latest Masterclass)
+[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+
+**YouTube Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)  
+**Duration**: 9:55  
+Complete hands-free workflow using `deepx-video-studio.zip`, trend discovery from social media, automated voiceover integration, character locking, and multi-scene batch video generation.
+
+| Timestamp | Chapter | What's Covered |
+| :--- | :--- | :--- |
+| **0:00** | **Overview: Zero-Prompt AI Video Creation** | How zero-manual prompting produces full cinematic stories |
+| **0:45** | **How It Works (Architecture)** | Antigravity + Google Flow + DeepX MCP Bridge workflow |
+| **1:30** | **What is deepx-video-studio.zip & How to Load It** | Pre-trained automation skill package & setup |
+| **2:50** | **Setting Up DeepX Extension in Chrome / WebView** | Browser bridge activation and permission granting |
+| **4:15** | **Connecting DeepX Video Studio ZIP File** | Skill injection into Antigravity context |
+| **5:45** | **LIVE DEMO: 1 Prompt to Complete Multi-Scene Video** | Single-prompt command generating multi-shot scenes |
+| **6:20** | **100% Consistent Character Reference Locking** | Locking face, wardrobe, and style ID across all clips |
+| **7:50** | **Batch Image-to-Video Generation on Autopilot** | Hands-free image queue to video animation pipeline |
+| **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
+| **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
 
 ---
 
