@@ -5,16 +5,33 @@
 > **🔥 Stop Clicking. Start Creating. Welcome to the Future.**  
 > **👑 BUILT BY [@dipeshkyd](https://youtube.com/@dipeshkyd)**  
 
-[![DeepX Part 1 Setup](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+[![DeepX AI Video Studio](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
 
-> 📺 **Part 1 (Setup Guide)**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
-> 📺 **Part 2 (Masterclass)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📺 **Masterclass (Part 2)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📺 **Setup Guide (Part 1)**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
 > 👤 **Channel**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
 > 📦 **Workflow Package**: DeepX Chrome Extension + `deepx-video-studio.zip` + Google Flow MCP Bridge  
 
 ---
 
-> ### 📥 1-Click Direct Download & Drive Mirrors:
+## 🔗 All Official Resources & Download Links
+
+| Resource Type | Resource Details | Direct Link |
+| :--- | :--- | :--- |
+| ☁️ **Google Drive (v2)** | **DeepX Cloud Mirror (v2 — Latest & Recommended)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
+| ☁️ **Google Drive (v1)** | DeepX Cloud Mirror (v1 — Initial Release Archive) | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
+| 💾 **Direct Drive Zip** | DeepX Standalone Drive Zip File (v1) | [📥 Download Zip](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk) |
+| ⚡ **GitHub Direct Zip** | DeepX Extension Full Bundle (.zip) from GitHub Repo | [📥 1-Click Download](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip) |
+| 📦 **Skills ZIP** | `deepx-video-studio.zip` (WhatsApp Post #116) | [📦 Download Skills ZIP](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116) |
+| 💬 **WhatsApp Channel** | Official DeepX Updates & Extension Community | [💬 Join Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
+| 📱 **Android Engine** | Antigem Native Android Engine (GitHub Repo) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
+| 📱 **Mobile Video** | How to Install & Run Antigravity on Android Phone | [📺 Watch Mobile Setup](https://youtu.be/jHoEZbAvDjs) |
+| 💻 **Video Part 1** | DeepX Extension Setup & Laptop Installation (6:00) | [📺 Watch Part 1](https://youtu.be/iHoS37EtfHI) |
+| 🎬 **Video Part 2** | 1 Click = Complete AI Video Studio Masterclass (9:55) | [📺 Watch Part 2](https://youtu.be/Eg--8z9jz9k) |
+| 🎥 **Sample Output** | Full Automated Story Demo ("Sachchai ki Jeet") | [🎬 Watch Demo](https://youtu.be/B8b7hk4YL6E) |
+| 👑 **Creator** | Dipeshkyd Official YouTube Channel | [👤 @dipeshkyd](https://youtube.com/@dipeshkyd) |
+
+> ### 📥 Quick Direct Download & Mirror Links:
 > - ⚡ **[Direct Download DeepX Extension (.zip) from GitHub](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip)** *(Instant 1-Click Browser Download — Fast & Free)*
 > - ☁️ **[Google Drive Cloud Mirror (v2 — Latest & Recommended)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)** *(New Updated Files & Skills)*
 > - ☁️ **[Google Drive Cloud Mirror (v1 — Initial Release)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)** *(Previous Version Archive)*
@@ -25,22 +42,21 @@
 ---
 
 ## 📑 Table of Contents
-1. [🎥 Official Video Tutorials & Walkthroughs](#-official-video-tutorials--walkthroughs)
+1. [🔗 All Official Resources & Download Links](#-all-official-resources--download-links)
+2. [🎥 Official Video Tutorials & Walkthroughs (Series)](#-official-video-tutorials--walkthroughs-series)
    - [💻 Part 1: DeepX Extension Installation & Laptop Setup](#-part-1-deepx-extension-installation--laptop-setup-foundation)
    - [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
-2. [📥 1-Click Direct Download & Drive Mirrors](#-1-click-direct-download--drive-mirrors)
 3. [Core Features in Detail](#-core-features-in-detail)
 4. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
 5. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
 6. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
 7. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
 8. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-9. [🔗 All Official Resources & Download Links](#-all-official-resources--download-links)
-10. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+9. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
 
 ---
 
-## 🎥 Official Video Tutorials & Walkthroughs
+## 🎥 Official Video Tutorials & Walkthroughs (Series)
 
 ### 💻 Part 1: DeepX Extension Installation & Laptop Setup (Foundation)
 [![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
@@ -189,25 +205,6 @@ This package includes 5 pre-trained directorial AI skills inside [`📁 🧠 Dee
 | `deepx_open_new_project` | Create new isolated Google Flow project |
 | `deepx_rename_project` | Update project title |
 | `deepx_cancel_job` | Abort running generation queue |
-
----
-
-## 🔗 All Official Resources & Download Links
-
-| Resource Type | Resource Details | Direct Link |
-| :--- | :--- | :--- |
-| ☁️ **Google Drive (v2)** | **DeepX Cloud Mirror (v2 — Latest & Recommended)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
-| ☁️ **Google Drive (v1)** | DeepX Cloud Mirror (v1 — Initial Release) | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| 💾 **Direct Drive Zip** | DeepX Standalone Drive Zip File (v1) | [📥 Download Zip](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk) |
-| ⚡ **GitHub Direct Zip** | DeepX Extension Full Bundle (.zip) from GitHub Repo | [📥 1-Click Download](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip) |
-| 📦 **Skills ZIP** | `deepx-video-studio.zip` (WhatsApp Post #116) | [📦 Download Skills ZIP](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116) |
-| 💬 **WhatsApp Channel** | Official DeepX Updates & Extension Community | [💬 Join Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
-| 📱 **Android Engine** | Antigem Native Android Engine (GitHub) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| 📱 **Mobile Video** | How to Install & Run Antigravity on Android Phone | [📺 Watch Mobile Setup](https://youtu.be/jHoEZbAvDjs) |
-| 💻 **Video Part 1** | DeepX Extension Setup & Laptop Installation (6:00) | [📺 Watch Part 1](https://youtu.be/iHoS37EtfHI) |
-| 🎬 **Video Part 2** | 1 Click = Complete AI Video Studio Masterclass (9:55) | [📺 Watch Part 2](https://youtu.be/Eg--8z9jz9k) |
-| 🎥 **Sample Output** | Full Automated Story Demo ("Sachchai ki Jeet") | [🎬 Watch Demo](https://youtu.be/B8b7hk4YL6E) |
-| 👑 **Creator** | Dipeshkyd Official YouTube Channel | [👤 @dipeshkyd](https://youtube.com/@dipeshkyd) |
 
 ---
 

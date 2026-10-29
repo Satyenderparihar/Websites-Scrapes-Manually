@@ -1,9 +1,9 @@
 # 🎬 Google Flow + Antigravity: DEEPX Cinematic Automation Engine (Complete Setup & Autopilot Guide)
 
-[![Watch Part 1 Setup](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+[![DeepX AI Video Studio](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
 
-> 📺 **Part 1 (Setup Guide)**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI) (6:00)  
-> 📺 **Part 2 (Masterclass)**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📺 **Masterclass (Part 2)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📺 **Setup Guide (Part 1)**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
 > 👤 **Channel**: [@dipeshkyd](https://www.youtube.com/@Dipeshkyd)  
 > 🛠️ **Tools**: Google Antigravity + Google Flow + DeepX Extension + deepx-video-studio.zip  
 > 📁 **Category**: [📁 ⚡ Automation & Antigravity Workflows](../📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)  
@@ -16,13 +16,29 @@
 > 
 > 🌌 *One Idea. Infinite Scenes. Zero-Click Automation. Next-Level AI Filmmaking.*  
 > 🔥 *Stop Clicking. Start Creating. Welcome to the Future.*  
-> 🔗 **GET DEEPX HERE (Google Drive v2 — Latest & Recommended)**: [https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)  
-> 🔗 **GET DEEPX HERE (Google Drive v1 — Archive)**: [https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)  
-> 📦 **DEEPX VIDEO STUDIO (Skills ZIP)**: [WhatsApp Channel Post #116](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116)
 
 ---
 
-## 📌 Part 1 & Part 2 Video Tutorials
+## 🔗 Official Resources & Downloads Hub
+
+| Resource Type | Resource Details | Direct Link |
+| :--- | :--- | :--- |
+| ☁️ **Google Drive (v2)** | **DeepX Cloud Mirror (v2 — Latest & Recommended)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
+| ☁️ **Google Drive (v1)** | DeepX Cloud Mirror (v1 — Initial Release) | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
+| 💾 **Direct Drive Zip** | DeepX Standalone Drive Zip File (v1) | [📥 Download Zip](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk) |
+| ⚡ **GitHub Direct Zip** | DeepX Extension Full Bundle (.zip) from GitHub Repo | [📥 1-Click Download](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip) |
+| 📦 **Skills ZIP** | `deepx-video-studio.zip` (WhatsApp Post #116) | [📦 Download Skills ZIP](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116) |
+| 💬 **WhatsApp Channel** | Official DeepX Updates & Extension Community | [💬 Join Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
+| 📱 **Android Engine** | Antigem Native Android Engine (GitHub) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
+| 📱 **Mobile Video** | How to Install & Run Antigravity on Android Phone | [📺 Watch Mobile Setup](https://youtu.be/jHoEZbAvDjs) |
+| 💻 **Video Part 1** | DeepX Extension Setup & Laptop Installation (6:00) | [📺 Watch Part 1](https://youtu.be/iHoS37EtfHI) |
+| 🎬 **Video Part 2** | 1 Click = Complete AI Video Studio Masterclass (9:55) | [📺 Watch Part 2](https://youtu.be/Eg--8z9jz9k) |
+| 🎥 **Sample Output** | Full Automated Story Demo ("Sachchai ki Jeet") | [🎬 Watch Demo](https://youtu.be/B8b7hk4YL6E) |
+| 👑 **Creator** | Dipeshkyd Official YouTube Channel | [👤 @dipeshkyd](https://youtube.com/@dipeshkyd) |
+
+---
+
+## 📌 Video Tutorials (Series)
 
 ### 🎥 Part 1: DeepX Extension Installation & Laptop Setup (Foundation Guide)
 [![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
@@ -149,22 +165,3 @@ For each scene output:
 3. Scene [X] Voiceover Narration: 15-word punchy script segment in natural tone.
 4. Scene [X] Audio SFX: Ambient background sounds and Foley effects.
 ```
-
----
-
-## 🔗 Official Resources & Downloads Hub
-
-| Resource Type | Resource Details | Direct Link |
-| :--- | :--- | :--- |
-| ☁️ **Google Drive (v2)** | **DeepX Cloud Mirror (v2 — Latest & Recommended)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
-| ☁️ **Google Drive (v1)** | DeepX Cloud Mirror (v1 — Initial Release) | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| 💾 **Direct Drive Zip** | DeepX Standalone Drive Zip File (v1) | [📥 Download Zip](https://drive.google.com/file/d/1rWiq3jQwTQZ4KtzqYTGndmlddF22acqG/view?usp=drivesdk) |
-| ⚡ **GitHub Direct Zip** | DeepX Extension Full Bundle (.zip) from GitHub Repo | [📥 1-Click Download](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip) |
-| 📦 **Skills ZIP** | `deepx-video-studio.zip` (WhatsApp Post #116) | [📦 Download Skills ZIP](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h/116) |
-| 💬 **WhatsApp Channel** | Official DeepX Updates & Extension Community | [💬 Join Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
-| 📱 **Android Engine** | Antigem Native Android Engine (GitHub) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| 📱 **Mobile Video** | How to Install & Run Antigravity on Android Phone | [📺 Watch Mobile Setup](https://youtu.be/jHoEZbAvDjs) |
-| 💻 **Video Part 1** | DeepX Extension Setup & Laptop Installation (6:00) | [📺 Watch Part 1](https://youtu.be/iHoS37EtfHI) |
-| 🎬 **Video Part 2** | 1 Click = Complete AI Video Studio Masterclass (9:55) | [📺 Watch Part 2](https://youtu.be/Eg--8z9jz9k) |
-| 🎥 **Sample Output** | Full Automated Story Demo ("Sachchai ki Jeet") | [🎬 Watch Demo](https://youtu.be/B8b7hk4YL6E) |
-| 👑 **Creator** | Dipeshkyd Official YouTube Channel | [👤 @dipeshkyd](https://youtube.com/@dipeshkyd) |
