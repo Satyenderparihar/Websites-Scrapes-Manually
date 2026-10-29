@@ -57,6 +57,8 @@ Manage workspace projects, execute shell commands, maintain continuous session c
 
 ## 🔗 Official Links & Community
 - **GitHub Repository**: [https://github.com/Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem)
+- **DeepX Google Drive (v2 — Latest)**: [https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)
+- **DeepX Google Drive (v1 — Archive)**: [https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
 - **DeepX 1-Click AI Video Studio Masterclass**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)
 - **DeepX Extension Setup Guide**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)
 - **WhatsApp Community**: [https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h)
