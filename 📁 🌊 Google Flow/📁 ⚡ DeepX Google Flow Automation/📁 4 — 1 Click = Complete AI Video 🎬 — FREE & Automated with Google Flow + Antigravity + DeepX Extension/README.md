@@ -4,7 +4,7 @@
 
 > 📺 **Exact YouTube Video**: [1 Click = Complete AI Video 🎬 | FREE & Automated with Google Flow + Antigravity + DeepX Extension](https://youtu.be/Eg--8z9jz9k) (9:55)  
 > 👤 **Creator**: [@Dipeshkyd](https://youtube.com/@Dipeshkyd)  
-> 🧭 **Series Navigation**: [Video 0 ➔](../📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | [Video 1 ➔](../📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | **Video 2 (Current)** | [Video 3 ➔](../📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md) | [Video 4 ➔](../📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Step-by-Step Navigation**: [Step 1 ➔](../📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [Step 2 ➔](../📁%202%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | [Step 3 ➔](../📁%203%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | **Step 4 (Current)** | [Step 5 ➔](../📁%205%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20%23ai/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
@@ -102,8 +102,8 @@ Antigravity and DeepX will:
 
 ---
 
-## 📱 Mobile Users: Check Out Part 3!
+## 📱 Mobile Users: Check Out Step 5!
 
-Want to run this entire AI video studio directly from your **Android Phone** with 100% zero-dollar cost? Proceed to **Part 3**:
+Want to run this entire AI video studio directly from your **Android Phone** with 100% zero-dollar cost? Proceed to **Step 5**:
 
-👉 **[Go to Part 3: DeepX Mobile Studio (Android Phone Automation) ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**
+👉 **[Go to Step 5: The ONLY Phone-Based AI Video Automation ➔](../📁%205%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20%23ai/README.md)**

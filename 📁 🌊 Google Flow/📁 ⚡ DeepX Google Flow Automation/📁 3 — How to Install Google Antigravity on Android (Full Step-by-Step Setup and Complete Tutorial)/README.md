@@ -4,11 +4,11 @@
 
 > 📺 **Exact YouTube Video**: [How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)](https://youtu.be/uZJPMTKVs_U) (8:00)  
 > 👤 **Creator**: [@Dipeshkyd](https://youtube.com/@Dipeshkyd)  
-> 🧭 **Series Navigation**: **Video 0 (Current)** | [Video 1 ➔](../📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | [Video 2 ➔](../📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) | [Video 3 ➔](../📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md) | [Video 4 ➔](../📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Step-by-Step Navigation**: [Step 1 ➔](../📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [Step 2 ➔](../📁%202%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | **Step 3 (Current)** | [Step 4 ➔](../📁%204%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) | [Step 5 ➔](../📁%205%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20%23ai/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
-## 🔗 Part 0 Resources & Downloads
+## 🔗 Step 3 Resources & Downloads
 
 Everything required to run Google Antigravity locally on your Android phone is listed right here:
 
@@ -68,6 +68,6 @@ Manage workspace projects, execute shell commands, maintain continuous session c
 
 ## 🚀 Next Steps in the Series:
 
-- 💻 **Laptop Users**: Go to [Video 1: DeepX Extension Setup](../📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) to set up the browser extension.
-- 🎬 **AI Video Studio**: Go to [Video 2: 1 Click AI Video Studio](../📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) for automated video rendering.
-- 📱 **Mobile Creators**: Once Antigravity is running on your phone, jump to [Video 3: Phone-Based AI Video Automation](../📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md) or review the foundational mobile setup in [Video 4: Antigravity on Phone Full Setup](../📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md)!
+- 🎬 **AI Video Studio**: Proceed to [Step 4: 1 Click = Complete AI Video 🎬](../📁%204%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) for automated video rendering.
+- 📱 **Mobile Video Production**: Complete the pipeline in [Step 5: Phone-Based AI Video Automation](../📁%205%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20%23ai/README.md).
+- 💻 **Browser Extension Bridge**: Review [Step 2: DeepX Extension Setup](../📁%202%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) or [Step 1: Antigravity on Phone Setup](../📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md).
