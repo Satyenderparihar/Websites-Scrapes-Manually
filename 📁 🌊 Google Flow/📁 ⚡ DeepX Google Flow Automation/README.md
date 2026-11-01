@@ -28,3 +28,7 @@ Please refer to the complete, official master guide:
   - [🔗 Open Google Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk)
   - [📺 Watch Part 3 Video (17:38)](https://youtu.be/faAj5PCkcjY)
   - [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem)
+
+- [🐙 **AntiGem — Android Engine (Cloned Source Repository)**](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
+  - Full source code, Kotlin IDE app, Termux subsystem bridge, gRPC server & daemons
+  - [🐙 Official GitHub Repository](https://github.com/Santoshkurmi/antigem)

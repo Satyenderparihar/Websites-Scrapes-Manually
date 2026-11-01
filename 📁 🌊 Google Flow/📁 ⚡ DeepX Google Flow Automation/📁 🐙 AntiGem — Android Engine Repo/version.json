@@ -1,0 +1,9 @@
+{
+  "version_code": 117,
+  "version_name": "1.0.17",
+  "min_supported_version_code": 1,
+  "changelog": [
+    "Added google account verification for login option(it detect accouunt need verificaton after that user will figure out and login again once verified)"
+  ],
+  "is_critical": false
+}

@@ -1,0 +1,62 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.jks
+*.keystore
+release.jks
+
+# Go Daemon & Bridge Build Outputs
+server/bin/
+server/server
+server/daemon
+server/gemini-server
+agy_ide_bridge/bin/
+agy_ide_bridge/agy_ide_bridge
+agy_ide_bridge/agy_ide_bridge_android
+agy_ide_bridge/server
+agy_ide_bridge/server_android
+agy_ide_bridge/daemon
+agy_ide_bridge/gemini-server
+gemini-server
+*.exe
+*.test
+termux-daemon/daemon
+termux-daemon/server
+app/src/main/assets/bin/agy_ide_bridge
+app/src/main/assets/bin/backup_bootstrap
+app/src/main/assets/bin/backup_chats
+app/src/main/assets/bin/restore_chats
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Proto Generator Large JSON Schemas
+proto_generator/*.json
+
+# Kotlin Compiler Session & Daemon Cache
+.kotlin/
+
+# IDE & Gemini Metadata
+.gemini/
+/server_android
+/agy_ide_bridge_android
+termux-app/
+/backup_bootstrap
+output/
+.agents/
+flow_mcp/
+finally.zip

@@ -25,6 +25,7 @@ Har Part ka apna dedicated folder aur uske respective resources bilkul alag orga
 | **Part 1** | **DeepX Extension Setup (Laptop & Kiwi)**<br>Browser bridge, Developer Mode, Antigravity Turbo Mode | [📺 Watch Part 1 (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Part 1 Folder](./📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
 | **Part 2** | **1-Click AI Video Studio**<br>`deepx-video-studio.zip`, trend scouting, Cartesia VO, batch render | [📺 Watch Part 2 (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Part 2 Folder](./📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
 | **Part 3** | **Phone-Based Mobile Video Automation**<br>100% FREE on Android, Antigem engine, Kiwi Browser, Termux | [📺 Watch Part 3 (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Part 3 Folder](./📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
+| **Repo** | **AntiGem Android Engine (Cloned Source)**<br>Full Kotlin IDE app, Termux bridge, gRPC server & daemons | — | [📁 Open Cloned Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 
 ---
 
@@ -50,7 +51,7 @@ Har Part ka apna dedicated folder aur uske respective resources bilkul alag orga
 
 > 📺 **Video Link**: [https://youtu.be/uZJPMTKVs_U](https://youtu.be/uZJPMTKVs_U) (8:00)  
 > 📁 **Detailed Guide & Folder**: [📁 Open Part 0 Complete Documentation](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)  
-> 🐙 **Part 0 Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem)
+> 🐙 **Part 0 Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
 
 ### Part 0 Summary & Chapters:
 The definitive setup guide by @dipeshkyd to install and run Google Antigravity locally on Android using the native Antigem App and Termux without needing a computer or cloud streaming.

@@ -67,6 +67,7 @@ All prompts are formatted inside standard fenced code blocks:
 - **[💻 Part 1: DeepX Extension Setup (Laptop & Kiwi)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)**: Extension installation, Developer Mode, Antigravity Turbo Mode, and [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
 - **[🎬 Part 2: 1-Click AI Video Studio](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**: `deepx-video-studio.zip`, trend scouting, Cartesia VO integration, and [Google Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc).
 - **[📱 Part 3: DeepX Mobile Studio (Android Phone)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**: 100% free phone-based AI video automation with Termux, Antigem engine, Kiwi Browser, and [Google Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk).
+- **[🐙 AntiGem — Android Engine (Cloned Source Repo)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)**: Native Kotlin IDE application, Termux subsystem bridge, gRPC server & daemons for Android.
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*

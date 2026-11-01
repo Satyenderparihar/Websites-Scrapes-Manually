@@ -1,0 +1,3899 @@
+[
+  {
+    "name": "flow_status",
+    "description": "Check Google Flow: opens the Flow tab if needed and reports logged_in (with the account and remaining credits), the open project, current composer settings and the job queue. If logged_in is false, tell the user to sign in to Flow in the AntiGem browser and stop.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "flow_list_models",
+    "description": "List the image and video model families Google Flow currently offers.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "flow_list_projects",
+    "description": "List the user's Google Flow projects (projectId, title, created).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "integer",
+          "description": "Max projects to return (default 20)"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_create_project",
+    "description": "Create a new Google Flow project (direct, no generation). Opens it in the Flow tab by default, so the next flow_generate_image/flow_generate_video goes into it.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Project title (default: date/time like Flow's UI)"
+        },
+        "open": {
+          "type": "boolean",
+          "description": "Open the new project in the Flow tab (default true)"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_rename_project",
+    "description": "Rename a Google Flow project.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project ID"
+        },
+        "title": {
+          "type": "string",
+          "description": "New title"
+        }
+      },
+      "required": [
+        "project_id",
+        "title"
+      ]
+    }
+  },
+  {
+    "name": "flow_open_project",
+    "description": "Open a Google Flow project in the Flow tab. Generation always goes into the project open in the tab.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project ID"
+        }
+      },
+      "required": [
+        "project_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_get_settings",
+    "description": "Read Flow's current composer settings (mode, model, aspect, count) from its settings chip, without changing anything.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "flow_list_media",
+    "description": "List images and videos in a Flow project (mediaId, type, title, prompt, size, pending). Optional query filters by title/prompt (like Flow's search box); pending_only lists videos still generating. cached_path is set when the file is already saved locally; use flow_get_media to fetch one.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project ID (default: the project open in the Flow tab)"
+        },
+        "query": {
+          "type": "string",
+          "description": "Optional case-insensitive text to search in titles and prompts"
+        },
+        "pending_only": {
+          "type": "boolean",
+          "description": "Only media still generating (default false)"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "image",
+            "video"
+          ],
+          "description": "Only images or only videos"
+        },
+        "include_trashed": {
+          "type": "boolean",
+          "description": "Also list media in Flow's trash (default false)"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_get_media",
+    "description": "Get a Flow image or video as a local file (saved once in ~/flow-media; later calls reuse the same file, never copy it). Set view=true to also receive an image inline so you can look at it. To show it in chat, write ![caption](<path>) on its own line.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "media_id from flow_list_media or flow_generate_image/flow_generate_video"
+        },
+        "view": {
+          "type": "boolean",
+          "description": "Also return the image inline for viewing (images only, default false)"
+        }
+      },
+      "required": [
+        "media_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_upload_media",
+    "description": "Upload local image/video files into a Flow project (through Flow's own upload, so they appear in the project). Returns their new media ids, usable as references or frames. Not needed before flow_generate_*: those accept local paths directly.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "file_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Absolute local file paths (.png .jpg .jpeg .webp .gif .heic .mp4 .mov ...)"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Project to upload into (default: the open project, or a new one)"
+        }
+      },
+      "required": [
+        "file_paths"
+      ]
+    }
+  },
+  {
+    "name": "flow_generate_image",
+    "description": "Generate IMAGES (not videos) on Google Flow with the user's own account. For videos use flow_generate_video. For several different prompts, pass them all at once in items (each with its own prompt and optional settings): they are sent to Flow one right after another and generate in parallel — do NOT call this tool once per prompt and wait in between. All settings are applied explicitly (defaults shown). Takes 15-30 s; images cost 0 credits on most plans. Waits up to wait_seconds; if not finished, returns job_id — call flow_get_job to keep waiting. Results are saved once in ~/flow-media; to show one in chat write ![caption](<path>) on its own line.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "What to generate (single prompt; use items for several)"
+        },
+        "model": {
+          "type": "string",
+          "enum": [
+            "Nano Banana 2.1",
+            "Nano Banana Pro",
+            "Nano Banana 2 Lite"
+          ],
+          "description": "Default Nano Banana 2.1"
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "16:9",
+            "4:3",
+            "1:1",
+            "3:4",
+            "9:16"
+          ],
+          "description": "Default 16:9"
+        },
+        "count": {
+          "type": "integer",
+          "description": "Number of images 1-4 (default 1)"
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional reference images (variants, edits, same character): Flow media ids and/or local file paths (absolute, ~/..., or relative to the Termux home; uploaded automatically)"
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "Only build and check the request, then block it before sending (no credits); returns what would be sent"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Project to generate in (default: the open project, or a new one)"
+        },
+        "new_project": {
+          "type": "boolean",
+          "description": "Create a new project first (default false)"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait for all results before returning the job ids (0-50, default 45)"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "maxItems": 500
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_generate_video",
+    "description": "Generate VIDEOS (not images) on Google Flow — from text, from a start (and optional end) frame, or from reference images with the user's own account. For images use flow_generate_image. For several different prompts, pass them all at once in items (each with its own prompt and optional settings): they are sent one right after another and generate in parallel — do NOT call this tool once per prompt and wait in between. max_credits is the total for the whole call. All settings are applied explicitly (defaults shown). Videos cost credits: Omni 1.1 Flash 360p = 4/5/6/7 and 7500p = 7/10/12/15 for 4/6/8/10 s; Veo 3.1 Lite 10, Fast 500, Quality 100 (fixed 7500p, 8 s); times count — set max_credits to cap it. Takes about 1-5 min: waits up to wait_seconds, then returns job_id and media_ids — call flow_get_job (or flow_video_status) to keep waiting. Results are saved once in ~/flow-media; to show one in chat write ![caption](<path>) on its own line.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "What should happen in the video (single prompt; use items for several)"
+        },
+        "model": {
+          "type": "string",
+          "enum": [
+            "Omni 1.1 Flash",
+            "Veo 3.1 - Lite",
+            "Veo 3.1 - Fast",
+            "Veo 3.1 - Quality"
+          ],
+          "description": "Default Omni 1.1 Flash"
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "16:9",
+            "9:16"
+          ],
+          "description": "Default 16:9"
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "360p",
+            "720p"
+          ],
+          "description": "Omni 1.1 Flash only (default 720p)"
+        },
+        "count": {
+          "type": "integer",
+          "description": "Number of videos 1-4 (default 1)"
+        },
+        "start_frame": {
+          "type": "string",
+          "description": "Optional first frame (Frames mode): a Flow image media id or a local image path (uploaded automatically)"
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "Only build and check the request, then block it before sending (no credits); returns what would be sent"
+        },
+        "end_frame": {
+          "type": "string",
+          "description": "Optional last frame; needs start_frame"
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional reference images (Ingredients mode, max 3 recommended): Flow media ids and/or local file paths. Cannot be combined with start_frame/end_frame. Not supported by Veo 3.1 - Quality"
+        },
+        "max_credits": {
+          "type": "integer",
+          "description": "Total credit limit for the whole call; prompts that would go over it are skipped before generating"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Project to generate in (default: the open project, or a new one)"
+        },
+        "new_project": {
+          "type": "boolean",
+          "description": "Create a new project first (default false)"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait for all results before returning the job ids (0-50, default 45)"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "maxItems": 500
+        },
+        "duration": {
+          "type": "integer",
+          "enum": [
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_get_job",
+    "description": "Get the status of one or more Flow generation jobs, waiting up to wait_seconds for them to finish. Returns local file paths when done.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "job_id": {
+          "type": "string",
+          "description": "Job ID returned by flow_generate_image or flow_generate_video"
+        },
+        "job_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Several job IDs at once"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait (0-50, default 45)"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_video_status",
+    "description": "Check Flow video generation status by media id (done / pending / failed). Finished videos are downloaded once to ~/flow-media and their paths returned.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "download": {
+          "type": "boolean",
+          "description": "Download finished videos (default true)"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "media_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "media_ids"
+      ]
+    }
+  },
+  {
+    "name": "flow_get_last_media",
+    "description": "Get the newest images or videos (\"the last image\", \"the previous 2 videos\"): first the results of this session's tools, then the newest items of the project. Use the returned media_id with other flow_* tools.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "image",
+            "video"
+          ],
+          "description": "Only images or only videos"
+        },
+        "count": {
+          "type": "integer",
+          "description": "How many (default 1)"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Project to look in (default: the open project)"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_rename_media",
+    "description": "Rename an image or video in Flow.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Media id"
+        },
+        "title": {
+          "type": "string",
+          "description": "New title"
+        }
+      },
+      "required": [
+        "media_id",
+        "title"
+      ]
+    }
+  },
+  {
+    "name": "flow_trash_media",
+    "description": "Move images/videos to Flow's trash (reversible with flow_restore_media). Always confirm with the user before calling this.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "media_ids"
+      ]
+    }
+  },
+  {
+    "name": "flow_restore_media",
+    "description": "Restore images/videos from Flow's trash.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "media_ids"
+      ]
+    }
+  },
+  {
+    "name": "flow_combine_videos",
+    "description": "Join, trim and reorder Flow videos into one MP4 with Flow's own export (no credits). Clips play in the given order and may repeat; mixed aspects use the first clip's size. Saved in ~/flow-media; show it in chat with ![caption](<path>).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "upload_back": {
+          "type": "boolean",
+          "description": "Also upload the result into the open Flow project (default false)"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "clips": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "clips"
+      ]
+    }
+  },
+  {
+    "name": "flow_video_to_gif",
+    "description": "Export a Flow video as an animated GIF (270p, no credits), saved in ~/flow-media.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Video media id"
+        }
+      },
+      "required": [
+        "media_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_extract_frame",
+    "description": "Save one frame of a Flow video as a PNG (done on the phone, no credits), e.g. the last frame to continue a video with start_frame. Optionally uploads it into Flow and returns its media_id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Video media id"
+        },
+        "at_seconds": {
+          "type": "number",
+          "description": "Time of the frame (default: the last frame)"
+        },
+        "upload": {
+          "type": "boolean",
+          "description": "Also upload the frame into the open Flow project (default false)"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Target project for an uploaded frame; defaults to current project."
+        }
+      },
+      "required": [
+        "media_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_create_scene",
+    "description": "Create a Flow scene (timeline saved in Flow) from videos in the given order. For just a combined file use flow_combine_videos.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "16:9",
+            "9:16"
+          ],
+          "description": "Default 16:9"
+        }
+      },
+      "required": [
+        "media_ids"
+      ]
+    }
+  },
+  {
+    "name": "flow_edit_video",
+    "description": "Edit a whole Flow video with a text instruction (Omni edit; costs credits like an Omni video of the clip length). Returns a job; the edited video is a new media item.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Video media id"
+        },
+        "prompt": {
+          "type": "string",
+          "description": "How to change the video"
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "Only check the request and block it before sending (no credits)"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait before returning the job_id (0-50, default 45)"
+        }
+      },
+      "required": [
+        "media_id",
+        "prompt"
+      ]
+    }
+  },
+  {
+    "name": "flow_edit_image",
+    "description": "Edit one image into a NEW VERSION of the same tile (iterations: \"make the jacket red\", \"add a ladybug\"). Works on any version of the tile (pass that version's media_id). For a separate new image based on it, use flow_generate_image with references instead. Returns a job; the result is a new media_id in the same tile.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "The image (version) to edit"
+        },
+        "prompt": {
+          "type": "string",
+          "description": "What to change"
+        },
+        "model": {
+          "type": "string",
+          "enum": [
+            "Nano Banana 2.1",
+            "Nano Banana Pro",
+            "Nano Banana 2 Lite"
+          ],
+          "description": "Optional; default keeps Flow's current model"
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "16:9",
+            "4:3",
+            "1:1",
+            "3:4",
+            "9:16"
+          ],
+          "description": "Optional; default keeps the current aspect"
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional extra reference images (media ids in the same project, or local file paths)"
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "Only check the request and block it before sending"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait before returning the job_id (0-50, default 45)"
+        }
+      },
+      "required": [
+        "media_id",
+        "prompt"
+      ]
+    }
+  },
+  {
+    "name": "flow_extend_video",
+    "description": "Continue a Veo video seamlessly with a new 8 s clip (\"what happens next\"); costs about one Veo video of that tier. Only for Veo clips — for Omni clips use flow_extract_frame (upload: true) then flow_generate_video with start_frame. Returns a job.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Veo video media id"
+        },
+        "prompt": {
+          "type": "string",
+          "description": "What happens next"
+        },
+        "dry_run": {
+          "type": "boolean",
+          "description": "Only check the request and block it before sending (no credits)"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait before returning the job_id (0-50, default 45)"
+        }
+      },
+      "required": [
+        "media_id",
+        "prompt"
+      ]
+    }
+  },
+  {
+    "name": "flow_upscale_video",
+    "description": "Upscale a Flow video (360p Omni → 720p; 720p videos may offer 1080p / 4K). The upscaled copy is a new media item saved in ~/flow-media. Returns a job.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Video media id"
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "720p",
+            "1080p",
+            "4K"
+          ],
+          "description": "Default 720p"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait before returning the job_id (0-50, default 45)"
+        }
+      },
+      "required": [
+        "media_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_upscale_image",
+    "description": "Upscale a Flow image to 2K or 4K (4K may only be offered for Nano Banana Pro images). Takes about 40 s; the upscaled copy is a new media item saved in ~/flow-media.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string",
+          "description": "Image media id"
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "2K",
+            "4K"
+          ],
+          "description": "Default 2K"
+        },
+        "wait_seconds": {
+          "type": "integer",
+          "description": "Seconds to wait before returning the job_id (0-50, default 45)"
+        }
+      },
+      "required": [
+        "media_id"
+      ]
+    }
+  },
+  {
+    "name": "flow_cancel",
+    "description": "Stop waiting for a queued/running Flow job (or all when job_id is omitted). A generation Flow already accepted keeps running in Flow.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "job_id": {
+          "type": "string",
+          "description": "Optional job ID"
+        }
+      }
+    }
+  },
+  {
+    "name": "flow_lock_tab",
+    "description": "Lock or unlock the Flow tab for the user. When locked, the user sees an overlay on the Flow tab and cannot interact with it unless they press Unlock, which only lasts until they leave the tab (it locks again when they come back). The lock is kept across app restarts until you unlock it. While any flow_* tool is working, the tab is blocked anyway.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "locked": {
+          "type": "boolean",
+          "description": "true to lock, false to remove the lock"
+        }
+      },
+      "required": [
+        "locked"
+      ]
+    }
+  },
+  {
+    "name": "flow_get_options",
+    "description": "List supported generation models, settings, limits and workflow modes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_analyze_script",
+    "description": "Heuristic script segmentation, entity detection, reference prompts and local-asset matching. No external LLM is called.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "raw_input": {
+          "description": "The user's raw input: exact story text, script, bullet points, Hindi or multilingual script, or commercial brief. Strictly prioritized and preserved.",
+          "type": "string"
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "style_preset": {
+          "description": "Style preset based on skills: 'retro_8bit' (8-bit/16-bit arcade pixel art), 'matanyone_matting' (chroma key green screen character matting), 'gemini_multimodal' (multimodal AI director), or 'cinematic' (photorealistic 8k).",
+          "enum": [
+            "cinematic",
+            "retro_8bit",
+            "matanyone_matting",
+            "gemini_multimodal"
+          ],
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "asset_dirs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Target aspect ratio ('16:9' landscape, '9:16' vertical/shorts, '1:1' square).",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:3",
+            "3:4"
+          ],
+          "type": "string"
+        },
+        "genre_or_style": {
+          "description": "Optional genre or visual style (e.g. 'cinematic photorealistic 8k', 'cyberpunk sci-fi', 'luxury commercial', '2.5D anime').",
+          "type": "string"
+        },
+        "pacing": {
+          "default": "cinematic",
+          "description": "Pacing of the video storyboard.",
+          "enum": [
+            "cinematic",
+            "dynamic",
+            "slow",
+            "fast-paced"
+          ],
+          "type": "string"
+        },
+        "protagonist_override": {
+          "description": "Optional explicit protagonist name or handle if requested by user.",
+          "type": "string"
+        },
+        "target_scene_count": {
+          "description": "Optional desired scene count (auto-detected if omitted, typically 3-6 scenes).",
+          "maximum": 12,
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_batch_generate",
+    "description": "Queue up to 500 image/video prompts. Warm text-only submissions reuse verified settings. Optional bounded concurrency, pacing, pre-send retries, downloads and last-frame scene chaining. Returns a job; poll flow_get_job.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_storyboard",
+    "description": "Analyze a script, prepare missing entity reference images and render a scene chain. Returns a workflow job; dry runs stop when a later stage needs generated IDs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Target aspect ratio ('16:9' landscape, '9:16' vertical/shorts, '1:1' square).",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:3",
+            "3:4"
+          ],
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "raw_input": {
+          "description": "The user's raw input: exact story text, script, bullet points, Hindi or multilingual script, or commercial brief. Strictly prioritized and preserved.",
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        },
+        "image_model": {
+          "type": "string"
+        },
+        "genre_or_style": {
+          "description": "Optional genre or visual style (e.g. 'cinematic photorealistic 8k', 'cyberpunk sci-fi', 'luxury commercial', '2.5D anime').",
+          "type": "string"
+        },
+        "pacing": {
+          "default": "cinematic",
+          "description": "Pacing of the video storyboard.",
+          "enum": [
+            "cinematic",
+            "dynamic",
+            "slow",
+            "fast-paced"
+          ],
+          "type": "string"
+        },
+        "protagonist_override": {
+          "description": "Optional explicit protagonist name or handle if requested by user.",
+          "type": "string"
+        },
+        "style_preset": {
+          "description": "Style preset based on skills: 'retro_8bit' (8-bit/16-bit arcade pixel art), 'matanyone_matting' (chroma key green screen character matting), 'gemini_multimodal' (multimodal AI director), or 'cinematic' (photorealistic 8k).",
+          "enum": [
+            "cinematic",
+            "retro_8bit",
+            "matanyone_matting",
+            "gemini_multimodal"
+          ],
+          "type": "string"
+        },
+        "target_scene_count": {
+          "description": "Optional desired scene count (auto-detected if omitted, typically 3-6 scenes).",
+          "maximum": 12,
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_character_pipeline",
+    "description": "Generate or upload named reference assets, persist @handles, optionally render linked video scenes. Returns a workflow job.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        },
+        "image_model": {
+          "type": "string"
+        },
+        "video_model": {
+          "type": "string"
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "prompt": {
+                "type": "string"
+              },
+              "local_path": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "video_scenes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "character_name": {
+                "type": "string"
+              },
+              "action_prompt": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_list_characters",
+    "description": "List stored named reference assets and native character tiles visible in the project.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_generate_character",
+    "description": "Generate and name a character through Character Studio (default), or create a named image reference with native_studio=false. Returns a job. Studio dry run validates UI preparation only.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "character_name": {
+          "type": "string"
+        },
+        "native_studio": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_upload_character",
+    "description": "Upload an image once, rename the library asset and persist its reusable @handle. Does not create a native Character Studio entry.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "file_path": {
+          "type": "string"
+        },
+        "character_name": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_rename_character",
+    "description": "Rename a persisted reference asset or a native character visible in the current page.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "old_name": {
+          "type": "string"
+        },
+        "new_name": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_attach_references",
+    "description": "Attach existing media IDs, registered @handles or unambiguous library titles to the composer, verifying exact chip IDs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "asset_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "asset_name": {
+          "type": "string"
+        },
+        "clear_stale": {
+          "type": "boolean"
+        },
+        "slot": {
+          "type": "string",
+          "enum": [
+            "Start",
+            "End"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_chain_scene",
+    "description": "Extract the last frame of a completed video and use it as the start frame for the next prompt. Supply previous_media_id or use the most recent video.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        },
+        "next_prompt": {
+          "type": "string"
+        },
+        "media_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_download_media",
+    "description": "Download media by ID or URL into local terminal storage, with an optional filename and folder.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "media_id": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "filename": {
+          "type": "string"
+        },
+        "folder": {
+          "type": "string"
+        },
+        "download_folder": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "flow_eval_script",
+    "description": "Evaluate JavaScript in the Flow page MAIN world for diagnostics. Returns its serializable result.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "script": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "expression": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "deepx_status",
+    "description": "Chrome Flow MCP compatibility alias for flow_status. Check Google Flow: opens the Flow tab if needed and reports logged_in (with the account and remaining credits), the open project, current composer settings and the job queue. If logged_in is false, tell the user to sign in to Flow in the AntiGem browser and stop.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_get_options",
+    "description": "Chrome Flow MCP compatibility alias for flow_get_options. List supported generation models, settings, limits and workflow modes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "deepx_generate_video",
+    "description": "Chrome Flow MCP compatibility alias for flow_generate_video. Generate VIDEOS (not images) on Google Flow — from text, from a start (and optional end) frame, or from reference images with the user's own account. For images use flow_generate_image. For several different prompts, pass them all at once in items (each with its own prompt and optional settings): they are sent one right after another and generate in parallel — do NOT call this tool once per prompt and wait in between. max_credits is the total for the whole call. All settings are applied explicitly (defaults shown). Videos cost credits: Omni 1.1 Flash 360p = 4/5/6/7 and 720p = 7/10/12/15 for 4/6/8/10 s; Veo 3.1 Lite 10, Fast 20, Quality 100 (fixed 720p, 8 s); times count — set max_credits to cap it. Takes about 1-5 min: waits up to wait_seconds, then returns job_id and media_ids — call flow_get_job (or flow_video_status) to keep waiting. Results are saved once in ~/flow-media; to show one in chat write ![caption](<path>) on its own line.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Aspect ratio: '16:9' (landscape), '9:16' (portrait/shorts), or '1:1' (square).",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1"
+          ],
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Omni: 4, 6, 8 or 10 seconds; Veo: 8 seconds."
+        },
+        "end_image_id": {
+          "description": "Media ID of end frame in Flow library (required for startAndEndVideo).",
+          "type": "string"
+        },
+        "mode": {
+          "default": "textToVideo",
+          "description": "Generation mode: 'textToVideo', 'imageToVideo' (animates start frame), 'startAndEndVideo' (interpolates start & end), or 'referenceImagesToVideo' (style/character reference).",
+          "enum": [
+            "textToVideo",
+            "imageToVideo",
+            "startAndEndVideo",
+            "referenceImagesToVideo"
+          ],
+          "type": "string"
+        },
+        "model": {
+          "type": "string",
+          "description": "Current model name from flow_get_options. Legacy aliases imagen-3, veo-omni, veo-quality, veo-lite and veo-fast are accepted."
+        },
+        "no_references": {
+          "default": false,
+          "description": "Set true ONLY if user explicitly instructed not to use reference characters or images.",
+          "type": "boolean"
+        },
+        "prompt": {
+          "description": "The descriptive prompt for the video generation.",
+          "type": "string"
+        },
+        "reference_assets": {
+          "description": "Names of reference characters, hero vehicles, or images from project library to bind into the ingredient bar (e.g. ['tesla_roadster']).",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "reference_media_ids": {
+          "description": "Media IDs of character or style reference assets.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "seed": {
+          "description": "Not selectable through the current Flow website UI. Passing seed returns an explicit error.",
+          "type": "number"
+        },
+        "start_image_id": {
+          "description": "Media ID of start frame in Flow library (required for imageToVideo or startAndEndVideo).",
+          "type": "string"
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "prompt"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_generate_image",
+    "description": "Chrome Flow MCP compatibility alias for flow_generate_image. Generate IMAGES (not videos) on Google Flow with the user's own account. For videos use flow_generate_video. For several different prompts, pass them all at once in items (each with its own prompt and optional settings): they are sent to Flow one right after another and generate in parallel — do NOT call this tool once per prompt and wait in between. All settings are applied explicitly (defaults shown). Takes 15-30 s; images cost 0 credits on most plans. Waits up to wait_seconds; if not finished, returns job_id — call flow_get_job to keep waiting. Results are saved once in ~/flow-media; to show one in chat write ![caption](<path>) on its own line.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Aspect ratio: '16:9', '9:16', '1:1', etc.",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:3",
+            "3:4"
+          ],
+          "type": "string"
+        },
+        "count": {
+          "default": 1,
+          "description": "Number of output images (1-4).",
+          "maximum": 4,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "prompt": {
+          "description": "The descriptive prompt for image generation.",
+          "type": "string"
+        },
+        "reference_media_ids": {
+          "description": "Optional reference media IDs to blend or guide styling.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "seed": {
+          "description": "Not selectable through the current Flow website UI. Passing seed returns an explicit error.",
+          "type": "number"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "prompt"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_batch_generate",
+    "description": "Chrome Flow MCP compatibility alias for flow_batch_generate. Queue up to 500 image/video prompts. Warm text-only submissions reuse verified settings. Optional bounded concurrency, pacing, pre-send retries, downloads and last-frame scene chaining. Returns a job; poll flow_get_job.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_rapid_batch_dispatch",
+    "description": "Chrome Flow MCP compatibility alias for flow_batch_generate. Queue up to 500 image/video prompts. Warm text-only submissions reuse verified settings. Optional bounded concurrency, pacing, pre-send retries, downloads and last-frame scene chaining. Returns a job; poll flow_get_job.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "script_text"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_analyze_and_breakdown_script",
+    "description": "Chrome Flow MCP compatibility alias for flow_analyze_script. Heuristic script segmentation, entity detection, reference prompts and local-asset matching. No external LLM is called.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Target aspect ratio ('16:9' landscape, '9:16' vertical/shorts, '1:1' square).",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:3",
+            "3:4"
+          ],
+          "type": "string"
+        },
+        "genre_or_style": {
+          "description": "Optional genre or visual style (e.g. 'cinematic photorealistic 8k', 'cyberpunk sci-fi', 'luxury commercial', '2.5D anime').",
+          "type": "string"
+        },
+        "pacing": {
+          "default": "cinematic",
+          "description": "Pacing of the video storyboard.",
+          "enum": [
+            "cinematic",
+            "dynamic",
+            "slow",
+            "fast-paced"
+          ],
+          "type": "string"
+        },
+        "protagonist_override": {
+          "description": "Optional explicit protagonist name or handle if requested by user.",
+          "type": "string"
+        },
+        "raw_input": {
+          "description": "The user's raw input: exact story text, script, bullet points, Hindi or multilingual script, or commercial brief. Strictly prioritized and preserved.",
+          "type": "string"
+        },
+        "style_preset": {
+          "description": "Style preset based on skills: 'retro_8bit' (8-bit/16-bit arcade pixel art), 'matanyone_matting' (chroma key green screen character matting), 'gemini_multimodal' (multimodal AI director), or 'cinematic' (photorealistic 8k).",
+          "enum": [
+            "cinematic",
+            "retro_8bit",
+            "matanyone_matting",
+            "gemini_multimodal"
+          ],
+          "type": "string"
+        },
+        "target_scene_count": {
+          "description": "Optional desired scene count (auto-detected if omitted, typically 3-6 scenes).",
+          "maximum": 12,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "raw_input"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_rapid_storyboard_autopilot",
+    "description": "Chrome Flow MCP compatibility alias for flow_storyboard. Analyze a script, prepare missing entity reference images and render a scene chain. Returns a workflow job; dry runs stop when a later stage needs generated IDs.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "auto_breakdown": {
+          "type": "boolean"
+        },
+        "auto_download": {
+          "type": "boolean"
+        },
+        "download_folder": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "hero_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "model": {
+          "type": "string"
+        },
+        "no_references": {
+          "type": "boolean"
+        },
+        "raw_input": {
+          "type": "string"
+        },
+        "script_text": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "start_frame": {
+          "type": "string"
+        },
+        "end_frame": {
+          "type": "string"
+        },
+        "prompts": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "project_id": {
+                    "type": "string"
+                  },
+                  "dry_run": {
+                    "type": "boolean"
+                  },
+                  "wait_seconds": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 50
+                  },
+                  "wait_for_completion": {
+                    "type": "boolean"
+                  },
+                  "max_credits": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "prompt": {
+                    "type": "string"
+                  },
+                  "model": {
+                    "type": "string"
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "integer"
+                  },
+                  "resolution": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "references": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "no_references": {
+                    "type": "boolean"
+                  },
+                  "start_frame": {
+                    "type": "string"
+                  },
+                  "end_frame": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            ]
+          },
+          "maxItems": 500
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "textToVideo",
+            "textToImage"
+          ]
+        },
+        "rapid_dispatch": {
+          "type": "boolean"
+        },
+        "concurrent_prompts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "pacing_delay_sec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "is_concat": {
+          "type": "boolean"
+        },
+        "previous_media_id": {
+          "type": "string"
+        },
+        "tag_filenames": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_auto_character_pipeline",
+    "description": "Chrome Flow MCP compatibility alias for flow_character_pipeline. Generate or upload named reference assets, persist @handles, optionally render linked video scenes. Returns a workflow job.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "default": "16:9",
+          "description": "Aspect ratio for all outputs.",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1"
+          ],
+          "type": "string"
+        },
+        "characters": {
+          "description": "List of characters or entities to generate and register. If omitted, extracted from script_text.",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "description": "Character/entity name, e.g. 'samurai', 'tesla_roadster', 'golden_tiger'.",
+                "type": "string"
+              },
+              "prompt": {
+                "description": "Portrait generation prompt describing character appearance, clothes, and style.",
+                "type": "string"
+              },
+              "type": {
+                "description": "Entity type (default: 'character').",
+                "enum": [
+                  "character",
+                  "vehicle",
+                  "animal",
+                  "product"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "prompt"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "raw_input": {
+          "description": "Alias for script_text: raw story, prompt, or script to auto-extract characters and universal entities from.",
+          "type": "string"
+        },
+        "script_text": {
+          "description": "Optional raw script or story. If characters array is omitted, entities will be auto-detected from this script.",
+          "type": "string"
+        },
+        "video_model": {
+          "default": "veo-quality",
+          "description": "Veo model for video scenes.",
+          "enum": [
+            "veo-quality",
+            "veo-lite",
+            "veo-omni"
+          ],
+          "type": "string"
+        },
+        "video_scenes": {
+          "description": "Optional list of sequential video scenes to generate back-to-back.",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "action_prompt": {
+                "description": "What happens in this video scene.",
+                "type": "string"
+              },
+              "character_name": {
+                "description": "Which character to reference.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "character_name",
+              "action_prompt"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_check_status",
+    "description": "Chrome Flow MCP compatibility alias for flow_video_status. Check Flow video generation status by media id (done / pending / failed). Finished videos are downloaded once to ~/flow-media and their paths returned.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "media_id": {
+          "description": "The media ID returned from deepx_generate_video.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "media_id"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_upload_asset",
+    "description": "Chrome Flow MCP compatibility alias for flow_upload_media. Upload local image/video files into a Flow project (through Flow's own upload, so they appear in the project). Returns their new media ids, usable as references or frames. Not needed before flow_generate_*: those accept local paths directly.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "file_name": {
+          "description": "Optional display filename.",
+          "type": "string"
+        },
+        "file_path": {
+          "description": "Absolute local path to the image or video file.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "file_path"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_list_characters",
+    "description": "Chrome Flow MCP compatibility alias for flow_list_characters. List stored named reference assets and native character tiles visible in the project.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_download_media",
+    "description": "Chrome Flow MCP compatibility alias for flow_download_media. Download media by ID or URL into local terminal storage, with an optional filename and folder.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "filename": {
+          "description": "Target filename e.g. 'hero_scene_01.mp4'.",
+          "type": "string"
+        },
+        "folder": {
+          "default": "deepx_renders",
+          "description": "Subfolder under Chrome Downloads.",
+          "type": "string"
+        },
+        "url": {
+          "description": "Direct FifeURL or download redirect URL of the media.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "media_id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_cancel_job",
+    "description": "Chrome Flow MCP compatibility alias for flow_cancel. Stop waiting for a queued/running Flow job (or all when job_id is omitted). A generation Flow already accepted keeps running in Flow.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "batch_id": {
+          "description": "Batch ID to cancel.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "batch_id"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_rename_project",
+    "description": "Chrome Flow MCP compatibility alias for flow_rename_project. Rename a Google Flow project.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "new_name": {
+          "description": "New title for the Google Flow project.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "new_name"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_open_new_project",
+    "description": "Chrome Flow MCP compatibility alias for flow_create_project. Create a new Google Flow project (direct, no generation). Opens it in the Flow tab by default, so the next flow_generate_image/flow_generate_video goes into it.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_rename_character",
+    "description": "Chrome Flow MCP compatibility alias for flow_rename_character. Rename a persisted reference asset or a native character visible in the current page.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "new_name": {
+          "description": "New character name/handle.",
+          "type": "string"
+        },
+        "old_name": {
+          "description": "Current character name/handle to rename.",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "old_name",
+        "new_name"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_upload_character",
+    "description": "Chrome Flow MCP compatibility alias for flow_upload_character. Upload an image once, rename the library asset and persist its reusable @handle. Does not create a native Character Studio entry.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "character_name": {
+          "description": "Name/handle for the character (e.g. 'deepesh').",
+          "type": "string"
+        },
+        "file_path": {
+          "description": "Absolute local path to the image file (e.g. from user uploaded images in chat).",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "file_path",
+        "character_name"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_generate_character",
+    "description": "Chrome Flow MCP compatibility alias for flow_generate_character. Generate and name a character through Character Studio (default), or create a named image reference with native_studio=false. Returns a job. Studio dry run validates UI preparation only.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "character_name": {
+          "description": "Character name/handle according to the story/script (e.g. 'rohan_student', 'rohan_ca', 'saraswati_mother').",
+          "type": "string"
+        },
+        "model": {
+          "type": "string",
+          "description": "Current model name from flow_get_options. Legacy aliases imagen-3, veo-omni, veo-quality, veo-lite and veo-fast are accepted."
+        },
+        "prompt": {
+          "description": "Detailed visual description of character (features, expression, clothes, age, 2.5D or cinematic style).",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "native_studio": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "character_name",
+        "prompt"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_attach_library_reference",
+    "description": "Chrome Flow MCP compatibility alias for flow_attach_references. Attach existing media IDs, registered @handles or unambiguous library titles to the composer, verifying exact chip IDs.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "asset_name": {
+          "description": "Name of the character or library asset to attach (e.g. 'rohan_student', 'rohan_ca', or previous video title).",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "asset_name"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_attach_references_batch",
+    "description": "Chrome Flow MCP compatibility alias for flow_attach_references. Attach existing media IDs, registered @handles or unambiguous library titles to the composer, verifying exact chip IDs.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "asset_names": {
+          "description": "List of character, image, or video asset names to attach into the prompt box (up to 5).",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "asset_names"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_auto_chain_scene",
+    "description": "Chrome Flow MCP compatibility alias for flow_chain_scene. Extract the last frame of a completed video and use it as the start frame for the next prompt. Supply previous_media_id or use the most recent video.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "default": "16:9",
+          "enum": [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:3",
+            "3:4"
+          ],
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Omni: 4, 6, 8 or 10 seconds; Veo: 8 seconds."
+        },
+        "model": {
+          "type": "string",
+          "description": "Current model name from flow_get_options. Legacy aliases imagen-3, veo-omni, veo-quality, veo-lite and veo-fast are accepted."
+        },
+        "next_prompt": {
+          "description": "The prompt text for the next scene to generate.",
+          "type": "string"
+        },
+        "reference_assets": {
+          "description": "Optional additional reference assets to stack alongside the terminal frame.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "next_prompt"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "deepx_eval_script",
+    "description": "Chrome Flow MCP compatibility alias for flow_eval_script. Evaluate JavaScript in the Flow page MAIN world for diagnostics. Returns its serializable result.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "description": "JavaScript code string (can include 'return <value>').",
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        },
+        "wait_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "wait_for_completion": {
+          "type": "boolean"
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "type": "object"
+    }
+  }
+]

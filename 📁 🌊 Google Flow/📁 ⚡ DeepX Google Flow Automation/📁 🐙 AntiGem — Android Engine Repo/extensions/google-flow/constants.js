@@ -1,0 +1,27 @@
+export const RPC = {
+  "CREDITS": "nzlxg",
+  "MODELS": "HTrJv",
+  "PROJECTS": "UpteDb",
+  "PROJECT_CONTENTS": "Zzl0ze",
+  "CREATE_PROJECT": "jHPbke",
+  "RENAME_PROJECT": "o8DA4",
+  "GET_MEDIA": "as29s",
+  "VIDEO_STATUS": "jwpduf",
+  "GENERATE_IMAGES": "ogiZ0b",
+  "UPLOAD": "maseQ",
+  "VIDEO_TEXT": "YhhmEf",
+  "VIDEO_START": "eb1hJf",
+  "VIDEO_START_END": "nprQif",
+  "VIDEO_REFERENCES": "MZZa6b",
+  "EDIT_VIDEO": "jIps6",
+  "UPSCALE_IMAGE": "SPrCad",
+  "RENAME_WORKFLOW": "mYWVGd",
+  "UPDATE_WORKFLOWS": "pGCYOe",
+  "CONCAT": "GjQLTd",
+  "CONCAT_STATUS": "IxdSwd",
+  "GIF": "QZasKb",
+  "CREATE_SCENE": "rqZuUc",
+  "EXTEND_VIDEO": "fZytfe",
+  "UPSCALE_VIDEO": "p0UkFb"
+};
+export const HELPER_VERSION = 23;

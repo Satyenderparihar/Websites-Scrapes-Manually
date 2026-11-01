@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Signature-level private permissions to protect internal Termux and API receivers/services -->
+    <permission
+        android:name="${applicationId}.permission.RUN_COMMAND"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="${applicationId}.permission.API"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${applicationId}.permission.RUN_COMMAND" />
+    <uses-permission android:name="${applicationId}.permission.API" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+
+    <application
+        android:name=".AntiGemApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:hasFragileUserData="true"
+        android:manageSpaceActivity="com.example.gemini.ui.settings.ManageSpaceActivity"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gemini">
+        <!-- The SDK's auto-start provider has no namespace setting. The app starts TelemetryDeck itself. -->
+        <provider
+            android:name="com.telemetrydeck.sdk.TelemetryDeckInitProvider"
+            android:authorities="${applicationId}.TelemetryDeckInitProvider"
+            tools:node="remove" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:taskAffinity="${applicationId}.main"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Gemini"
+            android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- Open / View .antigem and trajectory chat files -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.antigem" />
+                <data android:pathPattern=".*\\.jsonl\\.antigem" />
+                <data android:pathPattern=".*\\.jsonl" />
+            </intent-filter>
+
+            <!-- Open / View Markdown (.md, .markdown) files -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.md" />
+                <data android:pathPattern=".*\\.markdown" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="text/markdown" />
+                <data android:mimeType="text/x-markdown" />
+            </intent-filter>
+
+            <!-- Open / View Text and Code Files in IDE Editor -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="text/*" />
+            </intent-filter>
+
+            <!-- Receive shared .antigem, markdown, and text/code files from system share sheet -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/octet-stream" />
+                <data android:mimeType="application/json" />
+                <data android:mimeType="text/markdown" />
+                <data android:mimeType="text/x-markdown" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/*" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TermuxActivity"
+            android:exported="true"
+            android:label="@string/anti_term_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:launchMode="singleTask"
+            android:taskAffinity="${applicationId}.terminal"
+            android:theme="@style/Theme.Gemini"
+            android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- AntiTerm Default Style Launcher Alias -->
+        <activity-alias
+            android:name=".TermuxAntiTermAlias"
+            android:targetActivity=".TermuxActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:label="@string/anti_term_name"
+            android:theme="@style/Theme.Gemini"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Classic Termux Style Launcher Alias -->
+        <activity-alias
+            android:name=".TermuxClassicAlias"
+            android:targetActivity=".TermuxActivity"
+            android:icon="@mipmap/ic_termux_launcher"
+            android:roundIcon="@mipmap/ic_termux_launcher_round"
+            android:label="@string/termux_name"
+            android:theme="@style/Theme.Gemini"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".ui.bubble.FloatingChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AntiGem.FloatingTranslucent"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:autoRemoveFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize" />
+
+        <!-- Termux Open Activity (termux-open / termux-open-url / xdg-open activity intent targets) -->
+        <activity
+            android:name="com.termux.app.TermuxOpenActivity"
+            android:exported="true"
+            android:permission="${applicationId}.permission.RUN_COMMAND"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.termux.app.TermuxUrlOpenActivity" />
+                <action android:name="com.termux.app.TermuxOpenActivity" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Termux System Receiver (termux-setup-storage, reload_style) -->
+        <receiver
+            android:name="com.termux.app.TermuxSystemReceiver"
+            android:exported="true"
+            android:permission="${applicationId}.permission.RUN_COMMAND">
+            <intent-filter>
+                <action android:name="com.termux.app.request_storage_permissions" />
+                <action android:name="com.termux.app.reload_style" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Termux Open Receiver (termux-open, termux-open-url, xdg-open) -->
+        <receiver
+            android:name="com.termux.app.TermuxOpenReceiver"
+            android:exported="true"
+            android:permission="${applicationId}.permission.RUN_COMMAND">
+            <intent-filter>
+                <action android:name="com.termux.app.TermuxOpenReceiver" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Termux:API Subsystem Receiver (termux-toast, termux-vibrate, termux-clipboard, etc.) -->
+        <receiver
+            android:name=".data.receiver.TermuxApiReceiver"
+            android:exported="true"
+            android:permission="${applicationId}.permission.API">
+            <intent-filter>
+                <action android:name="com.termux.api.ACTION_API" />
+                <action android:name="com.termux.api" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Termux Service (termux-wake-lock, termux-wake-unlock, termux-service-stop) -->
+        <service
+            android:name="com.termux.app.TermuxService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="${applicationId}.permission.RUN_COMMAND"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Background terminal and AI language server execution" />
+            <intent-filter>
+                <action android:name="com.termux.service_wake_lock" />
+                <action android:name="com.termux.service_wake_unlock" />
+                <action android:name="com.termux.service_stop" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Manage Space Activity (Clear Storage Interceptor) -->
+        <activity
+            android:name="com.example.gemini.ui.settings.ManageSpaceActivity"
+            android:exported="true"
+            android:label="AntiGem Space Manager"
+            android:theme="@style/Theme.Gemini">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_SPACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Device Admin Receiver for Accidental Uninstall Protection -->
+        <receiver
+            android:name="com.example.gemini.data.admin.AntiGemDeviceAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_policies" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

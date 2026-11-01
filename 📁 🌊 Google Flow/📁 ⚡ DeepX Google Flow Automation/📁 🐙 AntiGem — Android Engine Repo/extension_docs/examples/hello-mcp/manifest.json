@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "id": "hello-mcp",
+  "name": "Hello MCP",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "background": {"service_worker": "worker.js"},
+  "mcp_tools": [{"name":"hello","description":"Greet someone and persist the greeting count.","inputSchema":{"type":"object","properties":{"name":{"type":"string"}},"required":["name"],"additionalProperties":false}}]
+}
