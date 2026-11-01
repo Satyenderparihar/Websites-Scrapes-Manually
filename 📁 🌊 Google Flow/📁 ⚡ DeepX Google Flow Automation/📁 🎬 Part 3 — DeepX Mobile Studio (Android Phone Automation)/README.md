@@ -17,7 +17,8 @@ Everything required specifically for Part 3 (Mobile Phone AI Video Automation) i
 | :--- | :--- | :--- |
 | 📱 **DeepX v3 (Mobile Studio)** | **DeepX Mobile Studio Package (`deepx-mob-studio` — Official Google Drive)** | [🔗 Open Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
 | 🐙 **Antigem Android Engine** | **Antigem Native Android Engine (GitHub)** — Run Antigravity autonomously on Android Termux | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| 📺 **Mobile Setup Tutorial** | Step-by-Step Video: How to Install & Run Antigravity on Android Phone | [📺 Watch Setup Video](https://youtu.be/jHoEZbAvDjs) |
+| 📖 **Antigem Setup Guide** | Step-by-step installation guide & commands | [📝 Antigravity on Android Guide](./📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md) |
+| 📺 **Mobile Setup Tutorial** | Step-by-Step Companion Video: How to Install & Run Antigravity on Android (8:00) | [📺 Watch Setup Video](https://youtu.be/uZJPMTKVs_U) |
 | 🌐 **Kiwi Browser (Android)** | Chromium mobile browser with Desktop Extension support | [🌐 Play Store / APK](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) |
 | 🗣️ **Cartesia AI (Voiceover)** | Hyper-realistic AI voice synthesis (20,000 characters/month Free, No Card Required) | [🎙️ play.cartesia.ai](https://play.cartesia.ai) |
 | 💬 **Community Channel** | Official Updates & Mobile Support on WhatsApp | [💬 Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
@@ -73,7 +74,7 @@ Running an automated AI studio on a smartphone requires combining three lightwei
 1. Download **Termux** from [F-Droid](https://f-droid.org/en/packages/com.termux/) (avoid Google Play Store version as it is deprecated).
 2. Install the **Antigem Native Android Engine** to run Antigravity seamlessly on mobile:
    - Visit: [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem)
-   - Follow the detailed setup instructions or watch the companion video: [📺 Mobile Setup Tutorial](https://youtu.be/jHoEZbAvDjs).
+   - Follow our dedicated guide: [📝 Antigravity on Android Setup Guide](./📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md) or watch the companion video: [📺 Mobile Setup Tutorial](https://youtu.be/uZJPMTKVs_U) (8:00).
 
 ### Step 2: Install Kiwi Browser & Load DeepX Extension
 1. Install **Kiwi Browser** from the Google Play Store.

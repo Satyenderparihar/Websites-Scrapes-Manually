@@ -106,7 +106,7 @@ Complete hands-free workflow using `deepx-video-studio.zip`, real-time social me
 > 📺 **Video Link**: [https://youtu.be/faAj5PCkcjY](https://youtu.be/faAj5PCkcjY) (17:38)  
 > 📁 **Detailed Guide & Folder**: [📁 Open Part 3 Complete Documentation](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)  
 > 📦 **Part 3 Dedicated Resource**: [🔗 DeepX Mobile Studio (Google Drive v3)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk)  
-> 🐙 **Native Mobile Engine**: [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem) | [📺 Watch Mobile Setup Video](https://youtu.be/jHoEZbAvDjs)
+> 🐙 **Native Mobile Engine**: [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem) | [📖 Dedicated Antigem Guide](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md) | [📺 Watch Setup Video](https://youtu.be/uZJPMTKVs_U)
 
 ### Part 3 Summary & All 9 Chapters:
 The ultimate mobile masterclass showing how to run 100% automated video production directly on an Android smartphone using Termux, Antigem, Kiwi Browser, Google Flow, and Cartesia AI without ever needing a laptop or desktop PC.

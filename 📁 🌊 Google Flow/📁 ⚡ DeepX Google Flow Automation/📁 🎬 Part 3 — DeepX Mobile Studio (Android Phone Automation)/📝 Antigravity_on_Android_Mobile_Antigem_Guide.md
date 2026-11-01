@@ -5,8 +5,8 @@
 > 📺 **Watch on YouTube**: [https://youtu.be/uZJPMTKVs_U](https://youtu.be/uZJPMTKVs_U)  
 > 👤 **Channel**: Dipeshkyd  
 > 🐙 **GitHub Repository**: [Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem)  
-> 🛠️ **Tools**: Antigem Native Android App + Google Antigravity + Termux  
-> 📁 **Category**: [📁 ⚡ Automation & Antigravity Workflows](../📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)  
+> 📁 **Category**: [📁 🎬 Part 3 — DeepX Mobile Studio (Android Phone Automation)](./README.md)  
+> 🧭 **Series Navigation**: [Part 1: Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3 Hub ➔](./README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)  
 
 ---
 
@@ -57,5 +57,6 @@ Manage workspace projects, execute shell commands, maintain continuous session c
 
 ## 🔗 Official Links & Community
 - **Antigem Native Android Engine (GitHub)**: [https://github.com/Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) — Run Antigravity locally on Mobile Phone
-- **DeepX Google Flow Automation Engine (3-Part Master Series)**: [../📁 ⚡ DeepX Google Flow Automation/](../📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
+- **DeepX Part 3: Mobile Studio Guide**: [./README.md](./README.md)
+- **DeepX Google Flow Automation Master Hub**: [../📝 DeepX_Google_Flow_Automation_Master_Guide.md](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 - **WhatsApp Community**: [https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h)
