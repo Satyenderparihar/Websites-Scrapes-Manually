@@ -19,42 +19,44 @@
 
 Har Part ka apna dedicated folder aur uske respective resources bilkul alag organize kiye gaye hain taaki koi resource ya information mix na ho:
 
-| Part | Title & Focus | Video Link | Dedicated Folder & Guide | Dedicated Resource |
+| Video / Part | Exact YouTube Video Title | Duration & Video Link | Dedicated Folder | Dedicated Resources |
 | :--- | :--- | :--- | :--- | :--- |
-| **Part 0** | **Install Antigravity on Android (Antigem Setup)**<br>Native Android engine, Termux setup, local AI agent execution | [📺 Watch Part 0 (8:00)](https://youtu.be/uZJPMTKVs_U) | [📁 Open Part 0 Folder](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| **Part 1** | **DeepX Extension Setup (Laptop & Kiwi)**<br>Browser bridge, Developer Mode, Antigravity Turbo Mode | [📺 Watch Part 1 (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Part 1 Folder](./📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| **Part 2** | **1-Click AI Video Studio**<br>`deepx-video-studio.zip`, trend scouting, Cartesia VO, batch render | [📺 Watch Part 2 (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Part 2 Folder](./📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
-| **Part 3** | **Phone-Based Mobile Video Automation**<br>100% FREE on Android, Antigem engine, Kiwi Browser, Termux | [📺 Watch Part 3 (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Part 3 Folder](./📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
-| **Repo** | **AntiGem Android Engine (Cloned Source)**<br>Full Kotlin IDE app, Termux bridge, gRPC server & daemons | — | [📁 Open Cloned Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
+| **Video 0** | **How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)** | [📺 Watch (8:00)](https://youtu.be/uZJPMTKVs_U) | [📁 Open Folder](./📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) \| [📁 Local Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) |
+| **Video 1** | **Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 \| DeepX Extension Setup (FREE)** | [📺 Watch (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Folder](./📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
+| **Video 2** | **1 Click = Complete AI Video 🎬 \| FREE & Automated with Google Flow + Antigravity + DeepX Extension** | [📺 Watch (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Folder](./📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
+| **Video 3** | **The ONLY Phone-Based AI Video Automation( It’s 100% FREE) WITH (Antigravity + Flow) on Android #ai** | [📺 Watch (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Folder](./📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
+| **Video 4** | **Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup \| @Dipeshkyd** | [📺 Watch (5:12)](https://youtu.be/jHoEZbAvDjs) | [📁 Open Folder](./📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) \| [📁 Local Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) |
+| **Repo** | **AntiGem Android Engine (Cloned Source Repository)** | Source Code | [📁 Open Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 
 ---
 
 ## 📑 Table of Contents
-1. [🎬 DeepX Master Series Overview](#-deepx-master-series-overview-4-dedicated-parts)
-2. [📱 Part 0: Install Antigravity on Android (Antigem Setup)](#-part-0-install-antigravity-on-android-phone-antigem-native-engine-setup)
-3. [💻 Part 1: Extension Installation & Setup](#-part-1-deepx-extension-installation--setup-foundation)
-4. [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
-5. [📱 Part 3: The ONLY Phone-Based AI Video Automation (Android)](#-part-3-the-only-phone-based-ai-video-automation-100-free-on-android)
-6. [⚡ Core Features in Detail](#-core-features-in-detail)
-7. [🛠️ 1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
-8. [🧩 Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
-9. [🔌 Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
-10. [🧠 Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
-11. [📋 23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-12. [🎁 Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+1. [🎬 DeepX Master Series Overview (5 Dedicated Videos)](#-deepx-master-series-overview)
+2. [📱 Video 0: How to Install Google Antigravity on Android](#-video-0-how-to-install-google-antigravity-on-android)
+3. [💻 Video 1: Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯](#-video-1-google-flow--antigravity--insane-autopilot-ai-videos-)
+4. [🎬 Video 2: 1 Click = Complete AI Video 🎬](#-video-2-1-click--complete-ai-video-)
+5. [📱 Video 3: The ONLY Phone-Based AI Video Automation (Android)](#-video-3-the-only-phone-based-ai-video-automation)
+6. [📱 Video 4: Google Antigravity on Android Phone! No Laptop Needed](#-video-4-google-antigravity-on-android-phone)
+7. [⚡ Core Features in Detail](#-core-features-in-detail)
+8. [🛠️ Quickstart Installation & Setup Guides](#-quickstart-installation--setup-guides)
+9. [🧩 Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
+10. [🔌 Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
+11. [🧠 Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
+12. [📋 23 Available MCP Server Tools](#-23-available-mcp-server-tools)
+13. [🎁 Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
 
 ---
 
-## 📱 Part 0: Install Antigravity on Android Phone (Antigem Native Engine Setup)
+## 📱 Video 0: How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)
 
-[![Watch Part 0](https://img.youtube.com/vi/uZJPMTKVs_U/maxresdefault.jpg)](https://youtu.be/uZJPMTKVs_U)
+[![Watch Video 0](https://img.youtube.com/vi/uZJPMTKVs_U/maxresdefault.jpg)](https://youtu.be/uZJPMTKVs_U)
 
-> 📺 **Video Link**: [https://youtu.be/uZJPMTKVs_U](https://youtu.be/uZJPMTKVs_U) (8:00)  
-> 📁 **Detailed Guide & Folder**: [📁 Open Part 0 Complete Documentation](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)  
-> 🐙 **Part 0 Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
+> 📺 **Exact YouTube Video**: [How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)](https://youtu.be/uZJPMTKVs_U) (8:00)  
+> 📁 **Dedicated Folder**: [📁 Open Video 0 Folder](./📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md)  
+> 🐙 **Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
 
-### Part 0 Summary & Chapters:
-The definitive setup guide by @dipeshkyd to install and run Google Antigravity locally on Android using the native Antigem App and Termux without needing a computer or cloud streaming.
+### Video 0 Summary & Chapters:
+The updated, 100% working setup guide by @dipeshkyd to install and run Google Antigravity locally on Android using the native Antigem App and Termux without needing a computer or cloud streaming.
 
 | Timestamp | Chapter | What's Covered |
 | :--- | :--- | :--- |
@@ -68,19 +70,19 @@ The definitive setup guide by @dipeshkyd to install and run Google Antigravity l
 | **6:15** | **First Autonomous AI Task on Mobile** | Running autonomous coding and video generation |
 | **7:45** | **Optimization Tips & Best Practices** | Battery saving & maximum performance tips |
 
-👉 **[Read Full Part 0 Mobile Foundation Guide ➔](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)**
+👉 **[Read Full Video 0 Setup Guide ➔](./📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md)**
 
 ---
 
-## 💻 Part 1: DeepX Extension Installation & Setup (Foundation)
+## 💻 Video 1: Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)
 
-[![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+[![Watch Video 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
-> 📺 **Video Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI) (6:00)  
-> 📁 **Detailed Guide & Folder**: [📁 Open Part 1 Complete Documentation](./📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)  
-> 📦 **Part 1 Dedicated Resource**: [🔗 DeepX Extension (Google Drive v1)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
+> 📺 **Exact YouTube Video**: [Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)](https://youtu.be/iHoS37EtfHI) (6:00)  
+> 📁 **Dedicated Folder**: [📁 Open Video 1 Folder](./📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md)  
+> 📦 **Dedicated Resource**: [🔗 DeepX Extension (Google Drive v1)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
 
-### Part 1 Summary & Chapters:
+### Video 1 Summary & Chapters:
 Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extension activation, Turbo Mode configuration in Antigravity, and first live 2D animated story generation.
 
 | Timestamp | Chapter | What's Covered |
@@ -97,19 +99,19 @@ Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extens
 | **5:45** | **Character Reference Lock LIVE** | Locking facial features and lighting continuity |
 | **6:00** | **Final Story Output** | Zero-intervention autonomous output showcase |
 
-👉 **[Read Full Part 1 Installation Walkthrough ➔](./📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)**
+👉 **[Read Full Video 1 Installation Walkthrough ➔](./📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md)**
 
 ---
 
-## 🎬 Part 2: 1 Click = Complete AI Video Studio (Autopilot Masterclass)
+## 🎬 Video 2: 1 Click = Complete AI Video 🎬 | FREE & Automated with Google Flow + Antigravity + DeepX Extension
 
-[![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+[![Watch Video 2](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
 
-> 📺 **Video Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k) (9:55)  
-> 📁 **Detailed Guide & Folder**: [📁 Open Part 2 Complete Documentation](./📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)  
-> 📦 **Part 2 Dedicated Resource**: [🔗 DeepX Video Studio (Google Drive v2 — Latest)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)
+> 📺 **Exact YouTube Video**: [1 Click = Complete AI Video 🎬 | FREE & Automated with Google Flow + Antigravity + DeepX Extension](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📁 **Dedicated Folder**: [📁 Open Video 2 Folder](./📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md)  
+> 📦 **Dedicated Resource**: [🔗 DeepX Video Studio (Google Drive v2 — Latest)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)
 
-### Part 2 Summary & Chapters:
+### Video 2 Summary & Chapters:
 Complete hands-free workflow using `deepx-video-studio.zip`, real-time social media trend scouting (YouTube, X, Reddit), automated voiceover integration (Cartesia AI 20k free credits), character consistency locking, and multi-scene batch video generation.
 
 | Timestamp | Chapter | What's Covered |
@@ -125,20 +127,20 @@ Complete hands-free workflow using `deepx-video-studio.zip`, real-time social me
 | **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
 | **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
 
-👉 **[Read Full Part 2 Studio Walkthrough ➔](./📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**
+👉 **[Read Full Video 2 Studio Walkthrough ➔](./📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md)**
 
 ---
 
-## 📱 Part 3: The ONLY Phone-Based AI Video Automation (100% FREE on Android)
+## 📱 Video 3: The ONLY Phone-Based AI Video Automation( It’s 100% FREE) WITH (Antigravity + Flow) on Android #ai
 
-[![Watch Part 3](https://img.youtube.com/vi/faAj5PCkcjY/maxresdefault.jpg)](https://youtu.be/faAj5PCkcjY)
+[![Watch Video 3](https://img.youtube.com/vi/faAj5PCkcjY/maxresdefault.jpg)](https://youtu.be/faAj5PCkcjY)
 
-> 📺 **Video Link**: [https://youtu.be/faAj5PCkcjY](https://youtu.be/faAj5PCkcjY) (17:38)  
-> 📁 **Detailed Guide & Folder**: [📁 Open Part 3 Complete Documentation](./📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)  
-> 📦 **Part 3 Dedicated Resource**: [🔗 DeepX Mobile Studio (Google Drive v3)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk)  
-> 🐙 **Native Mobile Engine**: [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem) | [📁 Open Part 0 Setup Guide](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [📺 Watch Setup Video](https://youtu.be/uZJPMTKVs_U)
+> 📺 **Exact YouTube Video**: [The ONLY Phone-Based AI Video Automation( It’s 100% FREE) WITH (Antigravity + Flow) on Android #ai](https://youtu.be/faAj5PCkcjY) (17:38)  
+> 📁 **Dedicated Folder**: [📁 Open Video 3 Folder](./📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md)  
+> 📦 **Dedicated Resource**: [🔗 DeepX Mobile Studio (Google Drive v3)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk)  
+> 🐙 **Native Mobile Engine**: [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem) | [📁 Open Video 0 Setup Guide](./📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | [📺 Watch Setup Video](https://youtu.be/uZJPMTKVs_U)
 
-### Part 3 Summary & All 9 Chapters:
+### Video 3 Summary & All 9 Chapters:
 The ultimate mobile masterclass showing how to run 100% automated video production directly on an Android smartphone using Termux, Antigem, Kiwi Browser, Google Flow, and Cartesia AI without ever needing a laptop or desktop PC.
 
 | Timestamp | Chapter | What's Covered |
@@ -153,7 +155,38 @@ The ultimate mobile masterclass showing how to run 100% automated video producti
 | **16:40** | **How to Dominate the Youtube Shorts and Faceless Channel** | High-retention hooks, viral pacing, and monetization strategies |
 | **17:30** | **Give the motivation to generate own Videos and comments** | Final motivation to start producing automated content today |
 
-👉 **[Read Full Part 3 Mobile Studio Walkthrough ➔](./📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**
+👉 **[Read Full Video 3 Mobile Studio Walkthrough ➔](./📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md)**
+
+---
+
+## 📱 Video 4: Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup | @Dipeshkyd
+
+[![Watch Video 4](https://img.youtube.com/vi/jHoEZbAvDjs/maxresdefault.jpg)](https://youtu.be/jHoEZbAvDjs)
+
+> 📺 **Exact YouTube Video**: [Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup | @Dipeshkyd](https://youtu.be/jHoEZbAvDjs) (5:12)  
+> 📁 **Dedicated Folder**: [📁 Open Video 4 Folder](./📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md)  
+> 🐙 **Dedicated Resource**: [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
+
+### Video 4 Summary & Chapters:
+Run Google Antigravity natively on your Android phone using AntiGem! Full masterclass configuring high-speed local gRPC connection, local Termux terminal subsystem, and Gemini 3.8 Flash for on-the-go agentic AI coding.
+
+| Timestamp | Chapter | What's Covered in This Video |
+| :--- | :--- | :--- |
+| **0:00** | **Why You Don’t Need a Laptop Anymore (Mobile AI Era)** | Running Google Antigravity natively on smartphone overview |
+| **0:35** | **What is AntiGem? (Google Antigravity on Android)** | Architecture pairing Jetpack Compose with native Linux Termux |
+| **0:50** | **gRPC Protocol & Built-in Features (Editor, Terminal, MCP)** | High-speed local binary gRPC connection, code editor & MCP hub |
+| **1:18** | **Real Projects Built on Phone (PustakLink, WorldBook)** | Showcase of fullstack mobile web apps created on Android phone |
+| **1:32** | **How to Download AntiGem APK from GitHub (v0.0.7)** | Downloading verified APK from GitHub releases |
+| **2:12** | **Installing APK & Play Protect Settings** | Configuring installation permissions & Play Protect bypass |
+| **2:38** | **Required Android Permissions (Storage, Mic, Notification)** | Granting system access for terminal runtime and daemons |
+| **3:02** | **AntiGem Environment Setup (GitHub vs Mirror)** | Automatic bootstrap setup and initial package configuration |
+| **3:35** | **Choosing Termux vs Standalone Runtime** | Selecting execution environment and Linux subsystem |
+| **4:05** | **Google Account Login & Authentication** | Connecting Google account credentials and API keys |
+| **4:38** | **Selecting Gemini 3.8 Flash & LLM Models** | Choosing high-speed agentic models (Gemini 3.8/3.7 Flash, 3.1 Pro, Claude) |
+| **5:02** | **Live Test: Generating Code & AI Images** | Running first autonomous agent task directly on Android |
+| **5:10** | **Troubleshooting & Community Support** | Fixing environment errors, Play Protect, and community links |
+
+👉 **[Read Full Video 4 Mobile Setup Guide ➔](./📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md)**
 
 ---
 
@@ -174,9 +207,9 @@ The ultimate mobile masterclass showing how to run 100% automated video producti
 
 All software bundles (Chrome Extension, MCP Server, automated Windows `.bat`, Antigravity skills, and Mobile studio) are available in their dedicated Google Drive links:
 
-- 💻 **Laptop / Desktop Users**: Follow [Part 1: DeepX Extension Setup Guide](./📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) to download and install the extension bundle from [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
-- 🎬 **1-Click AI Video Studio Users**: Follow [Part 2: DeepX Video Generator Studio](./📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) to download `deepx-video-studio.zip` from [Google Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc).
-- 📱 **Mobile Creators**: Follow [Part 0: Install Antigravity on Android](./📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) and [Part 3: DeepX Mobile Studio](./📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) to download `deepx-mob-studio` from [Google Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk).
+- 💻 **Laptop / Desktop Users**: Follow [Video 1: DeepX Extension Setup Guide](./📁%201%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) to download and install the extension bundle from [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
+- 🎬 **1-Click AI Video Studio Users**: Follow [Video 2: 1 Click Complete AI Video Studio](./📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) to download `deepx-video-studio.zip` from [Google Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc).
+- 📱 **Mobile Creators**: Follow [Video 0: How to Install Google Antigravity on Android](./📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md), [Video 3: The ONLY Phone-Based AI Video Automation](./📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md), and [Video 4: Antigravity on Phone Setup Guide](./📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md).
 
 ---
 

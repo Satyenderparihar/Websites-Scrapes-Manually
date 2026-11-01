@@ -1,10 +1,10 @@
-# 🎬 DeepX Part 1: Extension Installation & Setup (Laptop & Kiwi Browser)
+# Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)
 
-[![Watch Part 1: DeepX Extension Installation & Laptop Setup](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
+[![Watch Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
-> 📺 **Video Tutorial**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
-> 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | **Part 1 (Current)** | [Part 2: Video Studio ➔](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 📺 **Exact YouTube Video**: [Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)](https://youtu.be/iHoS37EtfHI) (6:00)  
+> 👤 **Creator**: [@Dipeshkyd](https://youtube.com/@Dipeshkyd)  
+> 🧭 **Series Navigation**: [Video 0 ➔](../📁%200%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | **Video 1 (Current)** | [Video 2 ➔](../📁%202%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) | [Video 3 ➔](../📁%203%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20#ai/README.md) | [Video 4 ➔](../📁%204%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
