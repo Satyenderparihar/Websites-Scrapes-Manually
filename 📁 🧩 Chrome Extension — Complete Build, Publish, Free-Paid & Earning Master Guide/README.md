@@ -1,15 +1,15 @@
-# 🧩 Chrome Extension (Manifest V3) Master Hub & Directory
+# 🧩 Chrome Extension Masterclass — Build, Publish, Free-Paid & Earning Guide
 
-> एक संपूर्ण, श्रेणीबद्ध (categorized) संदर्भ गाइड और प्रोडक्शन-रेडी एक्सटेंशन रिपॉजिटरी।
+> एक संपूर्ण, श्रेणीबद्ध (categorized) संदर्भ गाइड और प्रोडक्शन-रेडी एक्सटेंशन रिपॉजिटरी — एक्सटेंशन बनाने से लेकर, Free vs Paid, स्टोर नियम और कमाई (Monetization) तक सब कुछ।
 
 ---
 
 ## 🗂️ रिपोजिटरी संरचना (Repository Directory Structure)
 
 ```text
-📁 🧩 Chrome Extensions/
+📁 🧩 Chrome Extension — Complete Build, Publish, Free-Paid & Earning Master Guide/
 ├── README.md (यह फ़ाइल - Master Portal)
-├── 📝 Chrome_Extension_Master_Guide_Manifest_V3.md (संपूर्ण ऑल-इन-वन मास्टर गाइड)
+├── 📝 Chrome_Extension_Complete_Build_Publish_and_Earning_Master_Guide.md (ऑल-इन-वन मास्टर गाइड)
 │
 ├── 📁 📚 Categorized Modules/ (श्रेणीबद्ध विषयवार दस्तावेज़)
 │   ├── 01_Architecture_and_Lifecycle.md
