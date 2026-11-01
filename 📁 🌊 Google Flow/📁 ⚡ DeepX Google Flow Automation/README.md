@@ -8,6 +8,11 @@ Please refer to the complete, official master guide:
 
 ## 🎬 Quick Navigation to Series Parts:
 
+- [📱 **Part 0 — Install Antigravity on Android (Antigem Setup)**](./📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)
+  - Native Antigem Android Engine, Termux environment setup, local AI agent execution
+  - [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem)
+  - [📺 Watch Part 0 Video (8:00)](https://youtu.be/uZJPMTKVs_U)
+
 - [💻 **Part 1 — DeepX Extension Setup (Laptop & Kiwi Browser)**](./📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)
   - Browser Bridge, Developer Mode, Antigravity Turbo Mode
   - [🔗 Open Google Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)

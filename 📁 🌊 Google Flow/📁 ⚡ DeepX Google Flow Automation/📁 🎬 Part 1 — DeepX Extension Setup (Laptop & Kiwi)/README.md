@@ -4,8 +4,7 @@
 
 > 📺 **Video Tutorial**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🏷️ **Focus**: Browser Bridge, Chrome Developer Mode, Antigravity Turbo Mode, and 1st Automated 2D Story  
-> 🧭 **Series Navigation**: **Part 1 (Current)** | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | **Part 1 (Current)** | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 

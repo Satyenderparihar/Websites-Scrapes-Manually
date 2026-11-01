@@ -4,8 +4,7 @@
 
 > 📺 **Video Masterclass**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🏷️ **Focus**: `deepx-video-studio.zip`, Trend Scouting, Character Consistency Lock, Batch Video Automation & Free Credits Loop  
-> 🧭 **Series Navigation**: [Part 1: Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | **Part 2 (Current)** | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [Part 1: Laptop Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | **Part 2 (Current)** | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 

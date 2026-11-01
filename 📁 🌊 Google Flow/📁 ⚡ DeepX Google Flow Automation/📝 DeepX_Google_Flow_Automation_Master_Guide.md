@@ -15,12 +15,13 @@
 
 ---
 
-## 🎬 DeepX Master Series Overview (3 Dedicated Parts)
+## 🎬 DeepX Master Series Overview (4 Dedicated Parts)
 
 Har Part ka apna dedicated folder aur uske respective resources bilkul alag organize kiye gaye hain taaki koi resource ya information mix na ho:
 
 | Part | Title & Focus | Video Link | Dedicated Folder & Guide | Dedicated Resource |
 | :--- | :--- | :--- | :--- | :--- |
+| **Part 0** | **Install Antigravity on Android (Antigem Setup)**<br>Native Android engine, Termux setup, local AI agent execution | [📺 Watch Part 0 (8:00)](https://youtu.be/uZJPMTKVs_U) | [📁 Open Part 0 Folder](./📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 | **Part 1** | **DeepX Extension Setup (Laptop & Kiwi)**<br>Browser bridge, Developer Mode, Antigravity Turbo Mode | [📺 Watch Part 1 (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Part 1 Folder](./📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
 | **Part 2** | **1-Click AI Video Studio**<br>`deepx-video-studio.zip`, trend scouting, Cartesia VO, batch render | [📺 Watch Part 2 (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Part 2 Folder](./📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
 | **Part 3** | **Phone-Based Mobile Video Automation**<br>100% FREE on Android, Antigem engine, Kiwi Browser, Termux | [📺 Watch Part 3 (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Part 3 Folder](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
@@ -28,17 +29,45 @@ Har Part ka apna dedicated folder aur uske respective resources bilkul alag orga
 ---
 
 ## 📑 Table of Contents
-1. [🎬 DeepX Master Series Overview](#-deepx-master-series-overview-3-dedicated-parts)
-2. [💻 Part 1: Extension Installation & Setup](#-part-1-deepx-extension-installation--setup-foundation)
-3. [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
-4. [📱 Part 3: The ONLY Phone-Based AI Video Automation (Android)](#-part-3-the-only-phone-based-ai-video-automation-100-free-on-android)
-5. [⚡ Core Features in Detail](#-core-features-in-detail)
-6. [🛠️ 1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
-7. [🧩 Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
-8. [🔌 Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
-9. [🧠 Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
-10. [📋 23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-11. [🎁 Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+1. [🎬 DeepX Master Series Overview](#-deepx-master-series-overview-4-dedicated-parts)
+2. [📱 Part 0: Install Antigravity on Android (Antigem Setup)](#-part-0-install-antigravity-on-android-phone-antigem-native-engine-setup)
+3. [💻 Part 1: Extension Installation & Setup](#-part-1-deepx-extension-installation--setup-foundation)
+4. [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
+5. [📱 Part 3: The ONLY Phone-Based AI Video Automation (Android)](#-part-3-the-only-phone-based-ai-video-automation-100-free-on-android)
+6. [⚡ Core Features in Detail](#-core-features-in-detail)
+7. [🛠️ 1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
+8. [🧩 Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
+9. [🔌 Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
+10. [🧠 Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
+11. [📋 23 Available MCP Server Tools](#-23-available-mcp-server-tools)
+12. [🎁 Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+
+---
+
+## 📱 Part 0: Install Antigravity on Android Phone (Antigem Native Engine Setup)
+
+[![Watch Part 0](https://img.youtube.com/vi/uZJPMTKVs_U/maxresdefault.jpg)](https://youtu.be/uZJPMTKVs_U)
+
+> 📺 **Video Link**: [https://youtu.be/uZJPMTKVs_U](https://youtu.be/uZJPMTKVs_U) (8:00)  
+> 📁 **Detailed Guide & Folder**: [📁 Open Part 0 Complete Documentation](./📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)  
+> 🐙 **Part 0 Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem)
+
+### Part 0 Summary & Chapters:
+The definitive setup guide by @dipeshkyd to install and run Google Antigravity locally on Android using the native Antigem App and Termux without needing a computer or cloud streaming.
+
+| Timestamp | Chapter | What's Covered |
+| :--- | :--- | :--- |
+| **0:00** | **Introduction** | New Antigravity Android local setup overview |
+| **0:45** | **What is Antigem & How It Works** | Native Android architecture & local execution |
+| **1:30** | **System Requirements & Prerequisites** | Storage, Android version, and Termux setup |
+| **2:15** | **Download & Install Antigem from GitHub** | Step-by-step APK / repo cloning and setup |
+| **3:45** | **Android Storage & System Permissions** | Granting storage access & background execution |
+| **4:10** | **Account Authentication** | Connecting API keys and confirming credentials |
+| **5:45** | **DeepX Extension Integration** | Google Flow mobile bridge setup |
+| **6:15** | **First Autonomous AI Task on Mobile** | Running autonomous coding and video generation |
+| **7:45** | **Optimization Tips & Best Practices** | Battery saving & maximum performance tips |
+
+👉 **[Read Full Part 0 Mobile Foundation Guide ➔](./📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)**
 
 ---
 

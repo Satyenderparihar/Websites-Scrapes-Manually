@@ -61,8 +61,9 @@ All prompts are formatted inside standard fenced code blocks:
 
 ---
 
-### 10. ⚡ [DeepX Google Flow Automation (3-Part Master Series)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
+### 10. ⚡ [DeepX Google Flow Automation (Parts 0 to 3 Master Series)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
 - **[DeepX Flow Bridge — Master Automation Guide](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Full overview connecting Antigravity Coding Agents directly to Google Flow with character consistency, universal reference lock, scene continuity, and 23 MCP tools.
+- **[📱 Part 0: Install Antigravity on Android (Antigem Setup)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)**: Mobile phone local setup, Termux environment, Antigem engine, and [GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem).
 - **[💻 Part 1: DeepX Extension Setup (Laptop & Kiwi)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)**: Extension installation, Developer Mode, Antigravity Turbo Mode, and [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
 - **[🎬 Part 2: 1-Click AI Video Studio](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**: `deepx-video-studio.zip`, trend scouting, Cartesia VO integration, and [Google Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc).
 - **[📱 Part 3: DeepX Mobile Studio (Android Phone)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**: 100% free phone-based AI video automation with Termux, Antigem engine, Kiwi Browser, and [Google Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk).
