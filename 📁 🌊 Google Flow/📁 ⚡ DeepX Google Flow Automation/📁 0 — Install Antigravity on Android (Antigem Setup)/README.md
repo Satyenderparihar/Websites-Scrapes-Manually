@@ -4,8 +4,7 @@
 
 > 📺 **Video Tutorial**: [How to Install Google Antigravity on Android (Full Setup & Tutorial)](https://youtu.be/uZJPMTKVs_U) (8:00)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🏷️ **Focus**: Mobile Foundation, Antigem Native Android Engine, Termux Environment & Local Execution  
-> 🧭 **Series Navigation**: **Part 0 (Current)** | [Part 1: Laptop Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: **Part 0 (Current)** | [Part 1: Laptop Setup ➔](../📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [Part 2: Video Studio ➔](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
@@ -69,5 +68,5 @@ Manage workspace projects, execute shell commands, maintain continuous session c
 
 ## 🚀 Next Steps in the Series:
 
-- 💻 **Laptop Users**: Go to [Part 1: Extension Setup (Laptop & Kiwi)](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) to set up the browser extension.
-- 📱 **Mobile Creators**: Once Antigravity is running on your phone, jump directly to [Part 3: DeepX Mobile Studio (Android Phone Automation)](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) for full hands-free video production!
+- 💻 **Laptop Users**: Go to [Part 1: Extension Setup (Laptop & Kiwi)](../📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) to set up the browser extension.
+- 📱 **Mobile Creators**: Once Antigravity is running on your phone, jump directly to [Part 3: DeepX Mobile Studio (Android Phone Automation)](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) for full hands-free video production!

@@ -4,21 +4,17 @@
 
 > 📺 **Video Tutorial**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | **Part 1 (Current)** | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | **Part 1 (Current)** | [Part 2: Video Studio ➔](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [Part 3: Mobile Studio ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
 ## 🔗 Part 1 Resources & Downloads
 
-Everything required specifically for Part 1 is listed right here:
+Everything required specifically for Part 1 is available in the official Google Drive package:
 
 | Resource Type | Resource Details | Link |
 | :--- | :--- | :--- |
-| 🧩 **DeepX Extension (Drive v1)** | **DeepX Chrome Extension V1 (Official Google Drive)** | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| 📦 **Direct ZIP Download** | Ready-to-use unpacked bundle ZIP from repository | [📥 Download ZIP](../📦%20DeepX_Extension_Full_Bundle.zip) |
-| 🧩 **Unpacked Extension Folder** | Source directory to load into Chrome / Kiwi Browser | [📁 DeepX Chrome Extension](../📁%20🧩%20DeepX%20Chrome%20Extension/) |
-| 🔌 **DeepX MCP Server** | Local WebSocket & Model Context Protocol server | [📁 DeepX MCP Server](../📁%20🔌%20DeepX%20MCP%20Server/) |
-| ⚡ **Windows 1-Click Installer** | Automated batch installer for Antigravity MCP config | [⚡ Install & Setup DeepX on Windows.bat](../⚡%20Install%20&%20Setup%20DeepX%20on%20Windows.bat) |
+| 🧩 **DeepX Extension Bundle (Drive v1)** | **DeepX Chrome Extension V1 Full Bundle (Official Google Drive)** | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
 | 💬 **Community Channel** | Official Updates & Support on WhatsApp | [💬 Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
 
 ---
@@ -54,7 +50,7 @@ Everything required specifically for Part 1 is listed right here:
    ```
 2. Turn ON the **Developer mode** switch at the top-right corner.
 3. Click the **Load unpacked** button at the top-left.
-4. Select the extracted [`📁 🧩 DeepX Chrome Extension`](../📁%20🧩%20DeepX%20Chrome%20Extension/) directory.
+4. Select the extracted `DeepX Chrome Extension` directory from your downloaded Drive ZIP.
 5. DeepX Flow Bridge will now appear in your active extensions list.
 6. Pin the extension to your toolbar for quick access.
 
@@ -77,7 +73,7 @@ Run the included Windows batch file or register the MCP server manually in `mcp_
     "deepx-flow": {
       "command": "node",
       "args": [
-        "path/to/📁 🔌 DeepX MCP Server/bin/deepx-mcp.mjs"
+        "path/to/DeepX MCP Server/bin/deepx-mcp.mjs"
       ]
     }
   }
@@ -95,4 +91,4 @@ In Antigravity settings:
 
 Once your extension and MCP bridge are active, proceed to **Part 2** to turn your setup into a 1-Click Complete AI Video Studio:
 
-👉 **[Go to Part 2: 1 Click = Complete AI Video Studio (deepx-video-studio.zip) ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**
+👉 **[Go to Part 2: 1 Click = Complete AI Video Studio (deepx-video-studio.zip) ➔](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**

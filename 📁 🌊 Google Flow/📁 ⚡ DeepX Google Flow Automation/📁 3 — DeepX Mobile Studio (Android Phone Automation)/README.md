@@ -4,7 +4,7 @@
 
 > 📺 **Video Masterclass**: [The ONLY Phone-Based AI Video Automation (It’s 100% FREE) WITH (Antigravity + Flow) on Android #ai](https://youtu.be/faAj5PCkcjY) (17:38)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [Part 1: Laptop Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [Part 2: Video Studio ➔](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | **Part 3 (Current)** | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [Part 1: Laptop Setup ➔](../📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [Part 2: Video Studio ➔](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | **Part 3 (Current)** | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
@@ -16,7 +16,7 @@ Everything required specifically for Part 3 (Mobile Phone AI Video Automation) i
 | :--- | :--- | :--- |
 | 📱 **DeepX v3 (Mobile Studio)** | **DeepX Mobile Studio Package (`deepx-mob-studio` — Official Google Drive)** | [🔗 Open Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
 | 🐙 **Antigem Android Engine** | **Antigem Native Android Engine (GitHub)** — Run Antigravity autonomously on Android Termux | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| 📱 **Part 0: Mobile Setup Guide** | Dedicated step-by-step setup guide & terminal commands for Antigem | [📁 Open Part 0 Guide](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) |
+| 📱 **Part 0: Mobile Setup Guide** | Dedicated step-by-step setup guide & terminal commands for Antigem | [📁 Open Part 0 Guide](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) |
 | 📺 **Mobile Setup Tutorial** | Step-by-Step Companion Video: How to Install & Run Antigravity on Android (8:00) | [📺 Watch Setup Video](https://youtu.be/uZJPMTKVs_U) |
 | 🌐 **Kiwi Browser (Android)** | Chromium mobile browser with Desktop Extension support | [🌐 Play Store / APK](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) |
 | 🗣️ **Cartesia AI (Voiceover)** | Hyper-realistic AI voice synthesis (20,000 characters/month Free, No Card Required) | [🎙️ play.cartesia.ai](https://play.cartesia.ai) |
@@ -73,7 +73,7 @@ Running an automated AI studio on a smartphone requires combining three lightwei
 1. Download **Termux** from [F-Droid](https://f-droid.org/en/packages/com.termux/) (avoid Google Play Store version as it is deprecated).
 2. Install the **Antigem Native Android Engine** to run Antigravity seamlessly on mobile:
    - Visit: [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem)
-   - Follow our dedicated guide: [📁 Part 0: Install Antigravity on Android (Antigem Setup)](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) or watch the companion video: [📺 Mobile Setup Tutorial](https://youtu.be/uZJPMTKVs_U) (8:00).
+   - Follow our dedicated guide: [📁 Part 0: Install Antigravity on Android (Antigem Setup)](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) or watch the companion video: [📺 Mobile Setup Tutorial](https://youtu.be/uZJPMTKVs_U) (8:00).
 
 ### Step 2: Install Kiwi Browser & Load DeepX Extension
 1. Install **Kiwi Browser** from the Google Play Store.
@@ -112,6 +112,7 @@ Make a 9:16 vertical stickman video about "Why Procrastination Happens" in Hindi
 
 ## 🧭 Series Quick Links
 
-- [💻 **Part 1: DeepX Extension Setup (Laptop & Kiwi)**](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)
-- [🎬 **Part 2: 1 Click = Complete AI Video Studio**](../📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)
+- [📱 **Part 0: Install Antigravity on Android (Antigem Setup)**](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md)
+- [💻 **Part 1: DeepX Extension Setup (Laptop & Kiwi)**](../📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)
+- [🎬 **Part 2: 1 Click = Complete AI Video Studio**](../📁%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)
 - [🏠 **DeepX Master Guide (Hub)**](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)

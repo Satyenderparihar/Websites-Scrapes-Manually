@@ -4,19 +4,19 @@
 
 > 📺 **Video Masterclass**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
 > 👤 **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%20🎬%20Part%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [Part 1: Laptop Setup ➔](../📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | **Part 2 (Current)** | [Part 3: Mobile Studio ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
+> 🧭 **Series Navigation**: [Part 0: Mobile Setup ➔](../📁%200%20—%20Install%20Antigravity%20on%20Android%20(Antigem%20Setup)/README.md) | [Part 1: Laptop Setup ➔](../📁%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | **Part 2 (Current)** | [Part 3: Mobile Studio ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [Master Guide 🏠](../📝%20DeepX_Google_Flow_Automation_Master_Guide.md)
 
 ---
 
 ## 🔗 Part 2 Resources & Downloads
 
-Everything required specifically for Part 2 is listed right here:
+Everything required specifically for Part 2 is available in the official Google Drive package:
 
 | Resource Type | Resource Details | Link |
 | :--- | :--- | :--- |
 | 🎬 **DeepX v2 (Video Studio)** | **DeepX Video Generator Studio Package (Official Google Drive v2)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
 | 🗣️ **Cartesia AI (Neural Voiceover)** | Hyper-realistic AI voiceover synthesis (20,000 characters/month Free, No Card Required) | [🎙️ play.cartesia.ai](https://play.cartesia.ai) |
-| 🧠 **Autonomous Skills Suite** | Pre-trained directorial AI skills (Rapid Flow, Storyboard, 2D Spy Doc, Matting, 8-Bit) | [📁 DeepX AI Skills](../📁%20🧠%20DeepX%20AI%20Skills/) |
+| 🧠 **Autonomous Skills Suite** | Pre-trained directorial AI skills included inside `deepx-video-studio.zip` | [🔗 Drive v2 ZIP](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
 | 💬 **Community Channel** | Official Updates & Support on WhatsApp | [💬 Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
 
 ---
@@ -106,4 +106,4 @@ Antigravity and DeepX will:
 
 Want to run this entire AI video studio directly from your **Android Phone** with 100% zero-dollar cost? Proceed to **Part 3**:
 
-👉 **[Go to Part 3: DeepX Mobile Studio (Android Phone Automation) ➔](../📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**
+👉 **[Go to Part 3: DeepX Mobile Studio (Android Phone Automation) ➔](../📁%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**
