@@ -14,7 +14,7 @@ Everything mentioned in this video to run Google Antigravity locally on Android:
 
 | Resource Type | Resource Details | Direct Link |
 | :--- | :--- | :--- |
-| 🐙 **AntiGem Android Engine** | Cloned local repository with Kotlin source & Termux daemon | [📁 Open Local Cloned Repo](../📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) \| [🐙 GitHub: Santoshkurmi/antigem](https://github.com/santoshkurmi/AntiGem) |
+| 🐙 **AntiGem Android Engine** | Official Android engine with Kotlin source & Termux bridge | [🐙 GitHub: Santoshkurmi/AntiGem](https://github.com/santoshkurmi/AntiGem) |
 | 📦 **Direct APK Releases** | Latest verified AntiGem Android APK builds | [🌐 AntiGem GitHub Releases](https://github.com/santoshkurmi/AntiGem/releases) |
 | 📺 **Watch Full Video** | Step-by-Step Masterclass by @Dipeshkyd (5:12) | [📺 Watch on YouTube](https://youtu.be/jHoEZbAvDjs) |
 | 💬 **Community Channel** | Official Support & Updates on WhatsApp | [💬 Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |

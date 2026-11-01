@@ -14,7 +14,7 @@ Everything required to run Google Antigravity locally on your Android phone is l
 
 | Resource Type | Resource Details | Direct Link |
 | :--- | :--- | :--- |
-| 🐙 **Antigem Android Engine** | Official Native Android repository to run Antigravity locally | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) \| [📁 Local Cloned Repo](../📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) |
+| 🐙 **Antigem Android Engine** | Official Native Android repository to run Antigravity locally | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 | 📺 **Setup Video Tutorial** | Step-by-Step Video Guide by @dipeshkyd (8:00) | [📺 Watch on YouTube](https://youtu.be/uZJPMTKVs_U) |
 | 📱 **Termux App** | Android Terminal Emulator (Use F-Droid release) | [🌐 F-Droid Download](https://f-droid.org/en/packages/com.termux/) |
 | 💬 **Community Channel** | Official Updates & Support on WhatsApp | [💬 Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |

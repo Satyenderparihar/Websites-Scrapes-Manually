@@ -23,12 +23,11 @@ Har Video ka apna dedicated folder aur uske respective resources bilkul alag org
 
 | Step / Video | Exact YouTube Video Title | Duration & Video Link | Dedicated Folder | Dedicated Resources |
 | :--- | :--- | :--- | :--- | :--- |
-| **Video 1** | **Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup \| @Dipeshkyd** | [📺 Watch (5:12)](https://youtu.be/jHoEZbAvDjs) | [📁 Open Folder](./📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) \| [📁 Local Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) |
+| **Video 1** | **Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup \| @Dipeshkyd** | [📺 Watch (5:12)](https://youtu.be/jHoEZbAvDjs) | [📁 Open Folder](./📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md) | [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) \| [🐙 AntiGem Engine (GitHub)](https://github.com/santoshkurmi/AntiGem) |
 | **Video 2** | **Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 \| DeepX Extension Setup (FREE)** | [📺 Watch (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Folder](./📁%202%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20(FREE)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| **Video 3** | **How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)** | [📺 Watch (8:00)](https://youtu.be/uZJPMTKVs_U) | [📁 Open Folder](./📁%203%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) \| [📁 Local Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) |
+| **Video 3** | **How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)** | [📺 Watch (8:00)](https://youtu.be/uZJPMTKVs_U) | [📁 Open Folder](./📁%203%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 | **Video 4** | **1 Click = Complete AI Video 🎬 \| FREE & Automated with Google Flow + Antigravity + DeepX Extension** | [📺 Watch (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Folder](./📁%204%20—%201%20Click%20=%20Complete%20AI%20Video%20🎬%20—%20FREE%20&%20Automated%20with%20Google%20Flow%20+%20Antigravity%20+%20DeepX%20Extension/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
 | **Video 5** | **The ONLY Phone-Based AI Video Automation( It’s 100% FREE) WITH (Antigravity + Flow) on Android #ai** | [📺 Watch (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Folder](./📁%205%20—%20The%20ONLY%20Phone-Based%20AI%20Video%20Automation(%20It’s%20100%%20FREE)%20WITH%20(Antigravity%20+%20Flow)%20on%20Android%20%23ai/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
-| **Repo** | **AntiGem Android Engine (Cloned Source Repository)** | Source Code | [📁 Open Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md) | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
 
 ---
 
@@ -55,7 +54,7 @@ Har Video ka apna dedicated folder aur uske respective resources bilkul alag org
 
 > 📺 **Exact YouTube Video**: [Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup | @Dipeshkyd](https://youtu.be/jHoEZbAvDjs) (5:12)  
 > 📁 **Dedicated Folder**: [📁 Open Video 1 Folder](./📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md)  
-> 🐙 **Dedicated Resource**: [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
+> 🐙 **Dedicated Resource**: [🌐 AntiGem Releases](https://github.com/santoshkurmi/AntiGem/releases) | [🐙 AntiGem GitHub Repository](https://github.com/santoshkurmi/AntiGem)
 
 ### Video 1 Summary & Chapters:
 Run Google Antigravity natively on your Android phone using AntiGem! Full masterclass configuring high-speed local gRPC connection, local Termux terminal subsystem, and Gemini 3.8 Flash for on-the-go agentic AI coding.
@@ -115,7 +114,7 @@ Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extens
 
 > 📺 **Exact YouTube Video**: [How to Install Google Antigravity on Android (Full Step-by-Step Setup and Complete Tutorial)](https://youtu.be/uZJPMTKVs_U) (8:00)  
 > 📁 **Dedicated Folder**: [📁 Open Video 3 Folder](./📁%203%20—%20How%20to%20Install%20Google%20Antigravity%20on%20Android%20(Full%20Step-by-Step%20Setup%20and%20Complete%20Tutorial)/README.md)  
-> 🐙 **Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem) | [📁 Local Cloned Source Repo](./📁%20🐙%20AntiGem%20—%20Android%20Engine%20Repo/README.md)
+> 🐙 **Dedicated Resource**: [🐙 Antigem Android Engine (GitHub: Santoshkurmi/antigem)](https://github.com/Santoshkurmi/antigem)
 
 ### Video 3 Summary & Chapters:
 The updated, 100% working setup guide by @dipeshkyd to install and run Google Antigravity locally on Android using the native Antigem App and Termux without needing a computer or cloud streaming.
