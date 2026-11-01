@@ -1,59 +1,56 @@
 # ⚡ DEEPX — THE AI CINEMATIC AUTOMATION ENGINE 🚀
 
-> **🤖 Antigravity × Google Flow | 🎭 Character Consistency | 🔒 Universal Reference Lock | 🎬 Scene Continuity | ⚡ 100+ Prompt Batch Automation | 🚀 Ultra-Fast Media Injection | 📱 Mobile-Ready**  
+> **🤖 Antigravity × Google Flow | 🎭 Character Consistency | 🔒 Universal Reference Lock | 🎬 Scene Continuity | ⚡ 100+ Prompt Batch Automation | 🚀 Ultra-Fast Media Injection | 📱 100% Mobile & Desktop Ready**  
 > **🌌 One Idea. Infinite Scenes. Zero-Click Automation. Next-Level AI Filmmaking.**  
 > **🔥 Stop Clicking. Start Creating. Welcome to the Future.**  
 > **👑 BUILT BY [@dipeshkyd](https://youtube.com/@dipeshkyd)**  
 
-[![DeepX AI Video Studio](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
+[![DeepX Mobile Studio](https://img.youtube.com/vi/faAj5PCkcjY/maxresdefault.jpg)](https://youtu.be/faAj5PCkcjY)
 
-> 📺 **Masterclass (Part 2)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📺 **Latest Masterclass (Part 3)**: [The ONLY Phone-Based AI Video Automation (100% FREE) on Android](https://youtu.be/faAj5PCkcjY) (17:38)  
+> 📺 **Studio Masterclass (Part 2)**: [1 Click = Complete AI Video Studio](https://youtu.be/Eg--8z9jz9k) (9:55)  
 > 📺 **Setup Guide (Part 1)**: [DeepX Extension Installation & Laptop Setup](https://youtu.be/iHoS37EtfHI) (6:00)  
 > 👤 **Channel**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
-> 📦 **Workflow Package**: DeepX Chrome Extension + `deepx-video-studio.zip` + Google Flow MCP Bridge  
+> 💬 **WhatsApp Community**: [Join Official Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h)
 
 ---
 
-## 🔗 All Official Resources & Download Links
+## 🎬 DeepX Master Series Overview (3 Dedicated Parts)
 
-| Resource Type | Resource Details | Direct Link |
-| :--- | :--- | :--- |
-| 🎬 **DeepX v2 (Video Studio)** | **DeepX Video Generator Studio (Google Drive v2 — Latest)** | [🔗 Open Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
-| 🧩 **DeepX v1 (Extension)** | **DeepX Chrome Extension (Google Drive v1)** | [🔗 Open Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
-| 📱 **Android Engine** | **Antigem Native Android Engine (GitHub)** — Run Antigravity on Mobile Phone | [🐙 GitHub: Santoshkurmi/antigem](https://github.com/Santoshkurmi/antigem) |
-| 📱 **Mobile Setup Video** | How to Install & Run Antigravity on Android Phone (Complete Tutorial) | [📺 Watch Mobile Setup](https://youtu.be/jHoEZbAvDjs) |
-| 💬 **WhatsApp Channel** | Official DeepX Community & Updates Channel | [💬 Join Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h) |
-| 👑 **Creator** | Dipeshkyd Official YouTube Channel | [👤 @dipeshkyd](https://youtube.com/@dipeshkyd) |
+Har Part ka apna dedicated folder aur uske respective resources bilkul alag organize kiye gaye hain taaki koi resource ya information mix na ho:
 
-> ### 📥 Quick Drive Links:
-> - 🎬 **[DeepX Video Generator Studio (Google Drive v2 — Latest)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)**
-> - 🧩 **[DeepX Chrome Extension (Google Drive v1)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)**
-> - 📱 **[Antigem Android Engine (Run Antigravity on Mobile)](https://github.com/Santoshkurmi/antigem)**
+| Part | Title & Focus | Video Link | Dedicated Folder & Guide | Dedicated Resource |
+| :--- | :--- | :--- | :--- | :--- |
+| **Part 1** | **DeepX Extension Setup (Laptop & Kiwi)**<br>Browser bridge, Developer Mode, Antigravity Turbo Mode | [📺 Watch Part 1 (6:00)](https://youtu.be/iHoS37EtfHI) | [📁 Open Part 1 Folder](./📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md) | [🔗 Drive v1 (Extension)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4) |
+| **Part 2** | **1-Click AI Video Studio**<br>`deepx-video-studio.zip`, trend scouting, Cartesia VO, batch render | [📺 Watch Part 2 (9:55)](https://youtu.be/Eg--8z9jz9k) | [📁 Open Part 2 Folder](./📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md) | [🔗 Drive v2 (Video Studio)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc) |
+| **Part 3** | **Phone-Based Mobile Video Automation**<br>100% FREE on Android, Antigem engine, Kiwi Browser, Termux | [📺 Watch Part 3 (17:38)](https://youtu.be/faAj5PCkcjY) | [📁 Open Part 3 Folder](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md) | [🔗 Drive v3 (Mobile Studio)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk) |
 
 ---
 
 ## 📑 Table of Contents
-1. [🔗 All Official Resources & Download Links](#-all-official-resources--download-links)
-2. [🎥 Official Video Tutorials & Walkthroughs (Series)](#-official-video-tutorials--walkthroughs-series)
-   - [💻 Part 1: DeepX Extension Installation & Laptop Setup](#-part-1-deepx-extension-installation--laptop-setup-foundation)
-   - [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
-3. [Core Features in Detail](#-core-features-in-detail)
-4. [1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
-5. [Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
-6. [Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
-7. [Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
-8. [23 Available MCP Server Tools](#-23-available-mcp-server-tools)
-9. [Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
+1. [🎬 DeepX Master Series Overview](#-deepx-master-series-overview-3-dedicated-parts)
+2. [💻 Part 1: Extension Installation & Setup](#-part-1-deepx-extension-installation--setup-foundation)
+3. [🎬 Part 2: 1 Click = Complete AI Video Studio](#-part-2-1-click--complete-ai-video-studio-autopilot-masterclass)
+4. [📱 Part 3: The ONLY Phone-Based AI Video Automation (Android)](#-part-3-the-only-phone-based-ai-video-automation-100-free-on-android)
+5. [⚡ Core Features in Detail](#-core-features-in-detail)
+6. [🛠️ 1-Minute Quickstart Installation Guide](#-1-minute-quickstart-installation-guide)
+7. [🧩 Chrome & Kiwi Browser Setup (Load Unpacked)](#-chrome--kiwi-browser-setup-load-unpacked)
+8. [🔌 Antigravity AI Bridge & MCP Server Configuration](#-antigravity-ai-bridge--mcp-server-configuration)
+9. [🧠 Autonomous Skills Suite Included](#-autonomous-skills-suite-included)
+10. [📋 23 Available MCP Server Tools](#-23-available-mcp-server-tools)
+11. [🎁 Creator Lock Gate & Access Notes](#-creator-lock-gate--access-notes)
 
 ---
 
-## 🎥 Official Video Tutorials & Walkthroughs (Series)
+## 💻 Part 1: DeepX Extension Installation & Setup (Foundation)
 
-### 💻 Part 1: DeepX Extension Installation & Laptop Setup (Foundation)
 [![Watch Part 1](https://img.youtube.com/vi/iHoS37EtfHI/maxresdefault.jpg)](https://youtu.be/iHoS37EtfHI)
 
-**YouTube Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI)  
-**Duration**: 6:00 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+> 📺 **Video Link**: [https://youtu.be/iHoS37EtfHI](https://youtu.be/iHoS37EtfHI) (6:00)  
+> 📁 **Detailed Guide & Folder**: [📁 Open Part 1 Complete Documentation](./📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)  
+> 📦 **Part 1 Dedicated Resource**: [🔗 DeepX Extension (Google Drive v1)](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4)
+
+### Part 1 Summary & Chapters:
 Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extension activation, Turbo Mode configuration in Antigravity, and first live 2D animated story generation.
 
 | Timestamp | Chapter | What's Covered |
@@ -70,13 +67,19 @@ Foundation walkthrough detailing Developer Mode setup in Chrome, unpacked extens
 | **5:45** | **Character Reference Lock LIVE** | Locking facial features and lighting continuity |
 | **6:00** | **Final Story Output** | Zero-intervention autonomous output showcase |
 
+👉 **[Read Full Part 1 Installation Walkthrough ➔](./📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)**
+
 ---
 
-### 🎬 Part 2: 1 Click = Complete AI Video Studio (Autopilot Masterclass)
+## 🎬 Part 2: 1 Click = Complete AI Video Studio (Autopilot Masterclass)
+
 [![Watch Part 2](https://img.youtube.com/vi/Eg--8z9jz9k/maxresdefault.jpg)](https://youtu.be/Eg--8z9jz9k)
 
-**YouTube Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k)  
-**Duration**: 9:55 | **Creator**: [@dipeshkyd](https://youtube.com/@dipeshkyd)  
+> 📺 **Video Link**: [https://youtu.be/Eg--8z9jz9k](https://youtu.be/Eg--8z9jz9k) (9:55)  
+> 📁 **Detailed Guide & Folder**: [📁 Open Part 2 Complete Documentation](./📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)  
+> 📦 **Part 2 Dedicated Resource**: [🔗 DeepX Video Studio (Google Drive v2 — Latest)](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc)
+
+### Part 2 Summary & Chapters:
 Complete hands-free workflow using `deepx-video-studio.zip`, real-time social media trend scouting (YouTube, X, Reddit), automated voiceover integration (Cartesia AI 20k free credits), character consistency locking, and multi-scene batch video generation.
 
 | Timestamp | Chapter | What's Covered |
@@ -92,6 +95,36 @@ Complete hands-free workflow using `deepx-video-studio.zip`, real-time social me
 | **8:15** | **How to Generate Unlimited Videos for Free (Daily Credits Loop)** | Cartesia AI 20K free credits + Google Flow credit loop |
 | **9:30** | **Final Export & Summary** | Finished movie render, SFX/BGM sync & takeaways |
 
+👉 **[Read Full Part 2 Studio Walkthrough ➔](./📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**
+
+---
+
+## 📱 Part 3: The ONLY Phone-Based AI Video Automation (100% FREE on Android)
+
+[![Watch Part 3](https://img.youtube.com/vi/faAj5PCkcjY/maxresdefault.jpg)](https://youtu.be/faAj5PCkcjY)
+
+> 📺 **Video Link**: [https://youtu.be/faAj5PCkcjY](https://youtu.be/faAj5PCkcjY) (17:38)  
+> 📁 **Detailed Guide & Folder**: [📁 Open Part 3 Complete Documentation](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)  
+> 📦 **Part 3 Dedicated Resource**: [🔗 DeepX Mobile Studio (Google Drive v3)](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk)  
+> 🐙 **Native Mobile Engine**: [🐙 Antigem Android Engine (GitHub)](https://github.com/Santoshkurmi/antigem) | [📺 Watch Mobile Setup Video](https://youtu.be/jHoEZbAvDjs)
+
+### Part 3 Summary & All 9 Chapters:
+The ultimate mobile masterclass showing how to run 100% automated video production directly on an Android smartphone using Termux, Antigem, Kiwi Browser, Google Flow, and Cartesia AI without ever needing a laptop or desktop PC.
+
+| Timestamp | Chapter | What's Covered |
+| :--- | :--- | :--- |
+| **0:00** | **The Secret Nobody Told You About Mobile AI** | Why you don't need a \$2000 PC to make broadcast-quality videos |
+| **1:48** | **The Proof: Video Rendered 100% on a Phone** | Live playback of master 1080p video rendered on Android |
+| **4:55** | **Connecting Google Flow with Antigravity** | Localhost WebSocket bridging between Kiwi Browser and Termux |
+| **5:30** | **Generating Vox Documentary & 2D Animations** | Directing tactile paper, forensic callouts & stickmen on mobile |
+| **7:40** | **Word-Sync Voiceover & Auto-Captions** | Neural TTS voice synthesis and millisecond subtitle synchronization |
+| **11:25** | **Rendering the Master 1080p Video for $0** | Running Android headless compositor for final 1080p export |
+| **15:10** | **Review Generated Videos** | Multi-style comparisons: documentary, noir, and doodle animations |
+| **16:40** | **How to Dominate the Youtube Shorts and Faceless Channel** | High-retention hooks, viral pacing, and monetization strategies |
+| **17:30** | **Give the motivation to generate own Videos and comments** | Final motivation to start producing automated content today |
+
+👉 **[Read Full Part 3 Mobile Studio Walkthrough ➔](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**
+
 ---
 
 ## ⚡ Core Features in Detail
@@ -102,7 +135,7 @@ Complete hands-free workflow using `deepx-video-studio.zip`, real-time social me
 - **🎬 Scene-to-Scene Continuity**: Grabs the terminal end frame of scene $N$ directly in memory (<30ms) using an HTML5 Canvas pipeline and feeds it as the start frame for scene $N+1$ with zero visual drift.
 - **⚡ Rapid Batch Dispatch**: Submits 100+ video prompts automatically in sequence with zero manual button pressing.
 - **🚀 Zero-Copy Fast Upload**: Injects reference images and video frames into Google Flow in <440ms directly from RAM via synthetic DataTransfer streams.
-- **📱 Mobile Kiwi Browser Support**: Specialized protections against Android Low Memory Killer (`lmkd`) and debugger crashes for seamless mobile workflow.
+- **📱 100% Mobile Ready**: Full support for Android Termux + Antigem + Kiwi Browser with anti-crash and low-memory handling.
 - **🔐 Creator Lock Gate**: Automatic unlock via YouTube subscription to [@dipeshkyd](https://youtube.com/@dipeshkyd).
 
 ---
@@ -116,11 +149,8 @@ Run [`⚡ Install & Setup DeepX on Windows.bat`](⚡%20Install%20&%20Setup%20Dee
 3. Register `deepx-flow` inside `~/.gemini/config/mcp_config.json`.
 4. Copy the AI skills into `~/.gemini/config/skills/`.
 
-### Option 2: Universal Bash Script (`setup.sh`)
-For Linux, macOS, WSL, or Android Termux, open terminal and run:
-```bash
-bash ./setup.sh
-```
+### Option 2: Android Termux / Antigem (Mobile)
+Follow the step-by-step instructions in [📁 Part 3 Mobile Studio Guide](./📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md).
 
 ---
 
@@ -154,7 +184,7 @@ Antigravity will communicate through the local WebSocket on port `3000` / `8080`
     "deepx-flow": {
       "command": "node",
       "args": [
-        "D:\\Antigravity - Agent\\🌐 Websites Scrapes Manually\\📁 🌊 Google Flow\\📁 ⚡ DeepX Google Flow Automation\\📁 🔌 DeepX MCP Server\\bin\\deepx-mcp.mjs"
+        "path/to/📁 🔌 DeepX MCP Server/bin/deepx-mcp.mjs"
       ]
     }
   }
@@ -171,7 +201,6 @@ This package includes 5 pre-trained directorial AI skills inside [`📁 🧠 Dee
 3. **`hindi-2d-spy-documentary`**: Stylized 2D animated Hindi documentary prompt generation.
 4. **`matanyone-video-matting`**: High-precision video background removal and green-screen matting.
 5. **`retro-8bit-arcade-style`**: Retro pixel-art and 8-bit arcade commercial animation.
-6. **`GEMINI.md`**: Directorial rules and Brain vs. Hands architecture guidelines.
 
 ---
 
@@ -204,7 +233,7 @@ This package includes 5 pre-trained directorial AI skills inside [`📁 🧠 Dee
 > **Community Access**:  
 > Want to use Antigravity on your phone and connect Google Flow via MCP?  
 > Complete **1k subscribers** on YouTube for [@dipeshkyd](https://youtube.com/@dipeshkyd) 🙏  
-> For any issues, updates, or support, join the official community on YouTube: [@dipeshkyd](https://youtube.com/@dipeshkyd).
+> For any issues, updates, or support, join the official community on YouTube: [@dipeshkyd](https://youtube.com/@dipeshkyd) or WhatsApp: [Official Channel](https://whatsapp.com/channel/0029VbDfNJMBFLgTu35hw72h).
 
 ---
 *DeepX is built by @dipeshkyd. Packaged and documented for Antigravity & Google Flow by Satyender Parihar & Antigravity Autonomous Agent.*

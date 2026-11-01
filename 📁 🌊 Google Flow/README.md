@@ -49,7 +49,7 @@
 
 ### 9. ⚡ [Automation & Antigravity Workflows](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/)
 - **[How to Install Google Antigravity on Android (Antigem App)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Antigravity_on_Android_Mobile_Antigem_Guide.md)**: Native Android setup running Antigravity locally on phone via Antigem, shell setup commands, and mobile bridge.
-- **[1 Click Complete AI Video: Google Flow + Antigravity + DeepX Extension](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_Antigravity_DeepX_Autopilot_Guide.md)**: 100% automated AI video studio by @dipeshkyd using `deepx-video-studio.zip`, real-time trend scouting, character reference locking, and batch scene generation.
+- **[1 Click Complete AI Video: Google Flow + Antigravity + DeepX Master Guide](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_Antigravity_DeepX_Autopilot_Guide.md)**: Complete 3-part guide by @dipeshkyd covering extension setup, studio automation, and mobile video production.
 - **[Automate Google Flow Completely (AutoFlow Extension)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Google_Flow_AutoFlow_Extension_Automation_Guide.md)**: Batch multi-prompt queuing for images and video animation on 100% autopilot.
 - **[Automate Google Flow with Antigravity (Flow Connector)](📁%20⚡%20Automation%20&%20Antigravity%20Workflows/📝%20Automate_Google_Flow_with_Antigravity_Flow_Connector_Guide.md)**: Srijan Builds setup guide connecting Antigravity to Google Flow via Chrome/Edge Flow Connector extension with autopilot agent settings.
 
@@ -60,13 +60,16 @@ All prompts are formatted inside standard fenced code blocks:
 - On GitHub (mobile and desktop), simply click the **Copy icon** at the top right of each prompt box.
 - Paste directly into Midjourney, Flux, Google Flow, Kling, Veo, or Sora!
 
-### 9. ⚡ [DeepX Google Flow Automation](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
-- **[DeepX Flow Bridge — AI Cinematic Automation Engine](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Autonomous engine connecting Antigravity Coding Agents directly to Google Flow (Veo 3.1 & Imagen 3) with character consistency, universal reference lock, scene continuity, 100+ prompt batch dispatch, and 23 MCP tools.
-  - 📥 **[Direct Download DeepX Extension (.zip)](https://github.com/Satyenderparihar/Websites-Scrapes-Manually/raw/main/%F0%9F%93%81%20%F0%9F%8C%8A%20Google%20Flow/%F0%9F%93%81%20%E2%9A%A1%20DeepX%20Google%20Flow%20Automation/%F0%9F%93%A6%20DeepX_Extension_Full_Bundle.zip)** *(1-Click Instant Browser Download)*
+---
+
+### 10. ⚡ [DeepX Google Flow Automation (3-Part Master Series)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
+- **[DeepX Flow Bridge — Master Automation Guide](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Full overview connecting Antigravity Coding Agents directly to Google Flow with character consistency, universal reference lock, scene continuity, and 23 MCP tools.
+- **[💻 Part 1: DeepX Extension Setup (Laptop & Kiwi)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%201%20—%20DeepX%20Extension%20Setup%20(Laptop%20&%20Kiwi)/README.md)**: Extension installation, Developer Mode, Antigravity Turbo Mode, and [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
+- **[🎬 Part 2: 1-Click AI Video Studio](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%202%20—%20DeepX%20Video%20Generator%20Studio%20(1-Click%20Automation)/README.md)**: `deepx-video-studio.zip`, trend scouting, Cartesia VO integration, and [Google Drive v2](https://drive.google.com/drive/folders/1TAGKtq3xTd24pLmCFJPrstGo5hNxDbNc).
+- **[📱 Part 3: DeepX Mobile Studio (Android Phone)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🎬%20Part%203%20—%20DeepX%20Mobile%20Studio%20(Android%20Phone%20Automation)/README.md)**: 100% free phone-based AI video automation with Termux, Antigem engine, Kiwi Browser, and [Google Drive v3](https://drive.google.com/drive/folders/1mvd8uRonft0PrUNMMhP6RgVPy5VQ2Vfk).
 - **[DeepX Chrome Extension (Unpacked)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧩%20DeepX%20Chrome%20Extension/)**: Ready-to-load browser bridge for Chrome, Brave, Edge & Kiwi Browser.
 - **[DeepX Standalone MCP Server](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🔌%20DeepX%20MCP%20Server/)**: Standard Model Context Protocol server for Antigravity AI agents.
 - **[DeepX Autonomous AI Skills](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%20🧠%20DeepX%20AI%20Skills/)**: 5 pre-trained directorial skills (Rapid Flow, Storyboard Director, 2D Spy Documentary, Video Matting, 8-Bit Retro).
-- **[1-Click Windows Setup Runner](📁%20⚡%20DeepX%20Google%20Flow%20Automation/⚡%20Install%20&%20Setup%20DeepX%20on%20Windows.bat)**: Automated batch installer for Antigravity MCP config and skills.
 
 ---
 *Maintained with ❤️ by Satyender Parihar & Antigravity Autonomous Agent.*
