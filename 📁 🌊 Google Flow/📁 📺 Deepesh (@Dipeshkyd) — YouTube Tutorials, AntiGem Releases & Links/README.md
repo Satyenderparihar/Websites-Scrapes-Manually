@@ -1,6 +1,7 @@
-# 📺 YouTube Video Tutorials, AntiGem Releases & Resource Links
+# 📺 Deepesh (@Dipeshkyd) — YouTube Video Tutorials & AntiGem Resources
 
-Direct links to step-by-step video tutorials, AntiGem APK releases, source code repositories, and Google Drive resources:
+> 🎬 **Official Tutorials & Resources by Dipesh (@Dipeshkyd)** | Deepesh Mobile Studio  
+> Direct links to step-by-step video tutorials, AntiGem APK releases, source code repositories, and Google Drive resources:
 
 ---
 
