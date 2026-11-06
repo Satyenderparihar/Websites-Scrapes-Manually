@@ -1,8 +1,6 @@
-# ⚡ DeepX Google Flow Automation Engine
+# 📺 YouTube Video Tutorials, AntiGem Releases & Resource Links
 
-Please refer to the complete, official master guide:
-
-👉 **[📝 DeepX Google Flow Automation Master Guide](./📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**
+Direct links to step-by-step video tutorials, AntiGem APK releases, source code repositories, and Google Drive resources:
 
 ---
 

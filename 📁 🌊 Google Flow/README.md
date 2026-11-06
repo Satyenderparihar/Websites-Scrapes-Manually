@@ -58,7 +58,7 @@
 
 ---
 
-### 10. ⚡ [DeepX Google Flow Automation (Complete Master Series & All 5 Step-by-Step Videos)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
+### 10. 📺 [YouTube Video Tutorials, AntiGem Releases & Social Links](📁%20⚡%20DeepX%20Google%20Flow%20Automation/)
 - **[DeepX Flow Bridge — Master Automation Guide](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📝%20DeepX_Google_Flow_Automation_Master_Guide.md)**: Full master overview connecting Antigravity Coding Agents directly to Google Flow with character consistency, universal reference lock, scene continuity, and 23 MCP tools.
 - **[📱 Video 1: Google Antigravity on Android Phone! 📱 No Laptop Needed - Full Setup | @Dipeshkyd](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%201%20—%20Google%20Antigravity%20on%20Android%20Phone!%20📱%20No%20Laptop%20Needed%20-%20Full%20Setup%20—%20@Dipeshkyd/README.md)**: Native gRPC protocol, local Termux terminal & Gemini 3.8 Flash mobile coding setup.
 - **[💻 Video 2: Google Flow + Antigravity = INSANE Autopilot AI Videos 🤯 | DeepX Extension Setup (FREE)](📁%20⚡%20DeepX%20Google%20Flow%20Automation/📁%202%20—%20Google%20Flow%20+%20Antigravity%20=%20INSANE%20Autopilot%20AI%20Videos%20🤯%20—%20DeepX%20Extension%20Setup%20%28FREE%29/README.md)**: Browser Bridge, Developer Mode, Antigravity Turbo Mode, and [Google Drive v1](https://drive.google.com/drive/folders/1Ac1NrxrX5N0YrkyikuQXVhwHVfmPjy-4).
